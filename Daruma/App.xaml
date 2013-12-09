@@ -1,0 +1,32 @@
+﻿<Application
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:infr="clr-namespace:Daruma.Infrastructure"
+    x:Class="Daruma.App">
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <infr:LocalizedStrings  x:Key="LocalizedStrings"/>
+        
+        <infr:ImageUrlRouter x:Key="ImageUrlRouter"/>
+        <infr:IconsUrlRouter x:Key="IconsUrlRouter"/>
+        <infr:ViewUrlRouter x:Key="ViewUrlRouter"/>
+        
+        <Style TargetType="FrameworkElement" x:Key="HiddenElement" x:Name="HiddenElement">
+            <Setter Property="Opacity" Value="1"></Setter>
+            <Setter Property="Visibility" Value="Collapsed"></Setter>
+        </Style>
+        
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Required object that handles lifetime events for the application-->
+        <shell:PhoneApplicationService
+            Launching="Application_Launching" 
+            Closing="Application_Closing"
+            Activated="Application_Activated" 
+            Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

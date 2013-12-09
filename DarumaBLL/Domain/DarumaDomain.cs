@@ -1,0 +1,37 @@
+﻿using System;
+using DarumaBLL.Common.Abstractions;
+
+namespace DarumaBLL.Domain
+{
+    public class DarumaDomain
+    {
+        private IDarumaImageUriResolver _resolver;
+        private DarumaStatus _status;
+
+        public Guid Id { get; private set; }
+        public string Wish { get; private set; }
+        public DateTime CreateDate { get; private set; }
+        public DarumaStatus Status { 
+            get { return _status; }
+            set 
+            {
+                if (_status == value) 
+                    return;
+                
+                ImageUri = _resolver.ResolveImageUri(value);
+                _status = value;
+            }
+        }
+
+        public Uri ImageUri { get; private set; }
+
+        public DarumaDomain (string wish, IDarumaImageUriResolver resolver)
+        {
+            _resolver = resolver;
+            Id = Guid.NewGuid();
+            Wish = wish;
+            CreateDate = DateTime.Now;
+            Status = DarumaStatus.MakedWish;
+        }
+    }
+}
