@@ -15,8 +15,8 @@ namespace DarumaBLL.FirstStartUseCase
 
         public void HandleFirstStart(Action action)
         {
-            var isNotFirstStart = _settings.IsContains(KeyString);
-            if (!isNotFirstStart)
+            var isFirstStart = !_settings.IsContains(KeyString);
+            if (isFirstStart)
             {
                 _settings.Add(KeyString, true);
                 action();
