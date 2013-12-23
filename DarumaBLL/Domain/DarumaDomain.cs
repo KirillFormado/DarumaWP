@@ -8,9 +8,9 @@ namespace DarumaBLL.Domain
         private IDarumaImageUriResolver _resolver;
         private DarumaStatus _status;
 
-        public Guid Id { get; private set; }
-        public string Wish { get; private set; }
-        public DateTime CreateDate { get; private set; }
+        public Guid Id { get; set; }
+        public string Wish { get; set; }
+        public DateTime CreateDate { get; set; }
         public DarumaStatus Status { 
             get { return _status; }
             set 
