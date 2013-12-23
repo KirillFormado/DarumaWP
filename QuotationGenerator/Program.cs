@@ -78,6 +78,7 @@ namespace QuotationGenerator
         private static void GenerateQuoatationFile(HtmlWeb webClient, Info info)
         {
             var url = info.Url;
+            var resourcePrefix = info.FileName;
             var fileName = info.FileName + ".resx";
             var quotationList = new List<Quoatation>();
 
@@ -99,7 +100,7 @@ namespace QuotationGenerator
                 for (int i = 0; i < quotationList.Count; i++)
                 {
                     //var json = JsonConvert.SerializeObject(quotationList[i]);
-                    resx.AddResource(string.Format("{0}_{1}", fileName, i), quotationList[i].Text);
+                    resx.AddResource(string.Format("{0}_{1}", resourcePrefix, i), quotationList[i].Text);
                 }
             }
         }
