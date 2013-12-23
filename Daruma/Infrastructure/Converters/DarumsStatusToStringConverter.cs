@@ -16,7 +16,6 @@ namespace Daruma.Infrastructure.Converters
         {
             _dict = new Dictionary<DarumaStatus, string>
             {
-                //TODO: Add localization
                 {DarumaStatus.MakedWish, AppResources.Maked},
                 {DarumaStatus.ExecutedWish, AppResources.Executed},
                 {DarumaStatus.TimeExpired, AppResources.Expired},

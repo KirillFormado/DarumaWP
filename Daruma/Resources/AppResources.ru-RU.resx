@@ -135,4 +135,16 @@
   <data name="WishButton" xml:space="preserve">
     <value>Загадать</value>
   </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Пустые</value>
+  </data>
+  <data name="Executed" xml:space="preserve">
+    <value>Исполненные</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Истекшие</value>
+  </data>
+  <data name="Maked" xml:space="preserve">
+    <value>Загаданные</value>
+  </data>
 </root>
