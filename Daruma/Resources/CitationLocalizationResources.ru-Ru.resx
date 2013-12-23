@@ -117,7 +117,43 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Citaion1" xml:space="preserve">
-    <value>Какая то цитата, оооочень вдохновляющая на свершения ура ура ура!!!!!Какая то цитата, оооочень вдохновляющая на свершения ура ура ура!!!!!Какая то цитата, оооочень вдохновляющая на свершения ура ура ура!!!!!Какая то цитата, оооочень вдохновляющая на свершения ура ура ура!!!!!Какая то цитата, оооочень вдохновляющая на свершения ура ура ура!!!!!</value>
+  <data name="Funy_0" xml:space="preserve">
+    <value>Обходя разложенные грабли - ты теряешь драгоценный опыт!</value>
+  </data>
+  <data name="Funy_1" xml:space="preserve">
+    <value>Жизнь удалась, если коньяк, который мы пьем, старше женщин, с которыми мы спим.</value>
+  </data>
+  <data name="Funy_2" xml:space="preserve">
+    <value>Умна та женщина, в обществе которой можно вести себя как угодно глупо.</value>
+  </data>
+  <data name="Funy_3" xml:space="preserve">
+    <value>Одиночество - это когда ты всегда знаешь, где лежат твои вещи.</value>
+  </data>
+  <data name="Funy_4" xml:space="preserve">
+    <value>Второй брак - это победа надежды над здравым смыслом.</value>
+  </data>
+  <data name="Funy_5" xml:space="preserve">
+    <value>Ничего страшного если над тобой смеются... Гораздо хуже, когда над тобой плачут...</value>
+  </data>
+  <data name="Funy_6" xml:space="preserve">
+    <value>Утро - это такая часть суток, когда завидуешь безработным...</value>
+  </data>
+  <data name="Funy_7" xml:space="preserve">
+    <value>Детская мудрость: если мама смеется над остротами папы, значит, в доме гости.</value>
+  </data>
+  <data name="Funy_8" xml:space="preserve">
+    <value>Если женщина вас обманывает, значит, вы ей небезразличны</value>
+  </data>
+  <data name="Funy_9" xml:space="preserve">
+    <value>Девушки бывают или умные, или красивые.</value>
+  </data>
+  <data name="Funy_10" xml:space="preserve">
+    <value>Если ты хочешь выйти замуж за умного, красивого и богатого, придется выходить замуж три раза.</value>
+  </data>
+  <data name="Funy_11" xml:space="preserve">
+    <value>Мужчине достаточно быть чуть красивее обезьяны.</value>
+  </data>
+  <data name="Funy_12" xml:space="preserve">
+    <value>Шутки шутками, но могут быть и дети.</value>
   </data>
 </root>
