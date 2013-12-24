@@ -30,8 +30,7 @@ namespace Daruma.Views
             //TODO: fill info from Daruma to page, now only Image update
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
             _daruma = await _darumaStorage.GetById(id);
-            Daruma.Source = new BitmapImage(_daruma.ImageUri);
-
+            
             base.OnNavigatedTo(e);
         }
 
