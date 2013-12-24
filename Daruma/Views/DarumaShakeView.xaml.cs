@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
 using Daruma.Resources;
@@ -23,10 +24,13 @@ namespace Daruma.Views
             _darumaStorage = IoCContainter.Get<IDarumaStorage>();
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
+            //Get Daruma by id from storage
+            //TODO: fill info from Daruma to page, now only Image update
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
-            _daruma = _darumaStorage.GetById(id);
+            _daruma = await _darumaStorage.GetById(id);
+            Daruma.Source = new BitmapImage(_daruma.ImageUri);
 
             base.OnNavigatedTo(e);
         }
@@ -70,9 +74,10 @@ namespace Daruma.Views
             CitationTextBlock.Visibility = Visibility.Collapsed;
         }
 
-        private void Delete_OnClick(object sender, EventArgs e)
+        private async void Delete_OnClick(object sender, EventArgs e)
         {
-            _darumaStorage.Delete(_daruma.Id);
+            //TODO: for ViewModel support move this code to separate method
+            await _darumaStorage.Delete(_daruma.Id);
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
         }
     }

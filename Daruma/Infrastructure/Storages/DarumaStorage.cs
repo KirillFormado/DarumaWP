@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
@@ -15,7 +16,7 @@ namespace Daruma.Infrastructure.Storages
     {
         private const string FolderName = "Darumas";
 
-        public async void Add(DarumaDomain daruma)
+        public async Task<bool> Add(DarumaDomain daruma)
         {
             var darumaJSON = await JsonConvert.SerializeObjectAsync(daruma);
 
@@ -25,16 +26,16 @@ namespace Daruma.Infrastructure.Storages
             using (Stream stream = await file.OpenStreamForWriteAsync())
             {
                 byte[] content = Encoding.UTF8.GetBytes(darumaJSON);
-                stream.WriteAsync(content, 0, content.Length);
+                await stream.WriteAsync(content, 0, content.Length);
+                return true;
             }
         }
 
-        public DarumaDomain GetById(Guid id)
-        {
-            return null;
-            //var folder = await GetFolderAsync();
-            //var file = await folder.GetFileAsync(id.ToString());
-            //return await DeserializeObject(file);
+        public async Task<DarumaDomain> GetById(Guid id)
+        {           
+            var folder = await GetFolderAsync();
+            var file = await folder.GetFileAsync(id.ToString());
+            return await DeserializeObject(file);
         }
 
         private async Task<StorageFolder> GetFolderAsync()
@@ -64,7 +65,7 @@ namespace Daruma.Infrastructure.Storages
                 darumaList.Add(objDaruma);
             }
 
-            return darumaList;
+            return darumaList.OrderBy(d => d.CreateDate);
         }
 
         public void Update(DarumaDomain daruma)
@@ -87,9 +88,19 @@ namespace Daruma.Infrastructure.Storages
             return objDaruma;
         }
 
-        public void Delete(Guid id)
+        public async Task<bool> Delete(Guid id)
         {
-            throw new NotImplementedException();
+            var folder = await GetFolderAsync();
+            if (folder != null)
+            {
+                var file = await folder.GetFileAsync(id.ToString());
+                if (file != null)
+                {
+                    await file.DeleteAsync(StorageDeleteOption.Default);
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

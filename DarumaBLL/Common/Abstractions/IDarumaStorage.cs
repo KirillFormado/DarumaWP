@@ -7,11 +7,11 @@ namespace DarumaBLL.Common.Abstractions
 {
     public interface IDarumaStorage
     {
-        void Add(DarumaDomain daruma);
-        DarumaDomain GetById(Guid id);
+        Task<bool> Add(DarumaDomain daruma);
+        Task<DarumaDomain> GetById(Guid id);
         IEnumerable<DarumaDomain> GetByStatus(DarumaStatus status);
         Task<IEnumerable<DarumaDomain>> ListAll();
         void Update(DarumaDomain daruma);
-        void Delete(Guid id);
+        Task<bool> Delete(Guid id);
     }
 }

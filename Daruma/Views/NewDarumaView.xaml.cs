@@ -31,7 +31,7 @@ namespace Daruma.Views
             NewDarumaImg.Source = new BitmapImage(new Uri(ImageUrlRouter.WishedDaurmaImageUrl, UriKind.Relative));
         }
 
-        private void WishButton_OnTap(object sender, GestureEventArgs e)
+        private async void WishButton_OnTap(object sender, GestureEventArgs e)
         {
             var wish = WishTextBox.Text;
             if (string.IsNullOrEmpty(wish))
@@ -40,19 +40,16 @@ namespace Daruma.Views
                 return;
             }
 
+            //TODO: for ViewModel support move this code to separate method
             var daruma = CreateDaruma(wish);
-            SaveNewWishDaruma(daruma);
+            await _darumaStorage.Add(daruma);
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
         }
 
         private DarumaDomain CreateDaruma(string wish)
         {            
-            return new DarumaDomain(wish, IoCContainter.Get<IDarumaImageUriResolver>());
-        }
-
-        private void SaveNewWishDaruma(DarumaDomain daruma)
-        {
-            _darumaStorage.Add(daruma);
+            //TODO: refactor getting url addres for Daruma image
+            return new DarumaDomain(wish, IoCContainter.Get<IDarumaImageUriResolver>().ResolveImageUri(DarumaStatus.MakedWish));
         }
 
         private void WishTextBox_OnGotFocus(object sender, RoutedEventArgs e)
