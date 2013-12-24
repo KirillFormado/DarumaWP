@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Love_0" xml:space="preserve">
+    <value>Милее всего, кто любит кого.</value>
+  </data>
+  <data name="Love_1" xml:space="preserve">
+    <value>Миленек — и не умыт беленек.</value>
+  </data>
+  <data name="Love_2" xml:space="preserve">
+    <value>Молодость без любви, как утро без солнца.</value>
+  </data>
+  <data name="Love_3" xml:space="preserve">
+    <value>Насильно мил не будешь.</value>
+  </data>
+  <data name="Love_4" xml:space="preserve">
+    <value>Не по-хорошу мил, а по-милу хорош</value>
+  </data>
+  <data name="Love_5" xml:space="preserve">
+    <value>Нет ценности супротив любви.</value>
+  </data>
+  <data name="Love_6" xml:space="preserve">
+    <value>Полюби нас в черненьких, а в беленьких и всяк полюбит.</value>
+  </data>
+  <data name="Love_7" xml:space="preserve">
+    <value>Полюбится сова лучше ясного сокола.</value>
+  </data>
+  <data name="Love_8" xml:space="preserve">
+    <value>Ради милого и себя не жаль.</value>
+  </data>
+  <data name="Love_9" xml:space="preserve">
+    <value>Сердце сердцу весть подает.</value>
+  </data>
+  <data name="Love_10" xml:space="preserve">
+    <value>Сердце сердце чует.</value>
+  </data>
+  <data name="Love_11" xml:space="preserve">
+    <value>Сердцем не приманишь, так за уши не притянешь.</value>
+  </data>
+  <data name="Love_12" xml:space="preserve">
+    <value>Совет да любовь, на этом свет стоит.</value>
+  </data>
+  <data name="Love_13" xml:space="preserve">
+    <value>Старая любовь долго помнится.</value>
+  </data>
+  <data name="Love_14" xml:space="preserve">
+    <value>Ум истиною просветляется, сердце любовью согревается.</value>
+  </data>
+  <data name="Love_15" xml:space="preserve">
+    <value>Сам себя губит, кто других не любит.</value>
+  </data>
+  <data name="Love_16" xml:space="preserve">
+    <value>Любовь закона не знает, годов не считает.</value>
+  </data>
+  <data name="Love_17" xml:space="preserve">
+    <value>Кто кого любит, тот того и голубит.</value>
+  </data>
+  <data name="Love_18" xml:space="preserve">
+    <value>Без солнышка нельзя пробыть, без милого нельзя прожить.</value>
+  </data>
+  <data name="Love_19" xml:space="preserve">
+    <value>Был бы милый по душе, проживем и в шалаше.</value>
+  </data>
+  <data name="Love_20" xml:space="preserve">
+    <value>Из жалости любви не выкроишь.</value>
+  </data>
+  <data name="Love_21" xml:space="preserve">
+    <value>Любовь и не глядит, а все видит.</value>
+  </data>
+  <data name="Love_22" xml:space="preserve">
+    <value>Любовь и умника в дураки ставит.</value>
+  </data>
+  <data name="Love_23" xml:space="preserve">
+    <value>Не по хорошему мил, а по милу хорош.</value>
+  </data>
+  <data name="Love_24" xml:space="preserve">
+    <value>Всякому своя милая хороша.</value>
+  </data>
+  <data name="Love_25" xml:space="preserve">
+    <value>Любить не люби — почаще взглядывай.</value>
+  </data>
+  <data name="Love_26" xml:space="preserve">
+    <value>С милым рай и в шалаше.</value>
+  </data>
+  <data name="Love_27" xml:space="preserve">
+    <value>Для милого дружка и сережка из ушка.</value>
+  </data>
+  <data name="Love_28" xml:space="preserve">
+    <value>Для милого дружка семь верст не околица.</value>
+  </data>
+  <data name="Love_29" xml:space="preserve">
+    <value>Полюби нас черненькими, а беленькими нас всяк полюбит.</value>
+  </data>
+  <data name="Love_30" xml:space="preserve">
+    <value>Милые бранятся, только тешатся</value>
+  </data>
+  <data name="Love_31" xml:space="preserve">
+    <value>Любовь да свара хуже пожара.</value>
+  </data>
+  <data name="Love_32" xml:space="preserve">
+    <value>Легко свыкаться, трудно расставаться.</value>
+  </data>
+  <data name="Love_33" xml:space="preserve">
+    <value>С глаз долой, из сердца вон</value>
+  </data>
+  <data name="Love_34" xml:space="preserve">
+    <value>С милым годок покажется за часок.</value>
+  </data>
+  <data name="Love_35" xml:space="preserve">
+    <value>В опорках ходить, да с милым жить.</value>
+  </data>
+  <data name="Love_36" xml:space="preserve">
+    <value>Сердцу не прикажешь</value>
+  </data>
+  <data name="Love_37" xml:space="preserve">
+    <value>Три вещи вызывают любовь: вера, скромность и щедрость.</value>
+  </data>
+  <data name="Love_38" xml:space="preserve">
+    <value>Люди не любят того, чего не знают.</value>
+  </data>
+  <data name="Love_39" xml:space="preserve">
+    <value>Голова без любви, что бесплодная тыква.</value>
+  </data>
+  <data name="Love_40" xml:space="preserve">
+    <value>Если уйдешь оттуда, где тебя любят, придешь туда, где тебя ненавидят.</value>
+  </data>
+  <data name="Love_41" xml:space="preserve">
+    <value>У любви, как у кольца, нет конца.</value>
+  </data>
+  <data name="Love_42" xml:space="preserve">
+    <value>Люби два раза, но не люби двух сразу.</value>
+  </data>
+  <data name="Love_43" xml:space="preserve">
+    <value>С любовью не шутят.</value>
+  </data>
+  <data name="Love_44" xml:space="preserve">
+    <value>Любовь - стекло: разобьёшь - не склеишь.</value>
+  </data>
+  <data name="Love_45" xml:space="preserve">
+    <value>Хорошую любовь и топором не разрубишь.</value>
+  </data>
+  <data name="Love_46" xml:space="preserve">
+    <value>Сердце сердцу весть подаёт.</value>
+  </data>
+  <data name="Love_47" xml:space="preserve">
+    <value>Сердце - вещун.</value>
+  </data>
+  <data name="Love_48" xml:space="preserve">
+    <value>Любовь - не картошка, не выбросишь в окошко.</value>
+  </data>
+  <data name="Love_49" xml:space="preserve">
+    <value>С милым мужем и зимой не стужа.</value>
+  </data>
+  <data name="Love_50" xml:space="preserve">
+    <value>Деньги - прах, одежда - тоже, а любовь всего дороже.</value>
+  </data>
+  <data name="Love_51" xml:space="preserve">
+    <value>Деньги - дело нажитое, о них нечего тужить, а любовь - дело другое: ею надо дорожить.</value>
+  </data>
+  <data name="Love_52" xml:space="preserve">
+    <value>Новое вино в старые мехи не наливают.</value>
+  </data>
+  <data name="Love_53" xml:space="preserve">
+    <value>Старая любовь не ржавеет</value>
+  </data>
+  <data name="Love_54" xml:space="preserve">
+    <value>Без милого спать - холодна кровать.</value>
+  </data>
+  <data name="Love_55" xml:space="preserve">
+    <value>Целовать в уста нет поста.</value>
+  </data>
+  <data name="Love_56" xml:space="preserve">
+    <value>Одной любовью сыт не будешь.</value>
+  </data>
+  <data name="Love_57" xml:space="preserve">
+    <value>Он и себя-то любит только по праздникам.</value>
+  </data>
+  <data name="Love_58" xml:space="preserve">
+    <value>Любит, как душу, а трясёт, как грушу.</value>
+  </data>
+  <data name="Love_59" xml:space="preserve">
+    <value>На красный (красивый) цветок летит и мотылек.</value>
+  </data>
+  <data name="Love_60" xml:space="preserve">
+    <value>Полюби нас чёрненькими, а красненькими нас всяк полюбит.</value>
+  </data>
+  <data name="Love_61" xml:space="preserve">
+    <value>Кто пьяницу любит, свою жизнь загубит.</value>
+  </data>
+  <data name="Love_62" xml:space="preserve">
+    <value>Любовь без ссоры - что суп без соли.</value>
+  </data>
+  <data name="Love_63" xml:space="preserve">
+    <value>Путь к сердцу мужа лежит через желудок.</value>
+  </data>
+  <data name="Love_64" xml:space="preserve">
+    <value>Если любишь, то женись, а не любишь - отвяжись.</value>
+  </data>
+  <data name="Love_65" xml:space="preserve">
+    <value>Любовь - рыбная ловля: не клюёт - сматывай удочки.</value>
+  </data>
+  <data name="Love_66" xml:space="preserve">
+    <value>Всю воду не перепьёшь, всех женщин не перецелуешь.</value>
+  </data>
+</root>

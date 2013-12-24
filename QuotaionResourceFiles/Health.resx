@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Health_0" xml:space="preserve">
+    <value>Болен - лечись, а здоров - берегись.</value>
+  </data>
+  <data name="Health_1" xml:space="preserve">
+    <value>Каждому своя болезнь тяжела.</value>
+  </data>
+  <data name="Health_2" xml:space="preserve">
+    <value>Боль без языка, да сказывается.</value>
+  </data>
+  <data name="Health_3" xml:space="preserve">
+    <value>Береги платье снову, а здоровье смолоду.</value>
+  </data>
+  <data name="Health_4" xml:space="preserve">
+    <value>Приехал - не здоровался, поехал - не простился.</value>
+  </data>
+  <data name="Health_5" xml:space="preserve">
+    <value>Болезнь да горе изведут скоро.</value>
+  </data>
+  <data name="Health_6" xml:space="preserve">
+    <value>Закрытую рану лечить трудно.</value>
+  </data>
+  <data name="Health_7" xml:space="preserve">
+    <value>Чистота - половина здоровья.</value>
+  </data>
+  <data name="Health_8" xml:space="preserve">
+    <value>Бабий век - сорок лет.</value>
+  </data>
+  <data name="Health_9" xml:space="preserve">
+    <value>Потерявши голову по волосам не плачут.</value>
+  </data>
+  <data name="Health_10" xml:space="preserve">
+    <value>Людям скромно, а нам на здоровье.</value>
+  </data>
+  <data name="Health_11" xml:space="preserve">
+    <value>После обеда полежи, после ужина походи.</value>
+  </data>
+  <data name="Health_12" xml:space="preserve">
+    <value>Хотя не скоро, да здорово.</value>
+  </data>
+  <data name="Health_13" xml:space="preserve">
+    <value>Не всякая болезнь к смерти.</value>
+  </data>
+  <data name="Health_14" xml:space="preserve">
+    <value>Больны раны на своих плечах.</value>
+  </data>
+  <data name="Health_15" xml:space="preserve">
+    <value>Больному и золотая кровать не поможет.</value>
+  </data>
+  <data name="Health_16" xml:space="preserve">
+    <value>Доброму человеку и чужая болезнь к сердцу.</value>
+  </data>
+  <data name="Health_17" xml:space="preserve">
+    <value>Всякая болезнь идет к сердцу.</value>
+  </data>
+  <data name="Health_18" xml:space="preserve">
+    <value>Когда-то черт умрет, а он еще и не хворает.</value>
+  </data>
+  <data name="Health_19" xml:space="preserve">
+    <value>В добром здоровье и хворать хорошо.</value>
+  </data>
+  <data name="Health_20" xml:space="preserve">
+    <value>Замерзших - больше чем зажаренных.</value>
+  </data>
+  <data name="Health_21" xml:space="preserve">
+    <value>Руби дерево здоровое, а гнилое и само свалится.</value>
+  </data>
+  <data name="Health_22" xml:space="preserve">
+    <value>Я глупый, но здоровый.</value>
+  </data>
+  <data name="Health_23" xml:space="preserve">
+    <value>Не вовремя старость, не к делу хворь.</value>
+  </data>
+  <data name="Health_24" xml:space="preserve">
+    <value>Если хочешь быть здоров - закаляйся.</value>
+  </data>
+  <data name="Health_25" xml:space="preserve">
+    <value>Что скоро, то хворо.</value>
+  </data>
+  <data name="Health_26" xml:space="preserve">
+    <value>Жди, когда черт умрет: он и хворать не думал.</value>
+  </data>
+  <data name="Health_27" xml:space="preserve">
+    <value>Застарелую болезнь трудно лечить.</value>
+  </data>
+  <data name="Health_28" xml:space="preserve">
+    <value>Хлеб да крупы на здоровье лупи.</value>
+  </data>
+  <data name="Health_29" xml:space="preserve">
+    <value>Болячка мала, да болезнь велика.</value>
+  </data>
+  <data name="Health_30" xml:space="preserve">
+    <value>Болит бок девятый год, не знаю которо место.</value>
+  </data>
+  <data name="Health_31" xml:space="preserve">
+    <value>Шуба елова, да к сердцу здорова.</value>
+  </data>
+  <data name="Health_32" xml:space="preserve">
+    <value>Болен - через силу хворает.</value>
+  </data>
+  <data name="Health_33" xml:space="preserve">
+    <value>Румянами хворь не лечат.</value>
+  </data>
+  <data name="Health_34" xml:space="preserve">
+    <value>Дурака учить - что горбатого лечить.</value>
+  </data>
+  <data name="Health_35" xml:space="preserve">
+    <value>Ты мне не здорово, а я тебе не челом.</value>
+  </data>
+  <data name="Health_36" xml:space="preserve">
+    <value>Кто в двадцать лет не здоров, в тридцать не умен, а в сорок не богат, тому век таким не бывать.</value>
+  </data>
+  <data name="Health_37" xml:space="preserve">
+    <value>Больна жена мужу не мила.</value>
+  </data>
+  <data name="Health_38" xml:space="preserve">
+    <value>Без случайности человеку век не прожить.</value>
+  </data>
+  <data name="Health_39" xml:space="preserve">
+    <value>Где кашель, там и хворь.</value>
+  </data>
+  <data name="Health_40" xml:space="preserve">
+    <value>Не бойся дороги, были б кони здоровы.</value>
+  </data>
+  <data name="Health_41" xml:space="preserve">
+    <value>Лучше сорок раз - вспотеть, чем один - заиндеветь.</value>
+  </data>
+  <data name="Health_42" xml:space="preserve">
+    <value>Больному и мед не вкусен, а здоровый и камень ест.</value>
+  </data>
+  <data name="Health_43" xml:space="preserve">
+    <value>Больной от могилы бежит, а здоровый в могилу спешит.</value>
+  </data>
+  <data name="Health_44" xml:space="preserve">
+    <value>Болезнь и поросенка не красит.</value>
+  </data>
+  <data name="Health_45" xml:space="preserve">
+    <value>Любовь до гроба - дураки оба.</value>
+  </data>
+  <data name="Health_46" xml:space="preserve">
+    <value>Дай бог здоровья кнуту да хомуту, а лошадь довезет.</value>
+  </data>
+  <data name="Health_47" xml:space="preserve">
+    <value>Будь не красен, да здоров.</value>
+  </data>
+  <data name="Health_48" xml:space="preserve">
+    <value>С больной головы да на здоровую.</value>
+  </data>
+  <data name="Health_49" xml:space="preserve">
+    <value>Нищий болезней ищет, а к богатому они сами идут.</value>
+  </data>
+  <data name="Health_50" xml:space="preserve">
+    <value>Тебе на здоровье, да и нам нескромно.</value>
+  </data>
+  <data name="Health_51" xml:space="preserve">
+    <value>Муж любит жену здоровую, а брат сестру богатую.</value>
+  </data>
+  <data name="Health_52" xml:space="preserve">
+    <value>Кто не болел, тот здоровью цены не знает.</value>
+  </data>
+  <data name="Health_53" xml:space="preserve">
+    <value>Баня здоровит, разговор веселит.</value>
+  </data>
+  <data name="Health_54" xml:space="preserve">
+    <value>Хотя бы изба елова, да сердце здорово.</value>
+  </data>
+  <data name="Health_55" xml:space="preserve">
+    <value>Кто встал до дня, тот днем здоров.</value>
+  </data>
+  <data name="Health_56" xml:space="preserve">
+    <value>Кожа-то елова, да сердце-то здорово.</value>
+  </data>
+  <data name="Health_57" xml:space="preserve">
+    <value>Где здоровье, там и красота.</value>
+  </data>
+  <data name="Health_58" xml:space="preserve">
+    <value>Грамота не болезнь - годы не уносит.</value>
+  </data>
+  <data name="Health_59" xml:space="preserve">
+    <value>От здоровья не лечатся</value>
+  </data>
+  <data name="Health_60" xml:space="preserve">
+    <value>У кого пропало, у того б в горле торчало, а кто украл, тому бы на здоровье.</value>
+  </data>
+  <data name="Health_61" xml:space="preserve">
+    <value>По здоровом сынке сердце ноет, по больном вдвое.</value>
+  </data>
+  <data name="Health_62" xml:space="preserve">
+    <value>Человека лень не кормит, а здоровье только портит.</value>
+  </data>
+  <data name="Health_63" xml:space="preserve">
+    <value>Не дай бог лечиться да судиться.</value>
+  </data>
+  <data name="Health_64" xml:space="preserve">
+    <value>Лук семь недугов лечит, а чеснок семь недугов изводит.</value>
+  </data>
+  <data name="Health_65" xml:space="preserve">
+    <value>Болезнь нас не спрашивает.</value>
+  </data>
+  <data name="Health_66" xml:space="preserve">
+    <value>Других лечить беремся, а сами больны.</value>
+  </data>
+  <data name="Health_67" xml:space="preserve">
+    <value>И одна корова, да есть здорова.</value>
+  </data>
+  <data name="Health_68" xml:space="preserve">
+    <value>Дал бог здоровья, да денег нет.</value>
+  </data>
+  <data name="Health_69" xml:space="preserve">
+    <value>Что русскому здорово, то немцу смерть.</value>
+  </data>
+  <data name="Health_70" xml:space="preserve">
+    <value>Сердобольный врач ухудшает страдания.</value>
+  </data>
+  <data name="Health_71" xml:space="preserve">
+    <value>Дай боли волю, она в дугу согнет.</value>
+  </data>
+  <data name="Health_72" xml:space="preserve">
+    <value>На всякую болезнь зелье вырастает.</value>
+  </data>
+  <data name="Health_73" xml:space="preserve">
+    <value>Нога споткнется, а голове достанется.</value>
+  </data>
+  <data name="Health_74" xml:space="preserve">
+    <value>Рана, нанесенная самому себе, плохо заживает.</value>
+  </data>
+  <data name="Health_75" xml:space="preserve">
+    <value>Больное место скорее ушибешь.</value>
+  </data>
+  <data name="Health_76" xml:space="preserve">
+    <value>Не каждый больной, кто стонет.</value>
+  </data>
+</root>

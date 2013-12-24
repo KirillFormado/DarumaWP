@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Friendship_0" xml:space="preserve">
+    <value>Не ставь недруга овцою, а ставь его волком.</value>
+  </data>
+  <data name="Friendship_1" xml:space="preserve">
+    <value>Добрый друг лучше ста родственников.</value>
+  </data>
+  <data name="Friendship_2" xml:space="preserve">
+    <value>Как аукнется, так и откликнется</value>
+  </data>
+  <data name="Friendship_3" xml:space="preserve">
+    <value>Кто друг себе, а кто и недруг.</value>
+  </data>
+  <data name="Friendship_4" xml:space="preserve">
+    <value>Бедный знает и друга и недруга.</value>
+  </data>
+  <data name="Friendship_5" xml:space="preserve">
+    <value>Для милого друга не искать досуга.</value>
+  </data>
+  <data name="Friendship_6" xml:space="preserve">
+    <value>Не изведан - друг, а изведан - два.</value>
+  </data>
+  <data name="Friendship_7" xml:space="preserve">
+    <value>Для друга и семь верст не околица.</value>
+  </data>
+  <data name="Friendship_8" xml:space="preserve">
+    <value>Друзей много, а друга нет.</value>
+  </data>
+  <data name="Friendship_9" xml:space="preserve">
+    <value>От теплого слова и лед тает.</value>
+  </data>
+  <data name="Friendship_10" xml:space="preserve">
+    <value>Все пройдет, одна правда останется.</value>
+  </data>
+  <data name="Friendship_11" xml:space="preserve">
+    <value>Волк — хищник по природе, а человек — по зависти.</value>
+  </data>
+  <data name="Friendship_12" xml:space="preserve">
+    <value>Доносчику первый кнут.</value>
+  </data>
+  <data name="Friendship_13" xml:space="preserve">
+    <value>Был бы друг, найдется и досуг.</value>
+  </data>
+  <data name="Friendship_14" xml:space="preserve">
+    <value>Лучше умереть возле друга, чем жить у своего врага.</value>
+  </data>
+  <data name="Friendship_15" xml:space="preserve">
+    <value>Худой мир лучше доброй ссоры</value>
+  </data>
+  <data name="Friendship_16" xml:space="preserve">
+    <value>Друг за друга держаться - ничего не бояться.</value>
+  </data>
+  <data name="Friendship_17" xml:space="preserve">
+    <value>Не бей в чужие ворота плетью, не ударили бы в твои дубиною.</value>
+  </data>
+  <data name="Friendship_18" xml:space="preserve">
+    <value>Вешний лед обманчив, а новый друг не надежен.</value>
+  </data>
+  <data name="Friendship_19" xml:space="preserve">
+    <value>Живи, не скупись, с друзьями делись.</value>
+  </data>
+  <data name="Friendship_20" xml:space="preserve">
+    <value>Много добра в кувшине, да головой в него не пролезешь.</value>
+  </data>
+  <data name="Friendship_21" xml:space="preserve">
+    <value>Два друга - мороз да вьюга.</value>
+  </data>
+  <data name="Friendship_22" xml:space="preserve">
+    <value>Друг верен во всем измерен.</value>
+  </data>
+  <data name="Friendship_23" xml:space="preserve">
+    <value>Лжец - всегда неверный друг, оболжет тебя вокруг.</value>
+  </data>
+  <data name="Friendship_24" xml:space="preserve">
+    <value>Кому мир недорог, тот нам и ворог.</value>
+  </data>
+  <data name="Friendship_25" xml:space="preserve">
+    <value>Правда всего дороже.</value>
+  </data>
+  <data name="Friendship_26" xml:space="preserve">
+    <value>Дружно за мир стоять — войне не бывать.</value>
+  </data>
+  <data name="Friendship_27" xml:space="preserve">
+    <value>Будь друг, да не вдруг.</value>
+  </data>
+  <data name="Friendship_28" xml:space="preserve">
+    <value>Ласковый роток да чистые руки по всей земле обведут.</value>
+  </data>
+  <data name="Friendship_29" xml:space="preserve">
+    <value>Держись друга старого, а дома нового</value>
+  </data>
+  <data name="Friendship_30" xml:space="preserve">
+    <value>Надсаженный конь, надломленный лук, замиренный друг - ненадежны.</value>
+  </data>
+  <data name="Friendship_31" xml:space="preserve">
+    <value>Правду говорить - друга не нажить.</value>
+  </data>
+  <data name="Friendship_32" xml:space="preserve">
+    <value>Больше той любви не бывает, как друг за друга умирает.</value>
+  </data>
+  <data name="Friendship_33" xml:space="preserve">
+    <value>Назвался другом - помогай в беде.</value>
+  </data>
+  <data name="Friendship_34" xml:space="preserve">
+    <value>И собака помнит, кто ее кормит.</value>
+  </data>
+  <data name="Friendship_35" xml:space="preserve">
+    <value>Умный себя винит, глупый - свего товарища.</value>
+  </data>
+  <data name="Friendship_36" xml:space="preserve">
+    <value>Дружба заботой да подмогой крепка.</value>
+  </data>
+  <data name="Friendship_37" xml:space="preserve">
+    <value>Жить не тужить — добро добыть да лиха избыть.</value>
+  </data>
+  <data name="Friendship_38" xml:space="preserve">
+    <value>Легко друзей найти, да трудно сохранить.</value>
+  </data>
+  <data name="Friendship_39" xml:space="preserve">
+    <value>Верный друг лучше сотни слуг.</value>
+  </data>
+  <data name="Friendship_40" xml:space="preserve">
+    <value>Завистливый от чужого счастья сохнет.</value>
+  </data>
+  <data name="Friendship_41" xml:space="preserve">
+    <value>Кто друга в беде покидает, тот сам в беду попадает.</value>
+  </data>
+  <data name="Friendship_42" xml:space="preserve">
+    <value>Кто вчера солгал, тому и завтра не поверят.</value>
+  </data>
+  <data name="Friendship_43" xml:space="preserve">
+    <value>Солома с огнем не дружись.</value>
+  </data>
+  <data name="Friendship_44" xml:space="preserve">
+    <value>Легче друга потерять, чем найти.</value>
+  </data>
+  <data name="Friendship_45" xml:space="preserve">
+    <value>Столько наговорил, что и в шапку не возьмешь.</value>
+  </data>
+  <data name="Friendship_46" xml:space="preserve">
+    <value>Соха не плуг, приятель не друг.</value>
+  </data>
+  <data name="Friendship_47" xml:space="preserve">
+    <value>Дал слово, держи его.</value>
+  </data>
+  <data name="Friendship_48" xml:space="preserve">
+    <value>Нет друга, так ищи, а нашел, так береги.</value>
+  </data>
+  <data name="Friendship_49" xml:space="preserve">
+    <value>Кто в нраве крут, тот никому не друг.</value>
+  </data>
+  <data name="Friendship_50" xml:space="preserve">
+    <value>Доброе слово лечит, а злое убивает.</value>
+  </data>
+  <data name="Friendship_51" xml:space="preserve">
+    <value>Сердечный друг не родится вдруг.</value>
+  </data>
+  <data name="Friendship_52" xml:space="preserve">
+    <value>Не будь упрям, а будь прям.</value>
+  </data>
+  <data name="Friendship_53" xml:space="preserve">
+    <value>Как хорош тот, у кого умная голова и доброе сердце.</value>
+  </data>
+  <data name="Friendship_54" xml:space="preserve">
+    <value>Ласковое слово, что вешний сад.</value>
+  </data>
+  <data name="Friendship_55" xml:space="preserve">
+    <value>Друг познается при рати да при беде.</value>
+  </data>
+  <data name="Friendship_56" xml:space="preserve">
+    <value>Зовется другом, а обирает кругом.</value>
+  </data>
+  <data name="Friendship_57" xml:space="preserve">
+    <value>Сыр калача белее, а мать всех друзей милее.</value>
+  </data>
+  <data name="Friendship_58" xml:space="preserve">
+    <value>На себя не наговаривай, а с друга сговаривай.</value>
+  </data>
+  <data name="Friendship_59" xml:space="preserve">
+    <value>Не имей 100 рублей а имей 100 друзей!</value>
+  </data>
+  <data name="Friendship_60" xml:space="preserve">
+    <value>Для милого дружка и сережку из ушка.</value>
+  </data>
+  <data name="Friendship_61" xml:space="preserve">
+    <value>Добрый конь не без седока, а честный человек не без друга.</value>
+  </data>
+  <data name="Friendship_62" xml:space="preserve">
+    <value>Сабля ранит голову, а слово – душу.</value>
+  </data>
+  <data name="Friendship_63" xml:space="preserve">
+    <value>Мил да люб, так и будет друг.</value>
+  </data>
+  <data name="Friendship_64" xml:space="preserve">
+    <value>И сват свату друг, да не вдруг.</value>
+  </data>
+  <data name="Friendship_65" xml:space="preserve">
+    <value>Лучше ста рублев сто другов.</value>
+  </data>
+  <data name="Friendship_66" xml:space="preserve">
+    <value>Знаем вас — были вы у нас: после вас колуна не досчитались.</value>
+  </data>
+  <data name="Friendship_67" xml:space="preserve">
+    <value>Нашего горя и топоры не секут.</value>
+  </data>
+  <data name="Friendship_68" xml:space="preserve">
+    <value>У нашего свата ни друга, ни брата.</value>
+  </data>
+  <data name="Friendship_69" xml:space="preserve">
+    <value>Чужому горю не смейся.</value>
+  </data>
+  <data name="Friendship_70" xml:space="preserve">
+    <value>Иглой да бороной деревня стоит.</value>
+  </data>
+  <data name="Friendship_71" xml:space="preserve">
+    <value>Вдруг не станешь друг.</value>
+  </data>
+  <data name="Friendship_72" xml:space="preserve">
+    <value>Гроза, грозись, а мы друг за друга держись.</value>
+  </data>
+  <data name="Friendship_73" xml:space="preserve">
+    <value>Старый друг лучше новых двух.</value>
+  </data>
+  <data name="Friendship_74" xml:space="preserve">
+    <value>Ежели несчастья бояться, то и счастья не будет.</value>
+  </data>
+  <data name="Friendship_75" xml:space="preserve">
+    <value>Друг на друга глядючи, улыбнешься; на себя глядючи только всплачешься.</value>
+  </data>
+  <data name="Friendship_76" xml:space="preserve">
+    <value>Зависть добра не прибавит.</value>
+  </data>
+  <data name="Friendship_77" xml:space="preserve">
+    <value>Жить было с другом, да помешал недруг.</value>
+  </data>
+  <data name="Friendship_78" xml:space="preserve">
+    <value>Кто ищет, тот найдет.</value>
+  </data>
+  <data name="Friendship_79" xml:space="preserve">
+    <value>С волками жить - по волчьи выть.</value>
+  </data>
+  <data name="Friendship_80" xml:space="preserve">
+    <value>Нет такого дружка, как родная матушка.</value>
+  </data>
+  <data name="Friendship_81" xml:space="preserve">
+    <value>Дальний путь, да ближний друг.</value>
+  </data>
+  <data name="Friendship_82" xml:space="preserve">
+    <value>Все за одного и один за всех.</value>
+  </data>
+  <data name="Friendship_83" xml:space="preserve">
+    <value>Все любят добро, да не всех любит оно.</value>
+  </data>
+  <data name="Friendship_84" xml:space="preserve">
+    <value>По щедрости руки видно, какое сердце.</value>
+  </data>
+  <data name="Friendship_85" xml:space="preserve">
+    <value>Доброе братство дороже богатства.</value>
+  </data>
+  <data name="Friendship_86" xml:space="preserve">
+    <value>Нужно много дней и ночей, чтобы узнать человека.</value>
+  </data>
+  <data name="Friendship_87" xml:space="preserve">
+    <value>Одежда лучше новая, а друг - старый.</value>
+  </data>
+  <data name="Friendship_88" xml:space="preserve">
+    <value>Дружба дружбой, а служба службой.</value>
+  </data>
+  <data name="Friendship_89" xml:space="preserve">
+    <value>Царю правда лучший друг.</value>
+  </data>
+  <data name="Friendship_90" xml:space="preserve">
+    <value>Лучше вода у друга, чем мед у врага.</value>
+  </data>
+  <data name="Friendship_91" xml:space="preserve">
+    <value>Берись дружно, не будет грузно.</value>
+  </data>
+  <data name="Friendship_92" xml:space="preserve">
+    <value>В недруге стрела, что во пне, а в друге, что во мне.</value>
+  </data>
+  <data name="Friendship_93" xml:space="preserve">
+    <value>Два горя вместе, третье пополам.</value>
+  </data>
+  <data name="Friendship_94" xml:space="preserve">
+    <value>Дорог не подарок, дорога любовь.</value>
+  </data>
+  <data name="Friendship_95" xml:space="preserve">
+    <value>Друг неиспытанный, что орех нерасколотый.</value>
+  </data>
+  <data name="Friendship_96" xml:space="preserve">
+    <value>Друга на деньги не купишь.</value>
+  </data>
+  <data name="Friendship_97" xml:space="preserve">
+    <value>Дружба крепка не лестью, а правдой и честью.</value>
+  </data>
+  <data name="Friendship_98" xml:space="preserve">
+    <value>Дружба от недружбы близко живет.</value>
+  </data>
+  <data name="Friendship_99" xml:space="preserve">
+    <value>И комар лошадь свалит, коли волк подсобит.</value>
+  </data>
+  <data name="Friendship_100" xml:space="preserve">
+    <value>Мы с тобой, как рыба с водой.</value>
+  </data>
+  <data name="Friendship_101" xml:space="preserve">
+    <value>Надо пуд соли вместе съесть, чтобы друга узнать.</value>
+  </data>
+  <data name="Friendship_102" xml:space="preserve">
+    <value>Не бойся врага умного, бойся друга глупого.</value>
+  </data>
+  <data name="Friendship_103" xml:space="preserve">
+    <value>Не сошлись обычаем, не бывать дружбе.</value>
+  </data>
+  <data name="Friendship_104" xml:space="preserve">
+    <value>Не узнавай друга в три дня, узнай в три года.</value>
+  </data>
+  <data name="Friendship_105" xml:space="preserve">
+    <value>Недруг поддакивает, а друг спорит</value>
+  </data>
+  <data name="Friendship_106" xml:space="preserve">
+    <value>Новых друзей наживай, а старых не утрачивай.</value>
+  </data>
+  <data name="Friendship_107" xml:space="preserve">
+    <value>Один в поле не воин</value>
+  </data>
+  <data name="Friendship_108" xml:space="preserve">
+    <value>Рыбак рыбака видит издалека</value>
+  </data>
+  <data name="Friendship_109" xml:space="preserve">
+    <value>С кем поведешься, от того и наберешься.</value>
+  </data>
+  <data name="Friendship_110" xml:space="preserve">
+    <value>С кем хлеб-соль водишь, на того и походишь</value>
+  </data>
+  <data name="Friendship_111" xml:space="preserve">
+    <value>Скажи мне, кто твой друг, и я скажу тебе, кто ты.</value>
+  </data>
+  <data name="Friendship_112" xml:space="preserve">
+    <value>У друга пить воду лучше неприятельского меду.</value>
+  </data>
+  <data name="Friendship_113" xml:space="preserve">
+    <value>Хороший друг в лицо ругает, а за глаза хвалит</value>
+  </data>
+  <data name="Friendship_114" xml:space="preserve">
+    <value>Дружно — не грузно, а врозь — хоть брось</value>
+  </data>
+  <data name="Friendship_115" xml:space="preserve">
+    <value>Согласного стада и волк не берет.</value>
+  </data>
+  <data name="Friendship_116" xml:space="preserve">
+    <value>По прутику всю метлу переломить можно.</value>
+  </data>
+  <data name="Friendship_117" xml:space="preserve">
+    <value>На людях и смерть красна.</value>
+  </data>
+  <data name="Friendship_118" xml:space="preserve">
+    <value>Две головни и в поле курятся, а одна и в печи гаснет.</value>
+  </data>
+  <data name="Friendship_119" xml:space="preserve">
+    <value>По капельке — море, по былинке — стог, по зернышку — ворох.</value>
+  </data>
+  <data name="Friendship_120" xml:space="preserve">
+    <value>В мире жить — с миром жить.</value>
+  </data>
+  <data name="Friendship_121" xml:space="preserve">
+    <value>На что и клад, когда дети идут в лад</value>
+  </data>
+  <data name="Friendship_122" xml:space="preserve">
+    <value>Всякая ссора красна мировою.</value>
+  </data>
+  <data name="Friendship_123" xml:space="preserve">
+    <value>Дракою прав не будешь.</value>
+  </data>
+  <data name="Friendship_124" xml:space="preserve">
+    <value>Семеро одного не ждут.</value>
+  </data>
+  <data name="Friendship_125" xml:space="preserve">
+    <value>То не страх, что вместях, а сунься-ка один.</value>
+  </data>
+  <data name="Friendship_126" xml:space="preserve">
+    <value>Был бы запевала, а подголоски найдутся.</value>
+  </data>
+  <data name="Friendship_127" xml:space="preserve">
+    <value>Одна пчела не много меду натаскает.</value>
+  </data>
+  <data name="Friendship_128" xml:space="preserve">
+    <value>Одной рукой и узла не завяжешь.</value>
+  </data>
+  <data name="Friendship_129" xml:space="preserve">
+    <value>Двое в поле воюют, а один и дома горюет.</value>
+  </data>
+  <data name="Friendship_130" xml:space="preserve">
+    <value>Беда не там страшна, где есть друзья,</value>
+  </data>
+  <data name="Friendship_131" xml:space="preserve">
+    <value>Один и в каше загинет.</value>
+  </data>
+  <data name="Friendship_132" xml:space="preserve">
+    <value>Сам себе на радость никто не живет.</value>
+  </data>
+  <data name="Friendship_133" xml:space="preserve">
+    <value>Глуп совсем, кто не знается ни с кем.</value>
+  </data>
+  <data name="Friendship_134" xml:space="preserve">
+    <value>Пять перстов, да все одна рука.</value>
+  </data>
+  <data name="Friendship_135" xml:space="preserve">
+    <value>Доброе братство дороже всякого богатства.</value>
+  </data>
+  <data name="Friendship_136" xml:space="preserve">
+    <value>Друг за дружку держаться — ничего не бояться</value>
+  </data>
+  <data name="Friendship_137" xml:space="preserve">
+    <value>Артелью хорошо и недруга бить.</value>
+  </data>
+  <data name="Friendship_138" xml:space="preserve">
+    <value>Артель дружбой крепка.</value>
+  </data>
+  <data name="Friendship_139" xml:space="preserve">
+    <value>Семеро — не один, в обиду не дадим.</value>
+  </data>
+  <data name="Friendship_140" xml:space="preserve">
+    <value>Человек к человеку — глядишь и толпа,</value>
+  </data>
+  <data name="Friendship_141" xml:space="preserve">
+    <value>Вместе мокли, вместе сохли.</value>
+  </data>
+  <data name="Friendship_142" xml:space="preserve">
+    <value>Слушай, рябина, что лес говорит.</value>
+  </data>
+  <data name="Friendship_143" xml:space="preserve">
+    <value>Артельный котел гуще кипит.</value>
+  </data>
+  <data name="Friendship_144" xml:space="preserve">
+    <value>Все за бечеву — скорее переедешь.</value>
+  </data>
+  <data name="Friendship_145" xml:space="preserve">
+    <value>Дружные сороки и гуся утащат.</value>
+  </data>
+  <data name="Friendship_146" xml:space="preserve">
+    <value>Служи миру и будешь сыт.</value>
+  </data>
+  <data name="Friendship_147" xml:space="preserve">
+    <value>С миру по нитке, голому рубашка.</value>
+  </data>
+  <data name="Friendship_148" xml:space="preserve">
+    <value>Свет не без добрых людей.</value>
+  </data>
+  <data name="Friendship_149" xml:space="preserve">
+    <value>Не связанный сноп — солома.</value>
+  </data>
+  <data name="Friendship_150" xml:space="preserve">
+    <value>Сам пропадай, а товарища выручай.</value>
+  </data>
+  <data name="Friendship_151" xml:space="preserve">
+    <value>Не мил и свет, когда друга нет.</value>
+  </data>
+  <data name="Friendship_152" xml:space="preserve">
+    <value>По товарищам и слава.</value>
+  </data>
+  <data name="Friendship_153" xml:space="preserve">
+    <value>Не узнавай друга в три дня, узнавай в три года.</value>
+  </data>
+  <data name="Friendship_154" xml:space="preserve">
+    <value>Конь узнается при горе, а друг при беде.</value>
+  </data>
+  <data name="Friendship_155" xml:space="preserve">
+    <value>Друг узнается при рати и при беде.</value>
+  </data>
+  <data name="Friendship_156" xml:space="preserve">
+    <value>Друзья прямые, что братья родные.</value>
+  </data>
+  <data name="Friendship_157" xml:space="preserve">
+    <value>Для друга всё не туго.</value>
+  </data>
+  <data name="Friendship_158" xml:space="preserve">
+    <value>Дружбу водить, так себя не щадить.</value>
+  </data>
+  <data name="Friendship_159" xml:space="preserve">
+    <value>Дружба дружбе рознь, а иную хоть брось.</value>
+  </data>
+  <data name="Friendship_160" xml:space="preserve">
+    <value>Живи для людей, поживут люди для тебя.</value>
+  </data>
+  <data name="Friendship_161" xml:space="preserve">
+    <value>Дружба да братство дороже всякого богатства.</value>
+  </data>
+  <data name="Friendship_162" xml:space="preserve">
+    <value>Больше той любви не бывает, коль друг за друга погибает.</value>
+  </data>
+  <data name="Friendship_163" xml:space="preserve">
+    <value>Не поживши вместе, друга не узнаешь.</value>
+  </data>
+  <data name="Friendship_164" xml:space="preserve">
+    <value>Друзья познаются в беде</value>
+  </data>
+  <data name="Friendship_165" xml:space="preserve">
+    <value>Дружба, что стекло; сломаешь — не починишь.</value>
+  </data>
+  <data name="Friendship_166" xml:space="preserve">
+    <value>Плохи друзья на полчаса.</value>
+  </data>
+  <data name="Friendship_167" xml:space="preserve">
+    <value>Неверный друг опаснее врага.</value>
+  </data>
+  <data name="Friendship_168" xml:space="preserve">
+    <value>Кто любит лгать, того нельзя в друзья брать.</value>
+  </data>
+  <data name="Friendship_169" xml:space="preserve">
+    <value>Друг спорит, а враг поддакивает.</value>
+  </data>
+  <data name="Friendship_170" xml:space="preserve">
+    <value>Дружбу за деньги не купишь.</value>
+  </data>
+  <data name="Friendship_171" xml:space="preserve">
+    <value>Дружба как стекло: разобьешь не сложишь.</value>
+  </data>
+  <data name="Friendship_172" xml:space="preserve">
+    <value>Человек без друзей, что дерево без корней.</value>
+  </data>
+  <data name="Friendship_173" xml:space="preserve">
+    <value>Лучше жить в тесноте, чем в обиде.</value>
+  </data>
+  <data name="Friendship_174" xml:space="preserve">
+    <value>Постучит беда в окошко -</value>
+  </data>
+  <data name="Friendship_175" xml:space="preserve">
+    <value>Подружится собака с кошкой.</value>
+  </data>
+  <data name="Friendship_176" xml:space="preserve">
+    <value>Не хвались другом в три дня,</value>
+  </data>
+  <data name="Friendship_177" xml:space="preserve">
+    <value>А хвались в три года.</value>
+  </data>
+  <data name="Friendship_178" xml:space="preserve">
+    <value>На службе нет дружбы.</value>
+  </data>
+  <data name="Friendship_179" xml:space="preserve">
+    <value>Бывший друг - злейший враг.</value>
+  </data>
+  <data name="Friendship_180" xml:space="preserve">
+    <value>Лучше честный враг, чем коварный друг.</value>
+  </data>
+</root>
