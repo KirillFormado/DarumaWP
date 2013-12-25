@@ -60,8 +60,9 @@
             </Image>
             
             <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Padding="10" Margin="49,120,49,157"
-                        Style="{StaticResource HiddenElement}"
-                        Tap="CitationTextBlock_OnTap">
+                       Style="{StaticResource HiddenElement}"
+                       FontSize="{StaticResource PhoneFontSizeLarge}"
+                       Tap="CitationTextBlock_OnTap">
                 <TextBlock.Resources>
                     <Storyboard x:Name="FadeInAnimation" TargetName="CitationTextBlock">
                         <DoubleAnimation From="0" To="1" Storyboard.TargetProperty="Opacity"/>

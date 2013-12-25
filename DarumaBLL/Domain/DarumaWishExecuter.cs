@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DarumaBLL.Common.Abstractions;
+﻿using DarumaBLL.Common.Abstractions;
 
 namespace DarumaBLL.Domain
 {

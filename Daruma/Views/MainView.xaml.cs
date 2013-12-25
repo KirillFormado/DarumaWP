@@ -23,9 +23,8 @@ namespace Daruma.Views
             InitializeComponent();
 
             _settings = IoCContainter.Get<ISettingsStorage>();
-            //InitializeSettings();
-            var vm = new MainViewModel();
-            DataContext = vm;
+            _viewModel = new MainViewModel();
+            DataContext = _viewModel;
         }
 
         private void NewDaruma_OnTap(object sender, EventArgs e)
@@ -52,6 +51,7 @@ namespace Daruma.Views
         private void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
             InitializeSettings();
+
         }
     }
 }

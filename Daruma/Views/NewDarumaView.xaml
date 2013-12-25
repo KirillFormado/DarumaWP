@@ -6,12 +6,22 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:converters="clr-namespace:Daruma.Infrastructure.Converters"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+        <converters:DarumaWishThemeToStringConverter x:Key="DarumaWishThemeToStringConverter"/>
+
+        <DataTemplate x:Name="WishThemeItemTemplate">
+            <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="{Binding Converter={StaticResource DarumaWishThemeToStringConverter}}" />
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -30,17 +40,24 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Image x:Name="NewDarumaImg" 
                    Source="{Binding Source={StaticResource ImageUrlRouter}, Path=NewDaurmaImageUrl}" 
-                   Tap="WishDaruma_OnTap" Margin="60,0,60,0"></Image>
-            <StackPanel  x:Name="WishStack" 
-                         Style="{StaticResource HiddenElement}">
+                   Tap="WishDaruma_OnTap" Margin="60,0,0,0" HorizontalAlignment="Left" Width="336"/>
+            <StackPanel  x:Name="WishStack" Style="{StaticResource HiddenElement}">
+
                 <StackPanel.Resources>
                     <Storyboard x:Name="StackOpacityStoryboard" TargetName="WishStack">
                         <DoubleAnimation From="0" To="1" Storyboard.TargetProperty="Opacity"/>
                     </Storyboard>
                 </StackPanel.Resources>
                 <TextBox x:Name="WishTextBox" TextWrapping="Wrap" Padding="10" GotFocus="WishTextBox_OnGotFocus" />
+                <toolkit:ListPicker x:Name="WishThemePicker"
+                                    ItemsSource="{Binding Path=ThemeList}"
+                                    ItemTemplate="{StaticResource WishThemeItemTemplate}"
+                                    FullModeItemTemplate="{StaticResource WishThemeItemTemplate}"
+                                    >
+                </toolkit:ListPicker>
                 <Button Content="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.WishButton}" 
                         Tap="WishButton_OnTap"></Button>
+
             </StackPanel>
         </Grid>
     </Grid>

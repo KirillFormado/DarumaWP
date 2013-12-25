@@ -158,4 +158,22 @@
   <data name="ToMainView" xml:space="preserve">
     <value>To Main</value>
   </data>
+  <data name="Friendship" xml:space="preserve">
+    <value>Friendship</value>
+  </data>
+  <data name="Funny" xml:space="preserve">
+    <value>Funny</value>
+  </data>
+  <data name="Health" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>Love</value>
+  </data>
+  <data name="Luck" xml:space="preserve">
+    <value>Luck</value>
+  </data>
+  <data name="Rich" xml:space="preserve">
+    <value>Rich</value>
+  </data>
 </root>

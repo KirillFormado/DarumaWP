@@ -33,7 +33,7 @@
                                 <Image Source="{Binding Path=ImageUri}" Grid.Column="0" Height="100" Width="100"/>
                                 <HyperlinkButton Grid.Column="0"
                                     NavigateUri="{Binding Path=Id, Converter={StaticResource DarumsIdToUrlConverter}}" 
-                                    Content="ddd" Height="100" 
+                                    Height="100" 
                                     Opacity="0"/>
                                 <TextBlock Grid.Column="1"
                                            TextWrapping="Wrap"
@@ -71,10 +71,11 @@
         <phone:Pivot x:Name="MainPivot" Title="DARUMA"
                      ItemsSource="{Binding Path=DarumaDict}"
                      ItemTemplate="{StaticResource DarumaListTemplate}"
-                     SelectedItem="{Binding RelativeSource={RelativeSource Mode=Self}, Converter={StaticResource SomeToSome}}">
+                     SelectedItem="{Binding RelativeSource={RelativeSource Mode=Self}, Converter={StaticResource SomeToSome}}"
+                     >
             
             <phone:Pivot.HeaderTemplate>
-                <DataTemplate>
+                <DataTemplate>                    
                     <TextBlock Text="{Binding Path=Key, Converter={StaticResource DarumsStatusToStringConverter}}"/>
                 </DataTemplate>
             </phone:Pivot.HeaderTemplate>

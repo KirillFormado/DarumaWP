@@ -5,33 +5,30 @@ namespace DarumaBLL.Domain
 {
     public class DarumaDomain
     {
-        private IDarumaImageUriResolver _resolver;
-        private DarumaStatus _status;
-
         public Guid Id { get; set; }
         public string Wish { get; set; }
+        public DarumaWishTheme Theme { get; set; }
         public DateTime CreateDate { get; set; }
-        public DarumaStatus Status { 
-            get { return _status; }
-            set 
-            {
-                if (_status == value) 
-                    return;
-                
-                ImageUri = _resolver.ResolveImageUri(value);
-                _status = value;
-            }
-        }
+        public DarumaStatus Status { get; set; }
+        public Uri ImageUri { get; set; }
 
-        public Uri ImageUri { get; private set; }
-
-        public DarumaDomain (string wish, IDarumaImageUriResolver resolver)
+        //TODO: refactor getting url addres for Daruma image
+        public DarumaDomain (string wish, DarumaWishTheme theme, Uri imageUri)
         {
-            _resolver = resolver;
             Id = Guid.NewGuid();
             Wish = wish;
+            Theme = theme;
             CreateDate = DateTime.Now;
-            Status = DarumaStatus.MakedWish;
+            ChangeStatus(DarumaStatus.MakedWish, imageUri);
+        }
+
+        public void ChangeStatus(DarumaStatus newStatus, Uri newImageUri)
+        {
+            if (Status == newStatus)
+                return;
+
+            Status = newStatus;
+            ImageUri = newImageUri;
         }
     }
 }

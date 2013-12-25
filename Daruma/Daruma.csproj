@@ -93,13 +93,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\Converters\DarumaWishThemeToStringConverter.cs" />
     <Compile Include="Infrastructure\Converters\DarumsStatusToStringConverter.cs" />
+    <Compile Include="Infrastructure\Converters\EnumToStringConverter.cs" />
     <Compile Include="Infrastructure\Converters\SomeToSome.cs" />
     <Compile Include="Infrastructure\DarumaImageUriResolver.cs" />
     <Compile Include="Infrastructure\Converters\DarumsIdToUrlConverter.cs" />
     <Compile Include="Infrastructure\IoCContainter.cs" />
     <Compile Include="Infrastructure\Routers.cs" />
     <Compile Include="Infrastructure\Storages\DarumaStorage.cs" />
+    <Compile Include="Infrastructure\Storages\LocalizationResourseStorage.cs" />
     <Compile Include="Infrastructure\Storages\SettingsStorage.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Resources\AppResources.ru-RU.Designer.cs">
@@ -112,8 +115,39 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CitationLocalizationResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\Friendship.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Friendship.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Funy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Funy.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Health.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Health.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Love.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Love.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Luck.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Luck.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Rich.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rich.resx</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\DarumaShakeViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\BaseDarumaPage.cs" />
     <Compile Include="Views\DarumaShakeView.xaml.cs">
       <DependentUpon>DarumaShakeView.xaml</DependentUpon>
     </Compile>
@@ -133,6 +167,7 @@
     <Compile Include="Views\NewDarumaView.xaml.cs">
       <DependentUpon>NewDarumaView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\NewDarumaViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -193,6 +228,12 @@
     <Content Include="Assets\darumaAppIcon.png" />
     <Content Include="Assets\Tiles\darumaTileMedium.png" />
     <Content Include="Assets\Tiles\darumaTileSmall.png" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
@@ -203,12 +244,37 @@
     <EmbeddedResource Include="Resources\AppResources.ru-RU.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.ru-RU.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\CitationLocalizationResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>CitationLocalizationResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\CitationLocalizationResources.ru-Ru.resx" />
+    <EmbeddedResource Include="Resources\Friendship.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Friendship.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Funy.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Funy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Health.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Health.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Love.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Love.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Luck.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Luck.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Rich.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Rich.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DarumaBLL\DarumaBLL.csproj">
@@ -218,6 +284,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=8.0.1.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.5.0.5\lib\portable-net45+wp80+win8\Newtonsoft.Json.dll</HintPath>

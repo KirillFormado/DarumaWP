@@ -147,4 +147,34 @@
   <data name="Maked" xml:space="preserve">
     <value>Загаданные</value>
   </data>
+  <data name="Friendship" xml:space="preserve">
+    <value>Дружба</value>
+  </data>
+  <data name="Funny" xml:space="preserve">
+    <value>Смешное</value>
+  </data>
+  <data name="Health" xml:space="preserve">
+    <value>Здоровье</value>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>Любовь</value>
+  </data>
+  <data name="Luck" xml:space="preserve">
+    <value>Удача</value>
+  </data>
+  <data name="Rich" xml:space="preserve">
+    <value>Богатство</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Сжечь</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="ToMainView" xml:space="preserve">
+    <value>К списку</value>
+  </data>
 </root>

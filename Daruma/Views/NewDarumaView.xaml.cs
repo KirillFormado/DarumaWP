@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Windows;
-using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using Daruma.Infrastructure;
 using Daruma.Resources;
+using Daruma.ViewModels;
 using DarumaBLL.Common.Abstractions;
 using DarumaBLL.Domain;
 using Microsoft.Phone.Controls;
+using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
 {
@@ -18,6 +19,9 @@ namespace Daruma.Views
         {
             InitializeComponent();
             _darumaStorage = IoCContainter.Get<IDarumaStorage>();
+           
+            var vm = new NewDarumaViewModel();
+            DataContext = vm;
         }
 
         private void WishDaruma_OnTap(object sender, GestureEventArgs e)
@@ -34,22 +38,30 @@ namespace Daruma.Views
         private async void WishButton_OnTap(object sender, GestureEventArgs e)
         {
             var wish = WishTextBox.Text;
-            if (string.IsNullOrEmpty(wish))
+
+            DarumaWishTheme theme;
+           
+            Enum.TryParse(WishThemePicker.SelectedItem.ToString(), out theme);
+
+            if (string.IsNullOrEmpty(wish) 
+                || !Enum.IsDefined(typeof(DarumaWishTheme), theme) 
+                || theme == DarumaWishTheme.NoSet)
             {
                 MessageBox.Show(AppResources.EmptyWishTextBox);
                 return;
             }
-
+            
             //TODO: for ViewModel support move this code to separate method
-            var daruma = CreateDaruma(wish);
+            var daruma = CreateDaruma(wish, theme);
             await _darumaStorage.Add(daruma);
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
         }
 
-        private DarumaDomain CreateDaruma(string wish)
+        private DarumaDomain CreateDaruma(string wish, DarumaWishTheme theme)
         {            
             //TODO: refactor getting url addres for Daruma image
-            return new DarumaDomain(wish, IoCContainter.Get<IDarumaImageUriResolver>().ResolveImageUri(DarumaStatus.MakedWish));
+            var imageUrl = IoCContainter.Get<IDarumaImageUriResolver>().ResolveImageUri(DarumaStatus.MakedWish);
+            return new DarumaDomain(wish, theme, imageUrl);
         }
 
         private void WishTextBox_OnGotFocus(object sender, RoutedEventArgs e)

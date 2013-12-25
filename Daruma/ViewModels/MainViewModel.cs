@@ -31,29 +31,42 @@ namespace Daruma.ViewModels
 
         public ObservableCollection<DarumaDomain> DarumaList
         {
-            get { return new ObservableCollection<DarumaDomain>(FakeDarumaSourse()); }
+            get { return new ObservableCollection<DarumaDomain>(); }
         }
         
         public MainViewModel() 
         {
             _darumaStorage = IoCContainter.Get<IDarumaStorage>();
-            _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>>();
+            _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>>
+            {
+                {DarumaStatus.MakedWish, new ObservableCollection<DarumaDomain>()}
+            };
             LoadDaruma();            
         }
 
 
-        private void LoadDaruma()
+        private async void LoadDaruma()
         {
-            var darumaList = FakeDarumaSourse(); //await _darumaStorage.ListAllAsync(); 
+            var darumaList = //FakeDarumaSourse(); 
+                await _darumaStorage.ListAll(); 
             var lookup = darumaList.ToLookup(d => d.Status);
 
             var orderList = GetOrderList();
 
             foreach (var status in orderList)
             {
-                var observList = new ObservableCollection<DarumaDomain>(lookup[status]);
-                if(observList.Count > 0)
-                    _darumaDict.Add(status, observList);
+                var observList = lookup[status].ToList();
+                if (observList.Any())
+                {
+                    foreach (var darumaDomain in observList)
+                    {
+                        if (!_darumaDict.ContainsKey(status))
+                        {
+                            _darumaDict.Add(status, new ObservableCollection<DarumaDomain>());
+                        }
+                        _darumaDict[status].Add(darumaDomain);
+                    }
+                }
             }
         }
 
@@ -64,28 +77,8 @@ namespace Daruma.ViewModels
                 DarumaStatus.MakedWish,
                 DarumaStatus.TimeExpired,
                 DarumaStatus.ExecutedWish,
-                DarumaStatus.Empty
+                //DarumaStatus.Empty
             };
-        }
-        
-
-        private IEnumerable<DarumaDomain> FakeDarumaSourse()
-        {
-            var resolver = IoCContainter.Get<IDarumaImageUriResolver>();
-            var list = new List<DarumaDomain>
-            {
-                new DarumaDomain("aaaa", resolver),
-                new DarumaDomain("bbbb", resolver),
-                new DarumaDomain("ccccccccccccccccccccccccccccccccc", resolver),
-                new DarumaDomain("dddd", resolver),
-                new DarumaDomain("eeee", resolver)
-            };
-
-            list[0].Status = DarumaStatus.Empty;
-            list[1].Status = DarumaStatus.ExecutedWish;
-            list[2].Status = DarumaStatus.TimeExpired;
-
-            return list;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

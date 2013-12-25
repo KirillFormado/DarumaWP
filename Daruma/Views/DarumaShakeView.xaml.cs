@@ -5,11 +5,13 @@ using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
+using Daruma.Infrastructure.Storages;
 using Daruma.Resources;
 using DarumaBLL.Common.Abstractions;
 using DarumaBLL.Domain;
 using Microsoft.Phone.Controls;
 using DarumaBLL.RandomCitationUseCase;
+using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
 {
@@ -64,8 +66,10 @@ namespace Daruma.Views
 
         private string GetCitationSourse()
         {
-            var resourceSet = CitationLocalizationResources.ResourceManager.GetResourceSet(CultureInfo.CurrentUICulture, true, true);
-            return new RandomCitationResolver(resourceSet).RenturnRandomCitation();
+            var resourseStorage = new LocalizationResourseStorage();
+            var resourceSet = resourseStorage.GetByDarumsWishTheme(_daruma.Theme);
+            var quaotation = new RandomCitationResolver(resourceSet).RenturnRandomCitation();
+            return quaotation;
         }
 
         private void CitationTextBlock_OnTap(object sender, GestureEventArgs e)

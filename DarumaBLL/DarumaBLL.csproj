@@ -88,6 +88,7 @@
     <Compile Include="Domain\DarumaDomain.cs" />
     <Compile Include="Domain\DarumaStatus.cs" />
     <Compile Include="Domain\DarumaWishExecuter.cs" />
+    <Compile Include="Domain\DarumaWishTheme.cs" />
     <Compile Include="Domain\FirstStartHandler.cs" />
     <Compile Include="Common\Abstractions\IDarumaStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
