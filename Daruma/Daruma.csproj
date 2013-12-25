@@ -209,6 +209,7 @@
     <Content Include="Assets\Images\NewDaruma.png" />
     <Content Include="Assets\Images\ResolvedDaruma.png" />
     <Content Include="Assets\Images\WishedDaruma.png" />
+    <Content Include="SplashScreenImage.jpg" />
     <Content Include="Assets\Tiles\darumaTileLarge.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
