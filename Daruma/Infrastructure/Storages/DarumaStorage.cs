@@ -19,10 +19,14 @@ namespace Daruma.Infrastructure.Storages
         public async Task<bool> Add(DarumaDomain daruma)
         {
             var darumaJSON = await JsonConvert.SerializeObjectAsync(daruma);
-
-
+            
             var folder = await GetFolderAsync();
             var file = await folder.CreateFileAsync(daruma.Id.ToString(), CreationCollisionOption.FailIfExists);
+            return await WriteFile(file, darumaJSON);
+        }
+
+        private async Task<bool> WriteFile(StorageFile file, string darumaJSON)
+        {
             using (Stream stream = await file.OpenStreamForWriteAsync())
             {
                 byte[] content = Encoding.UTF8.GetBytes(darumaJSON);
@@ -65,12 +69,25 @@ namespace Daruma.Infrastructure.Storages
                 darumaList.Add(objDaruma);
             }
 
+            //May by need move order logic to the service 
             return darumaList.OrderBy(d => d.CreateDate);
         }
 
-        public void Update(DarumaDomain daruma)
+        public async Task<bool> Update(DarumaDomain daruma)
         {
-            throw new NotImplementedException();
+            var darumaJSON = await JsonConvert.SerializeObjectAsync(daruma);
+
+            var folder = await GetFolderAsync();
+            if (folder != null)
+            {
+                var file = await folder.GetFileAsync(daruma.Id.ToString());
+                if (file != null)
+                {
+                    return await WriteFile(file, darumaJSON);
+                }
+            }
+
+            return false;
         }
 
         private async Task<DarumaDomain> DeserializeObject(StorageFile storageFile)

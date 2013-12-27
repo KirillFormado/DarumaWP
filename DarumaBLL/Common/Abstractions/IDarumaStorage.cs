@@ -11,7 +11,7 @@ namespace DarumaBLL.Common.Abstractions
         Task<DarumaDomain> GetById(Guid id);
         IEnumerable<DarumaDomain> GetByStatus(DarumaStatus status);
         Task<IEnumerable<DarumaDomain>> ListAll();
-        void Update(DarumaDomain daruma);
+        Task<bool> Update(DarumaDomain daruma);
         Task<bool> Delete(Guid id);
     }
 }

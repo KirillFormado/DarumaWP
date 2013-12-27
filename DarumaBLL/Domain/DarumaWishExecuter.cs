@@ -1,14 +1,17 @@
 ﻿using DarumaBLL.Common.Abstractions;
+using DarumaBLL.Helpers;
 
 namespace DarumaBLL.Domain
 {
     public class DarumaWishExecuter
     {
         private IDarumaStorage _storage;
+        private IDarumaImageUriResolver _urlResolver;
 
-        public DarumaWishExecuter(IDarumaStorage storage)
+        public DarumaWishExecuter(IDarumaStorage storage, IDarumaImageUriResolver urlResolver)
         {
             _storage = storage;
+            _urlResolver = urlResolver;
         }
 
         public bool TryExecuteWish(DarumaDomain daruma)
@@ -16,7 +19,8 @@ namespace DarumaBLL.Domain
             if (daruma.Status != DarumaStatus.MakedWish)
                 return false;
 
-            daruma.Status = DarumaStatus.ExecutedWish;
+            var facade = new DarumaChangeStatusFacade(_urlResolver);
+            facade.ChangeStatus(daruma, DarumaStatus.ExecutedWish);
 
             _storage.Update(daruma);
 

@@ -39,7 +39,9 @@ namespace Daruma.ViewModels
             _darumaStorage = IoCContainter.Get<IDarumaStorage>();
             _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>>
             {
-                {DarumaStatus.MakedWish, new ObservableCollection<DarumaDomain>()}
+                {DarumaStatus.MakedWish, new ObservableCollection<DarumaDomain>()},
+                {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaDomain>()},
+                {DarumaStatus.TimeExpired, new ObservableCollection<DarumaDomain>()},
             };
             LoadDaruma();            
         }
@@ -48,7 +50,9 @@ namespace Daruma.ViewModels
         private async void LoadDaruma()
         {
             var darumaList = //FakeDarumaSourse(); 
-                await _darumaStorage.ListAll(); 
+                await _darumaStorage.ListAll();
+            var expiredHandler = new DarumaWishExpiredHandler(_darumaStorage, new DarumaImageUriResolver());
+            expiredHandler.CheckExpiredStatus(darumaList);
             var lookup = darumaList.ToLookup(d => d.Status);
 
             var orderList = GetOrderList();
