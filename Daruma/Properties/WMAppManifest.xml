@@ -20,6 +20,9 @@
     </Capabilities>
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="Views/MainView.xaml" />
+      <ExtendedTask Name="ScheduledAgent">
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="ScheduledAgent" Source="DarumaTileUpdatePeriodicAgent" Type="DarumaTileUpdatePeriodicAgent.ScheduledAgent"/>
+      </ExtendedTask>
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="DarumaToken" TaskName="_default">

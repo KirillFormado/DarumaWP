@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daruma", "Daruma\Daruma.csproj", "{5D9DE006-3C7E-4A31-9F94-7102030C2C33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarumaBLL", "DarumaBLL\DarumaBLL.csproj", "{93C30AF6-BF25-4E56-A288-675FD06A065E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotationGenerator", "QuotationGenerator\QuotationGenerator.csproj", "{A5CDF59D-F846-4BC3-ACCB-611C053DAE75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarumaTileUpdatePeriodicAgent", "DarumaTileUpdatePeriodicAgent\DarumaTileUpdatePeriodicAgent.csproj", "{545FBE58-E84B-4689-9D10-AA61BF51D70E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +81,24 @@ Global
 		{A5CDF59D-F846-4BC3-ACCB-611C053DAE75}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A5CDF59D-F846-4BC3-ACCB-611C053DAE75}.Release|x64.ActiveCfg = Release|Any CPU
 		{A5CDF59D-F846-4BC3-ACCB-611C053DAE75}.Release|x86.ActiveCfg = Release|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|ARM.Build.0 = Debug|ARM
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|x86.ActiveCfg = Debug|x86
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Debug|x86.Build.0 = Debug|x86
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|ARM.ActiveCfg = Release|ARM
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|ARM.Build.0 = Release|ARM
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|x64.ActiveCfg = Release|Any CPU
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|x86.ActiveCfg = Release|x86
+		{545FBE58-E84B-4689-9D10-AA61BF51D70E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

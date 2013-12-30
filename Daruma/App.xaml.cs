@@ -1,10 +1,13 @@
-﻿using System;
+﻿#define DEBUG_AGENT
+
+using System;
 using System.Diagnostics;
 using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
+using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
 using Daruma.Resources;
 
@@ -56,10 +59,52 @@ namespace Daruma
             }
         }
 
+        private void InitTileUpdateTask()
+        {
+            const string taskName = "ScheduledAgent";
+
+            TryRemoveTask(taskName);
+            var action = new PeriodicTask(taskName)
+            {
+                Description = "Some description"
+            };
+            try
+            {
+                ScheduledActionService.Add(action);
+                #if DEBUG_AGENT
+                    ScheduledActionService.LaunchForTest(taskName, TimeSpan.FromSeconds(10));
+                #endif
+            }
+            catch (InvalidOperationException exception)
+            {
+                TryRemoveTask(taskName);
+            }
+            catch (SchedulerServiceException)
+            {
+                TryRemoveTask(taskName);
+            }
+        }
+
+        private void TryRemoveTask(string taskName)
+        {
+            if (ScheduledActionService.Find(taskName) != null)
+            {
+                try
+                {
+                    ScheduledActionService.Remove(taskName);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("невозможно удалить");
+                }
+            }
+        }
+
         // Code to execute when the application is launching (eg, from Start)
         // This code will not execute when the application is reactivated
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
+            InitTileUpdateTask();
             Console.Write("");
         }
 
@@ -67,6 +112,7 @@ namespace Daruma
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            InitTileUpdateTask();
             Console.Write("");
         }
 
