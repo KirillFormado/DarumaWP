@@ -1,6 +1,6 @@
 ﻿using Daruma.Resources;
 
-namespace Daruma.Infrastructure
+namespace Daruma.Infrastructure.Localization
 {
     /// <summary>
     /// Provides access to string resources.

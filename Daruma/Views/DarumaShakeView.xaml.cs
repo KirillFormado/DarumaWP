@@ -1,12 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
+using Daruma.Infrastructure.Localization;
 using Daruma.Infrastructure.Storages;
 using Daruma.Resources;
 using DarumaBLL.Common.Abstractions;
@@ -14,7 +13,6 @@ using DarumaBLL.Domain;
 using Microsoft.Phone.Controls;
 using DarumaBLL.RandomCitationUseCase;
 using Microsoft.Phone.Shell;
-using Daruma.Infrastructure;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
@@ -36,6 +34,8 @@ namespace Daruma.Views
             //TODO: fill info from Daruma to page, now only Image update
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
             _daruma = await _darumaStorage.GetById(id);
+
+            DataContext = _daruma;
 
             SetPinBar(NavigationService.Source.ToString());
             
@@ -133,10 +133,12 @@ namespace Daruma.Views
         private void CreateTile(string url)
         {
             var tileIconUrl = new Uri(TilesUrlRouter.DarumaSecondaryTileImageUrl, UriKind.Relative);
+            var tiitleTheme = new DarumaWishThemeToLocalizationString().GetLocalizationByTheme(_daruma.Theme);
 
             var tileData = new StandardTileData()
             {
-                Title = _daruma.Wish,
+                Title = tiitleTheme,
+                BackTitle = _daruma.Wish,
                 BackContent = GetCitationSourse(),
                 BackgroundImage = tileIconUrl
             };

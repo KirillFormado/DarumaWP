@@ -100,6 +100,7 @@
     <Compile Include="Infrastructure\DarumaImageUriResolver.cs" />
     <Compile Include="Infrastructure\Converters\DarumsIdToUrlConverter.cs" />
     <Compile Include="Infrastructure\IoCContainter.cs" />
+    <Compile Include="Infrastructure\Localization\DarumaWishThemeToLocalizationString.cs" />
     <Compile Include="Infrastructure\Routers.cs" />
     <Compile Include="Infrastructure\Storages\DarumaStorage.cs" />
     <Compile Include="Infrastructure\Storages\LocalizationResourseStorage.cs" />
@@ -151,7 +152,7 @@
     <Compile Include="Views\DarumaShakeView.xaml.cs">
       <DependentUpon>DarumaShakeView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Infrastructure\LocalizedStrings.cs" />
+    <Compile Include="Infrastructure\Localization\LocalizedStrings.cs" />
     <Compile Include="Views\InfoDarumaView.xaml.cs">
       <DependentUpon>InfoDarumaView.xaml</DependentUpon>
     </Compile>

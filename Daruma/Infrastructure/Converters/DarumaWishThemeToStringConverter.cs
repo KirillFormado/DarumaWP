@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Daruma.Resources;
+﻿using Daruma.Infrastructure.Localization;
 using DarumaBLL.Domain;
 
 namespace Daruma.Infrastructure.Converters
@@ -8,15 +7,7 @@ namespace Daruma.Infrastructure.Converters
     {
         public DarumaWishThemeToStringConverter()
         {
-            _dict = new Dictionary<DarumaWishTheme, string>
-            {
-                {DarumaWishTheme.Friendship, AppResources.Friendship},
-                {DarumaWishTheme.Funny, AppResources.Funny},
-                {DarumaWishTheme.Health, AppResources.Health},
-                {DarumaWishTheme.Love, AppResources.Love},
-                {DarumaWishTheme.Luck, AppResources.Luck},
-                {DarumaWishTheme.Rich, AppResources.Rich}
-            };
+            _dict = new DarumaWishThemeToLocalizationString().Dictionary;
         }
     }
 }
