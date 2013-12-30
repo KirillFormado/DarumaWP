@@ -27,7 +27,7 @@ namespace DarumaBLL.Domain
             {
                 var currentDate = DateTime.Now;
                 var createDate = daruma.CreateDate;
-                if (createDate.AddYears(1) > currentDate)
+                if (createDate.AddYears(1) < currentDate && daruma.Status != DarumaStatus.ExecutedWish)
                 {
                     facade.ChangeStatus(daruma, DarumaStatus.TimeExpired);
                     _storage.Update(daruma);
