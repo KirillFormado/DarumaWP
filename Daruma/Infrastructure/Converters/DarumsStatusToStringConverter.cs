@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
-using Daruma.Resources;
-using DarumaBLL.Domain;
+using DarumaBLLPortable.Domain;
+using DarumaResourcesPortable.Resources;
 
 namespace Daruma.Infrastructure.Converters
 {

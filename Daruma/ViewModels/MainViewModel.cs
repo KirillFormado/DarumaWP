@@ -4,10 +4,10 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using Daruma.Annotations;
 using Daruma.Infrastructure;
-using DarumaBLL.Common.Abstractions;
-using DarumaBLL.Domain;
+using Daruma.Properties;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
 
 namespace Daruma.ViewModels
 {

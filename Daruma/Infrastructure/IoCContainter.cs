@@ -1,5 +1,7 @@
-﻿using Daruma.Infrastructure.Storages;
-using DarumaBLL.Common.Abstractions;
+﻿using DarumaBLLPortable.Common.Abstractions;
+using DarumaDAL.WP;
+using DarumaDAL.WP.Abstraction;
+using DarumaDAL.WP.Storages;
 using Ninject;
 
 namespace Daruma.Infrastructure
@@ -13,6 +15,7 @@ namespace Daruma.Infrastructure
             Kernel.Bind<IDarumaStorage>().To<DarumaStorage>();
             Kernel.Bind<ISettingsStorage>().To<SettingsStorage>();
             Kernel.Bind<IDarumaImageUriResolver>().To<DarumaImageUriResolver>();
+            Kernel.Bind<IQuotationSource>().To<QuotationSource>();
         }
 
         public static T Get<T>()

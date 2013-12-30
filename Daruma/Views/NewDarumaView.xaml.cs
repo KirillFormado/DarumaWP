@@ -2,10 +2,12 @@
 using System.Windows;
 using System.Windows.Media.Imaging;
 using Daruma.Infrastructure;
-using Daruma.Resources;
 using Daruma.ViewModels;
-using DarumaBLL.Common.Abstractions;
-using DarumaBLL.Domain;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
+using DarumaResourcesPortable.Resources;
 using Microsoft.Phone.Controls;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 

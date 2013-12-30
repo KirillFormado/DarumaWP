@@ -1,5 +1,5 @@
-﻿using Daruma.Infrastructure.Localization;
-using DarumaBLL.Domain;
+﻿using DarumaBLLPortable.Domain;
+using DarumaResourcesPortable.Infrastructure;
 
 namespace Daruma.Infrastructure.Converters
 {

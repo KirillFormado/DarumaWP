@@ -1,17 +1,18 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
-using Daruma.Infrastructure.Localization;
-using Daruma.Infrastructure.Storages;
-using Daruma.Resources;
-using DarumaBLL.Common.Abstractions;
-using DarumaBLL.Domain;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
+using DarumaDAL.WP.Abstraction;
+using DarumaResourcesPortable.Infrastructure;
+using DarumaResourcesPortable.Resources;
 using Microsoft.Phone.Controls;
-using DarumaBLL.RandomCitationUseCase;
+using Microsoft.Phone.Info;
 using Microsoft.Phone.Shell;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
@@ -20,12 +21,14 @@ namespace Daruma.Views
     public partial class DarumaShakeView : PhoneApplicationPage
     {
         private IDarumaStorage _darumaStorage;
+        private IQuotationSource _quotationSource;
         private DarumaDomain _daruma;
 
         public DarumaShakeView()
         {
             InitializeComponent();
             _darumaStorage = IoCContainter.Get<IDarumaStorage>();
+            _quotationSource = IoCContainter.Get<IQuotationSource>();
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
@@ -66,7 +69,7 @@ namespace Daruma.Views
 
             CitationTextBlock.Visibility = Visibility.Visible;
             CitationTextBlock.Opacity = 0;
-            CitationTextBlock.Text = GetCitationSourse();
+            CitationTextBlock.Text = _quotationSource.GetCitationSourse(_daruma.Theme);
             FadeInAnimation.Begin();
         }
 
@@ -74,14 +77,6 @@ namespace Daruma.Views
         {
             var position = e.GetPosition(ContentPanel);
             return position.X;
-        }
-
-        private string GetCitationSourse()
-        {
-            var resourseStorage = new LocalizationResourseStorage();
-            var resourceSet = resourseStorage.GetByDarumsWishTheme(_daruma.Theme);
-            var quaotation = new RandomCitationResolver(resourceSet).RenturnRandomCitation();
-            return quaotation;
         }
 
         private void CitationTextBlock_OnTap(object sender, GestureEventArgs e)
@@ -139,7 +134,7 @@ namespace Daruma.Views
             {
                 Title = tiitleTheme,
                 BackTitle = _daruma.Wish,
-                BackContent = GetCitationSourse(),
+                BackContent = _quotationSource.GetCitationSourse(_daruma.Theme),
                 BackgroundImage = tileIconUrl
             };
 

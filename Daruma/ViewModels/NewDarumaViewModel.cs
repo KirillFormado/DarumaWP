@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using DarumaBLL.Domain;
+using DarumaBLLPortable.Domain;
 
 namespace Daruma.ViewModels
 {

@@ -3,12 +3,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:infr="clr-namespace:Daruma.Infrastructure"
-    xmlns:localization="clr-namespace:Daruma.Infrastructure.Localization"
+    xmlns:infrastructure="clr-namespace:DarumaResourcesPortable.Infrastructure;assembly=DarumaResourcesPortable"
     x:Class="Daruma.App">
 
     <!--Application Resources-->
     <Application.Resources>
-        <localization:LocalizedStrings  x:Key="LocalizedStrings"/>
+        <infrastructure:LocalizedStrings  x:Key="LocalizedStrings"/>
         
         <infr:ImageUrlRouter x:Key="ImageUrlRouter"/>
         <infr:IconsUrlRouter x:Key="IconsUrlRouter"/>

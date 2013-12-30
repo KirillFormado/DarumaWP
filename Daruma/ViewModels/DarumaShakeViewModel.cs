@@ -5,9 +5,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using Daruma.Annotations;
-using DarumaBLL.Common.Abstractions;
-using DarumaBLL.Domain;
+using Daruma.Properties;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
 
 namespace Daruma.ViewModels
 {

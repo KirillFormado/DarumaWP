@@ -5,20 +5,19 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{545FBE58-E84B-4689-9D10-AA61BF51D70E}</ProjectGuid>
+    <ProjectGuid>{6DD0E516-6252-4507-AA39-E62725EB0E87}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DarumaTileUpdatePeriodicAgent</RootNamespace>
-    <AssemblyName>DarumaTileUpdatePeriodicAgent</AssemblyName>
+    <RootNamespace>DarumaDAL.WP</RootNamespace>
+    <AssemblyName>DarumaDAL.WP</AssemblyName>
     <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <SilverlightApplication>false</SilverlightApplication>
     <ValidateXaml>true</ValidateXaml>
-    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
-    <BackgroundAgentType>AgentLibrary</BackgroundAgentType>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,18 +83,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ScheduledAgent.cs" />
+    <Compile Include="Abstraction\IQuotationSource.cs" />
+    <Compile Include="Storages\DarumaStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuotationSource.cs" />
+    <Compile Include="Storages\SettingsStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DarumaBLLPortable\DarumaBLLPortable.csproj">
       <Project>{529E8050-993E-45DC-B510-F7E64058A126}</Project>
       <Name>DarumaBLLPortable</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DarumaDAL.WP\DarumaDAL.WP.csproj">
-      <Project>{6DD0E516-6252-4507-AA39-E62725EB0E87}</Project>
-      <Name>DarumaDAL.WP</Name>
+    <ProjectReference Include="..\DarumaResourcesPortable\DarumaResourcesPortable.csproj">
+      <Project>{25555243-35EC-4105-888F-7D53716F82E4}</Project>
+      <Name>DarumaResourcesPortable</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\portable-net45+wp80+win8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

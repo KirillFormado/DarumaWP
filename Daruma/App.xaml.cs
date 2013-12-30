@@ -2,14 +2,14 @@
 
 using System;
 using System.Diagnostics;
-using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
+using DarumaResourcesPortable.Resources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
-using Daruma.Resources;
+
 
 namespace Daruma
 {
@@ -93,9 +93,9 @@ namespace Daruma
                 {
                     ScheduledActionService.Remove(taskName);
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-                    MessageBox.Show("невозможно удалить");
+                    MessageBox.Show(e.Message);
                 }
             }
         }

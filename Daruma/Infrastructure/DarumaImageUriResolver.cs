@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using DarumaBLL.Common.Abstractions;
-using DarumaBLL.Domain;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
 
 namespace Daruma.Infrastructure
 {

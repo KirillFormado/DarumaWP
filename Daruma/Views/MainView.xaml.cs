@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
 using Daruma.ViewModels;
-using DarumaBLL.Common.Abstractions;
-using DarumaBLL.Domain;
-using DarumaBLL.FirstStartUseCase;
+using DarumaBLLPortable.Common.Abstractions;
+using DarumaBLLPortable.Domain;
 using Microsoft.Phone.Controls;
 
 namespace Daruma.Views
