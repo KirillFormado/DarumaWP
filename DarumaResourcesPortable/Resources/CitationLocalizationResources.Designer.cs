@@ -62,74 +62,119 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to aaa.
+        ///   Looks up a localized string similar to Обходя разложенные грабли - ты теряешь драгоценный опыт!.
         /// </summary>
-        public static string aaa {
+        public static string Funy_0 {
             get {
-                return ResourceManager.GetString("aaa", resourceCulture);
+                return ResourceManager.GetString("Funy_0", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to bbb.
+        ///   Looks up a localized string similar to Жизнь удалась, если коньяк, который мы пьем, старше женщин, с которыми мы спим..
         /// </summary>
-        public static string bbb {
+        public static string Funy_1 {
             get {
-                return ResourceManager.GetString("bbb", resourceCulture);
+                return ResourceManager.GetString("Funy_1", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ccc.
+        ///   Looks up a localized string similar to Если ты хочешь выйти замуж за умного, красивого и богатого, придется выходить замуж три раза..
         /// </summary>
-        public static string ccc {
+        public static string Funy_10 {
             get {
-                return ResourceManager.GetString("ccc", resourceCulture);
+                return ResourceManager.GetString("Funy_10", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  some citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Мужчине достаточно быть чуть красивее обезьяны..
         /// </summary>
-        public static string Citaion1 {
+        public static string Funy_11 {
             get {
-                return ResourceManager.GetString("Citaion1", resourceCulture);
+                return ResourceManager.GetString("Funy_11", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ddd.
+        ///   Looks up a localized string similar to Шутки шутками, но могут быть и дети..
         /// </summary>
-        public static string ddd {
+        public static string Funy_12 {
             get {
-                return ResourceManager.GetString("ddd", resourceCulture);
+                return ResourceManager.GetString("Funy_12", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to eee.
+        ///   Looks up a localized string similar to Умна та женщина, в обществе которой можно вести себя как угодно глупо..
         /// </summary>
-        public static string eee {
+        public static string Funy_2 {
             get {
-                return ResourceManager.GetString("eee", resourceCulture);
+                return ResourceManager.GetString("Funy_2", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to fff.
+        ///   Looks up a localized string similar to Одиночество - это когда ты всегда знаешь, где лежат твои вещи..
         /// </summary>
-        public static string fff {
+        public static string Funy_3 {
             get {
-                return ResourceManager.GetString("fff", resourceCulture);
+                return ResourceManager.GetString("Funy_3", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ggg.
+        ///   Looks up a localized string similar to Второй брак - это победа надежды над здравым смыслом..
         /// </summary>
-        public static string ggg {
+        public static string Funy_4 {
             get {
-                return ResourceManager.GetString("ggg", resourceCulture);
+                return ResourceManager.GetString("Funy_4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ничего страшного если над тобой смеются... Гораздо хуже, когда над тобой плачут....
+        /// </summary>
+        public static string Funy_5 {
+            get {
+                return ResourceManager.GetString("Funy_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Утро - это такая часть суток, когда завидуешь безработным....
+        /// </summary>
+        public static string Funy_6 {
+            get {
+                return ResourceManager.GetString("Funy_6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Детская мудрость: если мама смеется над остротами папы, значит, в доме гости..
+        /// </summary>
+        public static string Funy_7 {
+            get {
+                return ResourceManager.GetString("Funy_7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Если женщина вас обманывает, значит, вы ей небезразличны.
+        /// </summary>
+        public static string Funy_8 {
+            get {
+                return ResourceManager.GetString("Funy_8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Девушки бывают или умные, или красивые..
+        /// </summary>
+        public static string Funy_9 {
+            get {
+                return ResourceManager.GetString("Funy_9", resourceCulture);
             }
         }
     }

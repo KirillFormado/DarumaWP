@@ -62,7 +62,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Add.
+        ///   Looks up a localized string similar to Добавить.
         /// </summary>
         public static string Add {
             get {
@@ -71,7 +71,8 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Daruma doll (達磨 daruma?), also known as a Dharma doll, is a hollow, round, Japanese traditional doll modeled after Bodhidharma, the founder of the Zen sect of Buddhism. These dolls, though typically red and depicting a bearded man (Dharma), vary greatly in color and design depending on region and artist. Though considered an omocha, meaning toy, Daruma has a design that is rich in symbolism and is regarded more as a talisman of good luck to the Japanese. Daruma dolls are seen as a symbol of perseverance [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Дарума (яп. だるま или 達磨) — японская традиционная кукла-неваляшка, олицетворяющая Бодхидхарму, в японской синкретической мифологии — божество, приносящее счастье. Кукла делается из дерева, папье-маше или бумаги и не имеет рук и ног: по легенде после девяти лет медитации у Бодхидхармы атрофировались конечности. Кукла обычно бывает окрашена в красный или, реже в зелёный, жёлтый или белый цвета. На ней изображается борода и усы, но глаза рисуются без зрачков.
+        ///Дарума (Бодайдарума) — японское произношение имени Б [rest of string was truncated]&quot;;.
         /// </summary>
         public static string DarumaInfo {
             get {
@@ -80,7 +81,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Delete.
+        ///   Looks up a localized string similar to Сжечь.
         /// </summary>
         public static string Delete {
             get {
@@ -89,7 +90,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty.
+        ///   Looks up a localized string similar to Пустые.
         /// </summary>
         public static string Empty {
             get {
@@ -98,7 +99,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Empty.
+        ///   Looks up a localized string similar to Пусто.
         /// </summary>
         public static string EmptyWishTextBox {
             get {
@@ -107,7 +108,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Executed.
+        ///   Looks up a localized string similar to Исполненные.
         /// </summary>
         public static string Executed {
             get {
@@ -116,7 +117,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Expired.
+        ///   Looks up a localized string similar to Истекшие.
         /// </summary>
         public static string Expired {
             get {
@@ -125,7 +126,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Friendship.
+        ///   Looks up a localized string similar to Дружба.
         /// </summary>
         public static string Friendship {
             get {
@@ -134,7 +135,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Funny.
+        ///   Looks up a localized string similar to Смешное.
         /// </summary>
         public static string Funny {
             get {
@@ -143,7 +144,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Health.
+        ///   Looks up a localized string similar to Здоровье.
         /// </summary>
         public static string Health {
             get {
@@ -152,7 +153,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Info.
+        ///   Looks up a localized string similar to Инфо.
         /// </summary>
         public static string Info {
             get {
@@ -161,7 +162,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Love.
+        ///   Looks up a localized string similar to Любовь.
         /// </summary>
         public static string Love {
             get {
@@ -170,7 +171,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Luck.
+        ///   Looks up a localized string similar to Удача.
         /// </summary>
         public static string Luck {
             get {
@@ -179,7 +180,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Maked.
+        ///   Looks up a localized string similar to Загаданные.
         /// </summary>
         public static string Maked {
             get {
@@ -188,7 +189,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pin.
+        ///   Looks up a localized string similar to Закрепить.
         /// </summary>
         public static string Pin {
             get {
@@ -206,7 +207,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to en-US.
+        ///   Looks up a localized string similar to ru-RU.
         /// </summary>
         public static string ResourceLanguage {
             get {
@@ -215,7 +216,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rich.
+        ///   Looks up a localized string similar to Богатство.
         /// </summary>
         public static string Rich {
             get {
@@ -224,7 +225,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To Main.
+        ///   Looks up a localized string similar to К списку.
         /// </summary>
         public static string ToMainView {
             get {
@@ -233,7 +234,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unpin.
+        ///   Looks up a localized string similar to Открепить.
         /// </summary>
         public static string Unpin {
             get {
@@ -242,7 +243,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wish.
+        ///   Looks up a localized string similar to Загадать.
         /// </summary>
         public static string WishButton {
             get {

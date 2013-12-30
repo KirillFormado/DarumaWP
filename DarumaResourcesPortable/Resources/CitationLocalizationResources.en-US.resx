@@ -117,70 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ResourceFlowDirection" xml:space="preserve">
-    <value>LeftToRight</value>
-    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  <data name="aaa" xml:space="preserve">
+    <value>aaa</value>
   </data>
-  <data name="ResourceLanguage" xml:space="preserve">
-    <value>ru-RU</value>
-    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  <data name="bbb" xml:space="preserve">
+    <value>bbb</value>
   </data>
-  <data name="DarumaInfo" xml:space="preserve">
-    <value>Дарума (яп. だるま или 達磨) — японская традиционная кукла-неваляшка, олицетворяющая Бодхидхарму, в японской синкретической мифологии — божество, приносящее счастье. Кукла делается из дерева, папье-маше или бумаги и не имеет рук и ног: по легенде после девяти лет медитации у Бодхидхармы атрофировались конечности. Кукла обычно бывает окрашена в красный или, реже в зелёный, жёлтый или белый цвета. На ней изображается борода и усы, но глаза рисуются без зрачков.
-Дарума (Бодайдарума) — японское произношение имени Бодхидхармы (?-528), основателя буддийской школы чань (дзэн). В 510-е годы он отправился в Китай, где основал во владении государя У-ди (502—556) из династии Лян, в горах Суньшань монастырь Шаолинь. В этом монастыре, по преданию, в течение девяти лет он предавался медитации, созерцая стену. С этим связано много общеизвестных историй про чай из оторванных в гневе век Бодхидхармы и про комплекс гимнастики архатов, разработанный чтобы выйти из многолетней медитации, так как отказали ноги.</value>
+  <data name="ccc" xml:space="preserve">
+    <value>ccc</value>
   </data>
-  <data name="EmptyWishTextBox" xml:space="preserve">
-    <value>Пусто</value>
+  <data name="Citaion1" xml:space="preserve">
+    <value> some citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citationsome citation</value>
   </data>
-  <data name="WishButton" xml:space="preserve">
-    <value>Загадать</value>
+  <data name="ddd" xml:space="preserve">
+    <value>ddd</value>
   </data>
-  <data name="Empty" xml:space="preserve">
-    <value>Пустые</value>
+  <data name="eee" xml:space="preserve">
+    <value>eee</value>
   </data>
-  <data name="Executed" xml:space="preserve">
-    <value>Исполненные</value>
+  <data name="fff" xml:space="preserve">
+    <value>fff</value>
   </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Истекшие</value>
-  </data>
-  <data name="Maked" xml:space="preserve">
-    <value>Загаданные</value>
-  </data>
-  <data name="Friendship" xml:space="preserve">
-    <value>Дружба</value>
-  </data>
-  <data name="Funny" xml:space="preserve">
-    <value>Смешное</value>
-  </data>
-  <data name="Health" xml:space="preserve">
-    <value>Здоровье</value>
-  </data>
-  <data name="Love" xml:space="preserve">
-    <value>Любовь</value>
-  </data>
-  <data name="Luck" xml:space="preserve">
-    <value>Удача</value>
-  </data>
-  <data name="Rich" xml:space="preserve">
-    <value>Богатство</value>
-  </data>
-  <data name="Add" xml:space="preserve">
-    <value>Добавить</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Сжечь</value>
-  </data>
-  <data name="Info" xml:space="preserve">
-    <value>Инфо</value>
-  </data>
-  <data name="ToMainView" xml:space="preserve">
-    <value>К списку</value>
-  </data>
-  <data name="Pin" xml:space="preserve">
-    <value>Закрепить</value>
-  </data>
-  <data name="Unpin" xml:space="preserve">
-    <value>Открепить</value>
+  <data name="ggg" xml:space="preserve">
+    <value>ggg</value>
   </data>
 </root>
