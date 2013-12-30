@@ -214,10 +214,6 @@
     <Content Include="Assets\Tiles\DarumaSecondaryTile.png" />
     <Content Include="Assets\Tiles\darumaTile.png" />
     <Content Include="SplashScreenImage.jpg" />
-    <Content Include="Assets\Tiles\darumaTileLarge.png" />
-    <Content Include="Assets\darumaAppIcon.png" />
-    <Content Include="Assets\Tiles\darumaTileMedium.png" />
-    <Content Include="Assets\Tiles\darumaTileSmall.png" />
     <Content Include="README_FIRST.txt" />
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
