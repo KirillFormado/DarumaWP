@@ -8,9 +8,8 @@ namespace Daruma.Infrastructure.Converters
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            var url = string.Format("{0}?id={1}",
-                ViewUrlRouter.DarumaShakeViewUrl,
-                value);
+            var guid = Guid.Parse(value.ToString());
+            var url = ViewUrlRouter.DarumaShakeViewByIdUrl(guid);
             return url;
         }
 

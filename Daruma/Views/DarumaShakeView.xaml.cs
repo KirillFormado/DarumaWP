@@ -1,5 +1,7 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Globalization;
+using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
@@ -11,6 +13,8 @@ using DarumaBLL.Common.Abstractions;
 using DarumaBLL.Domain;
 using Microsoft.Phone.Controls;
 using DarumaBLL.RandomCitationUseCase;
+using Microsoft.Phone.Shell;
+using Daruma.Infrastructure;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
@@ -32,8 +36,16 @@ namespace Daruma.Views
             //TODO: fill info from Daruma to page, now only Image update
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
             _daruma = await _darumaStorage.GetById(id);
+
+            SetPinBar(NavigationService.Source.ToString());
             
             base.OnNavigatedTo(e);
+        }
+
+        protected override void OnBackKeyPress(CancelEventArgs e)
+        {
+            NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+            base.OnBackKeyPress(e);
         }
 
         private double _prevX;
@@ -82,6 +94,68 @@ namespace Daruma.Views
             //TODO: for ViewModel support move this code to separate method
             await _darumaStorage.Delete(_daruma.Id);
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+        }
+
+        private void PinUnpin_OnClick(object sender, EventArgs e)
+        {
+            var url = ViewUrlRouter.DarumaShakeViewByIdUrl(_daruma.Id);
+
+            if (IsTilePinned(url))
+            {
+                DeleteTile(url);
+            }
+            else
+            {
+                CreateTile(url);
+            }
+
+            SetPinBar(url);
+        }
+
+        private ShellTile GetTile(string url)
+        {
+            var tile = ShellTile.ActiveTiles.FirstOrDefault(sh => sh.NavigationUri.ToString() == url);
+            return tile;
+        }
+
+        private bool IsTilePinned(string url)
+        {
+            var tile = GetTile(url);
+            return tile != null;
+        }
+
+        private void DeleteTile(string url)
+        {
+            var tile = GetTile(url);
+            tile.Delete();
+        }
+
+        private void CreateTile(string url)
+        {
+            var tileIconUrl = new Uri(TilesUrlRouter.DarumaSecondaryTileImageUrl, UriKind.Relative);
+
+            var tileData = new StandardTileData()
+            {
+                Title = _daruma.Wish,
+                BackContent = GetCitationSourse(),
+                BackgroundImage = tileIconUrl
+            };
+
+            ShellTile.Create(new Uri(url, UriKind.Relative), tileData);
+        }
+
+        private void SetPinBar(string url)
+        {
+            if (IsTilePinned(url))
+            {
+                PinUnpinButton.Text = AppResources.Unpin;
+                PinUnpinButton.IconUri = new Uri(IconsUrlRouter.UnpinIconUrl, UriKind.Relative);
+            }
+            else
+            {
+                PinUnpinButton.Text = AppResources.Pin;
+                PinUnpinButton.IconUri = new Uri(IconsUrlRouter.PinIconUrl, UriKind.Relative);
+            }
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace Daruma.Infrastructure
+﻿using System;
+
+namespace Daruma.Infrastructure
 {
     public class ViewUrlRouter
     {
@@ -12,6 +14,11 @@
         public static string DarumaShakeViewUrl
         {
             get { return RouteToViews + "DarumaShakeView.xaml"; }
+        }
+
+        public static string DarumaShakeViewByIdUrl(Guid id)
+        {
+            return string.Format("{0}?id={1}", DarumaShakeViewUrl, id);
         }
 
         public static string NewDarumaViewUrl
@@ -50,6 +57,15 @@
         }
     }
 
+    public class TilesUrlRouter
+    {
+        private const string RouteToTile = "/Assets/Tiles/";
+        public static string DarumaSecondaryTileImageUrl
+        {
+            get { return RouteToTile + "DarumaSecondaryTile.png"; }
+        }
+    }
+
     public class IconsUrlRouter
     {
         private const string RouteToIcons = "/Assets/Icons/";
@@ -57,6 +73,16 @@
         public static string AddIconUrl
         {
             get { return RouteToIcons + "add.png"; }
+        }
+        
+        public static string PinIconUrl
+        {
+            get { return RouteToIcons + "pin.png"; }
+        }  
+        
+        public static string UnpinIconUrl
+        {
+            get { return RouteToIcons + "unpin.png"; }
         }
 
         public static string BackIconUrl

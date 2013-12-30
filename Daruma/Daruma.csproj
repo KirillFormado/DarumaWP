@@ -201,6 +201,8 @@
   <ItemGroup>
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\Icons\add.png" />
+    <Content Include="Assets\Icons\pin.png" />
+    <Content Include="Assets\Icons\unpin.png" />
     <Content Include="Assets\Icons\back.png" />
     <Content Include="Assets\Icons\check.png" />
     <Content Include="Assets\Icons\delete.png" />
@@ -209,23 +211,10 @@
     <Content Include="Assets\Images\NewDaruma.png" />
     <Content Include="Assets\Images\ResolvedDaruma.png" />
     <Content Include="Assets\Images\WishedDaruma.png" />
+    <Content Include="Assets\Tiles\DarumaSecondaryTile.png" />
+    <Content Include="Assets\Tiles\darumaTile.png" />
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="Assets\Tiles\darumaTileLarge.png" />
-    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Tiles\IconicTileSmall.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\darumaAppIcon.png" />
     <Content Include="Assets\Tiles\darumaTileMedium.png" />
     <Content Include="Assets\Tiles\darumaTileSmall.png" />

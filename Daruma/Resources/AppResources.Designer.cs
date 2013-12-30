@@ -187,6 +187,15 @@ namespace Daruma.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pin.
+        /// </summary>
+        public static string Pin {
+            get {
+                return ResourceManager.GetString("Pin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
@@ -219,6 +228,15 @@ namespace Daruma.Resources {
         public static string ToMainView {
             get {
                 return ResourceManager.GetString("ToMainView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unpin.
+        /// </summary>
+        public static string Unpin {
+            get {
+                return ResourceManager.GetString("Unpin", resourceCulture);
             }
         }
         

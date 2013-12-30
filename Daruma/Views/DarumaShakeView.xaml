@@ -25,7 +25,12 @@
             <wpe:AdvancedApplicationBarIconButton 
                     Text="{Binding Path=LocalizedResources.Delete, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=DeleteIconUrl}"
-                    Click="Delete_OnClick"/>
+                    Click="Delete_OnClick"/>    
+            <wpe:AdvancedApplicationBarIconButton 
+                    x:Name="PinUnpinButton"
+                    Text="{Binding Path=LocalizedResources.Pin, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=PinIconUrl}"
+                    Click="PinUnpin_OnClick"/>
         </wpe:AdvancedApplicationBar>
 
         <!--TitlePanel contains the name of the application and page title-->
