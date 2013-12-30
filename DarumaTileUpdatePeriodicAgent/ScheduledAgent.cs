@@ -1,6 +1,14 @@
-﻿using System;
+﻿#define DEBUG_AGENT
+using System;
 using System.Diagnostics;
+using System.Linq;
+using System.Net;
+using System.Resources;
 using System.Windows;
+using System.Windows.Navigation;
+using DarumaBLLPortable.Domain;
+using DarumaDAL.WP;
+using DarumaDAL.WP.Storages;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
 
@@ -40,18 +48,42 @@ namespace DarumaTileUpdatePeriodicAgent
         /// <remarks>
         /// This method is called when a periodic or resource intensive task is invoked
         /// </remarks>
-        protected override void OnInvoke(ScheduledTask task)
+        protected async override void OnInvoke(ScheduledTask task)
         {
-            var tiles = ShellTile.ActiveTiles;
-            foreach (var shellTile in tiles)
+            var quotationSource = new QuotationSource();
+            var storage = new DarumaStorage();
+            var appTile = ShellTile.ActiveTiles.FirstOrDefault();
+            if (appTile != null)
             {
-                var data = new StandardTileData
+                var tileData = new StandardTileData()
                 {
-                    Title = "Test Agent222"
+                    BackContent = quotationSource.GetCitationSourse(DarumaWishTheme.NoSet)
+                };
+
+                appTile.Update(tileData);
+            }
+
+            var secondaryTiles = ShellTile.ActiveTiles.Where(t => t.NavigationUri.ToString().Contains("id"));
+
+            foreach (var shellTile in secondaryTiles)
+            {
+                var url = shellTile.NavigationUri.ToString();
+                var str = "id=";
+                var guidStr = url.Substring(url.IndexOf(str) + str.Length);
+                var guid = Guid.Parse(guidStr);
+                var daruma = await storage.GetById(guid);
+                
+                var data = new FlipTileData
+                {
+                    BackContent = quotationSource.GetCitationSourse(daruma.Theme)
                 };
 
                 shellTile.Update(data);
             }
+
+#if DEBUG_AGENT
+            ScheduledActionService.LaunchForTest(task.Name, TimeSpan.FromSeconds(10));
+#endif
 
             NotifyComplete();
         }
