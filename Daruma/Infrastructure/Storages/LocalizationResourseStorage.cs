@@ -15,8 +15,8 @@ namespace Daruma.Infrastructure.Storages
         {
             _dict = new Dictionary<DarumaWishTheme, ResourceManager>
             {
-                {DarumaWishTheme.NoSet, CitationLocalizationResources.ResourceManager},
-                {DarumaWishTheme.Friendship, Funy.ResourceManager},
+                //{DarumaWishTheme.NoSet, CitationLocalizationResources.ResourceManager},
+                {DarumaWishTheme.Friendship, Friendship.ResourceManager},
                 {DarumaWishTheme.Funny, Funy.ResourceManager},
                 {DarumaWishTheme.Health, Health.ResourceManager},
                 {DarumaWishTheme.Love, Love.ResourceManager},
