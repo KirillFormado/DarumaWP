@@ -130,7 +130,7 @@
 Дарума (Бодайдарума) — японское произношение имени Бодхидхармы (?-528), основателя буддийской школы чань (дзэн). В 510-е годы он отправился в Китай, где основал во владении государя У-ди (502—556) из династии Лян, в горах Суньшань монастырь Шаолинь. В этом монастыре, по преданию, в течение девяти лет он предавался медитации, созерцая стену. С этим связано много общеизвестных историй про чай из оторванных в гневе век Бодхидхармы и про комплекс гимнастики архатов, разработанный чтобы выйти из многолетней медитации, так как отказали ноги.</value>
   </data>
   <data name="EmptyWishTextBox" xml:space="preserve">
-    <value>Пусто</value>
+    <value>Пусто, придумайте желание</value>
   </data>
   <data name="WishButton" xml:space="preserve">
     <value>Загадать</value>
@@ -182,5 +182,14 @@
   </data>
   <data name="Unpin" xml:space="preserve">
     <value>Открепить</value>
+  </data>
+  <data name="Daruma" xml:space="preserve">
+    <value>Дарума</value>
+  </data>
+  <data name="Daruma_Up_Case" xml:space="preserve">
+    <value>ДАРУМА</value>
+  </data>
+  <data name="TouchAndWish" xml:space="preserve">
+    <value>Коснись и загадай</value>
   </data>
 </root>

@@ -71,6 +71,24 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Дарума.
+        /// </summary>
+        public static string Daruma {
+            get {
+                return ResourceManager.GetString("Daruma", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ДАРУМА.
+        /// </summary>
+        public static string Daruma_Up_Case {
+            get {
+                return ResourceManager.GetString("Daruma_Up_Case", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Дарума (яп. だるま или 達磨) — японская традиционная кукла-неваляшка, олицетворяющая Бодхидхарму, в японской синкретической мифологии — божество, приносящее счастье. Кукла делается из дерева, папье-маше или бумаги и не имеет рук и ног: по легенде после девяти лет медитации у Бодхидхармы атрофировались конечности. Кукла обычно бывает окрашена в красный или, реже в зелёный, жёлтый или белый цвета. На ней изображается борода и усы, но глаза рисуются без зрачков.
         ///Дарума (Бодайдарума) — японское произношение имени Б [rest of string was truncated]&quot;;.
         /// </summary>
@@ -99,7 +117,7 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Пусто.
+        ///   Looks up a localized string similar to Пусто, придумайте желание.
         /// </summary>
         public static string EmptyWishTextBox {
             get {
@@ -230,6 +248,15 @@ namespace DarumaResourcesPortable.Resources {
         public static string ToMainView {
             get {
                 return ResourceManager.GetString("ToMainView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Коснись и загадай.
+        /// </summary>
+        public static string TouchAndWish {
+            get {
+                return ResourceManager.GetString("TouchAndWish", resourceCulture);
             }
         }
         

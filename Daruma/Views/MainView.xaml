@@ -68,7 +68,7 @@
                 Click="InfoDaruma_OnTap"/>
         </wpe:AdvancedApplicationBar>
 
-        <phone:Pivot x:Name="MainPivot" Title="DARUMA"
+        <phone:Pivot x:Name="MainPivot" Title="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Daruma_Up_Case}"
                      ItemsSource="{Binding Path=DarumaDict}"
                      ItemTemplate="{StaticResource DarumaListTemplate}"
                      SelectedItem="{Binding RelativeSource={RelativeSource Mode=Self}, Converter={StaticResource SomeToSome}}"

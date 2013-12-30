@@ -182,4 +182,13 @@
   <data name="Unpin" xml:space="preserve">
     <value>Unpin</value>
   </data>
+  <data name="Daruma" xml:space="preserve">
+    <value>Daruma</value>
+  </data>
+  <data name="Daruma_Up_Case" xml:space="preserve">
+    <value>DARUMA</value>
+  </data>
+  <data name="TouchAndWish" xml:space="preserve">
+    <value>Touch and make a wish</value>
+  </data>
 </root>
