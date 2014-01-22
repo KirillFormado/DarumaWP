@@ -180,6 +180,15 @@ namespace DarumaResourcesPortable.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Желание исполнилоcь?.
+        /// </summary>
+        public static string IsWishComeTrue {
+            get {
+                return ResourceManager.GetString("IsWishComeTrue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Любовь.
         /// </summary>
         public static string Love {
@@ -275,6 +284,15 @@ namespace DarumaResourcesPortable.Resources {
         public static string WishButton {
             get {
                 return ResourceManager.GetString("WishButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Исполнение желания.
+        /// </summary>
+        public static string WishComeTrue {
+            get {
+                return ResourceManager.GetString("WishComeTrue", resourceCulture);
             }
         }
     }

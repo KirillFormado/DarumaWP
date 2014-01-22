@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Globalization;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
 using DarumaBLLPortable.Common.Abstractions;
@@ -12,7 +12,6 @@ using DarumaDAL.WP.Abstraction;
 using DarumaResourcesPortable.Infrastructure;
 using DarumaResourcesPortable.Resources;
 using Microsoft.Phone.Controls;
-using Microsoft.Phone.Info;
 using Microsoft.Phone.Shell;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
@@ -21,6 +20,7 @@ namespace Daruma.Views
     public partial class DarumaShakeView : PhoneApplicationPage
     {
         private IDarumaStorage _darumaStorage;
+        private IDarumaImageUriResolver _imageUriResolver;
         private IQuotationSource _quotationSource;
         private DarumaDomain _daruma;
 
@@ -28,6 +28,7 @@ namespace Daruma.Views
         {
             InitializeComponent();
             _darumaStorage = IoCContainter.Get<IDarumaStorage>();
+            _imageUriResolver = IoCContainter.Get<IDarumaImageUriResolver>();
             _quotationSource = IoCContainter.Get<IQuotationSource>();
         }
 
@@ -67,8 +68,8 @@ namespace Daruma.Views
             DarumaAnimation.From = from;
             DarumaStoryboard.Begin();
 
-            CitationTextBlock.Visibility = Visibility.Visible;
-            CitationTextBlock.Opacity = 0;
+            GridCitationTextBlock.Visibility = Visibility.Visible;
+            GridCitationTextBlock.Opacity = 0;
             CitationTextBlock.Text = _quotationSource.GetCitationSourse(_daruma.Theme);
             FadeInAnimation.Begin();
         }
@@ -81,7 +82,7 @@ namespace Daruma.Views
 
         private void CitationTextBlock_OnTap(object sender, GestureEventArgs e)
         {
-            CitationTextBlock.Visibility = Visibility.Collapsed;
+            GridCitationTextBlock.Visibility = Visibility.Collapsed;
         }
 
         private async void Delete_OnClick(object sender, EventArgs e)
@@ -127,7 +128,8 @@ namespace Daruma.Views
 
         private void CreateTile(string url)
         {
-            var tileIconUrl = new Uri(TilesUrlRouter.DarumaSecondaryTileImageUrl, UriKind.Relative);
+
+            var tileIconUrl = _daruma.ImageUri;
             var tiitleTheme = new DarumaWishThemeToLocalizationString().GetLocalizationByTheme(_daruma.Theme);
 
             var tileData = new StandardTileData()
@@ -152,6 +154,25 @@ namespace Daruma.Views
             {
                 PinUnpinButton.Text = AppResources.Pin;
                 PinUnpinButton.IconUri = new Uri(IconsUrlRouter.PinIconUrl, UriKind.Relative);
+            }
+        }
+
+        private void Daruma_OnTap(object sender, GestureEventArgs e)
+        {
+            if (_daruma.Status == DarumaStatus.MakedWish)
+            {
+                var result = MessageBox.Show(string.Empty, AppResources.IsWishComeTrue,
+                    MessageBoxButton.OKCancel);
+               
+                if (result == MessageBoxResult.OK)
+                {
+                    var executer = new DarumaWishExecuter(_darumaStorage, _imageUriResolver);
+                    var isExecute = executer.TryExecuteWish(_daruma);
+                    if (isExecute)
+                    {
+                        DarumaImg.Source = new BitmapImage(_daruma.ImageUri);    
+                    }
+                }
             }
         }
     }

@@ -75,7 +75,8 @@ namespace DarumaTileUpdatePeriodicAgent
                 
                 var data = new FlipTileData
                 {
-                    BackContent = quotationSource.GetCitationSourse(daruma.Theme)
+                    BackContent = quotationSource.GetCitationSourse(daruma.Theme),
+                    BackgroundImage = daruma.ImageUri
                 };
 
                 shellTile.Update(data);

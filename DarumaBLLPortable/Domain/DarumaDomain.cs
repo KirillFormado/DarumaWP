@@ -22,7 +22,7 @@ namespace DarumaBLLPortable.Domain
             ChangeStatus(DarumaStatus.MakedWish, imageUri);
         }
 
-        public void ChangeStatus(DarumaStatus newStatus, Uri newImageUri)
+        internal void ChangeStatus(DarumaStatus newStatus, Uri newImageUri)
         {
             if (Status == newStatus)
                 return;

@@ -49,38 +49,68 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             
-            <Image x:Name="Daruma" Width="272" Height="429" RenderTransformOrigin="0.5,1" Canvas.Left="67" Canvas.Top="64"
-                    MouseLeftButtonDown="Daruma_OnMouseLeftButtonDown"
-                    MouseMove="Daruma_OnMouseMove"
-                    HorizontalAlignment="Center" VerticalAlignment="Center"
-                    Source="{Binding Source={StaticResource ImageUrlRouter}, Path=WishedDaurmaImageUrl}">                    
-                <Image.RenderTransform>
-                    <RotateTransform x:Name="DarumaRotateTransform">
-                    </RotateTransform>
-                </Image.RenderTransform>
-                <Image.Resources>
-                    <Storyboard x:Name="DarumaStoryboard">
-                        <DoubleAnimation x:Name="DarumaAnimation" From="0" To="0" Duration="0:0:2"
-                                        Storyboard.TargetName="DarumaRotateTransform"
-                                        Storyboard.TargetProperty="Angle">
-                            <DoubleAnimation.EasingFunction>
-                                <ElasticEase Oscillations="5" EasingMode="EaseOut" Springiness="5"></ElasticEase>
-                            </DoubleAnimation.EasingFunction>
-                        </DoubleAnimation>
+            <Grid x:Name="Some">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="6*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="6*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="DarumaImg"  RenderTransformOrigin="0.5,1" 
+                        MouseLeftButtonDown="Daruma_OnMouseLeftButtonDown"
+                        MouseMove="Daruma_OnMouseMove"
+                        Tap="Daruma_OnTap"
+                        HorizontalAlignment="Center" VerticalAlignment="Center"
+                        Grid.Row="1" Grid.Column="1"
+                        Source="{Binding Path=ImageUri}">
+                    <Image.RenderTransform>
+                        <RotateTransform x:Name="DarumaRotateTransform">
+                        </RotateTransform>
+                    </Image.RenderTransform>
+                    <Image.Resources>
+                        <Storyboard x:Name="DarumaStoryboard">
+                            <DoubleAnimation x:Name="DarumaAnimation" From="0" To="0" Duration="0:0:2"
+                                            Storyboard.TargetName="DarumaRotateTransform"
+                                            Storyboard.TargetProperty="Angle">
+                                <DoubleAnimation.EasingFunction>
+                                    <ElasticEase Oscillations="5" EasingMode="EaseOut" Springiness="5"></ElasticEase>
+                                </DoubleAnimation.EasingFunction>
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </Image.Resources>
+                </Image>
+            </Grid>
+
+            <Grid   x:Name="GridCitationTextBlock"
+                    Style="{StaticResource HiddenElement}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="6*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="8*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.Resources>
+                    <Storyboard x:Name="FadeInAnimation" TargetName="GridCitationTextBlock">
+                        <DoubleAnimation From="0" To="0.8" Storyboard.TargetProperty="Opacity"/>
                     </Storyboard>
-                </Image.Resources>
-            </Image>
-            
-            <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Padding="10" Margin="49,120,49,157"
-                       Style="{StaticResource HiddenElement}"
-                       FontSize="{StaticResource PhoneFontSizeLarge}"
-                       Tap="CitationTextBlock_OnTap">
-                <TextBlock.Resources>
-                    <Storyboard x:Name="FadeInAnimation" TargetName="CitationTextBlock">
-                        <DoubleAnimation From="0" To="1" Storyboard.TargetProperty="Opacity"/>
-                    </Storyboard>
-                </TextBlock.Resources>
-            </TextBlock>
+                </Grid.Resources>
+                
+                <Grid Grid.Column="1" Grid.Row="1" 
+                      Background="{StaticResource PhoneAccentBrush}">
+                    <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Padding="10"
+                        FontSize="{StaticResource PhoneFontSizeLarge}"
+                        Tap="CitationTextBlock_OnTap">
+                    </TextBlock>
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 
