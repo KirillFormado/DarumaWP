@@ -50,14 +50,18 @@ namespace DarumaTileUpdatePeriodicAgent
         /// </remarks>
         protected async override void OnInvoke(ScheduledTask task)
         {
+            //TODO:use IoC here
             var quotationSource = new QuotationSource();
             var storage = new DarumaStorage();
+
             var appTile = ShellTile.ActiveTiles.FirstOrDefault();
             if (appTile != null)
             {
+                var quoteSource = quotationSource.GetQuotationSourse(DarumaWishTheme.NoSet);
+                var quote = quoteSource.Value;
                 var tileData = new StandardTileData()
                 {
-                    BackContent = quotationSource.GetCitationSourse(DarumaWishTheme.NoSet)
+                    BackContent = quote
                 };
 
                 appTile.Update(tileData);
@@ -68,14 +72,22 @@ namespace DarumaTileUpdatePeriodicAgent
             foreach (var shellTile in secondaryTiles)
             {
                 var url = shellTile.NavigationUri.ToString();
-                var str = "id=";
-                var guidStr = url.Substring(url.IndexOf(str) + str.Length);
+               
+                var idStr = "id=";
+                var guidStartIndex = url.IndexOf(idStr) + idStr.Length;
+                var guidLength = url.IndexOf("&") - guidStartIndex;
+                var guidStr = url.Substring(guidStartIndex, guidLength);
+
                 var guid = Guid.Parse(guidStr);
                 var daruma = await storage.GetById(guid);
+                var quoteSource = quotationSource.GetQuotationSourse(daruma.Theme);
+                var quote = quoteSource.Value;
+                daruma.CurrentQuoteKey = quoteSource.Key;
+                await storage.Update(daruma);
                 
                 var data = new FlipTileData
                 {
-                    BackContent = quotationSource.GetCitationSourse(daruma.Theme),
+                    BackContent = quote,
                     BackgroundImage = daruma.ImageUri
                 };
 

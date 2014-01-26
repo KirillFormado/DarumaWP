@@ -8,6 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
     xmlns:converters="clr-namespace:Daruma.Infrastructure.Converters"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -108,6 +109,14 @@
                     <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Padding="10"
                         FontSize="{StaticResource PhoneFontSizeLarge}"
                         Tap="CitationTextBlock_OnTap">
+
+                        <toolkit:ContextMenuService.ContextMenu>
+                            <toolkit:ContextMenu IsZoomEnabled="False">
+                                <toolkit:MenuItem  Click="CopyMenuItem_OnClick" 
+                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Copy}">
+                                </toolkit:MenuItem>
+                            </toolkit:ContextMenu>
+                        </toolkit:ContextMenuService.ContextMenu>
                     </TextBlock>
                 </Grid>
             </Grid>

@@ -10,7 +10,7 @@ using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
 using DarumaDAL.WP.Abstraction;
 using DarumaResourcesPortable.Infrastructure;
-using DarumaResourcesPortable.Resources;
+using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
@@ -39,6 +39,12 @@ namespace Daruma.Views
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
             _daruma = await _darumaStorage.GetById(id);
 
+            if (_daruma.HasCurrentQuoteKey && NavigationContext.QueryString.ContainsKey("hasKey"))
+            {
+                var quote = GetQuote(_daruma.Theme, _daruma.CurrentQuoteKey);
+                FadeInQuotation(quote);
+            }
+            
             DataContext = _daruma;
 
             SetPinBar(NavigationService.Source.ToString());
@@ -68,9 +74,23 @@ namespace Daruma.Views
             DarumaAnimation.From = from;
             DarumaStoryboard.Begin();
 
+            var quote = GetQuote(_daruma.Theme);
+            FadeInQuotation(quote);
+        }
+
+        private string GetQuote(DarumaWishTheme theme, string key = null)
+        {
+            var quote = key == null
+                ? _quotationSource.GetQuotationSourse(theme).Value
+                : _quotationSource.GetQuotationByKey(theme, key);
+            return quote;
+        }
+
+        private void FadeInQuotation(string quote)
+        {
             GridCitationTextBlock.Visibility = Visibility.Visible;
             GridCitationTextBlock.Opacity = 0;
-            CitationTextBlock.Text = _quotationSource.GetCitationSourse(_daruma.Theme);
+            CitationTextBlock.Text = quote;
             FadeInAnimation.Begin();
         }
 
@@ -92,6 +112,7 @@ namespace Daruma.Views
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
         }
 
+        //TODO: move tile pin/unpin logic in separate class
         private void PinUnpin_OnClick(object sender, EventArgs e)
         {
             var url = ViewUrlRouter.DarumaShakeViewByIdUrl(_daruma.Id);
@@ -102,7 +123,7 @@ namespace Daruma.Views
             }
             else
             {
-                CreateTile(url);
+                CreateTile();
             }
 
             SetPinBar(url);
@@ -110,7 +131,7 @@ namespace Daruma.Views
 
         private ShellTile GetTile(string url)
         {
-            var tile = ShellTile.ActiveTiles.FirstOrDefault(sh => sh.NavigationUri.ToString() == url);
+            var tile = ShellTile.ActiveTiles.FirstOrDefault(sh => sh.NavigationUri.ToString().StartsWith(url));
             return tile;
         }
 
@@ -126,20 +147,24 @@ namespace Daruma.Views
             tile.Delete();
         }
 
-        private void CreateTile(string url)
+        private async void CreateTile()
         {
-
             var tileIconUrl = _daruma.ImageUri;
+            var url = ViewUrlRouter.DarumaShakeViewByIdUrlWithKey(_daruma.Id);
             var tiitleTheme = new DarumaWishThemeToLocalizationString().GetLocalizationByTheme(_daruma.Theme);
+            
+            var quoteSourse = _quotationSource.GetQuotationSourse(_daruma.Theme);
 
             var tileData = new StandardTileData()
             {
                 Title = tiitleTheme,
                 BackTitle = _daruma.Wish,
-                BackContent = _quotationSource.GetCitationSourse(_daruma.Theme),
+                BackContent = quoteSourse.Value,
                 BackgroundImage = tileIconUrl
             };
 
+            _daruma.CurrentQuoteKey = quoteSourse.Key;
+            await _darumaStorage.Update(_daruma);
             ShellTile.Create(new Uri(url, UriKind.Relative), tileData);
         }
 
@@ -157,7 +182,12 @@ namespace Daruma.Views
             }
         }
 
-        private void Daruma_OnTap(object sender, GestureEventArgs e)
+        private void CopyMenuItem_OnClick(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(CitationTextBlock.Text);
+        }
+
+        private async void Daruma_OnTap(object sender, GestureEventArgs e)
         {
             if (_daruma.Status == DarumaStatus.MakedWish)
             {
@@ -167,7 +197,7 @@ namespace Daruma.Views
                 if (result == MessageBoxResult.OK)
                 {
                     var executer = new DarumaWishExecuter(_darumaStorage, _imageUriResolver);
-                    var isExecute = executer.TryExecuteWish(_daruma);
+                    var isExecute = await executer.TryExecuteWish(_daruma);
                     if (isExecute)
                     {
                         DarumaImg.Source = new BitmapImage(_daruma.ImageUri);    

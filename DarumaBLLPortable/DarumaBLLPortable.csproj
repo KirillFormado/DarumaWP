@@ -45,7 +45,7 @@
     <Compile Include="Domain\DarumaWishExpiredHandler.cs" />
     <Compile Include="Domain\DarumaWishTheme.cs" />
     <Compile Include="Domain\FirstStartHandler.cs" />
-    <Compile Include="Domain\RandomCitationResolver.cs" />
+    <Compile Include="Domain\RandomQuotationResolver.cs" />
     <Compile Include="Helpers\DarumaChangeStatusFacade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

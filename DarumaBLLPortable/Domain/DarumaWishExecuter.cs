@@ -1,5 +1,4 @@
-﻿using DarumaBLLPortable.Common.Abstractions;
-using DarumaBLLPortable.Domain;
+﻿using System.Threading.Tasks;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Helpers;
 
@@ -16,7 +15,7 @@ namespace DarumaBLLPortable.Domain
             _urlResolver = urlResolver;
         }
 
-        public bool TryExecuteWish(DarumaDomain daruma)
+        public async Task<bool> TryExecuteWish(DarumaDomain daruma)
         {
             if (daruma.Status != DarumaStatus.MakedWish)
                 return false;
@@ -24,7 +23,7 @@ namespace DarumaBLLPortable.Domain
             var facade = new DarumaChangeStatusFacade(_urlResolver);
             facade.ChangeStatus(daruma, DarumaStatus.ExecutedWish);
 
-            _storage.Update(daruma);
+            await _storage.Update(daruma);
 
             return true;
         }

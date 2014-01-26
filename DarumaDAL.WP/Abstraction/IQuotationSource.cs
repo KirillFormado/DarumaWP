@@ -1,9 +1,11 @@
-﻿using DarumaBLLPortable.Domain;
+﻿using System.Collections.Generic;
+using DarumaBLLPortable.Domain;
 
 namespace DarumaDAL.WP.Abstraction
 {
     public interface IQuotationSource
     {
-        string GetCitationSourse(DarumaWishTheme theme);
+        KeyValuePair<string, string> GetQuotationSourse(DarumaWishTheme theme);
+        string GetQuotationByKey(DarumaWishTheme theme, string key);
     }
 }

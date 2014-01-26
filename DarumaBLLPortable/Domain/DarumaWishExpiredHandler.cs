@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using DarumaBLLPortable.Common.Abstractions;
-using DarumaBLLPortable.Domain;
-using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Helpers;
 
 namespace DarumaBLLPortable.Domain
@@ -18,7 +16,7 @@ namespace DarumaBLLPortable.Domain
             _resolver = resolver;
         }
 
-        public void CheckExpiredStatus(IEnumerable<DarumaDomain> darumaList)
+        public async void CheckExpiredStatus(IEnumerable<DarumaDomain> darumaList)
         {
             var facade = new DarumaChangeStatusFacade(_resolver);
 
@@ -29,7 +27,7 @@ namespace DarumaBLLPortable.Domain
                 if (createDate.AddYears(1) < currentDate && daruma.Status != DarumaStatus.ExecutedWish)
                 {
                     facade.ChangeStatus(daruma, DarumaStatus.TimeExpired);
-                    _storage.Update(daruma);
+                    await _storage.Update(daruma);
                 }
             }
         }

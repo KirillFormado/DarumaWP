@@ -21,6 +21,11 @@ namespace Daruma.Infrastructure
             return string.Format("{0}?id={1}", DarumaShakeViewUrl, id);
         }
 
+        public static string DarumaShakeViewByIdUrlWithKey(Guid id)
+        {
+            return DarumaShakeViewByIdUrl(id) + "&hasKey";
+        }
+
         public static string NewDarumaViewUrl
         {
             get { return RouteToViews + "NewDarumaView.xaml"; }
