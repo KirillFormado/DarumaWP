@@ -1,4 +1,5 @@
-﻿using DarumaResourcesPortable.Resources;
+﻿using DarumaResourcesPortable.LocalizationResources;
+
 
 namespace DarumaResourcesPortable.Infrastructure
 {

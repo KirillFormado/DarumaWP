@@ -5,9 +5,7 @@ using Daruma.Infrastructure;
 using Daruma.ViewModels;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
-using DarumaBLLPortable.Common.Abstractions;
-using DarumaBLLPortable.Domain;
-using DarumaResourcesPortable.Resources;
+using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 

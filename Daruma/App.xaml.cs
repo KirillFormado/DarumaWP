@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
-using DarumaResourcesPortable.Resources;
+using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
@@ -75,7 +75,7 @@ namespace Daruma
                     ScheduledActionService.LaunchForTest(taskName, TimeSpan.FromSeconds(10));
                 #endif
             }
-            catch (InvalidOperationException exception)
+            catch (InvalidOperationException)
             {
                 TryRemoveTask(taskName);
             }

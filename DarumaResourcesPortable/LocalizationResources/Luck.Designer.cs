@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DarumaResourcesPortable.Resources {
+namespace DarumaResourcesPortable.LocalizationResources {
     using System;
     using System.Reflection;
     
@@ -40,7 +40,7 @@ namespace DarumaResourcesPortable.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DarumaResourcesPortable.Resources.Luck", typeof(Luck).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DarumaResourcesPortable.LocalizationResources.Luck", typeof(Luck).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

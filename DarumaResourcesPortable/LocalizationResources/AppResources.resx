@@ -122,73 +122,83 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>ru-RU</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="DarumaInfo" xml:space="preserve">
-    <value>The Daruma doll (達磨 daruma?), also known as a Dharma doll, is a hollow, round, Japanese traditional doll modeled after Bodhidharma, the founder of the Zen sect of Buddhism. These dolls, though typically red and depicting a bearded man (Dharma), vary greatly in color and design depending on region and artist. Though considered an omocha, meaning toy, Daruma has a design that is rich in symbolism and is regarded more as a talisman of good luck to the Japanese. Daruma dolls are seen as a symbol of perseverance and good luck, making them a popular gift of encouragement. The doll has also been commercialized by many Buddhist temples to use alongside goal setting.</value>
+    <value>Дарума (яп. だるま или 達磨) — японская традиционная кукла-неваляшка, олицетворяющая Бодхидхарму, в японской синкретической мифологии — божество, приносящее счастье. Кукла делается из дерева, папье-маше или бумаги и не имеет рук и ног: по легенде после девяти лет медитации у Бодхидхармы атрофировались конечности. Кукла обычно бывает окрашена в красный или, реже в зелёный, жёлтый или белый цвета. На ней изображается борода и усы, но глаза рисуются без зрачков.
+Дарума (Бодайдарума) — японское произношение имени Бодхидхармы (?-528), основателя буддийской школы чань (дзэн). В 510-е годы он отправился в Китай, где основал во владении государя У-ди (502—556) из династии Лян, в горах Суньшань монастырь Шаолинь. В этом монастыре, по преданию, в течение девяти лет он предавался медитации, созерцая стену. С этим связано много общеизвестных историй про чай из оторванных в гневе век Бодхидхармы и про комплекс гимнастики архатов, разработанный чтобы выйти из многолетней медитации, так как отказали ноги.</value>
   </data>
   <data name="EmptyWishTextBox" xml:space="preserve">
-    <value>Empty</value>
+    <value>Пусто, придумайте желание</value>
   </data>
   <data name="WishButton" xml:space="preserve">
-    <value>Wish</value>
-  </data>
-  <data name="Add" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="Info" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Загадать</value>
   </data>
   <data name="Empty" xml:space="preserve">
-    <value>Empty</value>
+    <value>Пустые</value>
   </data>
   <data name="Executed" xml:space="preserve">
-    <value>Executed</value>
+    <value>Исполненные</value>
   </data>
   <data name="Expired" xml:space="preserve">
-    <value>Expired</value>
+    <value>Истекшие</value>
   </data>
   <data name="Maked" xml:space="preserve">
-    <value>Maked</value>
-  </data>
-  <data name="ToMainView" xml:space="preserve">
-    <value>To Main</value>
+    <value>Загаданные</value>
   </data>
   <data name="Friendship" xml:space="preserve">
-    <value>Friendship</value>
+    <value>Дружба</value>
   </data>
   <data name="Funny" xml:space="preserve">
-    <value>Funny</value>
+    <value>Смешное</value>
   </data>
   <data name="Health" xml:space="preserve">
-    <value>Health</value>
+    <value>Здоровье</value>
   </data>
   <data name="Love" xml:space="preserve">
-    <value>Love</value>
+    <value>Любовь</value>
   </data>
   <data name="Luck" xml:space="preserve">
-    <value>Luck</value>
+    <value>Удача</value>
   </data>
   <data name="Rich" xml:space="preserve">
-    <value>Rich</value>
+    <value>Богатство</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Сжечь</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="ToMainView" xml:space="preserve">
+    <value>К списку</value>
   </data>
   <data name="Pin" xml:space="preserve">
-    <value>Pin</value>
+    <value>Закрепить</value>
   </data>
   <data name="Unpin" xml:space="preserve">
-    <value>Unpin</value>
+    <value>Открепить</value>
   </data>
   <data name="Daruma" xml:space="preserve">
-    <value>Daruma</value>
+    <value>Дарума</value>
   </data>
   <data name="Daruma_Up_Case" xml:space="preserve">
-    <value>DARUMA</value>
+    <value>ДАРУМА</value>
   </data>
   <data name="TouchAndWish" xml:space="preserve">
-    <value>Touch and make a wish</value>
+    <value>Коснись и загадай</value>
+  </data>
+  <data name="IsWishComeTrue" xml:space="preserve">
+    <value>Желание исполнилоcь?</value>
+  </data>
+  <data name="WishComeTrue" xml:space="preserve">
+    <value>Исполнение желания</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Копировать</value>
   </data>
 </root>
