@@ -2,7 +2,6 @@
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
-using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
@@ -35,7 +34,6 @@ namespace Daruma.Views
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             //Get Daruma by id from storage
-            //TODO: fill info from Daruma to page, now only Image update
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
             _daruma = await _darumaStorage.GetById(id);
 
@@ -58,26 +56,6 @@ namespace Daruma.Views
             base.OnBackKeyPress(e);
         }
 
-        private double _prevX;
-        private const double From = 75;
-
-        private void Daruma_OnMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            _prevX = GetPosition(e);
-        }
-
-        private void Daruma_OnMouseMove(object sender, MouseEventArgs e)
-        {
-            var currX = GetPosition(e);
-            var result = currX - _prevX;
-            double from = result > 0 ? From : -From;
-            DarumaAnimation.From = from;
-            DarumaStoryboard.Begin();
-
-            var quote = GetQuote(_daruma.Theme);
-            FadeInQuotation(quote);
-        }
-
         private string GetQuote(DarumaWishTheme theme, string key = null)
         {
             var quote = key == null
@@ -92,12 +70,6 @@ namespace Daruma.Views
             GridCitationTextBlock.Opacity = 0;
             CitationTextBlock.Text = quote;
             FadeInAnimation.Begin();
-        }
-
-        private double GetPosition(MouseEventArgs e)
-        {
-            var position = e.GetPosition(ContentPanel);
-            return position.X;
         }
 
         private void CitationTextBlock_OnTap(object sender, GestureEventArgs e)
@@ -203,6 +175,18 @@ namespace Daruma.Views
                         DarumaImg.Source = new BitmapImage(_daruma.ImageUri);    
                     }
                 }
+            }
+        }
+
+        private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
+        {
+            if (e.HorizontalVelocity > 1000 || e.HorizontalVelocity < -1000)
+            {
+                DarumaAnimation.From = e.HorizontalVelocity / 36;
+                DarumaStoryboard.Begin();
+
+                var quote = GetQuote(_daruma.Theme);
+                FadeInQuotation(quote);
             }
         }
     }

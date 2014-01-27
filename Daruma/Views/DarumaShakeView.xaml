@@ -61,13 +61,16 @@
                     <ColumnDefinition Width="6*"></ColumnDefinition>
                     <ColumnDefinition Width="2*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Image x:Name="DarumaImg"  RenderTransformOrigin="0.5,1" 
-                        MouseLeftButtonDown="Daruma_OnMouseLeftButtonDown"
-                        MouseMove="Daruma_OnMouseMove"
-                        Tap="Daruma_OnTap"
-                        HorizontalAlignment="Center" VerticalAlignment="Center"
-                        Grid.Row="1" Grid.Column="1"
-                        Source="{Binding Path=ImageUri}">
+                
+                <Image x:Name="DarumaImg"  
+                       RenderTransformOrigin="0.5,1" 
+                       Grid.Row="1" Grid.Column="1"
+                       Tap="Daruma_OnTap"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Source="{Binding Path=ImageUri}">
+                    <toolkit:GestureService.GestureListener>
+                        <toolkit:GestureListener Flick="GestureListener_OnFlick"/>
+                    </toolkit:GestureService.GestureListener>
                     <Image.RenderTransform>
                         <RotateTransform x:Name="DarumaRotateTransform">
                         </RotateTransform>
