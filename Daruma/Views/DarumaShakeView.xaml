@@ -27,22 +27,29 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <wpe:AdvancedApplicationBar>
+        <wpe:AdvancedApplicationBar x:Name="AppBar">
             <wpe:AdvancedApplicationBarIconButton 
                     Text="{Binding Path=LocalizedResources.Delete, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=DeleteIconUrl}"
-                    Click="Delete_OnClick"/>    
+                    Click="Delete_OnClick"/>
+            <wpe:AdvancedApplicationBarIconButton 
+                    x:Name="ShareButton"
+                    Text="{Binding Path=LocalizedResources.Share, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=ShareIconUrl}"
+                    Visibility="Collapsed"
+                    Click="Share_OnClick"/>
             <wpe:AdvancedApplicationBarIconButton 
                     x:Name="PinUnpinButton"
                     Text="{Binding Path=LocalizedResources.Pin, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=PinIconUrl}"
                     Click="PinUnpin_OnClick"/>
+           
         </wpe:AdvancedApplicationBar>
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
             <TextBlock x:Name="DarumaWish" Text="{Binding Path=Wish}"
-                       Style="{StaticResource PhoneTextNormalStyle}"/>
+                       Style="{StaticResource PhoneTextNormalStyle}" TextWrapping="Wrap"/>
             <TextBlock x:Name="DarumaTheme" Text="{Binding Path=Theme, Converter={StaticResource DarumaWishThemeToStringConverter}}" 
                 Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
@@ -50,16 +57,16 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             
-            <Grid x:Name="Some">
+            <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
                     <RowDefinition Height="6*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
                     <ColumnDefinition Width="6*"></ColumnDefinition>
-                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 
                 <Image x:Name="DarumaImg"  
@@ -89,8 +96,8 @@
                 </Image>
             </Grid>
 
-            <Grid   x:Name="GridCitationTextBlock"
-                    Style="{StaticResource HiddenElement}">
+         
+                <Grid x:Name="GridQuoteTextBlock">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="2*"></RowDefinition>
                     <RowDefinition Height="6*"></RowDefinition>
@@ -98,20 +105,25 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"></ColumnDefinition>
-                    <ColumnDefinition Width="8*"></ColumnDefinition>
+                    <ColumnDefinition Width="6*"></ColumnDefinition>
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Grid.Resources>
-                    <Storyboard x:Name="FadeInAnimation" TargetName="GridCitationTextBlock">
+                    <Storyboard x:Name="FadeInAnimation" TargetName="GridQuoteTextBlock">
                         <DoubleAnimation From="0" To="0.8" Storyboard.TargetProperty="Opacity"/>
                     </Storyboard>
                 </Grid.Resources>
-                
-                <Grid Grid.Column="1" Grid.Row="1" 
-                      Background="{StaticResource PhoneAccentBrush}">
-                    <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Padding="10"
-                        FontSize="{StaticResource PhoneFontSizeLarge}"
-                        Tap="CitationTextBlock_OnTap">
+
+                <Border  Grid.Column="1" Grid.Row="1" 
+                         Background="{StaticResource PhoneAccentBrush}"
+                         Style="{StaticResource HiddenElement}"
+                         Margin="5" 
+                         Padding="5"  
+                         CornerRadius="40">
+                    
+                    <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Margin="10"
+                               FontSize="{StaticResource PhoneFontSizeLarge}"
+                               Tap="QuoteTextBlock_OnTap">
 
                         <toolkit:ContextMenuService.ContextMenu>
                             <toolkit:ContextMenu IsZoomEnabled="False">
@@ -121,8 +133,9 @@
                             </toolkit:ContextMenu>
                         </toolkit:ContextMenuService.ContextMenu>
                     </TextBlock>
-                </Grid>
+                </Border>
             </Grid>
+        
         </Grid>
     </Grid>
 

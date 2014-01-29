@@ -201,4 +201,7 @@
   <data name="Copy" xml:space="preserve">
     <value>Копировать</value>
   </data>
+  <data name="Share" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
 </root>

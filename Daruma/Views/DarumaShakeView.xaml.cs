@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using Windows.ApplicationModel.DataTransfer;
 using Daruma.Infrastructure;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
@@ -12,6 +13,8 @@ using DarumaResourcesPortable.Infrastructure;
 using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Tasks;
+using WPExtensions;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
@@ -22,6 +25,14 @@ namespace Daruma.Views
         private IDarumaImageUriResolver _imageUriResolver;
         private IQuotationSource _quotationSource;
         private DarumaDomain _daruma;
+
+        private string Quote
+        {
+            get
+            {
+                return CitationTextBlock.Text;
+            }
+        }
 
         public DarumaShakeView()
         {
@@ -41,6 +52,7 @@ namespace Daruma.Views
             {
                 var quote = GetQuote(_daruma.Theme, _daruma.CurrentQuoteKey);
                 FadeInQuotation(quote);
+                ShowShareButton();
             }
             
             DataContext = _daruma;
@@ -66,18 +78,42 @@ namespace Daruma.Views
 
         private void FadeInQuotation(string quote)
         {
-            GridCitationTextBlock.Visibility = Visibility.Visible;
-            GridCitationTextBlock.Opacity = 0;
+            GridQuoteTextBlock.Visibility = Visibility.Visible;
+            GridQuoteTextBlock.Opacity = 0;
             CitationTextBlock.Text = quote;
             FadeInAnimation.Begin();
         }
 
-        private void CitationTextBlock_OnTap(object sender, GestureEventArgs e)
+        private void ShowShareButton()
         {
-            GridCitationTextBlock.Visibility = Visibility.Collapsed;
+            ShareButton.Visibility = Visibility.Visible;
         }
 
-        private async void Delete_OnClick(object sender, EventArgs e)
+        private void Share_OnClick(object sender, EventArgs eventArgs)
+        {
+            var s = new DarumaWishThemeToLocalizationString();
+            var shareStatusTask = new EmailComposeTask
+            {
+                Subject = s.GetLocalizationByTheme(_daruma.Theme),
+                Body = Quote
+            };
+                //new ShareStatusTask { Status = Quote };
+            shareStatusTask.Show();
+        }
+
+        private void HideShareButton()
+        {
+            ShareButton.Visibility = Visibility.Collapsed;
+        }
+
+        private void QuoteTextBlock_OnTap(object sender, GestureEventArgs e)
+        {
+            GridQuoteTextBlock.Visibility = Visibility.Collapsed;
+            HideShareButton();
+        }
+
+
+        private async void Delete_OnClick(object sender, EventArgs eventArgs)
         {
             //TODO: for ViewModel support move this code to separate method
             await _darumaStorage.Delete(_daruma.Id);
@@ -85,7 +121,7 @@ namespace Daruma.Views
         }
 
         //TODO: move tile pin/unpin logic in separate class
-        private void PinUnpin_OnClick(object sender, EventArgs e)
+        private void PinUnpin_OnClick(object sender, EventArgs eventArgs)
         {
             var url = ViewUrlRouter.DarumaShakeViewByIdUrl(_daruma.Id);
 
@@ -156,7 +192,7 @@ namespace Daruma.Views
 
         private void CopyMenuItem_OnClick(object sender, RoutedEventArgs e)
         {
-            Clipboard.SetText(CitationTextBlock.Text);
+            Clipboard.SetText(Quote);
         }
 
         private async void Daruma_OnTap(object sender, GestureEventArgs e)
@@ -180,13 +216,14 @@ namespace Daruma.Views
 
         private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
         {
-            if (e.HorizontalVelocity > 1000 || e.HorizontalVelocity < -1000)
+            if (e.HorizontalVelocity > 200 || e.HorizontalVelocity < -200)
             {
                 DarumaAnimation.From = e.HorizontalVelocity / 36;
                 DarumaStoryboard.Begin();
 
                 var quote = GetQuote(_daruma.Theme);
                 FadeInQuotation(quote);
+                ShowShareButton();
             }
         }
     }

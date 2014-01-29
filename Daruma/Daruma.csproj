@@ -143,6 +143,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\share.png" />
     <Content Include="Langs\AppResLib.dll.0401.mui" />
     <Content Include="Langs\AppResLib.dll.0402.mui" />
     <Content Include="Langs\AppResLib.dll.0403.mui" />

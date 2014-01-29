@@ -261,6 +261,15 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Поделиться.
+        /// </summary>
+        public static string Share {
+            get {
+                return ResourceManager.GetString("Share", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to К списку.
         /// </summary>
         public static string ToMainView {

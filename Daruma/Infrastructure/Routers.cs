@@ -108,6 +108,10 @@ namespace Daruma.Infrastructure
         public static string QuestionMarkIconUrl
         {
             get { return RouteToIcons + "questionmark.png"; }
+        } 
+        public static string ShareIconUrl
+        {
+            get { return RouteToIcons + "share.png"; }
         }
     }
 }
