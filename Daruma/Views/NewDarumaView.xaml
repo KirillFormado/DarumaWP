@@ -32,30 +32,38 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.TouchAndWish}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.TouchAndWish}" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Image x:Name="NewDarumaImg" 
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="1" x:Name="NewDarumaImg" 
                    Source="{Binding Source={StaticResource ImageUrlRouter}, Path=NewDaurmaImageUrl}" 
-                   Tap="WishDaruma_OnTap" Margin="60,0,0,0" HorizontalAlignment="Left" Width="336"/>
-            <StackPanel  x:Name="WishStack" Style="{StaticResource HiddenElement}">
-
+                   Tap="WishDaruma_OnTap"  HorizontalAlignment="Left" />
+            <StackPanel Grid.Column="0" Grid.ColumnSpan="3"  x:Name="WishStack" Style="{StaticResource HiddenElement}">
                 <StackPanel.Resources>
                     <Storyboard x:Name="StackOpacityStoryboard" TargetName="WishStack">
                         <DoubleAnimation From="0" To="1" Storyboard.TargetProperty="Opacity"/>
                     </Storyboard>
                 </StackPanel.Resources>
-                <TextBox x:Name="WishTextBox" TextWrapping="Wrap" Padding="10" GotFocus="WishTextBox_OnGotFocus" />
+                <TextBox x:Name="WishTextBox" 
+                         Style="{StaticResource PhoneAccent}" 
+                         TextWrapping="Wrap" 
+                         Padding="10"
+                         GotFocus="WishTextBox_OnGotFocus" />
                 <toolkit:ListPicker x:Name="WishThemePicker"
+                                    Style="{StaticResource PhoneAccent}"
                                     ItemsSource="{Binding Path=ThemeList}"
                                     ItemTemplate="{StaticResource WishThemeItemTemplate}"
-                                    FullModeItemTemplate="{StaticResource WishThemeItemTemplate}"
-                                    >
-                </toolkit:ListPicker>
-                <Button Content="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.WishButton}" 
-                        Tap="WishButton_OnTap"></Button>
+                                    FullModeItemTemplate="{StaticResource WishThemeItemTemplate}"/>
+                <Button Style="{StaticResource PhoneAccent}"
+                        Content="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.WishButton}" 
+                        Tap="WishButton_OnTap"/>
 
             </StackPanel>
         </Grid>

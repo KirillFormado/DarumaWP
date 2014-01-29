@@ -27,17 +27,17 @@
                         <DataTemplate>
                             <Grid Margin="{StaticResource MarginTemplate}">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
                                     <ColumnDefinition Width="*"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
-                                <Image Source="{Binding Path=ImageUri}" Grid.Column="0" Height="100" Width="100"/>
+                                <Image Source="{Binding Path=ImageUri}" Grid.Column="0"/>
                                 <HyperlinkButton Grid.Column="0"
                                     NavigateUri="{Binding Path=Id, Converter={StaticResource DarumsIdToUrlConverter}}" 
-                                    Height="100" 
                                     Opacity="0"/>
                                 <TextBlock Grid.Column="1"
                                            TextWrapping="Wrap"
-                                           Text="{Binding Path=Wish}"/>
+                                           Text="{Binding Path=Wish}"
+                                           Style="{StaticResource PhoneTextNormalStyle}"/>
                             </Grid>
                         </DataTemplate>
                     </ListBox.ItemTemplate>

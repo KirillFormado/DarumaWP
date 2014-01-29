@@ -26,13 +26,16 @@ namespace Daruma.Views
 
         private void WishDaruma_OnTap(object sender, GestureEventArgs e)
         {
-            WishStack.Visibility =
-                WishStack.Visibility == Visibility.Visible
-                    ? Visibility.Collapsed
-                    : Visibility.Visible;
-
-            StackOpacityStoryboard.Begin();
-            NewDarumaImg.Source = new BitmapImage(new Uri(ImageUrlRouter.WishedDaurmaImageUrl, UriKind.Relative));
+            if (WishStack.Visibility == Visibility.Visible)
+            {
+                WishStack.Visibility = Visibility.Collapsed;
+                NewDarumaImg.Source = new BitmapImage(new Uri(ImageUrlRouter.NewDaurmaImageUrl, UriKind.Relative));
+            }
+            else
+            {
+                WishStack.Visibility = Visibility.Visible;
+                NewDarumaImg.Source = new BitmapImage(new Uri(ImageUrlRouter.WishedDaurmaImageUrl, UriKind.Relative));
+            }
         }
 
         private async void WishButton_OnTap(object sender, GestureEventArgs e)
@@ -48,6 +51,7 @@ namespace Daruma.Views
                 || theme == DarumaWishTheme.NoSet)
             {
                 MessageBox.Show(AppResources.EmptyWishTextBox);
+                WishTextBox.Focus();
                 return;
             }
             

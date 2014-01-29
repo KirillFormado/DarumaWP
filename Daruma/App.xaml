@@ -18,6 +18,11 @@
             <Setter Property="Opacity" Value="1"></Setter>
             <Setter Property="Visibility" Value="Collapsed"></Setter>
         </Style>
+
+        <Style TargetType="Control" x:Key="PhoneAccent" x:Name="PhoneAccent">
+            <Setter Property="Opacity" Value="0.8"></Setter>
+            <Setter Property="Background" Value="{StaticResource PhoneAccentBrush}"></Setter>
+        </Style>
         
     </Application.Resources>
 
