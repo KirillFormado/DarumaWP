@@ -97,7 +97,8 @@
             </Grid>
 
          
-                <Grid x:Name="GridQuoteTextBlock">
+                <Grid x:Name="GridQuoteTextBlock"
+                      Style="{StaticResource HiddenElement}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="2*"></RowDefinition>
                     <RowDefinition Height="6*"></RowDefinition>
@@ -116,7 +117,7 @@
 
                 <Border  Grid.Column="1" Grid.Row="1" 
                          Background="{StaticResource PhoneAccentBrush}"
-                         Style="{StaticResource HiddenElement}"
+                         
                          Margin="5" 
                          Padding="5"  
                          CornerRadius="40">
