@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows;
 using System.Windows.Navigation;
 using Daruma.Infrastructure;
@@ -22,6 +23,11 @@ namespace Daruma.Views
             _settings = IoCContainter.Get<ISettingsStorage>();
             _viewModel = new MainViewModel();
             DataContext = _viewModel;
+        }
+
+        protected override void OnBackKeyPress(CancelEventArgs e)
+        {
+            Application.Current.Terminate();
         }
 
         private void NewDaruma_OnTap(object sender, EventArgs e)
