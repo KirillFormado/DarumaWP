@@ -19,7 +19,10 @@
         <converters:DarumaWishThemeToStringConverter x:Key="DarumaWishThemeToStringConverter"/>
 
         <DataTemplate x:Name="WishThemeItemTemplate">
-            <TextBlock Style="{StaticResource PhoneTextLargeStyle}" Text="{Binding Converter={StaticResource DarumaWishThemeToStringConverter}}" />
+            <TextBlock Text="{Binding Converter={StaticResource DarumaWishThemeToStringConverter}}" />
+        </DataTemplate>
+        <DataTemplate x:Name="WishThemeFullModeItemTemplate">
+            <TextBlock Style="{StaticResource PhoneTextExtraLargeStyle}" Text="{Binding Converter={StaticResource DarumaWishThemeToStringConverter}}" />
         </DataTemplate>
     </phone:PhoneApplicationPage.Resources>
 
@@ -60,7 +63,7 @@
                                     Style="{StaticResource PhoneAccent}"
                                     ItemsSource="{Binding Path=ThemeList}"
                                     ItemTemplate="{StaticResource WishThemeItemTemplate}"
-                                    FullModeItemTemplate="{StaticResource WishThemeItemTemplate}"/>
+                                    FullModeItemTemplate="{StaticResource WishThemeFullModeItemTemplate}"/>
                 <Button Style="{StaticResource PhoneAccent}"
                         Content="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.WishButton}" 
                         Tap="WishButton_OnTap"/>
