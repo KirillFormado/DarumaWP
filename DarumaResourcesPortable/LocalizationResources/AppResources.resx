@@ -204,4 +204,7 @@
   <data name="Share" xml:space="preserve">
     <value>Поделиться</value>
   </data>
+  <data name="IsDelete" xml:space="preserve">
+    <value>Точно удалить?</value>
+  </data>
 </root>

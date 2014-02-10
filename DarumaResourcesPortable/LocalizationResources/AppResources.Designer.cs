@@ -189,6 +189,15 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Точно удалить?.
+        /// </summary>
+        public static string IsDelete {
+            get {
+                return ResourceManager.GetString("IsDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Желание исполнилоcь?.
         /// </summary>
         public static string IsWishComeTrue {

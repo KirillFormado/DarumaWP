@@ -116,8 +116,12 @@ namespace Daruma.Views
         private async void Delete_OnClick(object sender, EventArgs eventArgs)
         {
             //TODO: for ViewModel support move this code to separate method
-            await _darumaStorage.Delete(_daruma.Id);
-            NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+            var result = MessageBox.Show(string.Empty, AppResources.IsDelete, MessageBoxButton.OKCancel);
+            if (result == MessageBoxResult.OK)
+            {
+                await _darumaStorage.Delete(_daruma.Id);
+                NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+            }
         }
 
         //TODO: move tile pin/unpin logic in separate class

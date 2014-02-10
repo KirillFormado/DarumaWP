@@ -197,4 +197,7 @@
   <data name="Share" xml:space="preserve">
     <value>Share</value>
   </data>
+  <data name="IsDelete" xml:space="preserve">
+    <value>Is delete?</value>
+  </data>
 </root>
