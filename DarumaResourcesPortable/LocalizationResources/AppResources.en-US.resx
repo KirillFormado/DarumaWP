@@ -200,4 +200,16 @@
   <data name="IsDelete" xml:space="preserve">
     <value>Is delete?</value>
   </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="ShareBy_Up_Case" xml:space="preserve">
+    <value>SHARE BY</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Social Networks</value>
+  </data>
 </root>

@@ -207,4 +207,16 @@
   <data name="IsDelete" xml:space="preserve">
     <value>Точно удалить?</value>
   </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Почту</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="ShareBy_Up_Case" xml:space="preserve">
+    <value>ПОДЕЛИТЬСЯ ЧЕРЕЗ</value>
+  </data>
+  <data name="SocialNetwork" xml:space="preserve">
+    <value>Социальные сети</value>
+  </data>
 </root>

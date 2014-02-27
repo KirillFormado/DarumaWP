@@ -34,6 +34,11 @@ namespace Daruma.Infrastructure
         public static string InfoDarumaViewUrl
         {
             get { return RouteToViews + "InfoDarumaView.xaml"; }
+        }  
+        
+        public static string SharingViewUrl
+        {
+            get { return RouteToViews + "SharingView.xaml"; }
         }
     }
 
