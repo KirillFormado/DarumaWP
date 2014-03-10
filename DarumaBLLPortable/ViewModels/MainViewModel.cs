@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using DarumaBLLPortable.Commands;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
 
@@ -10,6 +12,7 @@ namespace DarumaBLLPortable.ViewModels
     {
         private readonly IDarumaStorage _darumaStorage;
         private readonly IDarumaImageUriResolver _imageUriResolver;
+        private readonly ISettingsStorage _settings;
 
         private Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> _darumaDict;
 
@@ -30,20 +33,37 @@ namespace DarumaBLLPortable.ViewModels
         {
             get { return new ObservableCollection<DarumaDomain>(); }
         }
+
+        public BaseCommand FirstSrartHandleCommand
+        {
+            get; private set;
+        }
         
-        public MainViewModel(IDarumaStorage darumaStorage, IDarumaImageUriResolver imageUriResolver) 
+        public MainViewModel(IDarumaStorage darumaStorage, IDarumaImageUriResolver imageUriResolver, ISettingsStorage settings) 
         {
             _darumaStorage = darumaStorage;
             _imageUriResolver = imageUriResolver;
+            _settings = settings;
             _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>>
             {
                 {DarumaStatus.MakedWish, new ObservableCollection<DarumaDomain>()},
                 {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaDomain>()},
                 {DarumaStatus.TimeExpired, new ObservableCollection<DarumaDomain>()},
             };
-            LoadDaruma();            
+            LoadDaruma();
+            InitCommands();
         }
 
+        private void InitCommands()
+        {
+            FirstSrartHandleCommand = new BaseCommand(FirstSrartHandle);
+        }
+
+        private void FirstSrartHandle(object navigateToInfo)
+        {
+            var handler = new FirstStartHandler(_settings);
+            handler.HandleFirstStart((Action)navigateToInfo);  
+        }
 
         private async void LoadDaruma()
         {

@@ -1,18 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace DarumaBLLPortable.Commands
 {
-    class BaseCommand: ICommand
+    public class BaseCommand: ICommand
     {
         private bool _isEnabled;
-        private readonly Action _command;
+        private readonly Action<object> _command;
 
-        public BaseCommand(Action command)
+        public BaseCommand(Action<object> command)
         {
             _command = command;
         }
@@ -40,7 +36,7 @@ namespace DarumaBLLPortable.Commands
 
         public void Execute(object parameter)
         {
-            _command();
+            _command(parameter);
         }
 
         public event EventHandler CanExecuteChanged;
