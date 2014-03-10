@@ -105,8 +105,6 @@
     <Compile Include="Infrastructure\IoCContainter.cs" />
     <Compile Include="Infrastructure\Routers.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="ViewModels\DarumaShakeViewModel.cs" />
-    <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="Views\BaseDarumaPage.cs" />
     <Compile Include="Views\DarumaShakeView.xaml.cs">
       <DependentUpon>DarumaShakeView.xaml</DependentUpon>
@@ -121,7 +119,6 @@
     <Compile Include="Views\NewDarumaView.xaml.cs">
       <DependentUpon>NewDarumaView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\NewDarumaViewModel.cs" />
     <Compile Include="Views\SharingView.xaml.cs">
       <DependentUpon>SharingView.xaml</DependentUpon>
     </Compile>

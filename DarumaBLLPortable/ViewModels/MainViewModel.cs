@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using Daruma.Infrastructure;
-using Daruma.Properties;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
 
-namespace Daruma.ViewModels
+namespace DarumaBLLPortable.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : ViewModelBase
     {
         private readonly IDarumaStorage _darumaStorage;
+        private readonly IDarumaImageUriResolver _imageUriResolver;
+
         private Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> _darumaDict;
 
         public Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> DarumaDict
@@ -34,9 +31,10 @@ namespace Daruma.ViewModels
             get { return new ObservableCollection<DarumaDomain>(); }
         }
         
-        public MainViewModel() 
+        public MainViewModel(IDarumaStorage darumaStorage, IDarumaImageUriResolver imageUriResolver) 
         {
-            _darumaStorage = IoCContainter.Get<IDarumaStorage>();
+            _darumaStorage = darumaStorage;
+            _imageUriResolver = imageUriResolver;
             _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>>
             {
                 {DarumaStatus.MakedWish, new ObservableCollection<DarumaDomain>()},
@@ -51,7 +49,7 @@ namespace Daruma.ViewModels
         {
             var darumaList = //FakeDarumaSourse(); 
                 await _darumaStorage.ListAll();
-            var expiredHandler = new DarumaWishExpiredHandler(_darumaStorage, new DarumaImageUriResolver());
+            var expiredHandler = new DarumaWishExpiredHandler(_darumaStorage, _imageUriResolver);
             expiredHandler.CheckExpiredStatus(darumaList);
             var lookup = darumaList.ToLookup(d => d.Status);
 
@@ -83,15 +81,6 @@ namespace Daruma.ViewModels
                 DarumaStatus.ExecutedWish,
                 //DarumaStatus.Empty
             };
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            var handler = PropertyChanged;
-            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

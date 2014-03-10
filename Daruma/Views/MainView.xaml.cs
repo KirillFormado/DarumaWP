@@ -6,6 +6,7 @@ using Daruma.Infrastructure;
 using Daruma.ViewModels;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
+using DarumaBLLPortable.ViewModels;
 using Microsoft.Phone.Controls;
 
 namespace Daruma.Views
@@ -21,7 +22,7 @@ namespace Daruma.Views
             InitializeComponent();
 
             _settings = IoCContainter.Get<ISettingsStorage>();
-            _viewModel = new MainViewModel();
+            _viewModel = new MainViewModel(IoCContainter.Get<IDarumaStorage>(), IoCContainter.Get<IDarumaImageUriResolver>());
             DataContext = _viewModel;
         }
 

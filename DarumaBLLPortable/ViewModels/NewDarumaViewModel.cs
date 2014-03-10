@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using DarumaBLLPortable.Domain;
+using DarumaBLLPortable.ViewModels;
 
 namespace Daruma.ViewModels
 {
-    class NewDarumaViewModel
+    public class NewDarumaViewModel : ViewModelBase
     {
         public List<DarumaWishTheme> ThemeList { get; set; }
 
