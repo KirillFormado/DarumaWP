@@ -3,7 +3,7 @@ using DarumaBLLPortable.Domain;
 
 namespace DarumaBLLPortable.Helpers
 {
-    class DarumaChangeStatusFacade
+    public class DarumaChangeStatusFacade
     {
         private IDarumaImageUriResolver _urlResolver;
 
