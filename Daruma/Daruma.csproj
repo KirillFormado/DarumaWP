@@ -25,6 +25,8 @@
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
     <ExpressionBlendVersion>5.0.40218.0</ExpressionBlendVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,6 +101,7 @@
     <Compile Include="Infrastructure\Converters\SomeToSome.cs" />
     <Compile Include="Infrastructure\DarumaImageUriResolver.cs" />
     <Compile Include="Infrastructure\Converters\DarumsIdToUrlConverter.cs" />
+    <Compile Include="Infrastructure\DarumaInfoSharing.cs" />
     <Compile Include="Infrastructure\IoCContainter.cs" />
     <Compile Include="Infrastructure\Routers.cs" />
     <Compile Include="Properties\Annotations.cs" />
@@ -119,6 +122,9 @@
       <DependentUpon>NewDarumaView.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\NewDarumaViewModel.cs" />
+    <Compile Include="Views\SharingView.xaml.cs">
+      <DependentUpon>SharingView.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -138,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\NewDarumaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SharingView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -266,4 +276,5 @@
   </Target>
   -->
   <ProjectExtensions />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
 </Project>
