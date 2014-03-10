@@ -2,12 +2,15 @@
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using Windows.ApplicationModel.DataTransfer;
 using Daruma.Infrastructure;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
+using DarumaBLLPortable.Helpers;
 using DarumaDAL.WP.Abstraction;
 using DarumaResourcesPortable.Infrastructure;
 using DarumaResourcesPortable.LocalizationResources;
@@ -47,7 +50,7 @@ namespace Daruma.Views
             //Get Daruma by id from storage
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
             _daruma = await _darumaStorage.GetById(id);
-
+            
             if (_daruma.HasCurrentQuoteKey && NavigationContext.QueryString.ContainsKey("hasKey"))
             {
                 var quote = GetQuote(_daruma.Theme, _daruma.CurrentQuoteKey);
@@ -56,7 +59,7 @@ namespace Daruma.Views
             }
             
             DataContext = _daruma;
-
+            
             SetPinBar(NavigationService.Source.ToString());
             
             base.OnNavigatedTo(e);
@@ -91,14 +94,9 @@ namespace Daruma.Views
 
         private void Share_OnClick(object sender, EventArgs eventArgs)
         {
-            var s = new DarumaWishThemeToLocalizationString();
-            var shareStatusTask = new EmailComposeTask
-            {
-                Subject = s.GetLocalizationByTheme(_daruma.Theme),
-                Body = Quote
-            };
-                //new ShareStatusTask { Status = Quote };
-            shareStatusTask.Show();
+            var quote = new DarumaInfoSharing(_daruma.Theme, Quote);
+            PhoneApplicationService.Current.State.Add(DarumaInfoSharing.Key, quote);
+            NavigationService.Navigate(new Uri(ViewUrlRouter.SharingViewUrl, UriKind.Relative));
         }
 
         private void HideShareButton()
@@ -119,6 +117,9 @@ namespace Daruma.Views
             var result = MessageBox.Show(string.Empty, AppResources.IsDelete, MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK)
             {
+                var facade = new DarumaChangeStatusFacade(_imageUriResolver);
+                facade.ChangeStatus(_daruma, DarumaStatus.TimeExpired);
+                DarumaImg.Source = new BitmapImage(_daruma.ImageUri);
                 await _darumaStorage.Delete(_daruma.Id);
                 NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
             }
