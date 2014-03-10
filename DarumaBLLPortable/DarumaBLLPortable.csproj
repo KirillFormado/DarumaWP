@@ -39,6 +39,7 @@
     <Compile Include="Common\Abstractions\IDarumaImageUriResolver.cs" />
     <Compile Include="Common\Abstractions\IDarumaStorage.cs" />
     <Compile Include="Common\Abstractions\ISettingsStorage.cs" />
+    <Compile Include="Common\DarumaDTO.cs" />
     <Compile Include="Domain\DarumaDomain.cs" />
     <Compile Include="Domain\DarumaStatus.cs" />
     <Compile Include="Domain\DarumaWishExecuter.cs" />
