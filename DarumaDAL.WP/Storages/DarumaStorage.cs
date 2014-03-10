@@ -6,9 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Streams;
+using DarumaBLLPortable.Common;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
-using Newtonsoft.Json;
+using DarumaDAL.WP.Utils;
 
 namespace DarumaDAL.WP.Storages
 {
@@ -18,7 +19,7 @@ namespace DarumaDAL.WP.Storages
 
         public async Task<bool> Add(DarumaDomain daruma)
         {
-            var darumaJSON = await JsonConvert.SerializeObjectAsync(daruma);
+            var darumaJSON = await SerializeObject(daruma.GetDTO());
             
             var folder = await GetFolderAsync();
             var file = await folder.CreateFileAsync(daruma.Id.ToString(), CreationCollisionOption.FailIfExists);
@@ -27,12 +28,23 @@ namespace DarumaDAL.WP.Storages
 
         private async Task<bool> WriteFile(StorageFile file, string darumaJSON)
         {
-            using (Stream stream = await file.OpenStreamForWriteAsync())
+            try
             {
                 byte[] content = Encoding.UTF8.GetBytes(darumaJSON);
+                Stream stream = await file.OpenStreamForWriteAsync();
+                
                 await stream.WriteAsync(content, 0, content.Length);
+
+                stream.Flush();
+                stream.Close();
+
                 return true;
             }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
 
         public async Task<DarumaDomain> GetById(Guid id)
@@ -75,8 +87,7 @@ namespace DarumaDAL.WP.Storages
 
         public async Task<bool> Update(DarumaDomain daruma)
         {
-            var darumaJSON = await JsonConvert.SerializeObjectAsync(daruma);
-
+            var darumaJSON = await SerializeObject(daruma.GetDTO());
             var folder = await GetFolderAsync();
             if (folder != null)
             {
@@ -90,19 +101,25 @@ namespace DarumaDAL.WP.Storages
             return false;
         }
 
+        private async Task<string> SerializeObject(DarumaDTO obj)
+        {
+            var str = await Serializer.Serialize<DarumaDTO>(obj);
+            return str;
+        }
+
         private async Task<DarumaDomain> DeserializeObject(StorageFile storageFile)
         {
-           DarumaDomain objDaruma;
+            DarumaDTO objDaruma;
             IRandomAccessStream accessStream = await storageFile.OpenReadAsync();
             using (Stream stream = accessStream.AsStreamForRead((int)accessStream.Size))
             {
-                byte[] content = new byte[stream.Length];
+                var content = new byte[stream.Length];
                 await stream.ReadAsync(content, 0, (int)stream.Length);
                 var text = Encoding.UTF8.GetString(content, 0, content.Length);
-                objDaruma = await JsonConvert.DeserializeObjectAsync<DarumaDomain>(text);
+                objDaruma = await Serializer.Deserialize<DarumaDTO>(text);
             }
 
-            return objDaruma;
+            return new DarumaDomain(objDaruma);
         }
 
         public async Task<bool> Delete(Guid id)

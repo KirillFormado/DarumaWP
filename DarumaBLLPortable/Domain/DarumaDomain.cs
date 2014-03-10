@@ -1,4 +1,5 @@
 ﻿using System;
+using DarumaBLLPortable.Common;
 
 namespace DarumaBLLPortable.Domain
 {
@@ -6,12 +7,12 @@ namespace DarumaBLLPortable.Domain
     {
         private string _currentQuoteKey;
 
-        public Guid Id { get; set; }
-        public string Wish { get; set; }
-        public DarumaWishTheme Theme { get; set; }
-        public DateTime CreateDate { get; set; }
-        public DarumaStatus Status { get; set; }
-        public Uri ImageUri { get; set; }
+        public Guid Id { get; private set; }
+        public string Wish { get; private set; }
+        public DarumaWishTheme Theme { get; private set; }
+        public DateTime CreateDate { get; private set; }
+        public DarumaStatus Status { get; private set; }
+        public Uri ImageUri { get; private set; }
 
         public string CurrentQuoteKey
         {
@@ -36,6 +37,10 @@ namespace DarumaBLLPortable.Domain
             } 
         }
 
+        public DarumaDomain()
+        {
+        }
+
         //TODO: refactor getting url addres for Daruma image
         public DarumaDomain (string wish, DarumaWishTheme theme, Uri imageUri)
         {
@@ -44,6 +49,31 @@ namespace DarumaBLLPortable.Domain
             Theme = theme;
             CreateDate = DateTime.Now;
             ChangeStatus(DarumaStatus.MakedWish, imageUri);
+        }
+
+        public DarumaDomain(DarumaDTO dto)
+        {
+            Id = dto.Id;
+            Wish = dto.Wish;
+            Theme = dto.Theme;
+            CreateDate = dto.CreateDate;
+            Status = dto.Status;
+            ImageUri = dto.ImageUri;
+            CurrentQuoteKey = dto.CurrentQuoteKey;
+        }
+
+        public DarumaDTO GetDTO()
+        {
+            return new DarumaDTO
+            {
+                Id = Id,
+                Wish = Wish,
+                Theme = Theme,
+                CreateDate = CreateDate,
+                Status = Status,
+                ImageUri = ImageUri,
+                CurrentQuoteKey = CurrentQuoteKey
+            };
         }
 
         internal void ChangeStatus(DarumaStatus newStatus, Uri newImageUri)
