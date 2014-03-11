@@ -34,7 +34,7 @@ namespace DarumaBLLPortable.ViewModels
             get { return new ObservableCollection<DarumaDomain>(); }
         }
 
-        public BaseCommand FirstSrartHandleCommand
+        public RelayCommand FirstSrartHandleCommand
         {
             get; private set;
         }
@@ -56,7 +56,7 @@ namespace DarumaBLLPortable.ViewModels
 
         private void InitCommands()
         {
-            FirstSrartHandleCommand = new BaseCommand(FirstSrartHandle);
+            FirstSrartHandleCommand = new RelayCommand(FirstSrartHandle);
         }
 
         private void FirstSrartHandle(object navigateToInfo)
