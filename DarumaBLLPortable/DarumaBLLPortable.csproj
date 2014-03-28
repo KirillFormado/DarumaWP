@@ -36,7 +36,7 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\BaseCommand.cs" />
+    <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Common\Abstractions\IDarumaImageUriResolver.cs" />
     <Compile Include="Common\Abstractions\IDarumaStorage.cs" />
     <Compile Include="Common\Abstractions\ISettingsStorage.cs" />
