@@ -95,7 +95,7 @@ namespace DarumaTileUpdatePeriodicAgent
             }
 
 #if DEBUG_AGENT
-            ScheduledActionService.LaunchForTest(task.Name, TimeSpan.FromSeconds(10));
+            ScheduledActionService.LaunchForTest(task.Name, TimeSpan.FromSeconds(60));
 #endif
 
             NotifyComplete();

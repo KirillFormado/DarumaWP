@@ -66,13 +66,13 @@ namespace Daruma
             TryRemoveTask(taskName);
             var action = new PeriodicTask(taskName)
             {
-                Description = "Some description"
+                Description = "tile_update_task"
             };
             try
             {
                 ScheduledActionService.Add(action);
                 #if DEBUG_AGENT
-                    ScheduledActionService.LaunchForTest(taskName, TimeSpan.FromSeconds(10));
+                    ScheduledActionService.LaunchForTest(taskName, TimeSpan.FromSeconds(60));
                 #endif
             }
             catch (InvalidOperationException)
