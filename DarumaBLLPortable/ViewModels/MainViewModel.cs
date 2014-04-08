@@ -15,6 +15,7 @@ namespace DarumaBLLPortable.ViewModels
         private readonly ISettingsStorage _settings;
 
         private Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> _darumaDict;
+        private ObservableCollection<DarumaDomain> _darumaList= new ObservableCollection<DarumaDomain>();
 
         public Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> DarumaDict
         {
@@ -31,12 +32,17 @@ namespace DarumaBLLPortable.ViewModels
 
         public ObservableCollection<DarumaDomain> DarumaList
         {
-            get { return new ObservableCollection<DarumaDomain>(); }
+            get { return _darumaList; }
         }
 
         public RelayCommand FirstSrartHandleCommand
         {
             get; private set;
+        }
+
+        public Action NavigateToInfoAction
+        {
+            get; set;
         }
         
         public MainViewModel(IDarumaStorage darumaStorage, IDarumaImageUriResolver imageUriResolver, ISettingsStorage settings) 
@@ -59,10 +65,10 @@ namespace DarumaBLLPortable.ViewModels
             FirstSrartHandleCommand = new RelayCommand(FirstSrartHandle);
         }
 
-        private void FirstSrartHandle(object navigateToInfo)
+        private void FirstSrartHandle(object obj)
         {
             var handler = new FirstStartHandler(_settings);
-            handler.HandleFirstStart((Action)navigateToInfo);  
+            handler.HandleFirstStart(NavigateToInfoAction);  
         }
 
         private async void LoadDaruma()

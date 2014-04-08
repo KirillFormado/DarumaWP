@@ -10,17 +10,23 @@ namespace Daruma.Views
 {
     public partial class MainView : PhoneApplicationPage
     {
-        private readonly MainViewModel _viewModel;
+        private MainViewModel _viewModel;
 
         // Constructor
         public MainView() 
         {
             InitializeComponent();
-          
+            InitializeViewModel();
+            DataContext = _viewModel;
+        }
+
+        private void InitializeViewModel()
+        {
             _viewModel = new MainViewModel(IoCContainter.Get<IDarumaStorage>()
                 , IoCContainter.Get<IDarumaImageUriResolver>()
                 , IoCContainter.Get<ISettingsStorage>());
-            DataContext = _viewModel;
+            //initialize commands
+            _viewModel.NavigateToInfoAction = NavigateToInfoPivotItem;
         }
 
         protected override void OnBackKeyPress(CancelEventArgs e)
@@ -35,7 +41,7 @@ namespace Daruma.Views
 
         private void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
-            _viewModel.FirstSrartHandleCommand.Execute((Action)NavigateToInfoPivotItem);
+            _viewModel.FirstSrartHandleCommand.Execute(null);
         }
 
         private void InfoDaruma_OnTap(object sender, EventArgs e)
