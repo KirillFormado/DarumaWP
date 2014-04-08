@@ -221,7 +221,7 @@ namespace Daruma.Views
 
         private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
         {
-            if (e.HorizontalVelocity > 200 || e.HorizontalVelocity < -200)
+            if (e.HorizontalVelocity > 10 || e.HorizontalVelocity < -10)
             {
                 DarumaAnimation.From = e.HorizontalVelocity / 36;
                 DarumaStoryboard.Begin();
