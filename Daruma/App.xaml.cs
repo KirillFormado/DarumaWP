@@ -66,7 +66,7 @@ namespace Daruma
             TryRemoveTask(taskName);
             var action = new PeriodicTask(taskName)
             {
-                Description = "tile_update_task"
+                Description = "tile_update"
             };
             try
             {
