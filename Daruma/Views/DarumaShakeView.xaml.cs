@@ -37,6 +37,15 @@ namespace Daruma.Views
             }
         }
 
+        private string DarumaUrl
+        {
+            get
+            {
+                var url = ViewUrlRouter.DarumaShakeViewByIdUrl(_daruma.Id);
+                return url;
+            }
+        }
+
         public DarumaShakeView()
         {
             InitializeComponent();
@@ -121,6 +130,7 @@ namespace Daruma.Views
                 facade.ChangeStatus(_daruma, DarumaStatus.TimeExpired);
                 DarumaImg.Source = new BitmapImage(_daruma.ImageUri);
                 await _darumaStorage.Delete(_daruma.Id);
+                DeleteTile(DarumaUrl);
                 NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
             }
         }
@@ -128,7 +138,7 @@ namespace Daruma.Views
         //TODO: move tile pin/unpin logic in separate class
         private void PinUnpin_OnClick(object sender, EventArgs eventArgs)
         {
-            var url = ViewUrlRouter.DarumaShakeViewByIdUrl(_daruma.Id);
+            var url = DarumaUrl;
 
             if (IsTilePinned(url))
             {
