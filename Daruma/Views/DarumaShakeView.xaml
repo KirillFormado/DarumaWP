@@ -47,6 +47,7 @@
                     x:Name="AddToFavoritQuot"
                     Text="{Binding Path=LocalizedResources.Favorites, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}"
+                    Visibility="Collapsed"
                     Click="AddToFavoritQuot_OnClick"/>
            
         </wpe:AdvancedApplicationBar>
