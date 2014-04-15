@@ -44,7 +44,7 @@
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=PinIconUrl}"
                     Click="PinUnpin_OnClick"/>
             <wpe:AdvancedApplicationBarIconButton 
-                    x:Name="AddToFavoritQuot"
+                    x:Name="AddToFavoritQuotButton"
                     Text="{Binding Path=LocalizedResources.Favorites, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}"
                     Visibility="Collapsed"

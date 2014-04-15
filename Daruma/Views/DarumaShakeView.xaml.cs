@@ -64,7 +64,7 @@ namespace Daruma.Views
             {
                 var quote = GetQuote(_daruma.Theme, _daruma.CurrentQuoteKey);
                 FadeInQuotation(quote);
-                ShowShareButton();
+                ShowButtons();
             }
             
             DataContext = _daruma;
@@ -96,9 +96,10 @@ namespace Daruma.Views
             FadeInAnimation.Begin();
         }
 
-        private void ShowShareButton()
+        private void ShowButtons()
         {
             ShareButton.Visibility = Visibility.Visible;
+            AddToFavoritQuotButton.Visibility = Visibility.Visible;
         }
 
         private void Share_OnClick(object sender, EventArgs eventArgs)
@@ -108,15 +109,16 @@ namespace Daruma.Views
             NavigationService.Navigate(new Uri(ViewUrlRouter.SharingViewUrl, UriKind.Relative));
         }
 
-        private void HideShareButton()
+        private void HideButtons()
         {
             ShareButton.Visibility = Visibility.Collapsed;
+            AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
         }
 
         private void QuoteTextBlock_OnTap(object sender, GestureEventArgs e)
         {
             GridQuoteTextBlock.Visibility = Visibility.Collapsed;
-            HideShareButton();
+            HideButtons();
         }
 
 
@@ -238,7 +240,7 @@ namespace Daruma.Views
 
                 var quote = GetQuote(_daruma.Theme);
                 FadeInQuotation(quote);
-                ShowShareButton();
+                ShowButtons();
             }
         }
 
