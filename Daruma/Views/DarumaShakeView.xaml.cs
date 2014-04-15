@@ -241,5 +241,10 @@ namespace Daruma.Views
                 ShowShareButton();
             }
         }
+
+        private void AddToFavoritQuot_OnClick(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -212,4 +212,7 @@
   <data name="SocialNetwork" xml:space="preserve">
     <value>Social Networks</value>
   </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
 </root>

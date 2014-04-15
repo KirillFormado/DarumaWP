@@ -219,4 +219,7 @@
   <data name="SocialNetwork" xml:space="preserve">
     <value>Социальные сети</value>
   </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>В избранное</value>
+  </data>
 </root>

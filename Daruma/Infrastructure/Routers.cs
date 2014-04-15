@@ -118,5 +118,10 @@ namespace Daruma.Infrastructure
         {
             get { return RouteToIcons + "share.png"; }
         }
+
+        public static string FavoritesIconUrl
+        {
+            get { return RouteToIcons + "starAdd.png"; }
+        }
     }
 }
