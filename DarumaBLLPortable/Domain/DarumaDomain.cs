@@ -14,6 +14,8 @@ namespace DarumaBLLPortable.Domain
         public DarumaStatus Status { get; private set; }
         public Uri ImageUri { get; private set; }
 
+        public Color Color { get; set; }
+
         public string CurrentQuoteKey
         {
             get
