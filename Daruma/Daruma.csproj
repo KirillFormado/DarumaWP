@@ -150,6 +150,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\delete.png" />
     <Content Include="Assets\Icons\share.png" />
     <Content Include="Assets\Icons\starAdd.png" />
     <Content Include="Langs\AppResLib.dll.0401.mui" />
@@ -215,7 +216,6 @@
     <Content Include="Assets\Icons\unpin.png" />
     <Content Include="Assets\Icons\back.png" />
     <Content Include="Assets\Icons\check.png" />
-    <Content Include="Assets\Icons\delete.png" />
     <Content Include="Assets\Icons\questionmark.png" />
     <Content Include="Assets\Images\BurnedDaruma.png" />
     <Content Include="Assets\Images\NewDaruma.png" />
