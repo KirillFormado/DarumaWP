@@ -169,7 +169,10 @@ namespace Daruma.Views
         private void DeleteTile(string url)
         {
             var tile = GetTile(url);
-            tile.Delete();
+            if (tile != null)
+            {
+                tile.Delete();
+            }
         }
 
         private async void CreateTile()
