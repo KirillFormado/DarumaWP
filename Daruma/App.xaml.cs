@@ -112,7 +112,6 @@ namespace Daruma
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
-            InitTileUpdateTask();
             Console.Write("");
         }
 
