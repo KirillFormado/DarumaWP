@@ -58,10 +58,12 @@
                          Style="{StaticResource PhoneAccent}" 
                          TextWrapping="Wrap" 
                          Padding="10"
+                         Text="{Binding Path=Wish, Mode=TwoWay}"
                          GotFocus="WishTextBox_OnGotFocus" />
                 <toolkit:ListPicker x:Name="WishThemePicker"
                                     Style="{StaticResource PhoneAccent}"
                                     ItemsSource="{Binding Path=ThemeList}"
+                                    SelectedItem="{Binding Path=SelectedTheme, Mode=TwoWay}"
                                     ItemTemplate="{StaticResource WishThemeItemTemplate}"
                                     FullModeItemTemplate="{StaticResource WishThemeFullModeItemTemplate}"/>
                 <Button Style="{StaticResource PhoneAccent}"

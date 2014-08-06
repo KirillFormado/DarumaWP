@@ -85,13 +85,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Abstraction\IQuotationSource.cs" />
     <Compile Include="Abstraction\StorageBase.cs" />
+    <Compile Include="Abstraction\IMapper.cs" />
+    <Compile Include="EntityMappers\DarumaMapper.cs" />
+    <Compile Include="Infrastructure\DarumaImageUriResolver.cs" />
+    <Compile Include="Infrastructure\DarumaInfoSharing.cs" />
+    <Compile Include="Infrastructure\IoCContainter.cs" />
+    <Compile Include="Infrastructure\Routers.cs" />
+    <Compile Include="Infrastructure\Serializer.cs" />
     <Compile Include="Storages\DarumaStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuotationSource.cs" />
+    <Compile Include="Storages\FavoritStorage.cs" />
     <Compile Include="Storages\SettingsStorage.cs" />
-    <Compile Include="Utils\Serializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DarumaBLLPortable\DarumaBLLPortable.csproj">
@@ -107,6 +113,9 @@
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.2\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\sl4-windowsphone71\Ninject.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

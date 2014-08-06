@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
-using Daruma.Infrastructure;
+﻿using System.Windows.Navigation;
 using DarumaResourcesPortable.Infrastructure;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using Microsoft.Phone.Tasks;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
+using DarumaDAL.WP.Infrastructure;
 
 namespace Daruma.Views
 {

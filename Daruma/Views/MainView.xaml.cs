@@ -1,9 +1,10 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows;
-using Daruma.Infrastructure;
+using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.ViewModels;
+using DarumaDAL.WP.Infrastructure;
 using Microsoft.Phone.Controls;
 
 namespace Daruma.Views
@@ -22,9 +23,7 @@ namespace Daruma.Views
 
         private void InitializeViewModel()
         {
-            _viewModel = new MainViewModel(IoCContainter.Get<IDarumaStorage>()
-                , IoCContainter.Get<IDarumaImageUriResolver>()
-                , IoCContainter.Get<ISettingsStorage>());
+            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>());
             //initialize commands
             _viewModel.NavigateToInfoAction = NavigateToInfoPivotItem;
         }
@@ -41,7 +40,7 @@ namespace Daruma.Views
 
         private void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
-            _viewModel.FirstSrartHandleCommand.Execute(null);
+            _viewModel.FirstStartHandleCommand.Execute(null);
         }
 
         private void InfoDaruma_OnTap(object sender, EventArgs e)

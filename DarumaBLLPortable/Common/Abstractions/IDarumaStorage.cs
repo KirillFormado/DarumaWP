@@ -9,7 +9,7 @@ namespace DarumaBLLPortable.Common.Abstractions
     {
         Task<bool> Add(DarumaDomain daruma);
         Task<DarumaDomain> GetById(Guid id);
-        IEnumerable<DarumaDomain> GetByStatus(DarumaStatus status);
+        Task<IEnumerable<DarumaDomain>> ListByIds(IEnumerable<Guid> ids);
         Task<IEnumerable<DarumaDomain>> ListAll();
         Task<bool> Update(DarumaDomain daruma);
         Task<bool> Delete(Guid id);

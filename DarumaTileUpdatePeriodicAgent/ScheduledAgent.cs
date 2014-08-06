@@ -2,16 +2,11 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using System.Net;
-using System.Resources;
 using System.Windows;
-using System.Windows.Navigation;
-using DarumaBLLPortable.Domain;
-using DarumaDAL.WP;
-using DarumaDAL.WP.Storages;
+using DarumaBLLPortable.ApplicationServices.Abstractions;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
-
+using DarumaDAL.WP.Infrastructure;
 
 namespace DarumaTileUpdatePeriodicAgent
 {
@@ -50,15 +45,12 @@ namespace DarumaTileUpdatePeriodicAgent
         /// </remarks>
         protected async override void OnInvoke(ScheduledTask task)
         {
-            //TODO:use IoC here
-            var quotationSource = new QuotationSource();
-            var storage = new DarumaStorage();
+            var darumaService = IoCContainter.Get<IDarumaApplicationService>();          
 
             var appTile = ShellTile.ActiveTiles.FirstOrDefault();
             if (appTile != null)
             {
-                var quoteSource = quotationSource.GetQuotationSourse(DarumaWishTheme.NoSet);
-                var quote = quoteSource.Value;
+                var quote = darumaService.GetQuotationForMainTile();
                 var tileData = new StandardTileData()
                 {
                     BackContent = quote
@@ -72,29 +64,31 @@ namespace DarumaTileUpdatePeriodicAgent
             foreach (var shellTile in secondaryTiles)
             {
                 var url = shellTile.NavigationUri.ToString();
-               
-                var idStr = "id=";
-                var guidStartIndex = url.IndexOf(idStr) + idStr.Length;
-                var guidLength = url.IndexOf("&") - guidStartIndex;
-                var guidStr = url.Substring(guidStartIndex, guidLength);
+            
+                var guid = GetIdFromUrl(url);
+                var result = await darumaService.GetInfoForSercondaryTile(guid);
 
-                var guid = Guid.Parse(guidStr);
-                var daruma = await storage.GetById(guid);
-                var quoteSource = quotationSource.GetQuotationSourse(daruma.Theme);
-                var quote = quoteSource.Value;
-                daruma.CurrentQuoteKey = quoteSource.Key;
-                await storage.Update(daruma);
-                
                 var data = new FlipTileData
                 {
-                    BackContent = quote,
-                    BackgroundImage = daruma.ImageUri
+                    BackContent = result.Value,
+                    BackgroundImage = result.Key.ImageUri
                 };
 
                 shellTile.Update(data);
             }
 
             NotifyComplete();
+        }
+
+        private Guid GetIdFromUrl(string url)
+        {
+            var idStr = "id=";
+            var guidStartIndex = url.IndexOf(idStr) + idStr.Length;
+            var guidLength = url.IndexOf("&") - guidStartIndex;
+            var guidStr = url.Substring(guidStartIndex, guidLength);
+
+            var guid = Guid.Parse(guidStr);
+            return guid;
         }
     }
 }

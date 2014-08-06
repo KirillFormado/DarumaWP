@@ -1,5 +1,5 @@
-﻿using System;
-using DarumaBLLPortable.Domain;
+﻿using DarumaBLLPortable.Domain;
+using System;
 
 namespace DarumaBLLPortable.Common
 {
@@ -9,8 +9,7 @@ namespace DarumaBLLPortable.Common
         public string Wish { get; set; }
         public DarumaWishTheme Theme { get; set; }
         public DateTime CreateDate { get; set; }
-        public DarumaStatus Status { get; set; }
-        public Uri ImageUri { get; set; }
+        public DarumaStatus Status { get; set; }        
         public string CurrentQuoteKey { get; set; }
     }
 }

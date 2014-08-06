@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DarumaDAL.WP.Infrastructure;
+using System;
 using System.Globalization;
 using System.Windows.Data;
 

@@ -1,9 +1,8 @@
-﻿
-using DarumaBLLPortable.Domain;
+﻿using DarumaBLLPortable.Domain;
 
-namespace Daruma.Infrastructure
+namespace DarumaDAL.WP.Infrastructure
 {
-    class  DarumaInfoSharing
+    public class  DarumaInfoSharing
     {
 
         public DarumaWishTheme WishTheme { get; private set; }

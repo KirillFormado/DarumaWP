@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Globalization;
 using DarumaBLLPortable.Domain;
-using DarumaDAL.WP.Abstraction;
 using DarumaResourcesPortable.Infrastructure;
 using Microsoft.Phone.Info;
+using DarumaBLLPortable.Common.Abstractions;
 
 namespace DarumaDAL.WP
 {

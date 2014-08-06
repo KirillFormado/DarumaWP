@@ -8,6 +8,7 @@ namespace DarumaBLLPortable.Commands
         private readonly Predicate<object> _canExcecute;
         private readonly Action<object> _command;
 
+        //TODO: refactor command
         public RelayCommand(Action<object> command, Predicate<object> canExcecute = null)
         {
             _command = command;

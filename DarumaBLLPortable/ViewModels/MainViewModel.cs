@@ -2,22 +2,23 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Commands;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
+using DarumaBLLPortable.ApplicationServices.Entites;
 
 namespace DarumaBLLPortable.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
-        private readonly IDarumaStorage _darumaStorage;
-        private readonly IDarumaImageUriResolver _imageUriResolver;
         private readonly ISettingsStorage _settings;
 
-        private Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> _darumaDict;
-        private ObservableCollection<DarumaDomain> _darumaList= new ObservableCollection<DarumaDomain>();
+        private Dictionary<DarumaStatus, ObservableCollection<DarumaView>> _darumaDict;
+        private ObservableCollection<DarumaView> _darumaList = new ObservableCollection<DarumaView>();
+        private IDarumaApplicationService _darumaService;
 
-        public Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>> DarumaDict
+        public Dictionary<DarumaStatus, ObservableCollection<DarumaView>> DarumaDict
         {
             get { return _darumaDict; }
             set
@@ -30,12 +31,12 @@ namespace DarumaBLLPortable.ViewModels
             }
         }
 
-        public ObservableCollection<DarumaDomain> DarumaList
+        public ObservableCollection<DarumaView> DarumaList
         {
             get { return _darumaList; }
         }
 
-        public RelayCommand FirstSrartHandleCommand
+        public RelayCommand FirstStartHandleCommand
         {
             get; private set;
         }
@@ -44,17 +45,16 @@ namespace DarumaBLLPortable.ViewModels
         {
             get; set;
         }
-        
-        public MainViewModel(IDarumaStorage darumaStorage, IDarumaImageUriResolver imageUriResolver, ISettingsStorage settings) 
+
+        public MainViewModel(ISettingsStorage settings, IDarumaApplicationService darumaService) 
         {
-            _darumaStorage = darumaStorage;
-            _imageUriResolver = imageUriResolver;
             _settings = settings;
-            _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaDomain>>
+            _darumaService = darumaService;
+            _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaView>>
             {
-                {DarumaStatus.MakedWish, new ObservableCollection<DarumaDomain>()},
-                {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaDomain>()},
-                {DarumaStatus.TimeExpired, new ObservableCollection<DarumaDomain>()},
+                {DarumaStatus.MakedWish, new ObservableCollection<DarumaView>()},
+                {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaView>()},
+                {DarumaStatus.TimeExpired, new ObservableCollection<DarumaView>()},
             };
             LoadDaruma();
             InitCommands();
@@ -62,10 +62,10 @@ namespace DarumaBLLPortable.ViewModels
 
         private void InitCommands()
         {
-            FirstSrartHandleCommand = new RelayCommand(FirstSrartHandle);
+            FirstStartHandleCommand = new RelayCommand(FirstStartHandle);
         }
 
-        private void FirstSrartHandle(object obj)
+        private void FirstStartHandle(object obj)
         {
             var handler = new FirstStartHandler(_settings);
             handler.HandleFirstStart(NavigateToInfoAction);  
@@ -73,10 +73,8 @@ namespace DarumaBLLPortable.ViewModels
 
         private async void LoadDaruma()
         {
-            var darumaList = //FakeDarumaSourse(); 
-                await _darumaStorage.ListAll();
-            var expiredHandler = new DarumaWishExpiredHandler(_darumaStorage, _imageUriResolver);
-            expiredHandler.CheckExpiredStatus(darumaList);
+            IEnumerable<DarumaView> darumaList = (await _darumaService.ListAll()).ToList();
+            _darumaService.CheckExpiredStatus(darumaList);
             var lookup = darumaList.ToLookup(d => d.Status);
 
             var orderList = GetOrderList();
@@ -90,7 +88,7 @@ namespace DarumaBLLPortable.ViewModels
                     {
                         if (!_darumaDict.ContainsKey(status))
                         {
-                            _darumaDict.Add(status, new ObservableCollection<DarumaDomain>());
+                            _darumaDict.Add(status, new ObservableCollection<DarumaView>());
                         }
                         _darumaDict[status].Add(darumaDomain);
                     }

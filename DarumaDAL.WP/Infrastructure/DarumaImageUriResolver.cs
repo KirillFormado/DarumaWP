@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
 
-namespace Daruma.Infrastructure
+namespace DarumaDAL.WP.Infrastructure
 {
     public class DarumaImageUriResolver : IDarumaImageUriResolver
     {

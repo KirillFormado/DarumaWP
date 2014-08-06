@@ -5,15 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Streams;
-using DarumaDAL.WP.Utils;
+using DarumaDAL.WP.Infrastructure;
 
 namespace DarumaDAL.WP.Abstraction
 {
-    public abstract class StorageBase<T> where T : class
+    public abstract class StorageBase<Domain, DTO> where Domain : class
     {
         protected abstract string FolderName { get; }
+        protected abstract IMapper<Domain, DTO> Mapper { get; }
 
-        public async Task<bool> Add(T domainObject, string id)
+        public async Task<bool> Add(Domain domainObject, string id)
         {
             var json = await SerializeObject(domainObject);
             
@@ -43,7 +44,7 @@ namespace DarumaDAL.WP.Abstraction
             
         }
 
-        public async Task<T> GetById(string id)
+        public async Task<Domain> GetById(string id)
         {           
             var folder = await GetFolderAsync();
             var file = await folder.GetFileAsync(id);
@@ -57,9 +58,9 @@ namespace DarumaDAL.WP.Abstraction
             return folder;
         }        
 
-        public async virtual Task<IEnumerable<T>> ListAll()
+        public async virtual Task<IEnumerable<Domain>> ListAll()
         {
-            var domainList = new List<T>();
+            var domainList = new List<Domain>();
 
             var folder = await ApplicationData.Current.LocalFolder.CreateFolderAsync(FolderName,
                CreationCollisionOption.OpenIfExists);
@@ -68,14 +69,14 @@ namespace DarumaDAL.WP.Abstraction
 
             foreach (var storageFile in files)
             {
-                T domainObj = await DeserializeObject(storageFile);
+                Domain domainObj = await DeserializeObject(storageFile);
                 domainList.Add(domainObj);
             }
                      
             return domainList;
         }
 
-        public async Task<bool> Update(T domainObject, string id)
+        public async Task<bool> Update(Domain domainObject, string id)
         {
             var json = await SerializeObject(domainObject);
             var folder = await GetFolderAsync();
@@ -91,25 +92,27 @@ namespace DarumaDAL.WP.Abstraction
             return false;
         }
 
-        private async Task<string> SerializeObject(T obj)
+        private async Task<string> SerializeObject(Domain obj)
         {
-            var str = await Serializer.Serialize<T>(obj);
+            DTO dto = Mapper.MapToDTO(obj);
+            string str = await Serializer.Serialize<DTO>(dto);
             return str;
         }
 
-        private async Task<T> DeserializeObject(StorageFile storageFile)
+        private async Task<Domain> DeserializeObject(StorageFile storageFile)
         {
-            T domainObj;
+            DTO dto;
             IRandomAccessStream accessStream = await storageFile.OpenReadAsync();
             using (Stream stream = accessStream.AsStreamForRead((int)accessStream.Size))
             {
                 var content = new byte[stream.Length];
                 await stream.ReadAsync(content, 0, (int)stream.Length);
                 var text = Encoding.UTF8.GetString(content, 0, content.Length);
-                domainObj = await Serializer.Deserialize<T>(text);
+                dto = await Serializer.Deserialize<DTO>(text);
             }
 
-            return domainObj;
+            Domain domain = Mapper.MapToDomain(dto);
+            return domain;
         }
 
         public async Task<bool> Delete(string id)

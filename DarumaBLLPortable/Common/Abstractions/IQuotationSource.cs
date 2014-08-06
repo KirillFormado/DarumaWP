@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using DarumaBLLPortable.Domain;
 
-namespace DarumaDAL.WP.Abstraction
+namespace DarumaBLLPortable.Common.Abstractions
 {
     public interface IQuotationSource
     {

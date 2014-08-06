@@ -2,32 +2,26 @@
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using Windows.ApplicationModel.DataTransfer;
-using Daruma.Infrastructure;
+using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
-using DarumaBLLPortable.Helpers;
+using DarumaBLLPortable.ViewModels;
 using DarumaDAL.WP.Abstraction;
 using DarumaResourcesPortable.Infrastructure;
 using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Microsoft.Phone.Tasks;
-using WPExtensions;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
+using DarumaDAL.WP.Infrastructure;
+using DarumaBLLPortable.ApplicationServices.Entites;
 
 namespace Daruma.Views
 {
     public partial class DarumaShakeView : PhoneApplicationPage
     {
-        private IDarumaStorage _darumaStorage;
-        private IDarumaImageUriResolver _imageUriResolver;
-        private IQuotationSource _quotationSource;
-        private DarumaDomain _daruma;
+        private DarumaShakeViewModel _viewModel;
 
         private string Quote
         {
@@ -41,33 +35,40 @@ namespace Daruma.Views
         {
             get
             {
-                var url = ViewUrlRouter.DarumaShakeViewByIdUrl(_daruma.Id);
+                var url = ViewUrlRouter.DarumaShakeViewByIdUrl(Daruma.Id);
                 return url;
+            }
+        }
+
+        public DarumaView Daruma
+        {
+            get
+            {
+                return _viewModel.Daruma;
             }
         }
 
         public DarumaShakeView()
         {
             InitializeComponent();
-            _darumaStorage = IoCContainter.Get<IDarumaStorage>();
-            _imageUriResolver = IoCContainter.Get<IDarumaImageUriResolver>();
-            _quotationSource = IoCContainter.Get<IQuotationSource>();
+            _viewModel = new DarumaShakeViewModel(IoCContainter.Get<IDarumaApplicationService>());
+            DataContext = _viewModel;           
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             //Get Daruma by id from storage
             var id = Guid.Parse(NavigationContext.QueryString["id"]);
-            _daruma = await _darumaStorage.GetById(id);
+            await _viewModel.GetDarumaById(id);
             
-            if (_daruma.HasCurrentQuoteKey && NavigationContext.QueryString.ContainsKey("hasKey"))
+            if (Daruma.HasCurrentQuoteKey && NavigationContext.QueryString.ContainsKey("hasKey"))
             {
-                var quote = GetQuote(_daruma.Theme, _daruma.CurrentQuoteKey);
+                var quote =  _viewModel.GetQuote(Daruma.Theme, Daruma.CurrentQuoteKey);
                 FadeInQuotation(quote);
                 ShowButtons();
             }
             
-            DataContext = _daruma;
+            DataContext = Daruma;
             
             SetPinBar(NavigationService.Source.ToString());
             
@@ -78,14 +79,6 @@ namespace Daruma.Views
         {
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
             base.OnBackKeyPress(e);
-        }
-
-        private string GetQuote(DarumaWishTheme theme, string key = null)
-        {
-            var quote = key == null
-                ? _quotationSource.GetQuotationSourse(theme).Value
-                : _quotationSource.GetQuotationByKey(theme, key);
-            return quote;
         }
 
         private void FadeInQuotation(string quote)
@@ -104,7 +97,7 @@ namespace Daruma.Views
 
         private void Share_OnClick(object sender, EventArgs eventArgs)
         {
-            var quote = new DarumaInfoSharing(_daruma.Theme, Quote);
+            var quote = new DarumaInfoSharing(Daruma.Theme, Quote);
             PhoneApplicationService.Current.State.Add(DarumaInfoSharing.Key, quote);
             NavigationService.Navigate(new Uri(ViewUrlRouter.SharingViewUrl, UriKind.Relative));
         }
@@ -128,12 +121,16 @@ namespace Daruma.Views
             var result = MessageBox.Show(string.Empty, AppResources.IsDelete, MessageBoxButton.OKCancel);
             if (result == MessageBoxResult.OK)
             {
-                var facade = new DarumaChangeStatusFacade(_imageUriResolver);
-                facade.ChangeStatus(_daruma, DarumaStatus.TimeExpired);
-                DarumaImg.Source = new BitmapImage(_daruma.ImageUri);
-                await _darumaStorage.Delete(_daruma.Id);
-                DeleteTile(DarumaUrl);
-                NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+                await _viewModel.ChangeToTimeExpired();
+                DarumaImg.Source = new BitmapImage(Daruma.ImageUri);
+
+                bool isDelete = await _viewModel.Delete(Daruma);
+
+                if (isDelete)
+                {
+                    DeleteTile(DarumaUrl);
+                    NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+                }
             }
         }
 
@@ -177,22 +174,21 @@ namespace Daruma.Views
 
         private async void CreateTile()
         {
-            var tileIconUrl = _daruma.ImageUri;
-            var url = ViewUrlRouter.DarumaShakeViewByIdUrlWithKey(_daruma.Id);
-            var tiitleTheme = new DarumaWishThemeToLocalizationString().GetLocalizationByTheme(_daruma.Theme);
-            
-            var quoteSourse = _quotationSource.GetQuotationSourse(_daruma.Theme);
+            var tileIconUrl = Daruma.ImageUri;
+            var url = ViewUrlRouter.DarumaShakeViewByIdUrlWithKey(Daruma.Id);
+            var tiitleTheme = new DarumaWishThemeToLocalizationString().GetLocalizationByTheme(Daruma.Theme);
+
+            string quote = await _viewModel.UpdateDarumaQuotation();           
 
             var tileData = new StandardTileData()
             {
                 Title = tiitleTheme,
-                BackTitle = _daruma.Wish,
-                BackContent = quoteSourse.Value,
+                BackTitle = Daruma.Wish,
+                BackContent = quote,
                 BackgroundImage = tileIconUrl
             };
 
-            _daruma.CurrentQuoteKey = quoteSourse.Key;
-            await _darumaStorage.Update(_daruma);
+         
             ShellTile.Create(new Uri(url, UriKind.Relative), tileData);
         }
 
@@ -216,22 +212,14 @@ namespace Daruma.Views
         }
 
         private async void Daruma_OnTap(object sender, GestureEventArgs e)
-        {
-            if (_daruma.Status == DarumaStatus.MakedWish)
-            {
-                var result = MessageBox.Show(string.Empty, AppResources.IsWishComeTrue,
-                    MessageBoxButton.OKCancel);
-               
-                if (result == MessageBoxResult.OK)
-                {
-                    var executer = new DarumaWishExecuter(_darumaStorage, _imageUriResolver);
-                    var isExecute = await executer.TryExecuteWish(_daruma);
-                    if (isExecute)
-                    {
-                        DarumaImg.Source = new BitmapImage(_daruma.ImageUri);    
-                    }
-                }
-            }
+        {          
+            await _viewModel.TryExecuteWish(() =>
+            {                       
+                MessageBoxResult result = MessageBox.Show(string.Empty, AppResources.IsWishComeTrue, MessageBoxButton.OKCancel);
+                return result == MessageBoxResult.OK;
+            });
+
+            DarumaImg.Source = new BitmapImage(_viewModel.Daruma.ImageUri);
         }
 
         private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
@@ -241,7 +229,7 @@ namespace Daruma.Views
                 DarumaAnimation.From = e.HorizontalVelocity / 36;
                 DarumaStoryboard.Begin();
 
-                var quote = GetQuote(_daruma.Theme);
+                var quote = _viewModel.GetQuote(Daruma.Theme);
                 FadeInQuotation(quote);
                 ShowButtons();
             }

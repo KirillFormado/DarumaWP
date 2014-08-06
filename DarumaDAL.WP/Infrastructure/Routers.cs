@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Daruma.Infrastructure
+namespace DarumaDAL.WP.Infrastructure
 {
     public class ViewUrlRouter
     {

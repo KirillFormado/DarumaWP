@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using DarumaBLLPortable.Annotations;
+using DarumaBLLPortable.Properties;
 
 namespace DarumaBLLPortable.ViewModels
 {

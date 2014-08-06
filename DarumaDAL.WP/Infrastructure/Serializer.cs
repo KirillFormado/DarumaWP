@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace DarumaDAL.WP.Utils
+namespace DarumaDAL.WP.Infrastructure
 {
     class Serializer
     {
