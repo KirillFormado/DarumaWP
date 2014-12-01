@@ -11,11 +11,13 @@ namespace DarumaBLLPortable.ViewModels
     public class DarumaShakeViewModel : ViewModelBase
     {
         private DarumaView _daruma;
-        private IDarumaApplicationService _darumaService;
+        private readonly IDarumaApplicationService _darumaService;
+        private IFavoritApplicationService _favoritService;
 
-        public DarumaShakeViewModel(IDarumaApplicationService darumaService)
+        public DarumaShakeViewModel(IDarumaApplicationService darumaService, IFavoritApplicationService favoritService)
         {
             _darumaService = darumaService;
+            _favoritService = favoritService;
         }
 
         public async Task GetDarumaById(Guid id)
@@ -65,6 +67,13 @@ namespace DarumaBLLPortable.ViewModels
             }
         }
 
-
+        public void AddFavorit(string text)
+        {
+            _favoritService.Add(new FavoritView
+            {
+                Theme = Daruma.Theme,
+                Text = text
+            });
+        }
     }
 }

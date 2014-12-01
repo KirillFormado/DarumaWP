@@ -95,6 +95,7 @@
     <Compile Include="Abstraction\StorageBase.cs" />
     <Compile Include="Abstraction\IMapper.cs" />
     <Compile Include="EntityMappers\DarumaMapper.cs" />
+    <Compile Include="EntityMappers\FavoritMapper.cs" />
     <Compile Include="Infrastructure\DarumaImageUriResolver.cs" />
     <Compile Include="Infrastructure\DarumaInfoSharing.cs" />
     <Compile Include="Infrastructure\IoCContainter.cs" />

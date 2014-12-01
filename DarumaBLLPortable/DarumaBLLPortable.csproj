@@ -36,13 +36,18 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationServices\Entites\FavoritView.cs" />
+    <Compile Include="ApplicationServices\Services\FavoritApplicationService.cs" />
+    <Compile Include="ApplicationServices\Abstractions\IFavoritApplicationService.cs" />
     <Compile Include="Commands\RelayCommand.cs" />
     <Compile Include="Common\Abstractions\IDarumaImageUriResolver.cs" />
     <Compile Include="Common\Abstractions\IDarumaStorage.cs" />
+    <Compile Include="Common\Abstractions\IFavoritStorage.cs" />
     <Compile Include="Common\Abstractions\IQuotationSource.cs" />
     <Compile Include="Common\Abstractions\ISettingsStorage.cs" />
     <Compile Include="Common\DarumaDTO.cs" />
     <Compile Include="ApplicationServices\Entites\DarumaView.cs" />
+    <Compile Include="Common\FavoritDTO.cs" />
     <Compile Include="Domain\Color.cs" />
     <Compile Include="Domain\DarumaDomain.cs" />
     <Compile Include="ApplicationServices\Entites\DarumaDomainBuilder.cs" />

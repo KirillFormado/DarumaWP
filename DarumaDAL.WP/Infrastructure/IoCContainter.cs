@@ -13,6 +13,7 @@ namespace DarumaDAL.WP.Infrastructure
         static IoCContainter()
         {
             Kernel.Bind<IDarumaStorage>().To<DarumaStorage>();
+            Kernel.Bind<IFavoritStorage>().To<FavoritStorage>();
             Kernel.Bind<IDarumaApplicationService>().To<DarumaApplicationService>();
             Kernel.Bind<ISettingsStorage>().To<SettingsStorage>();
             Kernel.Bind<IDarumaImageUriResolver>().To<DarumaImageUriResolver>();

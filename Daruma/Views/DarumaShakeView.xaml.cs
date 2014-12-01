@@ -52,7 +52,7 @@ namespace Daruma.Views
         public DarumaShakeView()
         {
             InitializeComponent();
-            _viewModel = new DarumaShakeViewModel(IoCContainter.Get<IDarumaApplicationService>());
+            _viewModel = new DarumaShakeViewModel(IoCContainter.Get<IDarumaApplicationService>(), IoCContainter.Get<IFavoritApplicationService>());
             DataContext = _viewModel;           
         }
 
@@ -247,7 +247,7 @@ namespace Daruma.Views
 
         private void AddToFavoritQuot_OnClick(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            _viewModel.AddFavorit(Quote);
         }
     }
 }
