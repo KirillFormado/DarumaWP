@@ -27,13 +27,10 @@ namespace DarumaDAL.WP.Abstraction
         {
             try
             {
-                byte[] content = Encoding.UTF8.GetBytes(json);
-                Stream stream = await file.OpenStreamForWriteAsync();
-                
-                await stream.WriteAsync(content, 0, content.Length);
+                IBuffer buffer = Windows.Security.Cryptography.CryptographicBuffer.ConvertStringToBinary(
+                    json, Windows.Security.Cryptography.BinaryStringEncoding.Utf8);
 
-                stream.Flush();
-                stream.Close();
+                await FileIO.WriteBufferAsync(file, buffer);
 
                 return true;
             }
@@ -101,15 +98,11 @@ namespace DarumaDAL.WP.Abstraction
 
         private async Task<Domain> DeserializeObject(StorageFile storageFile)
         {
-            DTO dto;
-            IRandomAccessStream accessStream = await storageFile.OpenReadAsync();
-            using (Stream stream = accessStream.AsStreamForRead((int)accessStream.Size))
-            {
-                var content = new byte[stream.Length];
-                await stream.ReadAsync(content, 0, (int)stream.Length);
-                var text = Encoding.UTF8.GetString(content, 0, content.Length);
-                dto = await Serializer.Deserialize<DTO>(text);
-            }
+            var buffer = await FileIO.ReadBufferAsync(storageFile);
+            DataReader dataReader = DataReader.FromBuffer(buffer);
+            string text = dataReader.ReadString(buffer.Length);
+
+            DTO dto = await Serializer.Deserialize<DTO>(text);
 
             Domain domain = Mapper.MapToDomain(dto);
             return domain;
