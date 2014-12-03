@@ -258,6 +258,10 @@
       <Project>{25555243-35EC-4105-888F-7D53716F82E4}</Project>
       <Name>DarumaResourcesPortable</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DarumaTileUpdatePeriodicAgent\DarumaTileUpdatePeriodicAgent.csproj">
+      <Project>{545fbe58-e84b-4689-9d10-aa61bf51d70e}</Project>
+      <Name>DarumaTileUpdatePeriodicAgent</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
