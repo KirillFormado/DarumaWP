@@ -4,6 +4,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using Windows.ApplicationModel.DataTransfer;
 using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
@@ -98,7 +99,16 @@ namespace Daruma.Views
         private void Share_OnClick(object sender, EventArgs eventArgs)
         {
             var quote = new DarumaInfoSharing(Daruma.Theme, Quote);
-            PhoneApplicationService.Current.State.Add(DarumaInfoSharing.Key, quote);
+            var state = PhoneApplicationService.Current.State;
+            if (state.ContainsKey(DarumaInfoSharing.Key))
+            {
+                state[DarumaInfoSharing.Key] = quote;
+            }
+            else
+            {
+                state.Add(DarumaInfoSharing.Key, quote);
+            }
+            
             NavigationService.Navigate(new Uri(ViewUrlRouter.SharingViewUrl, UriKind.Relative));
         }
 
