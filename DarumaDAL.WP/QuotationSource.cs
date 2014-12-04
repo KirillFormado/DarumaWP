@@ -17,7 +17,9 @@ namespace DarumaDAL.WP
             var resource = resourseStorage.GetByDarumsWishTheme(theme);
             var resolver = new RandomQuotationResolver(resource.GetResourceSet(CultureInfo.CurrentUICulture, true, true));
 
-            var seed = DateTime.Now.Second + (int)DeviceStatus.ApplicationCurrentMemoryUsage;
+            var seed = DateTime.Now.Second +
+                //change app memory usage determine type to comparable with WinRT api
+                (int)Windows.System.MemoryManager.AppMemoryUsage;
             var quaotation = resolver.RenturnRandomQuotation(seed);
 
             return quaotation;

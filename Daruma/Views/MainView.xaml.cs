@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows;
+using System.Windows.Navigation;
 using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.ViewModels;
@@ -30,7 +31,9 @@ namespace Daruma.Views
 
         protected override void OnBackKeyPress(CancelEventArgs e)
         {
-            Application.Current.Terminate();
+            //in WinRT apps, app go to sleep after back button push insted exit app
+            NavigationService.PauseOnBack = true;
+            //Application.Current.Terminate();
         }
 
         private void NewDaruma_OnTap(object sender, EventArgs e)

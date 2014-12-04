@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
-  <DefaultLanguage xmlns="" code="ru-RU" />
+  <DefaultLanguage xmlns="" code="ru" />
   <Languages xmlns="">
     <Language code="ru-RU" />
+    <Language code="en" />
+    <Language code="en-US" />
+    <Language code="ru" />
   </Languages>
-  <App xmlns="" ProductID="{5d9de006-3c7e-4a31-9f94-7102030c2c33}" Title="@Langs/AppResLib.dll,-100" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Daruma author" Description="Sample description" Publisher="Daruma" PublisherID="{e818b500-2ec8-4298-bf18-a292d0633d72}">
+  <App xmlns="" ProductID="{5d9de006-3c7e-4a31-9f94-7102030c2c33}" Title="@Langs/AppResLib.dll,-100" RuntimeType="Silverlight" Version="0.2.0.0" Genre="apps.normal" Author="KirillFormado" Description="description" Publisher="KirillFormado" PublisherID="{e818b500-2ec8-4298-bf18-a292d0633d72}" BackUpOptOut="false">
     <IconPath IsRelative="true" IsResource="false">Assets\Tiles\darumaTile.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
-      <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
-      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
       <Capability Name="ID_CAP_SENSORS" />
       <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
     </Capabilities>
@@ -26,10 +27,14 @@
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\darumaTile.png</BackgroundImageURI>
           <Title>@Langs/AppResLib.dll,-200</Title>
-          <BackContent></BackContent>
-          <BackBackgroundImageURI></BackBackgroundImageURI>
-          <BackTitle></BackTitle>
-          <DeviceLockImageURI></DeviceLockImageURI>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI>
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI>
+          </DeviceLockImageURI>
           <HasLarge>False</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
