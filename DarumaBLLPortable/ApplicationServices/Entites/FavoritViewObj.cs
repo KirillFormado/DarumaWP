@@ -1,19 +1,22 @@
-﻿using DarumaBLLPortable.Domain;
+﻿using System;
+using DarumaBLLPortable.Domain;
 
 namespace DarumaBLLPortable.ApplicationServices.Entites
 {
-    public class FavoritView
+    public class FavoritViewObj
     {
+        public Guid Id { get; set; }
         public DarumaWishTheme Theme { get; set; }
         public string Text { get; set; }
 
-        public FavoritView()
+        public FavoritViewObj()
         {
             
         }
 
-        public FavoritView(Favorit favorit)
+        public FavoritViewObj(Favorit favorit)
         {
+            Id = favorit.Id;
             Theme = favorit.Theme;
             Text = favorit.Text;
         }
@@ -22,6 +25,7 @@ namespace DarumaBLLPortable.ApplicationServices.Entites
         {
             return new Favorit
             {
+                Id = Id,
                 Text = Text,
                 Theme = Theme
             };

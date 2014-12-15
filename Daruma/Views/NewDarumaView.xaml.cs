@@ -13,7 +13,7 @@ using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
 {
-    public partial class NewDarumaView : PhoneApplicationPage
+    public partial class NewDarumaView : BaseDarumaPage
     {
         private NewDarumaViewModel _viewModel;
         

@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage
+﻿<views:BaseDarumaPage
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
@@ -7,10 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     x:Class="Daruma.Views.MainView"
     mc:Ignorable="d"
-    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True"
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
     xmlns:converters="clr-namespace:Daruma.Infrastructure.Converters"
+    xmlns:views="clr-namespace:Daruma.Views"
     Loaded="MainView_OnLoaded">
     
     <phone:PhoneApplicationPage.Resources>
@@ -66,6 +65,7 @@
                 Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Info}"
                 IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=QuestionMarkIconUrl}"
                 Click="InfoDaruma_OnTap"/>
+            <wpe:AdvancedApplicationBarMenuItem Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.FavoritQuotations}" Click="Favorits_OnClick"></wpe:AdvancedApplicationBarMenuItem>
         </wpe:AdvancedApplicationBar>
 
         <phone:Pivot x:Name="MainPivot" Title="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Daruma_Up_Case}"
@@ -83,4 +83,4 @@
         </phone:Pivot>  
     </Grid>
 
-</phone:PhoneApplicationPage>
+</views:BaseDarumaPage>

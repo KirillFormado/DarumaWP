@@ -11,6 +11,11 @@ namespace DarumaDAL.WP.Infrastructure
             get { return RouteToViews + "MainView.xaml"; }
         }
 
+        public static string FavoritsViewUrl
+        {
+            get { return RouteToViews + "FavoritsView.xaml"; }
+        }
+
         public static string DarumaShakeViewUrl
         {
             get { return RouteToViews + "DarumaShakeView.xaml"; }
@@ -122,6 +127,11 @@ namespace DarumaDAL.WP.Infrastructure
         public static string FavoritesIconUrl
         {
             get { return RouteToIcons + "starAdd.png"; }
+        }
+
+        public static string CloseIconUrl
+        {
+            get { return RouteToIcons + "close.png"; }
         }
     }
 }

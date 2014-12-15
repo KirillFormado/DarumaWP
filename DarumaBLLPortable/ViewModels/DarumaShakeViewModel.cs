@@ -69,7 +69,7 @@ namespace DarumaBLLPortable.ViewModels
 
         public void AddFavorit(string text)
         {
-            _favoritService.Add(new FavoritView
+            _favoritService.Add(new FavoritViewObj
             {
                 Theme = Daruma.Theme,
                 Text = text

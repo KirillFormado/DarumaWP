@@ -10,6 +10,7 @@ namespace DarumaDAL.WP.EntityMappers
         {
             return new FavoritDTO
             {
+                Id = favorit.Id,
                 Text = favorit.Text,
                 Theme = favorit.Theme
             };
@@ -19,6 +20,7 @@ namespace DarumaDAL.WP.EntityMappers
         {
             return new Favorit
             {
+                Id = dto.Id,
                 Text = dto.Text,
                 Theme = dto.Theme
             };

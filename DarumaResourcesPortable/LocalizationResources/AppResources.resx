@@ -168,7 +168,7 @@
   <data name="Add" xml:space="preserve">
     <value>Добавить</value>
   </data>
-  <data name="Delete" xml:space="preserve">
+  <data name="Burn" xml:space="preserve">
     <value>Сжечь</value>
   </data>
   <data name="Info" xml:space="preserve">
@@ -221,5 +221,14 @@
   </data>
   <data name="Favorites" xml:space="preserve">
     <value>В избранное</value>
+  </data>
+  <data name="FavoritQuotations" xml:space="preserve">
+    <value>Сохраненные цитаты</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ToСlipboard" xml:space="preserve">
+    <value>Буфер обмена</value>
   </data>
 </root>

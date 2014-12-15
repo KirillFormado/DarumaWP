@@ -140,8 +140,8 @@
   <data name="Info" xml:space="preserve">
     <value>Info</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+  <data name="Burn" xml:space="preserve">
+    <value>Burn</value>
   </data>
   <data name="Empty" xml:space="preserve">
     <value>Empty</value>
@@ -214,5 +214,14 @@
   </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favorites</value>
+  </data>
+  <data name="FavoritQuotations" xml:space="preserve">
+    <value>Favorit quotations</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ToСlipboard" xml:space="preserve">
+    <value>Сlipboard</value>
   </data>
 </root>

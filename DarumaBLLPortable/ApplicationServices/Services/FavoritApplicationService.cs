@@ -19,18 +19,18 @@ namespace DarumaBLLPortable.ApplicationServices.Services
             _favoritStorage = favoritStorage;
         }
 
-        public async Task<bool> Add(FavoritView favorit)
+        public async Task<bool> Add(FavoritViewObj favorit)
         {
             return await _favoritStorage.Add(favorit.ToDomain());
         }
 
-        public async Task<IEnumerable<FavoritView>> ListAllFavorits()
+        public async Task<IEnumerable<FavoritViewObj>> ListAllFavorits()
         {
             IEnumerable<Favorit> favorits = await _favoritStorage.ListAllFavorits();
-            return favorits.Select(f => new FavoritView(f));
+            return favorits.Select(f => new FavoritViewObj(f));
         }
 
-        public async Task<bool> Delete(FavoritView favorit)
+        public async Task<bool> Delete(FavoritViewObj favorit)
         {
             return await _favoritStorage.Delete(favorit.ToDomain());
         } 

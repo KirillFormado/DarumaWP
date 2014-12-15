@@ -20,7 +20,7 @@ using DarumaBLLPortable.ApplicationServices.Entites;
 
 namespace Daruma.Views
 {
-    public partial class DarumaShakeView : PhoneApplicationPage
+    public partial class DarumaShakeView : BaseDarumaPage
     {
         private DarumaShakeViewModel _viewModel;
 
@@ -93,34 +93,27 @@ namespace Daruma.Views
         private void ShowButtons()
         {
             ShareButton.Visibility = Visibility.Visible;
-            AddToFavoritQuotButton.Visibility = Visibility.Visible;
+            //AddToFavoritQuotButton.Visibility = Visibility.Visible;
         }
 
         private void Share_OnClick(object sender, EventArgs eventArgs)
         {
             var quote = new DarumaInfoSharing(Daruma.Theme, Quote);
-            var state = PhoneApplicationService.Current.State;
-            if (state.ContainsKey(DarumaInfoSharing.Key))
-            {
-                state[DarumaInfoSharing.Key] = quote;
-            }
-            else
-            {
-                state.Add(DarumaInfoSharing.Key, quote);
-            }
+            DarumaInfoSharing.SetQuote(quote);
             
             NavigationService.Navigate(new Uri(ViewUrlRouter.SharingViewUrl, UriKind.Relative));
         }
 
         private void HideButtons()
         {
+            GridQuoteTextBlock.Visibility = Visibility.Collapsed;
             ShareButton.Visibility = Visibility.Collapsed;
-            AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
+            //AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
         }
 
         private void QuoteTextBlock_OnTap(object sender, GestureEventArgs e)
         {
-            GridQuoteTextBlock.Visibility = Visibility.Collapsed;
+            //GridQuoteTextBlock.Visibility = Visibility.Collapsed;
             HideButtons();
         }
 
@@ -248,6 +241,12 @@ namespace Daruma.Views
         private void AddToFavoritQuot_OnClick(object sender, EventArgs e)
         {
             _viewModel.AddFavorit(Quote);
+            HideButtons();
+        }
+
+        private void Close_OnClick(object sender, RoutedEventArgs e)
+        {
+            HideButtons();
         }
     }
 }

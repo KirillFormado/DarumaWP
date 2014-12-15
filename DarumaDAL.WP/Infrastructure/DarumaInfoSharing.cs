@@ -1,4 +1,5 @@
 ﻿using DarumaBLLPortable.Domain;
+using Microsoft.Phone.Shell;
 using Newtonsoft.Json;
 
 namespace DarumaDAL.WP.Infrastructure
@@ -20,6 +21,30 @@ namespace DarumaDAL.WP.Infrastructure
             get
             {
                 return "daruma_key";
+            }
+        }
+
+        public static DarumaInfoSharing GetQuote()
+        {
+            DarumaInfoSharing infoSharing = null;
+            if (PhoneApplicationService.Current.State.ContainsKey(Key))
+            {
+                infoSharing = PhoneApplicationService.Current.State[Key] as DarumaInfoSharing;
+            }
+
+            return infoSharing;
+        }
+
+        public static void SetQuote(DarumaInfoSharing quote)
+        {
+            var state = PhoneApplicationService.Current.State;
+            if (state.ContainsKey(Key))
+            {
+                state[Key] = quote;
+            }
+            else
+            {
+                state.Add(Key, quote);
             }
         }
 

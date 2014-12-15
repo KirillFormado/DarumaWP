@@ -1,4 +1,4 @@
-﻿<phone:PhoneApplicationPage
+﻿<views:BaseDarumaPage
     x:Class="Daruma.Views.DarumaShakeView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,12 +9,11 @@
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
     xmlns:converters="clr-namespace:Daruma.Infrastructure.Converters"
     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:views="clr-namespace:Daruma.Views"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    SupportedOrientations="Portrait" Orientation="Portrait"
-    mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    mc:Ignorable="d">
 
     <phone:PhoneApplicationPage.Resources>
         <converters:DarumaWishThemeToStringConverter x:Key="DarumaWishThemeToStringConverter"/>
@@ -29,7 +28,7 @@
 
         <wpe:AdvancedApplicationBar x:Name="AppBar">
             <wpe:AdvancedApplicationBarIconButton 
-                    Text="{Binding Path=LocalizedResources.Delete, Source={StaticResource LocalizedStrings}}"
+                    Text="{Binding Path=LocalizedResources.Burn, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=DeleteIconUrl}"
                     Click="Delete_OnClick"/>
             <wpe:AdvancedApplicationBarIconButton 
@@ -43,12 +42,12 @@
                     Text="{Binding Path=LocalizedResources.Pin, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=PinIconUrl}"
                     Click="PinUnpin_OnClick"/>
-            <wpe:AdvancedApplicationBarIconButton 
+            <!--<wpe:AdvancedApplicationBarIconButton 
                     x:Name="AddToFavoritQuotButton"
                     Text="{Binding Path=LocalizedResources.Favorites, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}"
                     Visibility="Collapsed"
-                    Click="AddToFavoritQuot_OnClick"/>
+                    Click="AddToFavoritQuot_OnClick"/>-->
            
         </wpe:AdvancedApplicationBar>
 
@@ -106,9 +105,9 @@
                 <Grid x:Name="GridQuoteTextBlock"
                       Style="{StaticResource HiddenElement}">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
                     <RowDefinition Height="6*"></RowDefinition>
-                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="1*"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -117,7 +116,7 @@
                 </Grid.ColumnDefinitions>
                 <Grid.Resources>
                     <Storyboard x:Name="FadeInAnimation" TargetName="GridQuoteTextBlock">
-                        <DoubleAnimation From="0" To="0.8" Storyboard.TargetProperty="Opacity"/>
+                        <DoubleAnimation From="0" To="0.95" Storyboard.TargetProperty="Opacity"/>
                     </Storyboard>
                 </Grid.Resources>
 
@@ -127,8 +126,16 @@
                          Margin="5" 
                          Padding="5"  
                          CornerRadius="40">
-                    
-                    <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Margin="10"
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" Margin="10" Grid.Row="0" Grid.ColumnSpan="2"
                                FontSize="{StaticResource PhoneFontSizeLarge}"
                                Tap="QuoteTextBlock_OnTap">
 
@@ -140,10 +147,21 @@
                             </toolkit:ContextMenu>
                         </toolkit:ContextMenuService.ContextMenu>
                     </TextBlock>
+                        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Click="Close_OnClick">
+                            <Button.Content>
+                                <Image Source="{Binding Source={StaticResource IconsUrlRouter}, Path=CloseIconUrl}"/>
+                            </Button.Content>
+                        </Button>
+                        <Button HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Click="AddToFavoritQuot_OnClick">
+                            <Button.Content>
+                                <Image Source="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}" />
+                            </Button.Content>
+                        </Button>
+                    </Grid>
                 </Border>
             </Grid>
         
         </Grid>
     </Grid>
 
-</phone:PhoneApplicationPage>
+</views:BaseDarumaPage>

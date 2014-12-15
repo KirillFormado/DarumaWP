@@ -1,4 +1,6 @@
-﻿using System.Windows.Navigation;
+﻿using System.ComponentModel;
+using System.Windows;
+using System.Windows.Navigation;
 using DarumaResourcesPortable.Infrastructure;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
@@ -8,7 +10,7 @@ using DarumaDAL.WP.Infrastructure;
 
 namespace Daruma.Views
 {
-    public partial class SharingView : PhoneApplicationPage
+    public partial class SharingView : BaseDarumaPage
     {
         private DarumaInfoSharing _infoSharing;
 
@@ -19,10 +21,7 @@ namespace Daruma.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            if (PhoneApplicationService.Current.State.ContainsKey(DarumaInfoSharing.Key))
-            {
-                _infoSharing = PhoneApplicationService.Current.State[DarumaInfoSharing.Key] as DarumaInfoSharing;
-            }
+            _infoSharing = DarumaInfoSharing.GetQuote();
             base.OnNavigatedTo(e);
         }
 
@@ -55,6 +54,12 @@ namespace Daruma.Views
             };
 
             shareStatusTask.Show();
+        }
+
+        private void ToClipboard_OnTap(object sender, GestureEventArgs e)
+        {
+            Clipboard.SetText(_infoSharing.Quote);
+            NavigationService.GoBack();
         }
     }
 }

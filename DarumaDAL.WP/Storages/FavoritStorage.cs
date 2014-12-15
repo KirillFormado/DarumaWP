@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using DarumaBLLPortable.ApplicationServices.Entites;
 using DarumaBLLPortable.Common;
@@ -26,7 +27,9 @@ namespace DarumaDAL.WP.Storages
 
         private string GetFavoritId(Favorit favorit)
         {
-            return favorit.Text.GetHashCode().ToString(CultureInfo.InvariantCulture);
+            //return favorit.Text.GetHashCode().ToString(CultureInfo.InvariantCulture);
+            favorit.Id = Guid.NewGuid();
+            return favorit.Id.ToString();
         }
 
         public async Task<bool> Add(Favorit favorit)
@@ -42,7 +45,7 @@ namespace DarumaDAL.WP.Storages
 
         public async Task<bool> Delete(Favorit favorit)
         {
-            return await Delete(GetFavoritId(favorit));
+            return await Delete(favorit.Id.ToString());
         }
     }
 }

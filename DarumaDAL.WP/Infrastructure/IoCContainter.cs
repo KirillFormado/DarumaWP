@@ -15,6 +15,7 @@ namespace DarumaDAL.WP.Infrastructure
             Kernel.Bind<IDarumaStorage>().To<DarumaStorage>();
             Kernel.Bind<IFavoritStorage>().To<FavoritStorage>();
             Kernel.Bind<IDarumaApplicationService>().To<DarumaApplicationService>();
+            Kernel.Bind<IFavoritApplicationService>().To<FavoritApplicationService>();
             Kernel.Bind<ISettingsStorage>().To<SettingsStorage>();
             Kernel.Bind<IDarumaImageUriResolver>().To<DarumaImageUriResolver>();
             Kernel.Bind<IQuotationSource>().To<QuotationSource>();

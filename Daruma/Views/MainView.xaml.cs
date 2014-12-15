@@ -10,7 +10,7 @@ using Microsoft.Phone.Controls;
 
 namespace Daruma.Views
 {
-    public partial class MainView : PhoneApplicationPage
+    public partial class MainView : BaseDarumaPage
     {
         private MainViewModel _viewModel;
 
@@ -54,6 +54,11 @@ namespace Daruma.Views
         private void NavigateToInfoPivotItem()
         {
             NavigationService.Navigate(new Uri(ViewUrlRouter.InfoDarumaViewUrl, UriKind.Relative));
+        }
+
+        private void Favorits_OnClick(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri(ViewUrlRouter.FavoritsViewUrl, UriKind.Relative));
         }
     }
 }

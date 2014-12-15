@@ -6,7 +6,7 @@ using Microsoft.Phone.Controls;
 
 namespace Daruma.Views
 {
-    public partial class InfoDarumaView : PhoneApplicationPage
+    public partial class InfoDarumaView : BaseDarumaPage
     {
         public InfoDarumaView()
         {

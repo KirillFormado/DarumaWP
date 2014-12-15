@@ -112,6 +112,9 @@
     <Compile Include="Views\DarumaShakeView.xaml.cs">
       <DependentUpon>DarumaShakeView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\FavoritsView.xaml.cs">
+      <DependentUpon>FavoritsView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\InfoDarumaView.xaml.cs">
       <DependentUpon>InfoDarumaView.xaml</DependentUpon>
     </Compile>
@@ -135,6 +138,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\FavoritsView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\InfoDarumaView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -154,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\BadgeLogo.png" />
+    <Content Include="Assets\Icons\close.png" />
     <Content Include="Assets\Icons\delete.png" />
     <Content Include="Assets\Icons\share.png" />
     <Content Include="Assets\Icons\starAdd.png" />

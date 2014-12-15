@@ -1,0 +1,58 @@
+﻿<views:BaseDarumaPage
+    x:Class="Daruma.Views.FavoritsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:Daruma.Views"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.FavoritQuotations}" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <ListBox ItemsSource="{Binding Path=Favorits, Mode=TwoWay}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+
+                        <TextBlock Text="{Binding Path=Text}" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"
+                                   Margin="0,0,0,40" >
+                               <toolkit:ContextMenuService.ContextMenu>
+                            <toolkit:ContextMenu IsZoomEnabled="False">
+                                <toolkit:MenuItem  Click="Delete_OnClick" Tag="{Binding Path=Id}"
+                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Delete}">
+                                </toolkit:MenuItem>
+                                <toolkit:MenuItem  Click="Copy_OnClick" Tag="{Binding Path=Text}"
+                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Copy}">
+                                </toolkit:MenuItem>
+                                 <toolkit:MenuItem  Click="Share_OnClick" Tag="{Binding Path=Id}"
+                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Share}">
+                                </toolkit:MenuItem>
+                            </toolkit:ContextMenu>
+                        </toolkit:ContextMenuService.ContextMenu>
+
+                        </TextBlock>
+                     
+
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+               
+            </ListBox>
+        </Grid>
+    </Grid>
+
+</views:BaseDarumaPage>
