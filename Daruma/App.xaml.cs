@@ -105,6 +105,7 @@ namespace Daruma
         private void Application_Launching(object sender, LaunchingEventArgs e)
         {
             InitTileUpdateTask();
+            AdDuplex.AdDuplexTrackingSDK.StartTracking("130583");
             Console.Write("");
         }
 

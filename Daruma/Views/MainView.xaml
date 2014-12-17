@@ -10,6 +10,7 @@
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
     xmlns:converters="clr-namespace:Daruma.Infrastructure.Converters"
     xmlns:views="clr-namespace:Daruma.Views"
+    xmlns:adDuplex="clr-namespace:AdDuplex;assembly=AdDuplex.WindowsPhone"
     Loaded="MainView_OnLoaded">
     
     <phone:PhoneApplicationPage.Resources>
@@ -56,6 +57,10 @@
     </phone:PhoneApplicationPage.Foreground>
     
     <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
         <wpe:AdvancedApplicationBar>
             <wpe:AdvancedApplicationBarIconButton 
                 Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Add}"
@@ -80,7 +85,8 @@
                 </DataTemplate>
             </phone:Pivot.HeaderTemplate>
             
-        </phone:Pivot>  
+        </phone:Pivot>
+        <adDuplex:AdControl Grid.Row="1" VerticalAlignment="Bottom" x:Name="AdDuplexAd" AppId="130583"/>
     </Grid>
-
+   
 </views:BaseDarumaPage>
