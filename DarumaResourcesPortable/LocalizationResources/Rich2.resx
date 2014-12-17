@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Rich2_0" xml:space="preserve">
+    <value>Многие люди предпочитают иметь немножко денег и немножко счастья, чем опозориться, рискнув погнаться за всем, что может предложить жизнь.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_1" xml:space="preserve">
+    <value>Если бы у вас ничего не было - ни денег, ни работы, ни еды, ни жилья - что бы вы стали делать? 
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_2" xml:space="preserve">
+    <value>Нужно сделать выбор между свободой и безопасностью. Свобода требует смелости и силы, а если у человека их нет, он теряет свободу.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_3" xml:space="preserve">
+    <value>Оправдания - это ложь, которую вы говорите самим себе. Прекратите хныкать, жаловаться и вести себя как дети. Оправдания делают человека бедным.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_4" xml:space="preserve">
+    <value>Самый ценный актив - время. Большинство людей не могут его правильно использовать. Они упорно трудятся, делая богатых богаче, но не прикладывают усилий, чтобы сделать богатыми себя.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_5" xml:space="preserve">
+    <value>Инвестируйте время в получение знаний, затем выходите в реальный мир и пробуйте. Начинайте с малого, потому что вы будете делать ошибки. В реальном мире люди учатся на ошибках.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_6" xml:space="preserve">
+    <value>Великие возможности видят не глазами. Их видят умом.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_7" xml:space="preserve">
+    <value>Многие люди верят в Бога, но их действия показывают, что они не доверяют Богу.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_8" xml:space="preserve">
+    <value>Страсть — это начало успеха!
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_9" xml:space="preserve">
+    <value>Бедный, неудачный, несчастливый и нездоровый это тот, кто часто использует слово «завтра».
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_10" xml:space="preserve">
+    <value>Прекратите хныкать, жаловаться и вести себя как дети.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_11" xml:space="preserve">
+    <value>Правило номер один для того, кто хочет стать предпринимателем: никогда не устраивайся на работу ради денег.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_12" xml:space="preserve">
+    <value>Легко быть тем, кем ты есть сейчас
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_13" xml:space="preserve">
+    <value>Видеть то, чего не замечают другие, — это универсальный ключ к успеху.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_14" xml:space="preserve">
+    <value>Если вы считаете, что обучение стоит дорого, попробуйте узнать, сколько стоит невежество.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_15" xml:space="preserve">
+    <value>Вы или хозяин денег, или раб денег.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_16" xml:space="preserve">
+    <value>Ваше будущее создается тем, что вы делаете сегодня, а не тем, что будете делать завтра.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_17" xml:space="preserve">
+    <value>Делайте то, что в глубине сердца считаете правильным, но чтобы вы не делали, вас всё равно будут осуждать. Вас будут проклинать, и если вы что-то сделаете, и если вы ничего не сделаете.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_18" xml:space="preserve">
+    <value>Один отец говорил: «Причина, почему я не богат в том, что у меня есть вы – дети». Другой говорил: «Причина, по которой я должен быть богатым в том – что у меня есть вы».
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_19" xml:space="preserve">
+    <value>Провести всю свою жизнь в страхе, так и не осуществив ни одной мечты, — вот что жестоко. Работать в поте лица за деньги и думать, что они позволят купить вещи, которые сделают вас счастливыми, — вот что страшно.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_20" xml:space="preserve">
+    <value>Умные люди — это те, которые работают с людьми умнее их самих.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_21" xml:space="preserve">
+    <value>Если ты думаешь, что проблема во мне, тебе придется изменить меня. Если ты поймешь, что проблема в тебе, ты сможешь измениться сам, чему-то научиться и стать мудрее. Большинство людей ждут, что изменятся все остальные в мире, но только не они сами.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_22" xml:space="preserve">
+    <value>Я обнаружил, что многие люди пользуются высокомерием для того, чтобы стараться скрывать своё невежество.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_23" xml:space="preserve">
+    <value>Если Вы думаете, что у Вас все получится, значит так оно и будет. Если Вам кажется, что у вас ничего не выйдет, — так и случится. И в том, и в другом случае вы оказываетесь правы.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_24" xml:space="preserve">
+    <value>Бедняки и лодыри употребляют в своей речи слово «невозможно» гораздо чаще, чем те, кто преуспевает. 
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_25" xml:space="preserve">
+    <value>Слово «невозможно» блокирует ваш потенциал, в то время как вопрос «Как мне это сделать?» заставляет ваш мозг работать на полную катушку.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_26" xml:space="preserve">
+    <value>Когда дело касается денег, всегда найдется множество советчиков, у которых нет за душой и ломаного гроша.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_27" xml:space="preserve">
+    <value>Лучшая финансовая информация не всегда доступна. Надо отправиться на ее поиски.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_28" xml:space="preserve">
+    <value>Прежде всего необходимо смотреть на ценность, а не на цену.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_29" xml:space="preserve">
+    <value>Сегодня я богат именно благодаря тому, что я сделал в свободное время.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_30" xml:space="preserve">
+    <value>Десятки тысяч студентов вышли из школ бизнеса, где их учили, что думать не имеет смысла.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_31" xml:space="preserve">
+    <value>Отдаешь свои деньги в чужие руки — и они будут работать на других людей, прежде чем начнут работать на тебя.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_32" xml:space="preserve">
+    <value>Самый ценный актив — время. Большинство людей не могут его правильно использовать. Они упорно трудятся, делая богатых богаче, но не прикладывают усилий, чтобы сделать богатыми себя.
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_33" xml:space="preserve">
+    <value>Тот наиболее богат, кто доволен малым, ибо такое довольство свидетельствует о богатстве натуры. 
+Сократ</value>
+  </data>
+  <data name="Rich2_34" xml:space="preserve">
+    <value>Скупец, не причитай, что плохи времена. Все, что имеешь, — трать. Запомни: жизнь одна. Сколь злата ни на грабь, а в мир иной отсюда. Не унесешь, представь, и горсточки зерна. 
+Омар Хайям</value>
+  </data>
+  <data name="Rich2_35" xml:space="preserve">
+    <value>Если хочешь избавиться от гостя, докучающего своими визитами, дай ему взаймы денег. 
+Бенджамин Франклин</value>
+  </data>
+  <data name="Rich2_36" xml:space="preserve">
+    <value>Размеры состояния определяются не величиною доходов, а привычками и образом жизни.
+ Марк Тулий Цицерон</value>
+  </data>
+  <data name="Rich2_37" xml:space="preserve">
+    <value>Жадность до денег, если она ненасытна, гораздо тягостней нужды, ибо чем больше растут желания, тем больше потребности они порождают. 
+Демокрит Абдерский</value>
+  </data>
+  <data name="Rich2_38" xml:space="preserve">
+    <value>Не почитай денег ни больше, ни меньше, чем они того стоят; это хороший слуга и плохой господин. 
+Александр Дюма – сын</value>
+  </data>
+  <data name="Rich2_39" xml:space="preserve">
+    <value>Настоящий идеалист стремится к деньгам. Деньги — это свобода. А свобода — жизнь. 
+Ремарк</value>
+  </data>
+  <data name="Rich2_40" xml:space="preserve">
+    <value>Деньги нужны даже для того, чтобы без них обходиться. 
+Оноре де Бальзак</value>
+  </data>
+  <data name="Rich2_41" xml:space="preserve">
+    <value>Деньги — это средство иметь буквально все, за исключением искреннего друга, преданной жены и здоровья. 
+Вебер</value>
+  </data>
+  <data name="Rich2_42" xml:space="preserve">
+    <value>Лучше всего помещены те деньги, которые у нас украдены: ведь за них мы приобрели благоразумие. 
+Артур Шопенгауэр</value>
+  </data>
+  <data name="Rich2_43" xml:space="preserve">
+    <value>Кто, обладая богатством, не уделяет от него другим и не тратит его для собственного удовольствия, тот ничем не владеет, подобно соломенному чучелу, что охраняет на поле чужое зерно. 
+Индийское изречение</value>
+  </data>
+  <data name="Rich2_44" xml:space="preserve">
+    <value>Богатство — не в обладании сокровищами, а в умении его использоваться. 
+НаполеонI Бонапарт</value>
+  </data>
+  <data name="Rich2_45" xml:space="preserve">
+    <value>Деньги, которыми обладаешь, — орудие свободы; те, за которыми гонишься, — орудие рабства. 
+Ж-.Ж. Руссо</value>
+  </data>
+  <data name="Rich2_46" xml:space="preserve">
+    <value>Деньги и время — самое тяжелое бремя в жизни. Наиболее несчастны те, у кого их больше, чем они умеют использовать. 
+Сэмюэл Джонсон</value>
+  </data>
+  <data name="Rich2_47" xml:space="preserve">
+    <value>Цель денег — не праздность, а умножение средств для полезного служения.
+Генри Форд</value>
+  </data>
+  <data name="Rich2_48" xml:space="preserve">
+    <value>Если ваша единственная цель состоит в том, чтобы стать богатым, вы никогда не достигнете ее.  
+Джон Рокфеллер</value>
+  </data>
+  <data name="Rich2_49" xml:space="preserve">
+    <value>Деньги не сделают вас счастливее. У меня сейчас 50 миллионов, и я так же счастлив, как и тогда, когда у меня было 48 миллионов. 
+Арнольд Шварценеггер</value>
+  </data>
+  <data name="Rich2_50" xml:space="preserve">
+    <value>Если у вас нет денег, то займите. И никогда не занимайте мелких сумм. Занимайте сразу много, но всегда быстро отдавайте.
+Аристотель Онассис</value>
+  </data>
+  <data name="Rich2_51" xml:space="preserve">
+    <value>Быть информированным означает иметь много денег. 
+Жак Аттали</value>
+  </data>
+  <data name="Rich2_52" xml:space="preserve">
+    <value>Люди не хотят быть богатыми, люди хотят быть богаче других.
+Джон Стюарт Милль</value>
+  </data>
+  <data name="Rich2_53" xml:space="preserve">
+    <value>Какой толк от счастья? Денег на него не купишь.
+Хенни Янгман</value>
+  </data>
+  <data name="Rich2_54" xml:space="preserve">
+    <value>Неверно считать, что люди с огромным богатством всегда счастливы.
+Джон Дэвисон Рокфеллер</value>
+  </data>
+  <data name="Rich2_55" xml:space="preserve">
+    <value>Богат не тот, у кого много денег, а кому хватает, счастлив не тот, кто владеет всем, а тот, кто имеет то, что купить нельзя, любим не тот, кто красив лицом, а тот, кого ценят за душу.</value>
+  </data>
+  <data name="Rich2_56" xml:space="preserve">
+    <value>Процветание — это не материя. Это установка сознания и жизненный принцип. 
+Рэнди Гейдж</value>
+  </data>
+  <data name="Rich2_57" xml:space="preserve">
+    <value>Самый бедный человек не тот, у которого нет ни гроша в кармане, а тот, у которого нет мечты. 
+Сократ</value>
+  </data>
+  <data name="Rich2_58" xml:space="preserve">
+    <value>Благословенны трудности, ибо ими растём. Надо быть благодарными любой жизненной трудности. Она заставляет нас проявлять волю и осваивать почву своих богатых возможностей. 
+Николай Рерих</value>
+  </data>
+  <data name="Rich2_59" xml:space="preserve">
+    <value>Удивительно устроен человек - он огорчается, когда теряет богатство, и равнодушен к тому, что безвозвратно уходят дни его жизни. 
+Абу-ль-Фарадж</value>
+  </data>
+  <data name="Rich2_60" xml:space="preserve">
+    <value>Человек живет на земле не для того, чтобы стать богатым, но для того, чтобы стать счастливым. 
+Стендаль</value>
+  </data>
+  <data name="Rich2_61" xml:space="preserve">
+    <value>Лучше быть достойным человеком под убогой одеждой, чем бесчестно жить в богатом наряде. 
+Эзоп</value>
+  </data>
+  <data name="Rich2_62" xml:space="preserve">
+    <value>Чем меньше человеку нужно, тем ближе он к богам. 
+Сократ</value>
+  </data>
+  <data name="Rich2_63" xml:space="preserve">
+    <value>Наживи себе такое богатство, чтобы никто не смог отнять его у тебя, чтобы оно и после смерти осталось с тобой. Богатство это - твоя душа (древнеиндийская мудрость).</value>
+  </data>
+  <data name="Rich2_64" xml:space="preserve">
+    <value>Работая только ради материальных благ, мы сами себе строим тюрьму. И запираемся в одиночестве, и все наши богатства - прах и пепел, они бессильны доставить нам то, ради чего стоит жить. 
+Антуан де Сент Экзюпери</value>
+  </data>
+  <data name="Rich2_65" xml:space="preserve">
+    <value>Об уровне жизни не свидетельствует богатый дом, а также наличие автомобиля. Любая техника всё равно однажды сломается, и когда-нибудь обязательно наступит кризис. Высокий уровень жизни на самом деле не что иное, как высокий уровень мышления. 
+Геше Джампа Тинлей</value>
+  </data>
+  <data name="Rich2_66" xml:space="preserve">
+    <value>Ищи знание. Если ты впадёшь в бедность, оно станет твоим богатством; а если разбогатеешь - оно украсит тебя. 
+Аль-Зубаер</value>
+  </data>
+  <data name="Rich2_67" xml:space="preserve">
+    <value>Когда вы богаты - используйте богатство. Когда бедны - используйте нищету. Будьте практичны. 
+Ошо
+
+Нас учит бедность жизненному опыту. 
+Публий</value>
+  </data>
+  <data name="Rich2_68" xml:space="preserve">
+    <value>Вещи, которыми ты владеешь, в конце концов, начинают владеть тобой. Высшее богатство — отсутствие жадности. 
+Сенека</value>
+  </data>
+  <data name="Rich2_69" xml:space="preserve">
+    <value>Жадность до денег, если она ненасытна, гораздо тягостней нужды, ибо чем больше растут желания, тем большие потребности они порождают. 
+Демокрит</value>
+  </data>
+  <data name="Rich2_70" xml:space="preserve">
+    <value>В этом мире богатыми нас делает не то, что мы получаем, а то, что мы отдаём.
+Генри Бигер</value>
+  </data>
+  <data name="Rich2_71" xml:space="preserve">
+    <value>Тот, кто никогда не искал ни дружбы, ни любви, в тысячу раз беднее того, кто их обеих утратил. 
+Жан Поль</value>
+  </data>
+  <data name="Rich2_72" xml:space="preserve">
+    <value>В своей жизни мы можем найти себе оправдание, а можем - здоровье, любовь, понимание, приключение, богатство и счастье. 
+Ричард Бах</value>
+  </data>
+  <data name="Rich2_73" xml:space="preserve">
+    <value>Изобилие - это ваше внутреннее состояние ума. Если вы смотрите только на "нехватку", то это будет увеличиваться в вашей жизни. Но посмотрите на то, что вы имеете, и тогда изобилие увеличится. 
+Шри Шри Рави Шанкар</value>
+  </data>
+  <data name="Rich2_74" xml:space="preserve">
+    <value>Всё дело в мыслях к нашей жизни, нашего отношения к ней. Давно замечено - кто больше говорит о болезнях - больше болеет, кто больше говорит о богатстве - богат 
+(фильм "Секрет").</value>
+  </data>
+  <data name="Rich2_75" xml:space="preserve">
+    <value>Все состоит в воображении. Последуй природе, никогда не будешь беден. Последуй людским мнениям, никогда богат не будешь. Фонвизин Д. И.</value>
+  </data>
+  <data name="Rich2_76" xml:space="preserve">
+    <value>Если вы способны видеть, ходить, любить и каждое утро вставать с постели, вы - сказочно богатый человек! 
+Джеймс Рэй, автор книги "Законы успеха"</value>
+  </data>
+  <data name="Rich2_77" xml:space="preserve">
+    <value>Богатства существуют, чтобы их тратить, а траты - чтобы делать добро и этим снискать честь.
+Фрэнсис Бэкон</value>
+  </data>
+  <data name="Rich2_78" xml:space="preserve">
+    <value>Подлинное богатство человека — это богатство человеческих ошибок, накопленный тысячелетиями жизненный опыт.
+Хосе Ортега-и-Гассет</value>
+  </data>
+  <data name="Rich2_79" xml:space="preserve">
+    <value>Мало кто из нас может вынести бремя богатства. Конечно, чужого.
+Марк Твен</value>
+  </data>
+  <data name="Rich2_80" xml:space="preserve">
+    <value>Есть люди настолько скупые, будто они собираются жить вечно. Есть настолько расточительные - будто они собираются умирать завтра. 
+Аристотель</value>
+  </data>
+  <data name="Rich2_81" xml:space="preserve">
+    <value>Богатство измеряется не цифрами, а ощущениями. Богат не тот, у кого много денег, а тот, кому их хватает.</value>
+  </data>
+  <data name="Rich2_82" xml:space="preserve">
+    <value>Деньги - это аккумулированные возможности.</value>
+  </data>
+  <data name="Rich2_83" xml:space="preserve">
+    <value>Человек приходит в этот мир без ничего, и уходит из него ни с чем, а всю свою жизнь тратит на накопление.</value>
+  </data>
+  <data name="Rich2_84" xml:space="preserve">
+    <value>Я уже вышел из того возраста, когда любимым делом можно заниматься только из энтузиазма, ничего при этом не зарабатывая. 
+А.Ситнянский</value>
+  </data>
+  <data name="Rich2_85" xml:space="preserve">
+    <value>Кто хочет разбогатеть в течении дня, будет повешен в течении года. 
+Леонардо да Винчи</value>
+  </data>
+  <data name="Rich2_86" xml:space="preserve">
+    <value>Денег не хватает всем!!! Одному на корку хлеба, другому на "Мерседес", третьему на покупку завода "Норильский никель".</value>
+  </data>
+  <data name="Rich2_87" xml:space="preserve">
+    <value>Банк - это место, где вам одолжат денег, если вы докажете, что они вам не нужны. 
+Боб Хоуп</value>
+  </data>
+  <data name="Rich2_88" xml:space="preserve">
+    <value>Щедрость не в том, чтобы давать много, а в том, чтобы дать своевременно. 
+Лабрюйер</value>
+  </data>
+  <data name="Rich2_89" xml:space="preserve">
+    <value>Единственное преимущество иметь деньги, заключается в возможности их тратить. 
+Б.Франклин</value>
+  </data>
+  <data name="Rich2_90" xml:space="preserve">
+    <value>Богатство - враг изобретательности.</value>
+  </data>
+  <data name="Rich2_91" xml:space="preserve">
+    <value>Деньги портят человека, а инфляция портит деньги. 
+Борис Крутиер</value>
+  </data>
+  <data name="Rich2_92" xml:space="preserve">
+    <value>Корысть умеет говорить на любых языках, в том числе и бескорыстия.</value>
+  </data>
+  <data name="Rich2_93" xml:space="preserve">
+    <value>Отказ - это предложение поднять цену. 
+Жорж Элгози</value>
+  </data>
+  <data name="Rich2_94" xml:space="preserve">
+    <value>Люди почему - то верят, что можно быть богатым, не уподобляясь богатым. 
+Логан Смит</value>
+  </data>
+  <data name="Rich2_95" xml:space="preserve">
+    <value>Хочешь быть богатым, не увеличивай своё состояние - уменьшай свою жадность. 
+Гельвеций</value>
+  </data>
+  <data name="Rich2_96" xml:space="preserve">
+    <value>Богат тот, кто получает больше, чем тратит. 
+Лабрюйер</value>
+  </data>
+  <data name="Rich2_97" xml:space="preserve">
+    <value>Скупость - дальше от бережливости, даже чем расточительность. 
+Ларошфуко</value>
+  </data>
+  <data name="Rich2_98" xml:space="preserve">
+    <value>Трать на пенс меньше, чем зарабатываешь. 
+Франклин</value>
+  </data>
+  <data name="Rich2_99" xml:space="preserve">
+    <value>Люди считающие, что деньги могут сделать всё, сами способны сделать всё ради денег. 
+Буаст</value>
+  </data>
+  <data name="Rich2_100" xml:space="preserve">
+    <value>Жадный всегда беден. 
+Петрарка</value>
+  </data>
+  <data name="Rich2_101" xml:space="preserve">
+    <value>Бедняку не хватает многого, алчному - решительно всего. Публилий Сир</value>
+  </data>
+  <data name="Rich2_102" xml:space="preserve">
+    <value>Сбереженная копейка - копейка заработанная. 
+Английская поговорка</value>
+  </data>
+  <data name="Rich2_103" xml:space="preserve">
+    <value>Для умных, деньги средство, для дураков - цель. 
+А. Декурсель</value>
+  </data>
+  <data name="Rich2_104" xml:space="preserve">
+    <value>Человеку без денег трудно оставаться порядочным. 
+Б. Франклин</value>
+  </data>
+  <data name="Rich2_105" xml:space="preserve">
+    <value>Кто жертвует чем то на смертном одре, тот дарит из кармана наследников.</value>
+  </data>
+  <data name="Rich2_106" xml:space="preserve">
+    <value>Есть люди что нуждаются обладая богатством, это самый страшный вид нищеты. 
+Сенека</value>
+  </data>
+  <data name="Rich2_107" xml:space="preserve">
+    <value>Самый верный путь заработать состояние - дать людям понять, что им выгодно делать вам добро. 
+Ж.Лабрюйер</value>
+  </data>
+  <data name="Rich2_108" xml:space="preserve">
+    <value>Почему меня не волнуют проблемы целлюлита? Потому что журнал, в котором я мечтала бы увидеть свое фото — не Playboy, а Forbes.</value>
+  </data>
+  <data name="Rich2_109" xml:space="preserve">
+    <value>Мужчина должен зарабатывать чуть больше, чем может потратить его женщина. В противном случае они не созданы друг для друга.</value>
+  </data>
+  <data name="Rich2_110" xml:space="preserve">
+    <value>У каждого своя черта бедности. Большинство из нас не богатеет, а просто отодвигает эту черту.</value>
+  </data>
+  <data name="Rich2_111" xml:space="preserve">
+    <value>Человек хозяин денег, пока приобретает на них необходимое, 
+друг денег, пока приобретений не становится достаточно, 
+и раб денег, когда не может определить границу достаточного.</value>
+  </data>
+  <data name="Rich2_112" xml:space="preserve">
+    <value>Каждый решает сам… нуждается он ещё или уже достаточно богат.</value>
+  </data>
+  <data name="Rich2_113" xml:space="preserve">
+    <value>Богат тот — кому хватает, беден тот — кому всё мало.</value>
+  </data>
+  <data name="Rich2_114" xml:space="preserve">
+    <value>Сколько раз я должен напоминать тебе, что работа не сделает тебя богатым? Сколько раз я должен напоминать тебе, что богатыми становятся в свободное от работы время?</value>
+  </data>
+  <data name="Rich2_115" xml:space="preserve">
+    <value>Денег не должно быть много. 
+Их должно быть достаточно.</value>
+  </data>
+  <data name="Rich2_116" xml:space="preserve">
+    <value>Чужих денег всегда много, своих — всегда не хватает!
+
+
+
+
+Живите, как если бы вы умерли завтра. Учитесь, как если бы вы жили вечно. 
+Махатма Ганди</value>
+  </data>
+  <data name="Rich2_117" xml:space="preserve">
+    <value>Это своего рода забава, делать невозможное. 
+Уолт Дисней</value>
+  </data>
+  <data name="Rich2_118" xml:space="preserve">
+    <value>Когда очевидно, что цели не могут быть достигнуты, не корректируйте цели, корректируйте практические шаги.
+Конфуций</value>
+  </data>
+  <data name="Rich2_119" xml:space="preserve">
+    <value>На каждую тёмную ночь, есть яркий день. 
+Тупак Шакур</value>
+  </data>
+  <data name="Rich2_120" xml:space="preserve">
+    <value>Человек не может обнаружить новые океаны, если у него нет мужества, чтобы потерять берег из виду. 
+Андре Жид</value>
+  </data>
+  <data name="Rich2_121" xml:space="preserve">
+    <value>Всегда обращайте внимание на светлую сторону жизни. 
+Монти Пайтон</value>
+  </data>
+  <data name="Rich2_122" xml:space="preserve">
+    <value>Чтобы добиться многого, мы должны не только действовать, но и мечтать, и не только планировать, но и верить. 
+Анатоль Франс</value>
+  </data>
+  <data name="Rich2_123" xml:space="preserve">
+    <value>Ваше время ограничено, поэтому, не тратьте эту жизнь на чью-то ещё. Не попадайте в ловушку догмы – которая говорит вам жить мыслями других людей. Не позволяйте шуму чужих мнений перебить ваш внутренний голос. И, самое главное, имейте храбрость следовать своему сердцу и интуиции. Они каким-то образом уже знают, кем вы хотите стать. Всё остальное вторично. 
+Стив Джобс</value>
+  </data>
+  <data name="Rich2_124" xml:space="preserve">
+    <value>Имейте мужество, чтобы сказать нет, имейте мужество смотреть правде в глаза. Делайте правильные вещи, потому что это правильно. Это волшебный ключ к жизни своей полной жизнью. 
+В. Клемент Стоун</value>
+  </data>
+  <data name="Rich2_125" xml:space="preserve">
+    <value>Мы должны вызывать, а не ждать вдохновения, чтобы начать дело. Действие всегда порождает вдохновение. Вдохновение редко порождает действие. 
+Фрэнк Тиболт</value>
+  </data>
+  <data name="Rich2_126" xml:space="preserve">
+    <value>Вы воплощение информации, которую решаете принять и действовать. Чтобы изменить обстоятельства вам нужно изменить своё мышление и последующие действия. 
+Адлин Синлер</value>
+  </data>
+  <data name="Rich2_127" xml:space="preserve">
+    <value>Пробуйте и терпите неудачу, но не прерывайте ваших стараний. Стивен Каггва</value>
+  </data>
+  <data name="Rich2_128" xml:space="preserve">
+    <value>Если вы можете мечтать об этом, вы можете сделать это. 
+Уолт Дисней</value>
+  </data>
+  <data name="Rich2_129" xml:space="preserve">
+    <value>Не слушайте тех, кто говорит вам, что вы не можете сделать то или это. Это нонсенс. Решайтесь, вы никогда не будете использовать костыли или палочку, идя на всё. Идите в школу и вступайте во все игры, которые можете. Идите туда, куда захотите. Но никогда, никогда не позволяйте другим убедить вас, что что-то сложно или невозможно. Дуглас Бадлер</value>
+  </data>
+  <data name="Rich2_130" xml:space="preserve">
+    <value>Оставайтесь на пути, зажгите звёзды, измените мир, где бы вы ни были. 
+Ричард Ле Галлиенне</value>
+  </data>
+  <data name="Rich2_131" xml:space="preserve">
+    <value>Вы можете столкнуться с множеством поражений, но вы не должны быть побеждены. Пожалуйста, помните, что ваши трудности не определяют вас. Они просто укрепляют вашу способность преодолевать их. 
+Майя Анжелу</value>
+  </data>
+  <data name="Rich2_132" xml:space="preserve">
+    <value>Величайшая слава никогда не приходит от победы, но от роста после каждого падения. Человек определяется тем, что он хочет делать со своей жизнью, а не том, что с ним происходит. 
+Клей Эйкен</value>
+  </data>
+  <data name="Rich2_133" xml:space="preserve">
+    <value>Вдохновение приходит от ежедневной работы. 
+Шарль Бадлер</value>
+  </data>
+  <data name="Rich2_134" xml:space="preserve">
+    <value>Вещи, которые больше всего не хочется делать, вероятно, те, которые больше всего стоит делать. 
+Уинфред Холтби</value>
+  </data>
+  <data name="Rich2_135" xml:space="preserve">
+    <value>Если вы делаете только то, что, как вы знаете, можете делать, вы никогда не сделаете очень многое. 
+Том Краузе</value>
+  </data>
+  <data name="Rich2_136" xml:space="preserve">
+    <value>Если ваши действия вдохновляют других, мечтайте больше, узнавайте больше, делайте больше и становитесь большим, вы лидер. 
+Джон Куинси Адамс</value>
+  </data>
+  <data name="Rich2_137" xml:space="preserve">
+    <value>Не бывает неудач – только опыт и ваша реакция на них. 
+Том Краузе</value>
+  </data>
+  <data name="Rich2_138" xml:space="preserve">
+    <value>Доверяйте себе. Вы знаете больше, чем думаете. 
+Бенджамин Спок</value>
+  </data>
+  <data name="Rich2_139" xml:space="preserve">
+    <value>Мы наслаждаемся красотой бабочки, но редко признаёмся изменениям, через которые она прошла для достижения этой красоты. Майя Анжелу</value>
+  </data>
+  <data name="Rich2_140" xml:space="preserve">
+    <value>Успех — это движение от неудачи к неудачи без потери энтузиазма. Уинстон Черчилль</value>
+  </data>
+  <data name="Rich2_141" xml:space="preserve">
+    <value>Хочешь избежать критики — ничего не делай, ничего не говори и будь никем. 
+Элберт Хаббард</value>
+  </data>
+  <data name="Rich2_142" xml:space="preserve">
+    <value>Жизнь — это то, что происходит, пока вы заняты составлением планов. 
+Джон Леннон</value>
+  </data>
+  <data name="Rich2_143" xml:space="preserve">
+    <value>Мы сами должны стать теми переменами, которые хотим видеть в мире. 
+Махатма Ганди</value>
+  </data>
+  <data name="Rich2_144" xml:space="preserve">
+    <value>Чтобы дойти до цели, надо идти. 
+Оноре де Бальзак</value>
+  </data>
+  <data name="Rich2_145" xml:space="preserve">
+    <value>Встал поутру, умылся, привел себя в порядок — и сразу же приведи в порядок свою планету. 
+А. Экзюпери</value>
+  </data>
+  <data name="Rich2_146" xml:space="preserve">
+    <value>Считают, что успех приходит к тем, кто рано встает. Нет: успех приходит к тем, кто встает в хорошем настроении. 
+Марсель Ашар</value>
+  </data>
+  <data name="Rich2_147" xml:space="preserve">
+    <value>В начале каждой новой деятельности легкие вещи кажутся трудными, но затем трудные вещи становятся легкими. 
+Бодо Шеффер</value>
+  </data>
+  <data name="Rich2_148" xml:space="preserve">
+    <value>Каждый день надо делать дело, которое тебя пугает. 
+Элеонора Рузвельт</value>
+  </data>
+  <data name="Rich2_149" xml:space="preserve">
+    <value>Пытайся делать всё, что кажется невозможным.. Жизнь слишком коротка, можешь потом пожалеть..</value>
+  </data>
+  <data name="Rich2_150" xml:space="preserve">
+    <value>Жизнь полосатая, но цвета мы выбираем сами.</value>
+  </data>
+  <data name="Rich2_151" xml:space="preserve">
+    <value>Если мы не будем строить свое будущее, нам придется его терпеть.</value>
+  </data>
+  <data name="Rich2_152" xml:space="preserve">
+    <value>Успех – это когда ты девять раз упал, но десять раз поднялся.</value>
+  </data>
+  <data name="Rich2_153" xml:space="preserve">
+    <value>Лучший способ предсказать своё будущее – стать его создателем.</value>
+  </data>
+  <data name="Rich2_154" xml:space="preserve">
+    <value>Большинство людей счастливы настолько, насколько они решили быть счастливыми..</value>
+  </data>
+  <data name="Rich2_155" xml:space="preserve">
+    <value>Не думай о том, правильно ли это или нет.. Делай то, что делает тебя счастливым!</value>
+  </data>
+  <data name="Rich2_156" xml:space="preserve">
+    <value>Если ты чувствуешь, что сдаешься, вспомни, ради чего ты держался до этого.</value>
+  </data>
+  <data name="Rich2_157" xml:space="preserve">
+    <value>Танцуй, словно тебя никто не видит, пой, словно тебя никто не слышит, люби, словно тебе не причиняли боль, и живи, словно рай уже на земле.</value>
+  </data>
+  <data name="Rich2_158" xml:space="preserve">
+    <value>Когда кажется, что весь мир настроен против тебя – помни, что самолёт взлетает против ветра.</value>
+  </data>
+  <data name="Rich2_159" xml:space="preserve">
+    <value>Мы сами рисуем свой мир. Никогда не говорите «У меня всё плохо», потому что слова, как едкие чернила въедаются в страницы книжки.</value>
+  </data>
+  <data name="Rich2_160" xml:space="preserve">
+    <value>Нам не дано изменить то, что с нами уже произошло, но мы можем иначе реагировать на события.</value>
+  </data>
+  <data name="Rich2_161" xml:space="preserve">
+    <value>Поражение – это выбор! Победа тоже. Ты проиграешь, только если сам так решишь!</value>
+  </data>
+  <data name="Rich2_162" xml:space="preserve">
+    <value>Я никогда не слушаю никого, кто критикует мои космические путешествия, мои аттракционы или моих горилл. Когда это происходит, я просто упаковываю моих динозавров и выхожу из комнаты. 
+Рэй Брэдбери</value>
+  </data>
+  <data name="Rich2_163" xml:space="preserve">
+    <value>Будьте добрее, когда это возможно. А это возможно всегда. 
+Далай Лама</value>
+  </data>
+  <data name="Rich2_164" xml:space="preserve">
+    <value>Ваши убеждения — враги для истины опаснее, чем ложь. 
+Фридрих Ницше</value>
+  </data>
+  <data name="Rich2_165" xml:space="preserve">
+    <value>Помните : каждый раз, когда вас копируют, это значит, что вы всё делаете правильно. 
+Salvatore Ferragamo</value>
+  </data>
+  <data name="Rich2_166" xml:space="preserve">
+    <value>Убивая свободное время - Вы тем самым убиваете себя и своё будущее.</value>
+  </data>
+  <data name="Rich2_167" xml:space="preserve">
+    <value>Вижу цель, не вижу препятствий!</value>
+  </data>
+  <data name="Rich2_168" xml:space="preserve">
+    <value>Завистливые люди часто осуждают то, чего не умеют, и критикуют тех, до чьего уровня им не дорасти.</value>
+  </data>
+  <data name="Rich2_169" xml:space="preserve">
+    <value>В каждом человеке - солнце. Только дайте ему светить!</value>
+  </data>
+  <data name="Rich2_170" xml:space="preserve">
+    <value>Раздвиньте свои границы! Я всегда делаю то, чего я не умею, чтобы этому научиться. 
+Пабло Пикассо</value>
+  </data>
+  <data name="Rich2_171" xml:space="preserve">
+    <value>Не ждите вдохновения или подходящего момента. Вдохновение существует, но оно должно приходить во время работы. 
+Пабло Пикассо</value>
+  </data>
+  <data name="Rich2_172" xml:space="preserve">
+    <value>Действуйте! Откладывайте на завтра лишь то, что вы не хотите завершить до самой смерти. 
+Пабло Пикассо</value>
+  </data>
+  <data name="Rich2_173" xml:space="preserve">
+    <value>Задавайте правильные вопросы! Другие увидели то, что было, и спросили, почему. Я увидел то, что могло бы быть, и спросил, почему бы нет. 
+Пабло Пикассо</value>
+  </data>
+  <data name="Rich2_174" xml:space="preserve">
+    <value>Не судите, и увидите скрытую красоту! Если бы только можно было избавиться от мозга и пользоваться лишь глазами. 
+Пабло Пикассо</value>
+  </data>
+  <data name="Rich2_175" xml:space="preserve">
+    <value>Еще не слишком поздно! У юности нет возраста. 
+Пабло Пикассо</value>
+  </data>
+  <data name="Rich2_176" xml:space="preserve">
+    <value>Опыт — это не то, что случается с человеком; опыт — это то, что человек делает с тем, что с ним случается.</value>
+  </data>
+  <data name="Rich2_177" xml:space="preserve">
+    <value>Победа начинается в тот день, когда остается только одно лишь мнение - своё.</value>
+  </data>
+  <data name="Rich2_178" xml:space="preserve">
+    <value>Вам трудно? Значит, вы едете в гору!</value>
+  </data>
+  <data name="Rich2_179" xml:space="preserve">
+    <value>Трудное — это то, что можно сделать сразу, невозможное — то, на что потребуется некоторое время.</value>
+  </data>
+  <data name="Rich2_180" xml:space="preserve">
+    <value>Если проблему можно разрешить, не стоит о ней беспокоиться. Если проблема неразрешима, беспокоиться о ней бессмысленно. 
+Далай Лама</value>
+  </data>
+  <data name="Rich2_181" xml:space="preserve">
+    <value>Даже если вы очень талантливы и прилагаете большие усилия, для некоторых результатов просто требуется время: вы не получите ребенка через месяц, даже если заставите забеременеть девять женщин. 
+Уоррен Баффет</value>
+  </data>
+  <data name="Rich2_182" xml:space="preserve">
+    <value>Просыпаясь утром, спроси себя: «Что я должен сделать?» Вечером, прежде чем заснуть: «Что я сделал?». 
+Пифагор</value>
+  </data>
+  <data name="Rich2_183" xml:space="preserve">
+    <value>Я не терпел поражений. Я просто нашёл 10 000 способов, которые не работают. 
+Томас Эдисон</value>
+  </data>
+  <data name="Rich2_184" xml:space="preserve">
+    <value>Делай сегодня то, что другие не хотят, завтра будешь жить так, как другие не могут.</value>
+  </data>
+  <data name="Rich2_185" xml:space="preserve">
+    <value>Между раздражителем и нашей реакцией есть промежуток. В этом промежутке лежит свобода выбора нашей реакции. От нашей реакции зависит наше развитие и наше счастье. 
+Стивен Кови</value>
+  </data>
+  <data name="Rich2_186" xml:space="preserve">
+    <value>Сегодня - термин победителей. Завтра - слово неудачников. 
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_187" xml:space="preserve">
+    <value>Цели должны быть ясными, простыми и записанными на бумаге. Если они не записаны на бумаге и их каждый день пересматриваешь - это не цели. Это пожелания. 
+Роберт Кийосаки</value>
+  </data>
+  <data name="Rich2_188" xml:space="preserve">
+    <value>Проблемы не решаются на уровне проблем. Анализ cамой проблемы, чтобы найти ее решение, подобен попытке восстановить свежесть листа, занимаясь листом непосредственно, в то время как решение находится в том, чтобы полить корень.</value>
+  </data>
+  <data name="Rich2_189" xml:space="preserve">
+    <value>Не ищите мотивацию для себя, становитесь мотивацией для других!</value>
+  </data>
+  <data name="Rich2_190" xml:space="preserve">
+    <value>Я хочу предупредить вас, что есть только одна ошибка, которую вы можете сделать. Вы можете начать истолковывать происходящее. Если вы начнете этим заниматься, все пропало. Вы попадетесь в интеллектуальную, фрейдистскую игру. Вы начнете каталогизировать интереснейшие инсайты в интеллектуальную коробочку, и, будьте уверены, не произойдет ничего реального. 
+Фриц Перлз</value>
+  </data>
+  <data name="Rich2_191" xml:space="preserve">
+    <value>Можно продолжать жить, стараться жить с положительной энергией, меньше зла извергать из себя, меньше обид. Радоваться даже при сумрачном дне. Это безумно тяжело! Безумно, и я всегда говорю: пытайтесь, пытайтесь, вырывайте себя из всей этой трясины. И летите! 
+Марина Голуб</value>
+  </data>
+  <data name="Rich2_192" xml:space="preserve">
+    <value>Невозможно, чтобы работу сделал кто-то другой, а плоды пожинали вы. Чтение книг о чьем-то духовном развитии не даст вам его постижения. Вы должны совершенствовать себя сами. 
+Далай-Лама</value>
+  </data>
+  <data name="Rich2_193" xml:space="preserve">
+    <value>Если тебе не нравится то, что ты получаешь, измени то, что ты даёшь. К. Кастанеда</value>
+  </data>
+  <data name="Rich2_194" xml:space="preserve">
+    <value>Чудеса там, где в них верят. И чем больше в них верят, тем чаще они сбываются.</value>
+  </data>
+  <data name="Rich2_195" xml:space="preserve">
+    <value>Самая большая глупость – это делать то же самое и надеяться на другой результат.</value>
+  </data>
+  <data name="Rich2_196" xml:space="preserve">
+    <value>Есть только один уголок во Вселенной, в улучшении которого вы можете быть уверены, и это вы сами. 
+Олдос Хаксли</value>
+  </data>
+  <data name="Rich2_197" xml:space="preserve">
+    <value>Раз дело наше новое, мы должны мыслить и действовать по-новому. 
+Авраам Линкольн</value>
+  </data>
+  <data name="Rich2_198" xml:space="preserve">
+    <value>Мы рождены в мире природы; наше второе рождение – в мире духа. Бхагавадгита</value>
+  </data>
+  <data name="Rich2_199" xml:space="preserve">
+    <value>Никогда не отказывайтесь от своей мечты...</value>
+  </data>
+  <data name="Rich2_200" xml:space="preserve">
+    <value>Настойчивость – это все. Если в вас нет желания и веры в себя, чтобы идти дальше, даже если все вокруг советуют вам бросить, вы никогда не добьетесь своего. 
+Тауни О'Делл</value>
+  </data>
+  <data name="Rich2_201" xml:space="preserve">
+    <value>Если бы люди знали, каких трудов стоило мне мое мастерство, оно совсем не показалось бы им чудом. 
+Микеланджело</value>
+  </data>
+  <data name="Rich2_202" xml:space="preserve">
+    <value>Я понял, что единственный способ добиться в жизни чего-то стоящего – упорно трудиться. Музыкант ли вы, писатель, спортсмен или бизнесмен, без труда вам не обойтись. Потрудитесь – победите, поленитесь – проиграете. 
+Брюс Дженнер</value>
+  </data>
+  <data name="Rich2_203" xml:space="preserve">
+    <value>Делать деньги – самая большоая ошибка в жизни. Делать нужно то, к чему чувствуешь склонность и талант, и если преуспеешь в этом – деньги будут. 
+Григ Гарсон</value>
+  </data>
+  <data name="Rich2_204" xml:space="preserve">
+    <value>Не пытаться зарабатывать на жизнь любимым делом – самая большая ошибка людей. 
+Малкольм С. Форбс</value>
+  </data>
+  <data name="Rich2_205" xml:space="preserve">
+    <value>Успех сопутствует тому, кто занимается тем, что хочет. Иного пути к успеху – нет. 
+Малкольм С. Форбс</value>
+  </data>
+  <data name="Rich2_206" xml:space="preserve">
+    <value>Не позволяйте другим терроризировать себя надеждами, которые эти другие на вас возлагают. 
+Сью Паттон Тоэле</value>
+  </data>
+  <data name="Rich2_207" xml:space="preserve">
+    <value>– Все, что у нас есть, находится в наших руках.– Но у меня в них ничего нет.– Вот о том и речь.(Все, чем мы обладаем, нам не принадлежит). 
+Дарий философ</value>
+  </data>
+  <data name="Rich2_208" xml:space="preserve">
+    <value>Алчный копит богатства как одержимый, но входит в вечную жизнь абсолютно нищим.
+Дарий  философ</value>
+  </data>
+  <data name="Rich2_209" xml:space="preserve">
+    <value>Большие деньги превращают счастливых людей в богатых. 
+Дмитрий Калинин</value>
+  </data>
+  <data name="Rich2_210" xml:space="preserve">
+    <value>Не важно то: сколь сыт ты, сколь одет, А важно – человек ты или нет. 
+Дарий  философ</value>
+  </data>
+</root>

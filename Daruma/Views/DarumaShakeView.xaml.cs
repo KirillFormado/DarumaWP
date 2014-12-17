@@ -111,11 +111,11 @@ namespace Daruma.Views
             //AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
         }
 
-        private void QuoteTextBlock_OnTap(object sender, GestureEventArgs e)
-        {
-            //GridQuoteTextBlock.Visibility = Visibility.Collapsed;
-            HideButtons();
-        }
+        //private void QuoteTextBlock_OnTap(object sender, GestureEventArgs e)
+        //{
+        //    //GridQuoteTextBlock.Visibility = Visibility.Collapsed;
+        //    HideButtons();
+        //}
 
 
         private async void Delete_OnClick(object sender, EventArgs eventArgs)
@@ -227,7 +227,7 @@ namespace Daruma.Views
 
         private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
         {
-            if (e.HorizontalVelocity > 200 || e.HorizontalVelocity < -200)
+            if (e.HorizontalVelocity > 10 || e.HorizontalVelocity < -10)
             {
                 DarumaAnimation.From = e.HorizontalVelocity / 36;
                 DarumaStoryboard.Begin();
