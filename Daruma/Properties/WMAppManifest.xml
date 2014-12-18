@@ -5,7 +5,7 @@
     <Language code="ru-RU" />
     <Language code="ru" />
   </Languages>
-  <App xmlns="" ProductID="{5d9de006-3c7e-4a31-9f94-7102030c2c33}" Title="@Langs/AppResLib.dll,-100" RuntimeType="Silverlight" Version="0.2.2.0" Genre="apps.normal" Author="K^Formado" Description="description" Publisher="K^Formado" PublisherID="{e818b500-2ec8-4298-bf18-a292d0633d72}" BackUpOptOut="false">
+  <App xmlns="" ProductID="{5d9de006-3c7e-4a31-9f94-7102030c2c33}" Title="@Langs/AppResLib.dll,-100" RuntimeType="Silverlight" Version="0.30.0" Genre="apps.normal" Author="K^Formado" Description="description" Publisher="K^Formado" PublisherID="{e818b500-2ec8-4298-bf18-a292d0633d72}" BackUpOptOut="false">
     <IconPath IsRelative="true" IsResource="false">Assets\Tiles\darumaTile.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
