@@ -27,7 +27,13 @@
         </Grid.RowDefinitions>
 
         <wpe:AdvancedApplicationBar x:Name="AppBar">
+            <wpe:AdvancedApplicationBarIconButton
+                    x:Name="HomeButton"
+                    Text="{Binding Path=LocalizedResources.Home, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=HomeIconUrl}"
+                    Click="Home_OnClick"/>
             <wpe:AdvancedApplicationBarIconButton 
+                    x:Name="DeleteButton"
                     Text="{Binding Path=LocalizedResources.Burn, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=DeleteIconUrl}"
                     Click="Delete_OnClick"/>
@@ -42,6 +48,13 @@
                     Text="{Binding Path=LocalizedResources.Pin, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=PinIconUrl}"
                     Click="PinUnpin_OnClick"/>
+            <wpe:AdvancedApplicationBarIconButton
+                    x:Name="RefreshButton"
+                    Text="{Binding Path=LocalizedResources.Refresh, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=RefreshIconUrl}"
+                    Click="Refresh_OnClick"/>
+
+       
             <!--<wpe:AdvancedApplicationBarIconButton 
                     x:Name="AddToFavoritQuotButton"
                     Text="{Binding Path=LocalizedResources.Favorites, Source={StaticResource LocalizedStrings}}"
@@ -73,7 +86,7 @@
                     <ColumnDefinition Width="6*"></ColumnDefinition>
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                
+
                 <Image x:Name="DarumaImg"  
                        RenderTransformOrigin="0.5,1" 
                        Grid.Row="1" Grid.Column="1"
@@ -146,12 +159,12 @@
                         </toolkit:ContextMenuService.ContextMenu>
                     </TextBlock>
                         </ScrollViewer>             
-                        <Button Margin="20, 0" Grid.Row="1" Grid.Column="0" Click="Close_OnClick">
+                        <Button Margin="20, 0" Grid.Row="1" Grid.Column="0" Tap="Close_OnClick">
                             <Button.Content>
                                 <Image Source="{Binding Source={StaticResource IconsUrlRouter}, Path=CloseIconUrl}"/>
                             </Button.Content>
                         </Button>
-                        <Button Margin="20, 0" Grid.Row="1" Grid.Column="1" Click="AddToFavoritQuot_OnClick">
+                        <Button Margin="20, 0" Grid.Row="1" Grid.Column="1" Tap="AddToFavoritQuot_OnClick">
                             <Button.Content>
                                 <Image Source="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}" />
                             </Button.Content>
@@ -159,8 +172,9 @@
                     </Grid>
                 </Border>
             </Grid>
-        
+           
         </Grid>
     </Grid>
+    
 
 </views:BaseDarumaPage>

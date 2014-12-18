@@ -133,5 +133,15 @@ namespace DarumaDAL.WP.Infrastructure
         {
             get { return RouteToIcons + "close.png"; }
         }
+
+        public static string RefreshIconUrl
+        {
+            get { return RouteToIcons + "refresh.png"; }
+        }
+
+        public static string HomeIconUrl
+        {
+            get { return RouteToIcons + "home.png"; }
+        }
     }
 }

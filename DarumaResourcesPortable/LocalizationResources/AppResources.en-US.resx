@@ -224,4 +224,10 @@
   <data name="ToСlipboard" xml:space="preserve">
     <value>Сlipboard</value>
   </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Quote</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
 </root>

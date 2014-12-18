@@ -163,6 +163,8 @@
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\Icons\close.png" />
     <Content Include="Assets\Icons\delete.png" />
+    <Content Include="Assets\Icons\home.png" />
+    <Content Include="Assets\Icons\refresh.png" />
     <Content Include="Assets\Icons\share.png" />
     <Content Include="Assets\Icons\starAdd.png" />
     <Content Include="Assets\SplashScreen.png" />

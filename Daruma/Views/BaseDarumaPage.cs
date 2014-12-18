@@ -7,7 +7,7 @@ namespace Daruma.Views
     {
         public BaseDarumaPage()
         {
-            SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
+            SupportedOrientations = SupportedPageOrientation.Portrait;
             SystemTray.SetIsVisible(this, false);
             TiltEffect.SetIsTiltEnabled(this, true);
         }

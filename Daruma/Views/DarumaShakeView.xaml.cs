@@ -76,11 +76,11 @@ namespace Daruma.Views
             base.OnNavigatedTo(e);
         }
 
-        protected override void OnBackKeyPress(CancelEventArgs e)
-        {
-            NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
-            base.OnBackKeyPress(e);
-        }
+        //protected override void OnBackKeyPress(CancelEventArgs e)
+        //{
+        //    NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+        //    base.OnBackKeyPress(e);
+        //}
 
         private void FadeInQuotation(string quote)
         {
@@ -92,7 +92,10 @@ namespace Daruma.Views
 
         private void ShowButtons()
         {
+            DeleteButton.Visibility = Visibility.Collapsed;
+            PinUnpinButton.Visibility = Visibility.Collapsed;
             ShareButton.Visibility = Visibility.Visible;
+
             //AddToFavoritQuotButton.Visibility = Visibility.Visible;
         }
 
@@ -107,7 +110,11 @@ namespace Daruma.Views
         private void HideButtons()
         {
             GridQuoteTextBlock.Visibility = Visibility.Collapsed;
+
             ShareButton.Visibility = Visibility.Collapsed;
+
+            PinUnpinButton.Visibility = Visibility.Visible;
+            DeleteButton.Visibility = Visibility.Visible;
             //AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
         }
 
@@ -132,9 +139,14 @@ namespace Daruma.Views
                 if (isDelete)
                 {
                     DeleteTile(DarumaUrl);
-                    NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
+                    NavigateToMain();
                 }
             }
+        }
+
+        private void NavigateToMain()
+        {
+            NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
         }
 
         //TODO: move tile pin/unpin logic in separate class
@@ -227,9 +239,14 @@ namespace Daruma.Views
 
         private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
         {
-            if (e.HorizontalVelocity > 10 || e.HorizontalVelocity < -10)
+            ShakeDaruma(e.HorizontalVelocity);
+        }
+
+        private void ShakeDaruma(double horizontalVelocity)
+        {
+            if (horizontalVelocity > 10 || horizontalVelocity < -10)
             {
-                DarumaAnimation.From = e.HorizontalVelocity / 36;
+                DarumaAnimation.From = horizontalVelocity/36;
                 DarumaStoryboard.Begin();
 
                 var quote = _viewModel.GetQuote(Daruma.Theme);
@@ -238,7 +255,7 @@ namespace Daruma.Views
             }
         }
 
-        private void AddToFavoritQuot_OnClick(object sender, EventArgs e)
+        private void AddToFavoritQuot_OnClick(object sender, RoutedEventArgs e)
         {
             _viewModel.AddFavorit(Quote);
             HideButtons();
@@ -247,6 +264,16 @@ namespace Daruma.Views
         private void Close_OnClick(object sender, RoutedEventArgs e)
         {
             HideButtons();
+        }
+
+        private void Refresh_OnClick(object sender, EventArgs e)
+        {
+            ShakeDaruma(2000);
+        }
+        
+        private void Home_OnClick(object sender, EventArgs e)
+        {
+            NavigateToMain();
         }
     }
 }

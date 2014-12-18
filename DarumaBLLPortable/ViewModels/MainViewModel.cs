@@ -46,7 +46,7 @@ namespace DarumaBLLPortable.ViewModels
             get; set;
         }
 
-        public MainViewModel(ISettingsStorage settings, IDarumaApplicationService darumaService) 
+        public MainViewModel(ISettingsStorage settings, IDarumaApplicationService darumaService, Action navigateToNewDaruma) 
         {
             _settings = settings;
             _darumaService = darumaService;
@@ -56,7 +56,7 @@ namespace DarumaBLLPortable.ViewModels
                 {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaView>()},
                 {DarumaStatus.TimeExpired, new ObservableCollection<DarumaView>()},
             };
-            LoadDaruma();
+            LoadDaruma(navigateToNewDaruma);
             InitCommands();
         }
 
@@ -71,7 +71,7 @@ namespace DarumaBLLPortable.ViewModels
             handler.HandleFirstStart(NavigateToInfoAction);  
         }
 
-        private async void LoadDaruma()
+        private async void LoadDaruma(Action navigateToNewDaruma)
         {
             IEnumerable<DarumaView> darumaList = (await _darumaService.ListAll()).ToList();
             _darumaService.CheckExpiredStatus(darumaList);
@@ -93,6 +93,17 @@ namespace DarumaBLLPortable.ViewModels
                         _darumaDict[status].Add(darumaDomain);
                     }
                 }
+            }
+
+            CheckDarumaList(navigateToNewDaruma);
+        }
+
+        private void CheckDarumaList(Action navigateToNewDaruma)
+        {
+            ObservableCollection<DarumaView> list = _darumaDict[DarumaStatus.MakedWish];
+            if (!(list.Count > 0))
+            {
+                navigateToNewDaruma();
             }
         }
 

@@ -24,7 +24,7 @@ namespace Daruma.Views
 
         private void InitializeViewModel()
         {
-            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>());
+            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>(), NavigateToNewDaruma);
             //initialize commands
             _viewModel.NavigateToInfoAction = NavigateToInfoPivotItem;
         }
@@ -38,12 +38,13 @@ namespace Daruma.Views
 
         private void NewDaruma_OnTap(object sender, EventArgs e)
         {
-            NavigationService.Navigate(new Uri(ViewUrlRouter.NewDarumaViewUrl, UriKind.Relative));
+            NavigateToNewDaruma();
         }
 
         private void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
             _viewModel.FirstStartHandleCommand.Execute(null);
+            //_viewModel.CheckDarumaList(NavigateToNewDaruma);
         }
 
         private void InfoDaruma_OnTap(object sender, EventArgs e)
@@ -59,6 +60,11 @@ namespace Daruma.Views
         private void Favorits_OnClick(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri(ViewUrlRouter.FavoritsViewUrl, UriKind.Relative));
+        }
+
+        private void NavigateToNewDaruma()
+        {
+            NavigationService.Navigate(new Uri(ViewUrlRouter.NewDarumaViewUrl, UriKind.Relative));
         }
     }
 }
