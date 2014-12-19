@@ -58,7 +58,7 @@ namespace DarumaBLLPortable.ViewModels
             ThemeList = new List<DarumaWishTheme>
             {
                 DarumaWishTheme.Friendship,
-                DarumaWishTheme.Funny,
+                //DarumaWishTheme.Funny,
                 DarumaWishTheme.Health,
                 DarumaWishTheme.Love,
                 DarumaWishTheme.Luck,

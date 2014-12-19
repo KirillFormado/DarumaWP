@@ -56,6 +56,10 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Friendship.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\Friendship2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Friendship2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Funy.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Funy.Designer.cs</LastGenOutput>
@@ -64,35 +68,40 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Health.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\Health2.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Health2.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Love.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Love.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Love2.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Love2.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\Love2.resx" />
     <EmbeddedResource Include="LocalizationResources\Luck.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Luck.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Luck2.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Luck2.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\Luck2.resx" />
     <EmbeddedResource Include="LocalizationResources\Rich.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Rich.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Rich2.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Rich2.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\Rich2.resx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infrastructure\DarumaWishThemeToLocalizationString.cs" />
     <Compile Include="Infrastructure\LocalizedStrings.cs" />
     <Compile Include="Infrastructure\LocalizationResourseStorage.cs" />
+    <Compile Include="LocalizationResources\Friendship2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Friendship2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationResources\Health2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Health2.resx</DependentUpon>
+    </Compile>
     <Compile Include="LocalizationResources\Love2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -58,7 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\bogatstvo.txt" />
+    <Content Include="Resources\zdorovie.txt" />
     <Content Include="Resources\lyubov.txt" />
+    <None Include="Resources\druzhba.txt" />
     <None Include="Resources\uspekh.txt" />
   </ItemGroup>
   <ItemGroup>

@@ -43,6 +43,14 @@ namespace QuotationGenerator
                 {
                     Path = "uspekh",
                     FileName = "Luck2"
+                }),
+                new TextParser(new Info{
+                    Path = "druzhba",
+                    FileName = "Friendship2"
+                }),
+                new TextParser(new Info{
+                    Path = "zdorovie",
+                    FileName = "Health2"
                 })
                 //new WebParser(new Info
                 //{

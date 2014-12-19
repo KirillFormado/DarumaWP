@@ -121,10 +121,16 @@
   <data name="bogatstvo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\bogatstvo.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
+  <data name="druzhba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\druzhba.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
   <data name="lyubov" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\lyubov.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
   <data name="uspekh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\uspekh.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
+  </data>
+  <data name="zdorovie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\zdorovie.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
 </root>

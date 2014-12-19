@@ -14,9 +14,9 @@ namespace DarumaResourcesPortable.Infrastructure
             _dict = new Dictionary<DarumaWishTheme, ResourceManager>
             {
                 {DarumaWishTheme.NoSet, CitationLocalizationResources.ResourceManager},
-                {DarumaWishTheme.Friendship, Friendship.ResourceManager},
+                {DarumaWishTheme.Friendship, Friendship2.ResourceManager},
                 {DarumaWishTheme.Funny, Funy.ResourceManager},
-                {DarumaWishTheme.Health, Health.ResourceManager},
+                {DarumaWishTheme.Health, Health2.ResourceManager},
                 {DarumaWishTheme.Love, Love2.ResourceManager},
                 {DarumaWishTheme.Luck, Luck2.ResourceManager},
                 {DarumaWishTheme.Rich, Rich2.ResourceManager}
