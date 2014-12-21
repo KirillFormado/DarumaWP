@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daruma", "Daruma\Daruma.csproj", "{5D9DE006-3C7E-4A31-9F94-7102030C2C33}"
 EndProject
@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F4A607
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShakeGesturesCS", "ShakeGesturesCS\ShakeGesturesCS.csproj", "{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +142,24 @@ Global
 		{6DD0E516-6252-4507-AA39-E62725EB0E87}.Release|x64.ActiveCfg = Release|Any CPU
 		{6DD0E516-6252-4507-AA39-E62725EB0E87}.Release|x86.ActiveCfg = Release|x86
 		{6DD0E516-6252-4507-AA39-E62725EB0E87}.Release|x86.Build.0 = Release|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|ARM.Build.0 = Debug|ARM
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|x86.ActiveCfg = Debug|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Debug|x86.Build.0 = Debug|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|ARM.ActiveCfg = Release|ARM
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|ARM.Build.0 = Release|ARM
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|x64.ActiveCfg = Release|Any CPU
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|x86.ActiveCfg = Release|x86
+		{F5CE25E6-CF76-43AE-BBB2-2C98B21BCCD8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

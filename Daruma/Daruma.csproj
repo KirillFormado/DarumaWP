@@ -272,6 +272,10 @@
       <Project>{545fbe58-e84b-4689-9d10-aa61bf51d70e}</Project>
       <Name>DarumaTileUpdatePeriodicAgent</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ShakeGesturesCS\ShakeGesturesCS.csproj">
+      <Project>{f5ce25e6-cf76-43ae-bbb2-2c98b21bccd8}</Project>
+      <Name>ShakeGesturesCS</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

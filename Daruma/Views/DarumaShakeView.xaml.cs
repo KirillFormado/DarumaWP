@@ -17,6 +17,7 @@ using Microsoft.Phone.Shell;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 using DarumaDAL.WP.Infrastructure;
 using DarumaBLLPortable.ApplicationServices.Entites;
+using ShakeGestures;
 
 namespace Daruma.Views
 {
@@ -54,6 +55,17 @@ namespace Daruma.Views
             InitializeComponent();
             _viewModel = new DarumaShakeViewModel(IoCContainter.Get<IDarumaApplicationService>(), IoCContainter.Get<IFavoritApplicationService>());
             DataContext = _viewModel;           
+            var shake = ShakeGesturesHelper.Instance;
+            shake.MinimumRequiredMovesForShake = 3;
+            shake.MinimumShakeVectorsNeededForShake = 20;
+            shake.StillMagnitudeWithoutGravitationThreshold = 1;
+            shake.ShakeGesture += OnShakeOnShakeGesture;
+            shake.Active = true;
+        }
+
+        private void OnShakeOnShakeGesture(object sender, ShakeGestureEventArgs e)
+        {
+            Dispatcher.BeginInvoke(() => ShakeDaruma(2000));
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
