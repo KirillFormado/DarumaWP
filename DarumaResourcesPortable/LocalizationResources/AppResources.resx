@@ -237,4 +237,7 @@
   <data name="Home" xml:space="preserve">
     <value>К списку</value>
   </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
 </root>

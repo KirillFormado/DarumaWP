@@ -54,7 +54,7 @@ namespace Daruma.Views
         {
             InitializeComponent();
             _viewModel = new DarumaShakeViewModel(IoCContainter.Get<IDarumaApplicationService>(), IoCContainter.Get<IFavoritApplicationService>());
-            DataContext = _viewModel;           
+            DataContext = _viewModel;
             var shake = ShakeGesturesHelper.Instance;
             shake.MinimumRequiredMovesForShake = 3;
             shake.MinimumShakeVectorsNeededForShake = 20;
@@ -104,11 +104,13 @@ namespace Daruma.Views
 
         private void ShowButtons()
         {
+            HomeButton.Visibility = Visibility.Collapsed;
             DeleteButton.Visibility = Visibility.Collapsed;
             PinUnpinButton.Visibility = Visibility.Collapsed;
-            ShareButton.Visibility = Visibility.Visible;
 
-            //AddToFavoritQuotButton.Visibility = Visibility.Visible;
+            ShareButton.Visibility = Visibility.Visible;
+            AddToFavoritQuotButton.Visibility = Visibility.Visible;
+            CloseQuotButton.Visibility = Visibility.Visible;
         }
 
         private void Share_OnClick(object sender, EventArgs eventArgs)
@@ -124,10 +126,12 @@ namespace Daruma.Views
             GridQuoteTextBlock.Visibility = Visibility.Collapsed;
 
             ShareButton.Visibility = Visibility.Collapsed;
+            AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
+            CloseQuotButton.Visibility = Visibility.Collapsed;
 
+            HomeButton.Visibility = Visibility.Visible;
             PinUnpinButton.Visibility = Visibility.Visible;
             DeleteButton.Visibility = Visibility.Visible;
-            //AddToFavoritQuotButton.Visibility = Visibility.Collapsed;
         }
 
         //private void QuoteTextBlock_OnTap(object sender, GestureEventArgs e)
@@ -267,13 +271,13 @@ namespace Daruma.Views
             }
         }
 
-        private void AddToFavoritQuot_OnClick(object sender, RoutedEventArgs e)
+        private void AddToFavoritQuot_OnClick(object sender, EventArgs eventArgs)
         {
             _viewModel.AddFavorit(Quote);
             HideButtons();
         }
 
-        private void Close_OnClick(object sender, RoutedEventArgs e)
+        private void Close_OnClick(object sender, EventArgs eventArgs)
         {
             HideButtons();
         }

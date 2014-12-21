@@ -3,7 +3,6 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
-    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
@@ -13,14 +12,14 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    mc:Ignorable="d" Orientation="Portrait">
-
+    mc:Ignorable="d">
+   
     <phone:PhoneApplicationPage.Resources>
         <converters:DarumaWishThemeToStringConverter x:Key="DarumaWishThemeToStringConverter"/>
     </phone:PhoneApplicationPage.Resources>
 
         <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -32,6 +31,14 @@
                     Text="{Binding Path=LocalizedResources.Home, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=HomeIconUrl}"
                     Click="Home_OnClick"/>
+
+            <wpe:AdvancedApplicationBarIconButton 
+                    x:Name="CloseQuotButton"
+                    Text="{Binding Path=LocalizedResources.Close, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=CloseIconUrl}"
+                    Visibility="Collapsed"
+                    Click="Close_OnClick"/>
+
             <wpe:AdvancedApplicationBarIconButton 
                     x:Name="DeleteButton"
                     Text="{Binding Path=LocalizedResources.Burn, Source={StaticResource LocalizedStrings}}"
@@ -43,25 +50,27 @@
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=ShareIconUrl}"
                     Visibility="Collapsed"
                     Click="Share_OnClick"/>
+            
+            
             <wpe:AdvancedApplicationBarIconButton 
                     x:Name="PinUnpinButton"
                     Text="{Binding Path=LocalizedResources.Pin, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=PinIconUrl}"
                     Click="PinUnpin_OnClick"/>
+
+            <wpe:AdvancedApplicationBarIconButton 
+                    x:Name="AddToFavoritQuotButton"
+                    Text="{Binding Path=LocalizedResources.Favorites, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}"
+                    Visibility="Collapsed"
+                    Click="AddToFavoritQuot_OnClick"/>
+
             <wpe:AdvancedApplicationBarIconButton
                     x:Name="RefreshButton"
                     Text="{Binding Path=LocalizedResources.Refresh, Source={StaticResource LocalizedStrings}}"
                     IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=RefreshIconUrl}"
                     Click="Refresh_OnClick"/>
-
-       
-            <!--<wpe:AdvancedApplicationBarIconButton 
-                    x:Name="AddToFavoritQuotButton"
-                    Text="{Binding Path=LocalizedResources.Favorites, Source={StaticResource LocalizedStrings}}"
-                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}"
-                    Visibility="Collapsed"
-                    Click="AddToFavoritQuot_OnClick"/>-->
-           
+            
         </wpe:AdvancedApplicationBar>
 
         <!--TitlePanel contains the name of the application and page title-->
@@ -113,20 +122,20 @@
                     </Image.Resources>
                 </Image>
             </Grid>
-
          
-                <Grid x:Name="GridQuoteTextBlock"
-                      Style="{StaticResource HiddenElement}">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="1*"></RowDefinition>
-                    <RowDefinition Height="10*"></RowDefinition>
-                    <RowDefinition Height="1*"></RowDefinition>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"></ColumnDefinition>
-                    <ColumnDefinition Width="10*"></ColumnDefinition>
-                    <ColumnDefinition Width="1*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
+            <Grid x:Name="GridQuoteTextBlock"
+                    Style="{StaticResource HiddenElement}"
+                    >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="5*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
                 <Grid.Resources>
                     <Storyboard x:Name="FadeInAnimation" TargetName="GridQuoteTextBlock">
                         <DoubleAnimation From="0" To="0.95" Storyboard.TargetProperty="Opacity"/>
@@ -138,38 +147,17 @@
                          Margin="5" 
                          Padding="5"  
                          CornerRadius="40">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="3*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-                        <ScrollViewer Margin="10" Grid.Row="0" Grid.ColumnSpan="2">
-                            <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" 
-                               FontSize="{StaticResource PhoneFontSizeMediumLarge}">
-                        <toolkit:ContextMenuService.ContextMenu>
-                            <toolkit:ContextMenu IsZoomEnabled="False">
-                                <toolkit:MenuItem  Click="CopyMenuItem_OnClick" 
-                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Copy}">
-                                </toolkit:MenuItem>
-                            </toolkit:ContextMenu>
-                        </toolkit:ContextMenuService.ContextMenu>
-                    </TextBlock>
-                        </ScrollViewer>             
-                        <Button Margin="20, 0" Grid.Row="1" Grid.Column="0" Tap="Close_OnClick">
-                            <Button.Content>
-                                <Image Source="{Binding Source={StaticResource IconsUrlRouter}, Path=CloseIconUrl}"/>
-                            </Button.Content>
-                        </Button>
-                        <Button Margin="20, 0" Grid.Row="1" Grid.Column="1" Tap="AddToFavoritQuot_OnClick">
-                            <Button.Content>
-                                <Image Source="{Binding Source={StaticResource IconsUrlRouter}, Path=FavoritesIconUrl}" />
-                            </Button.Content>
-                        </Button>
-                    </Grid>
+                    <ScrollViewer Margin="20,20,20,20">
+                        <TextBlock x:Name="CitationTextBlock" TextWrapping="Wrap" 
+                			FontSize="{StaticResource PhoneFontSizeMediumLarge}">
+                			<toolkit:ContextMenuService.ContextMenu>
+                				<toolkit:ContextMenu IsZoomEnabled="False">
+                					<toolkit:MenuItem  Click="CopyMenuItem_OnClick" 
+                						Header="{Binding LocalizedResources.Copy, Source={StaticResource LocalizedStrings}}"/>
+                				</toolkit:ContextMenu>
+                			</toolkit:ContextMenuService.ContextMenu>
+                        </TextBlock>
+                    </ScrollViewer>
                 </Border>
             </Grid>
            
