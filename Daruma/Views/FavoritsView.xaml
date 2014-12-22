@@ -28,26 +28,27 @@
             <ListBox ItemsSource="{Binding Path=Favorits, Mode=TwoWay}">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="***" Style="{StaticResource PhoneTextLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}" TextAlignment="Center">
+                            </TextBlock>
+                            <TextBlock Text="{Binding Path=Text}" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}" FontSize="{StaticResource PhoneFontSizeLarge}" Margin="0,0,0,40">
+                                <toolkit:ContextMenuService.ContextMenu>
+                                    <toolkit:ContextMenu IsZoomEnabled="False">
+                                        <toolkit:MenuItem  Click="Delete_OnClick" Tag="{Binding Path=Id}"
+                                                            Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Delete}">
+                                        </toolkit:MenuItem>
+                                        <toolkit:MenuItem  Click="Copy_OnClick" Tag="{Binding Path=Text}"
+                                                            Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Copy}">
+                                        </toolkit:MenuItem>
+                                            <toolkit:MenuItem  Click="Share_OnClick" Tag="{Binding Path=Id}"
+                                                            Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Share}">
+                                        </toolkit:MenuItem>
+                                    </toolkit:ContextMenu>
+                                </toolkit:ContextMenuService.ContextMenu>
 
-                        <TextBlock Text="{Binding Path=Text}" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"
-                                   Margin="0,0,0,40" >
-                               <toolkit:ContextMenuService.ContextMenu>
-                            <toolkit:ContextMenu IsZoomEnabled="False">
-                                <toolkit:MenuItem  Click="Delete_OnClick" Tag="{Binding Path=Id}"
-                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Delete}">
-                                </toolkit:MenuItem>
-                                <toolkit:MenuItem  Click="Copy_OnClick" Tag="{Binding Path=Text}"
-                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Copy}">
-                                </toolkit:MenuItem>
-                                 <toolkit:MenuItem  Click="Share_OnClick" Tag="{Binding Path=Id}"
-                                                   Header="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Share}">
-                                </toolkit:MenuItem>
-                            </toolkit:ContextMenu>
-                        </toolkit:ContextMenuService.ContextMenu>
-
-                        </TextBlock>
-                     
-
+                            </TextBlock>
+                           
+                        </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
                
