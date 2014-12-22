@@ -56,10 +56,7 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Friendship.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Friendship2.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Friendship2.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\Friendship2.resx" />
     <EmbeddedResource Include="LocalizationResources\Funy.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Funy.Designer.cs</LastGenOutput>

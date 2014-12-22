@@ -94,6 +94,8 @@ namespace QuotationGenerator
                 Console.WriteLine("{0} file end", parser.FileName);
                 Console.WriteLine("======================================================");
             }
+
+            Console.ReadLine();
         }
 
         private static void GenerateQuoatationFile(ParserBase parserBase)
