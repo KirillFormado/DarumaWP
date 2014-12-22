@@ -72,6 +72,26 @@ namespace DarumaDAL.WP.Infrastructure
         }
     }
 
+    public class TutorStepUrlRouter
+    {
+        private const string RouteToBackground = "/Assets/Images/Tutor";
+
+        public static string TutorStep1ImageUrl
+        {
+            get { return string.Format("{0}/{1}", RouteToBackground, "TutorStep1.png"); }
+        }
+
+        public static string TutorStep2ImageUrl
+        {
+            get { return string.Format("{0}/{1}", RouteToBackground, "TutorStep2.png"); }
+        }
+
+        public static string TutorStep3ImageUrl
+        {
+            get { return string.Format("{0}/{1}", RouteToBackground, "TutorStep3.png"); }
+        }
+    }
+
     public class TilesUrlRouter
     {
         private const string RouteToTile = "/Assets/Tiles/";
@@ -142,6 +162,11 @@ namespace DarumaDAL.WP.Infrastructure
         public static string HomeIconUrl
         {
             get { return RouteToIcons + "home.png"; }
+        }
+
+        public static string ForwardIconUrl
+        {
+            get { return RouteToIcons + "forward.png"; }
         }
     }
 }

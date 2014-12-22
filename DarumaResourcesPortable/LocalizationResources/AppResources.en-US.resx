@@ -155,8 +155,8 @@
   <data name="Maked" xml:space="preserve">
     <value>Maked</value>
   </data>
-  <data name="ToMainView" xml:space="preserve">
-    <value>To Main</value>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
   </data>
   <data name="Friendship" xml:space="preserve">
     <value>Friendship</value>
@@ -232,5 +232,8 @@
   </data>
   <data name="Close" xml:space="preserve">
     <value>Close</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Forward</value>
   </data>
 </root>

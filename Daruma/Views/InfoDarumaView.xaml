@@ -2,8 +2,6 @@
     x:Class="Daruma.Views.InfoDarumaView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
-    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
@@ -12,34 +10,56 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     mc:Ignorable="d">
-    
 
     <Grid>
         <wpe:AdvancedApplicationBar>
             <wpe:AdvancedApplicationBarIconButton 
-                Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.ToMainView}"
+                x:Name="BackButton"
+                Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Forward}"
                 IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=BackIconUrl}"
                 Click="Back_OnTap"/>
+        
+          
+            <wpe:AdvancedApplicationBarIconButton 
+                x:Name="ForwardButton"
+                Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Forward}"
+                IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=ForwardIconUrl}"
+                Click="Forward_OnTap"/>
+           
+            <wpe:AdvancedApplicationBarIconButton 
+                x:Name="HomeButton"
+                Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Home}"
+                IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=HomeIconUrl}"
+                Click="Home_OnTap"/>
         </wpe:AdvancedApplicationBar>
-        
-        <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="{Binding  Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Info}"
-                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-        
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <ScrollViewer>
-                <TextBlock TextWrapping="Wrap" Height="Auto" Padding="30" 
-                           Text="{Binding Path=LocalizedResources.DarumaInfo, Source={StaticResource LocalizedStrings}}" />
-            </ScrollViewer>
+
+        <Grid x:Name="LayoutRoot" Tap="Gird_OnTap">
+            <Grid.Background>
+                <ImageBrush 
+                x:Name="BackgroundImage"
+                    Stretch="Fill" />
+            </Grid.Background>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+         
+            
+            <StackPanel Grid.Row="0" Margin="12,17,0,28" x:Name="InfoTitle">
+                <TextBlock Text="{Binding  Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Info}"
+                           Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
+
+            <Grid x:Name="InfoText" Grid.Row="1" Margin="12,0,12,0">
+                <ScrollViewer>
+                    <TextBlock TextWrapping="Wrap" Height="Auto" Padding="30" 
+                               FontSize="{StaticResource PhoneFontSizeMediumLarge}"
+                               Text="{Binding Path=LocalizedResources.DarumaInfo, Source={StaticResource LocalizedStrings}}" />
+                </ScrollViewer>
+            </Grid>
+
         </Grid>
-    </Grid>
     </Grid>
     
     

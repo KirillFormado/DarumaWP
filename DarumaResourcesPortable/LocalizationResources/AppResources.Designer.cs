@@ -71,6 +71,15 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Назад.
+        /// </summary>
+        public static string Back {
+            get {
+                return ResourceManager.GetString("Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Сжечь.
         /// </summary>
         public static string Burn {
@@ -116,8 +125,10 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Дарума (яп. だるま или 達磨) — японская традиционная кукла-неваляшка, олицетворяющая Бодхидхарму, в японской синкретической мифологии — божество, приносящее счастье. Кукла делается из дерева, папье-маше или бумаги и не имеет рук и ног: по легенде после девяти лет медитации у Бодхидхармы атрофировались конечности. Кукла обычно бывает окрашена в красный или, реже в зелёный, жёлтый или белый цвета. На ней изображается борода и усы, но глаза рисуются без зрачков.
-        ///Дарума (Бодайдарума) — японское произношение имени Б [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Японская традиционная кукла-неваляшка приносит счастье и исполняет желания. Нарисуй зрачок Даруме и запиши свою мечту. Когда мечта сбудется, закрась и второй зрачок Дарумы. 
+        ///Коснись Дарумы и проведи пальцем вправо или влево, чтобы пообщаться с Дарумой.
+        ///
+        ///Дарума рассказывает тебе притчу. Мужик в троллейбусе едет и думает: «Жена капризная, друзья вечно заняты, жизнь не интересная». За спиной стоит Ангел, записывает в блокнот и думает:«Какие странные желания, а главное одни и те же каждый день! Но ничего не  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string DarumaInfo {
             get {
@@ -185,6 +196,15 @@ namespace DarumaResourcesPortable.LocalizationResources {
         public static string FavoritQuotations {
             get {
                 return ResourceManager.GetString("FavoritQuotations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Вперед.
+        /// </summary>
+        public static string Forward {
+            get {
+                return ResourceManager.GetString("Forward", resourceCulture);
             }
         }
         
@@ -365,15 +385,6 @@ namespace DarumaResourcesPortable.LocalizationResources {
         public static string SocialNetwork {
             get {
                 return ResourceManager.GetString("SocialNetwork", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to К списку.
-        /// </summary>
-        public static string ToMainView {
-            get {
-                return ResourceManager.GetString("ToMainView", resourceCulture);
             }
         }
         

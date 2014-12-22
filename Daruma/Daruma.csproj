@@ -163,10 +163,14 @@
     <Content Include="Assets\BadgeLogo.png" />
     <Content Include="Assets\Icons\close.png" />
     <Content Include="Assets\Icons\delete.png" />
+    <Content Include="Assets\Icons\forward.png" />
     <Content Include="Assets\Icons\home.png" />
     <Content Include="Assets\Icons\refresh.png" />
     <Content Include="Assets\Icons\share.png" />
     <Content Include="Assets\Icons\starAdd.png" />
+    <Content Include="Assets\Images\Tutor\TutorStep1.png" />
+    <Content Include="Assets\Images\Tutor\TutorStep2.png" />
+    <Content Include="Assets\Images\Tutor\TutorStep3.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\SquareTile150x150.png" />
@@ -277,7 +281,6 @@
       <Name>ShakeGesturesCS</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Reference Include="AdDuplex.WindowsPhone">
       <HintPath>..\packages\AdDuplexWP8.2.8.1.0\lib\wp8\AdDuplex.WindowsPhone.dll</HintPath>
