@@ -245,4 +245,7 @@
   <data name="Forward" xml:space="preserve">
     <value>Вперед</value>
   </data>
+  <data name="RateAndReview" xml:space="preserve">
+    <value>Оценить приложение</value>
+  </data>
 </root>

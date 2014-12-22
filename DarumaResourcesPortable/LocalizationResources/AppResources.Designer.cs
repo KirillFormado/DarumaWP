@@ -326,6 +326,15 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Оценить приложение.
+        /// </summary>
+        public static string RateAndReview {
+            get {
+                return ResourceManager.GetString("RateAndReview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Цитата.
         /// </summary>
         public static string Refresh {

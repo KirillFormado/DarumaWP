@@ -7,6 +7,7 @@ using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.ViewModels;
 using DarumaDAL.WP.Infrastructure;
 using Microsoft.Phone.Controls;
+using Microsoft.Phone.Tasks;
 
 namespace Daruma.Views
 {
@@ -65,6 +66,12 @@ namespace Daruma.Views
         private void NavigateToNewDaruma()
         {
             NavigationService.Navigate(new Uri(ViewUrlRouter.NewDarumaViewUrl, UriKind.Relative));
+        }
+
+        private void Review_OnClick(object sender, EventArgs e)
+        {
+            var marketplaceReviewTask = new MarketplaceReviewTask();
+            marketplaceReviewTask.Show();
         }
     }
 }

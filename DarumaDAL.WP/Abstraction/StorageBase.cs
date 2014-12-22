@@ -45,7 +45,11 @@ namespace DarumaDAL.WP.Abstraction
         {           
             var folder = await GetFolderAsync();
             var file = await folder.GetFileAsync(id);
-            return await DeserializeObject(file);
+            if (file != null)
+            {
+                return await DeserializeObject(file);
+            }
+            return null;
         }
 
         private async Task<StorageFolder> GetFolderAsync()

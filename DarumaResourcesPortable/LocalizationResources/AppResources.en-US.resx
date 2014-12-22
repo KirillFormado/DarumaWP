@@ -236,4 +236,7 @@
   <data name="Forward" xml:space="preserve">
     <value>Forward</value>
   </data>
+  <data name="RateAndReview" xml:space="preserve">
+    <value>Rate and review</value>
+  </data>
 </root>

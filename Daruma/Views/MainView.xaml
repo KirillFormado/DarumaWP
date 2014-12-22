@@ -74,6 +74,10 @@
                 Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Info}"
                 IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=QuestionMarkIconUrl}"
                 Click="InfoDaruma_OnTap"/>
+            <wpe:AdvancedApplicationBarMenuItem
+                Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.RateAndReview}"
+                Click="Review_OnClick"
+                />
         </wpe:AdvancedApplicationBar>
 
         <phone:Pivot x:Name="MainPivot" Title="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Daruma_Up_Case}"
