@@ -168,5 +168,10 @@ namespace DarumaDAL.WP.Infrastructure
         {
             get { return RouteToIcons + "forward.png"; }
         }
+
+        public static string QuoteListIconUrl
+        {
+            get { return RouteToIcons + "quoteList.png"; }
+        }
     }
 }

@@ -165,6 +165,7 @@
     <Content Include="Assets\Icons\delete.png" />
     <Content Include="Assets\Icons\forward.png" />
     <Content Include="Assets\Icons\home.png" />
+    <Content Include="Assets\Icons\quoteList.png" />
     <Content Include="Assets\Icons\refresh.png" />
     <Content Include="Assets\Icons\share.png" />
     <Content Include="Assets\Icons\starAdd.png" />
