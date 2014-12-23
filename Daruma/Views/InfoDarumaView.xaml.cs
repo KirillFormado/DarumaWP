@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows;
-using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using DarumaDAL.WP.Infrastructure;
+using Microsoft.Phone.Controls;
+using GestureEventArgs = System.Windows.Input.GestureEventArgs;
 
 namespace Daruma.Views
 {
@@ -19,9 +20,10 @@ namespace Daruma.Views
         
             _tutorStepList = new List<BitmapImage>
             {
-                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl, UriKind.Relative)),
-                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep2ImageUrl, UriKind.Relative)),
-                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep3ImageUrl, UriKind.Relative))
+                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(1), UriKind.Relative)),
+                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(2), UriKind.Relative)),
+                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(3), UriKind.Relative)),
+                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(4), UriKind.Relative))
             };
         }
 
@@ -86,7 +88,25 @@ namespace Daruma.Views
 
         private void Gird_OnTap(object sender, GestureEventArgs e)
         {
-            Forward();
+            IfNotFirstSetp();
+        }
+
+        private void GestureListener_OnFlick(object sender, FlickGestureEventArgs e)
+        {
+            IfNotFirstSetp();
+        }
+
+        private void GestureListener_OnHold(object sender, Microsoft.Phone.Controls.GestureEventArgs e)
+        {
+            IfNotFirstSetp();
+        }
+
+        private void IfNotFirstSetp()
+        {
+            if (_currentTutorStep >= 0)
+            {
+                Forward();
+            }
         }
     }
 }

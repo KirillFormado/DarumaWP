@@ -76,19 +76,9 @@ namespace DarumaDAL.WP.Infrastructure
     {
         private const string RouteToBackground = "/Assets/Images/Tutor";
 
-        public static string TutorStep1ImageUrl
+        public static string TutorStep1ImageUrl(int step)
         {
-            get { return string.Format("{0}/{1}", RouteToBackground, "TutorStep1.png"); }
-        }
-
-        public static string TutorStep2ImageUrl
-        {
-            get { return string.Format("{0}/{1}", RouteToBackground, "TutorStep2.png"); }
-        }
-
-        public static string TutorStep3ImageUrl
-        {
-            get { return string.Format("{0}/{1}", RouteToBackground, "TutorStep3.png"); }
+            return string.Format("{0}/{1}", RouteToBackground, string.Format("TutorStep{0}.png", step));
         }
     }
 

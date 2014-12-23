@@ -172,6 +172,7 @@
     <Content Include="Assets\Images\Tutor\TutorStep1.png" />
     <Content Include="Assets\Images\Tutor\TutorStep2.png" />
     <Content Include="Assets\Images\Tutor\TutorStep3.png" />
+    <Content Include="Assets\Images\Tutor\TutorStep4.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\SquareTile150x150.png" />

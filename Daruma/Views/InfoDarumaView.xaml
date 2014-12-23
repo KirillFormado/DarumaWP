@@ -6,6 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:wpe="clr-namespace:WPExtensions;assembly=WPExtensions"
     xmlns:views="clr-namespace:Daruma.Views"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -34,6 +35,9 @@
         </wpe:AdvancedApplicationBar>
 
         <Grid x:Name="LayoutRoot" Tap="Gird_OnTap">
+            <toolkit:GestureService.GestureListener>
+                <toolkit:GestureListener Flick="GestureListener_OnFlick" Hold="GestureListener_OnHold" />
+            </toolkit:GestureService.GestureListener>
             <Grid.Background>
                 <ImageBrush 
                 x:Name="BackgroundImage"
