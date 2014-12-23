@@ -46,7 +46,13 @@ namespace DarumaBLLPortable.ViewModels
             get; set;
         }
 
-        public MainViewModel(ISettingsStorage settings, IDarumaApplicationService darumaService, Action navigateToNewDaruma) 
+        public Action NavigateToNewDaruma
+        {
+            get;
+            set;
+        }
+
+        public MainViewModel(ISettingsStorage settings, IDarumaApplicationService darumaService) 
         {
             _settings = settings;
             _darumaService = darumaService;
@@ -56,22 +62,27 @@ namespace DarumaBLLPortable.ViewModels
                 {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaView>()},
                 {DarumaStatus.TimeExpired, new ObservableCollection<DarumaView>()},
             };
-            LoadDaruma(navigateToNewDaruma);
-            InitCommands();
+            //InitCommands();
         }
 
-        private void InitCommands()
+        public void Start()
         {
-            FirstStartHandleCommand = new RelayCommand(FirstStartHandle);
+            LoadDaruma();
+            
         }
 
-        private void FirstStartHandle(object obj)
+        //private void InitCommands()
+        //{
+        //    FirstStartHandleCommand = new RelayCommand(FirstStartHandle);
+        //}
+
+        private bool FirstStartHandle()//object obj)
         {
             var handler = new FirstStartHandler(_settings);
-            handler.HandleFirstStart(NavigateToInfoAction);  
+            return handler.HandleFirstStart(NavigateToInfoAction);  
         }
 
-        private async void LoadDaruma(Action navigateToNewDaruma)
+        private async void LoadDaruma()
         {
             IEnumerable<DarumaView> darumaList = (await _darumaService.ListAll()).ToList();
             _darumaService.CheckExpiredStatus(darumaList);
@@ -94,16 +105,18 @@ namespace DarumaBLLPortable.ViewModels
                     }
                 }
             }
-
-            CheckDarumaList(navigateToNewDaruma);
+            if (!FirstStartHandle())
+            {
+                CheckDarumaList();
+            }
         }
 
-        private void CheckDarumaList(Action navigateToNewDaruma)
+        private void CheckDarumaList()
         {
             ObservableCollection<DarumaView> list = _darumaDict[DarumaStatus.MakedWish];
             if (!(list.Count > 0))
             {
-                navigateToNewDaruma();
+                NavigateToNewDaruma();
             }
         }
 

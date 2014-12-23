@@ -13,7 +13,7 @@ namespace DarumaBLLPortable.Domain
             _settings = settings;
         }
 
-        public void HandleFirstStart(Action action)
+        public bool HandleFirstStart(Action action)
         {
             var isFirstStart = !_settings.IsContains(KeyString);
             if (isFirstStart)
@@ -21,6 +21,8 @@ namespace DarumaBLLPortable.Domain
                 _settings.Add(KeyString, true);
                 action();
             }
+
+            return isFirstStart;
         }
     }
 }

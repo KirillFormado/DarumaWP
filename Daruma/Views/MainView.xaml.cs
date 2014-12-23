@@ -25,9 +25,10 @@ namespace Daruma.Views
 
         private void InitializeViewModel()
         {
-            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>(), NavigateToNewDaruma);
+            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>());
             //initialize commands
             _viewModel.NavigateToInfoAction = NavigateToInfoPivotItem;
+            _viewModel.NavigateToNewDaruma = NavigateToNewDaruma;
         }
 
         protected override void OnBackKeyPress(CancelEventArgs e)
@@ -44,7 +45,8 @@ namespace Daruma.Views
 
         private void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
-            _viewModel.FirstStartHandleCommand.Execute(null);
+            _viewModel.Start();
+            //_viewModel.FirstStartHandleCommand.Execute(null);
             //_viewModel.CheckDarumaList(NavigateToNewDaruma);
         }
 
