@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="44352KFormado.2570AF12D09B" Publisher="CN=6D7DF7EF-765D-4E63-85B4-1F79ADC6E3D2" Version="1.0.0.0" />
+  <Identity Name="44352KFormado.2570AF12D09B" Publisher="CN=6D7DF7EF-765D-4E63-85B4-1F79ADC6E3D2" Version="1.0.1.0" />
   <mp:PhoneIdentity PhoneProductId="5d9de006-3c7e-4a31-9f94-7102030c2c33" PhonePublisherId="e818b500-2ec8-4298-bf18-a292d0633d72" />
   <Properties>
     <DisplayName>Дарума</DisplayName>
@@ -16,7 +16,7 @@
   </Resources>
   <Applications>
     <Application Id="x5d9de006y3c7ey4a31y9f94y7102030c2c33x" Executable="AGHost.exe" EntryPoint="Views/MainView.xaml">
-      <m3:VisualElements DisplayName="Daruma" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="Daruma" ForegroundText="light" BackgroundColor="#464646">
+      <m3:VisualElements DisplayName="Дарума" Square150x150Logo="Assets\SquareTile150x150.png" Square44x44Logo="Assets\Logo.png" Description="Исполнитель желаний, сборник цитат" ForegroundText="light" BackgroundColor="#464646">
         <m3:DefaultTile Square71x71Logo="Assets\SquareTile71x71.png">
         </m3:DefaultTile>
         <m3:SplashScreen Image="SplashScreenImage.jpg" />
