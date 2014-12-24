@@ -19,8 +19,7 @@ namespace Daruma.Views
         public MainView() 
         {
             InitializeComponent();
-            InitializeViewModel();
-            DataContext = _viewModel;
+           
         }
 
         private void InitializeViewModel()
@@ -29,6 +28,7 @@ namespace Daruma.Views
             //initialize commands
             _viewModel.NavigateToInfoAction = NavigateToInfoPivotItem;
             _viewModel.NavigateToNewDaruma = NavigateToNewDaruma;
+            _viewModel.Start();
         }
 
         protected override void OnBackKeyPress(CancelEventArgs e)
@@ -45,7 +45,9 @@ namespace Daruma.Views
 
         private void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
-            _viewModel.Start();
+
+            InitializeViewModel();
+            DataContext = _viewModel;
             //_viewModel.FirstStartHandleCommand.Execute(null);
             //_viewModel.CheckDarumaList(NavigateToNewDaruma);
         }
