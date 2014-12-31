@@ -169,6 +169,7 @@
     <Content Include="Assets\Icons\refresh.png" />
     <Content Include="Assets\Icons\share.png" />
     <Content Include="Assets\Icons\starAdd.png" />
+    <Content Include="Assets\Images\Tutor\TutorStep5.png" />
     <Content Include="Assets\Images\Tutor\TutorStep1.png" />
     <Content Include="Assets\Images\Tutor\TutorStep2.png" />
     <Content Include="Assets\Images\Tutor\TutorStep3.png" />

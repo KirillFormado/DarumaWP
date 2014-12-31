@@ -23,7 +23,8 @@ namespace Daruma.Views
                 new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(1), UriKind.Relative)),
                 new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(2), UriKind.Relative)),
                 new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(3), UriKind.Relative)),
-                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(4), UriKind.Relative))
+                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(4), UriKind.Relative)),
+                new BitmapImage(new Uri(TutorStepUrlRouter.TutorStep1ImageUrl(5), UriKind.Relative))
             };
         }
 
