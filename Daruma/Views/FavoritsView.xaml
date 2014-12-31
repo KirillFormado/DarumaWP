@@ -6,6 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:views="clr-namespace:Daruma.Views"
     xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:wpExtensions="clr-namespace:WPExtensions;assembly=WPExtensions"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
@@ -23,15 +24,26 @@
             <TextBlock Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.FavoritQuotations}" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
         </StackPanel>
 
+        <wpExtensions:AdvancedApplicationBar x:Name="AppBar">
+            <wpExtensions:AdvancedApplicationBarIconButton 
+                    x:Name="ShareListButton"
+                    Text="{Binding Path=LocalizedResources.Share, Source={StaticResource LocalizedStrings}}"
+                    IconUri="{Binding Source={StaticResource IconsUrlRouter}, Path=ShareIconUrl}"
+                    Click="ShareList_OnClick"/>
+        </wpExtensions:AdvancedApplicationBar>
+
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <ListBox ItemsSource="{Binding Path=Favorits, Mode=TwoWay}">
+            <ListBox ItemsSource="{Binding Path=Favorits, Mode=TwoWay}" HorizontalAlignment="Center">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                            <TextBlock Text="***" Style="{StaticResource PhoneTextLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}" TextAlignment="Center">
+                            <TextBlock Text="{Binding Path=LocalizedResources.QuoteSeparator, Source={StaticResource LocalizedStrings}}" Style="{StaticResource PhoneTextLargeStyle}" FontSize="{StaticResource PhoneFontSizeLarge}"
+                                        HorizontalAlignment="Center">
                             </TextBlock>
-                            <TextBlock Text="{Binding Path=Text}" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}" FontSize="{StaticResource PhoneFontSizeLarge}" Margin="0,0,0,40">
+                            <TextBlock Text="{Binding Path=Text}" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}" 
+                                       
+                                       FontSize="{StaticResource PhoneFontSizeLarge}" Margin="0,0,0,40">
                                 <toolkit:ContextMenuService.ContextMenu>
                                     <toolkit:ContextMenu IsZoomEnabled="False">
                                         <toolkit:MenuItem  Click="Delete_OnClick" Tag="{Binding Path=Id}"

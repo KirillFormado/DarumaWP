@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows;
 using System.Windows.Navigation;
+using DarumaBLLPortable.Domain;
 using DarumaResourcesPortable.Infrastructure;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
@@ -39,9 +40,14 @@ namespace Daruma.Views
             var s = new DarumaWishThemeToLocalizationString();
             var shareStatusTask = new EmailComposeTask
             {
-                Subject = s.GetLocalizationByTheme(_infoSharing.WishTheme),
                 Body = _infoSharing.Quote
             };
+
+            if (_infoSharing.WishTheme != DarumaWishTheme.NoSet)
+            {
+                shareStatusTask.Subject = s.GetLocalizationByTheme(_infoSharing.WishTheme);
+            }
+
             //new ShareStatusTask { Status = Quote };
             shareStatusTask.Show();
         }

@@ -53,5 +53,11 @@ namespace DarumaDAL.WP.Infrastructure
             WishTheme = theme;
             Quote = quote;
         }
+
+        public DarumaInfoSharing(string quote)
+        {
+            WishTheme = DarumaWishTheme.NoSet;
+            Quote = quote;
+        }
     }
 }

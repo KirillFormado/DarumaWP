@@ -248,4 +248,7 @@
   <data name="RateAndReview" xml:space="preserve">
     <value>Оценить приложение</value>
   </data>
+  <data name="QuoteSeparator" xml:space="preserve">
+    <value>***</value>
+  </data>
 </root>

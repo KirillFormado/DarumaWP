@@ -1,17 +1,14 @@
 ﻿using System;
-using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using Windows.ApplicationModel.DataTransfer;
+using Windows.Phone.Devices.Notification;
 using DarumaBLLPortable.ApplicationServices.Abstractions;
-using DarumaBLLPortable.Common.Abstractions;
-using DarumaBLLPortable.Domain;
 using DarumaBLLPortable.ViewModels;
-using DarumaDAL.WP.Abstraction;
 using DarumaResourcesPortable.Infrastructure;
 using DarumaResourcesPortable.LocalizationResources;
+using Microsoft.Devices;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using GestureEventArgs = System.Windows.Input.GestureEventArgs;
@@ -24,6 +21,7 @@ namespace Daruma.Views
     public partial class DarumaShakeView : BaseDarumaPage
     {
         private DarumaShakeViewModel _viewModel;
+        private ShakeGesturesHelper _shake;
 
         private string Quote
         {
@@ -55,17 +53,21 @@ namespace Daruma.Views
             InitializeComponent();
             _viewModel = new DarumaShakeViewModel(IoCContainter.Get<IDarumaApplicationService>(), IoCContainter.Get<IFavoritApplicationService>());
             DataContext = _viewModel;
-            var shake = ShakeGesturesHelper.Instance;
-            shake.MinimumRequiredMovesForShake = 3;
-            shake.MinimumShakeVectorsNeededForShake = 20;
-            shake.StillMagnitudeWithoutGravitationThreshold = 1;
-            shake.ShakeGesture += OnShakeOnShakeGesture;
-            shake.Active = true;
+            _shake = ShakeGesturesHelper.Instance;
+            _shake.MinimumRequiredMovesForShake = 3;
+            _shake.MinimumShakeVectorsNeededForShake = 20;
+            _shake.StillMagnitudeWithoutGravitationThreshold = 1;
+            _shake.ShakeGesture += OnShakeOnShakeGesture;
+            _shake.Active = true;
         }
 
         private void OnShakeOnShakeGesture(object sender, ShakeGestureEventArgs e)
         {
-            Dispatcher.BeginInvoke(() => ShakeDaruma(2000));
+            Dispatcher.BeginInvoke(() =>
+            {
+                VibrationDevice.GetDefault().Vibrate(TimeSpan.FromSeconds(0.5));
+                ShakeDaruma(2000);
+            });
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
@@ -86,6 +88,12 @@ namespace Daruma.Views
             SetPinBar(NavigationService.Source.ToString());
             
             base.OnNavigatedTo(e);
+        }
+
+        protected override void OnNavigatedFrom(NavigationEventArgs e)
+        {
+            _shake.Active = false;
+            base.OnNavigatedFrom(e);
         }
 
         //protected override void OnBackKeyPress(CancelEventArgs e)
@@ -267,6 +275,7 @@ namespace Daruma.Views
 
                 var quote = _viewModel.GetQuote(Daruma.Theme);
                 FadeInQuotation(quote);
+                
                 ShowButtons();
             }
         }
