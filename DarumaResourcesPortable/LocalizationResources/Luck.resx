@@ -117,64 +117,634 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Luck_0" xml:space="preserve">
-    <value>После победы крепче затяни ремни шлема.</value>
+  <data name="LuckEn_0" xml:space="preserve">
+    <value>“You never know what worse luck your bad luck has saved you from.”    ―    Cormac McCarthy,          No Country for Old Men</value>
   </data>
-  <data name="Luck_1" xml:space="preserve">
-    <value>Счастлив медведь, что не попался стрелку, счастлив и стрелок, что не попался медведю.</value>
+  <data name="LuckEn_1" xml:space="preserve">
+    <value>“You know, Hobbes, some days even my lucky rocket ship underpants don't help.”    ―    Bill Watterson</value>
   </data>
-  <data name="Luck_2" xml:space="preserve">
-    <value>Последняя удача лучше первой.</value>
+  <data name="LuckEn_2" xml:space="preserve">
+    <value>“The sun doesn't just hang on one family's tree”    ―    Anchee Min,          Empress Orchid</value>
   </data>
-  <data name="Luck_3" xml:space="preserve">
-    <value>Старайся выиграть и на неудаче.</value>
+  <data name="LuckEn_3" xml:space="preserve">
+    <value>“Remember that sometimes not getting what you want is a wonderful stroke of luck.”    ―    Dalai Lama XIV</value>
   </data>
-  <data name="Luck_4" xml:space="preserve">
-    <value>Лучше синица в руках, чем журавль в небе</value>
+  <data name="LuckEn_4" xml:space="preserve">
+    <value>“Shallow men believe in luck or in circumstance. Strong men believe in cause and effect.”    ―    Ralph Waldo Emerson</value>
   </data>
-  <data name="Luck_5" xml:space="preserve">
-    <value>Победитель победителя всегда сыщется.</value>
+  <data name="LuckEn_5" xml:space="preserve">
+    <value>“I'm a greater believer in luck, and I find the harder I work the more I have of it”    ―    Thomas Jefferson</value>
   </data>
-  <data name="Luck_6" xml:space="preserve">
-    <value>Былой славой боя не выиграешь.</value>
+  <data name="LuckEn_6" xml:space="preserve">
+    <value>“Scientists have calculated that the chances of something so patently absurd actually existing are millions to one.But magicians have calculated that million-to-one chances crop up nine times out of ten.”    ―    Terry Pratchett,          Mort</value>
   </data>
-  <data name="Luck_7" xml:space="preserve">
-    <value>Генералу разбитой армии лучше не рассуждать о сражениях.</value>
+  <data name="LuckEn_7" xml:space="preserve">
+    <value>“Nanny Ogg looked under her bed in case there was a man there. Well, you never knew your luck.”    ―    Terry Pratchett,          Lords and Ladies</value>
   </data>
-  <data name="Luck_8" xml:space="preserve">
-    <value>Действовать справедливо в удаче всегда легче, чем в несчастье.</value>
+  <data name="LuckEn_8" xml:space="preserve">
+    <value>“There are no coincidences in life. What person that wandered in and out of your life was there for some purpose, even if they caused you harm. Sometimes, it doesn’t make sense the short periods of time we get with people, or the outcomes from their choices. However, if you turn it over to God he promises that you will see the big picture in the hereafter. Nothing is too small to be a mistake.”    ―    Shannon L. Alder</value>
   </data>
-  <data name="Luck_9" xml:space="preserve">
-    <value>Первая победа - не победа.</value>
+  <data name="LuckEn_9" xml:space="preserve">
+    <value>“I wandered everywhere, through cities and countries wide. And everywhere I went, the world was on my side.”    ―    Roman Payne,          Rooftop Soliloquy</value>
   </data>
-  <data name="Luck_10" xml:space="preserve">
-    <value>Дожидаясь гуся, не упусти утку.</value>
+  <data name="LuckEn_10" xml:space="preserve">
+    <value>“Sean reaches between us and slides a thin bracelet of red ribbons over my free hand. Lifting my arm, he presses his lips against the inside of my wrist. I'm utterly still; I feel my pulse tap several times against his lips, and then he releases my hand."For luck," he says. He takes Dove's lead from me."Sean," I say, and he turns. I take his chin and kiss his lips, hard. I'm reminded, all of a sudden, of that first day on the beach, when I pulled his head from the water. "For luck," I say to his startled face.”    ―    Maggie Stiefvater,          The Scorpio Races</value>
   </data>
-  <data name="Luck_11" xml:space="preserve">
-    <value>Женщина, ветер и успех не отличаются постоянством.</value>
+  <data name="LuckEn_11" xml:space="preserve">
+    <value>“Oh, I am fortune's fool!”    ―    William Shakespeare,          Romeo and Juliet</value>
   </data>
-  <data name="Luck_12" xml:space="preserve">
-    <value>За каждым спуском есть подъем.</value>
+  <data name="LuckEn_12" xml:space="preserve">
+    <value>“Risk means 'shit happens' or 'good luck”    ―    Toba Beta,          Betelgeuse Incident: Insiden Bait Al-Jauza</value>
   </data>
-  <data name="Luck_13" xml:space="preserve">
-    <value>Начать без страха - все равно что победить.</value>
+  <data name="LuckEn_13" xml:space="preserve">
+    <value>“Luck has a way of evaporating when you lean on it.”    ―    Brandon Mull,          Keys to the Demon Prison</value>
   </data>
-  <data name="Luck_14" xml:space="preserve">
-    <value>Временем в горку, а временем в норку.</value>
+  <data name="LuckEn_14" xml:space="preserve">
+    <value>“And then, as if written by the hand of a bad novelist, an incredible thing happened.”    ―    Jonathan Stroud,          The Amulet of Samarkand</value>
   </data>
-  <data name="Luck_15" xml:space="preserve">
-    <value>Извне не осилишь - изнутри побеждай.</value>
+  <data name="LuckEn_15" xml:space="preserve">
+    <value>“In Madeleine's face was a stupidity Mitchell had never seen before. It was the stupidity of all normal people. It was the stupidity of the fortunate and the beautiful, of everybody who got what they wanted in life and so remained unremarkable.”    ―    Jeffrey Eugenides,          The Marriage Plot</value>
   </data>
-  <data name="Luck_16" xml:space="preserve">
-    <value>Слава греет, позор жжет.</value>
+  <data name="LuckEn_16" xml:space="preserve">
+    <value>“Here's the thing about luck...you don't know if it's good or bad until you have some perspective.”    ―    Alice Hoffman,          Local Girls</value>
   </data>
-  <data name="Luck_17" xml:space="preserve">
-    <value>Когда вода выше головы, то все равно - на длину одного копья или ста копий.</value>
+  <data name="LuckEn_17" xml:space="preserve">
+    <value>“Life is not easy. We all have problems-even tragedies-to deal with, and luck has nothing to do with it. Bad luck is only the superstitious excuse for those who don't have the wit to deal with the problems of life. ”    ―    Joan Lowery Nixon,          In The Face of Danger</value>
   </data>
-  <data name="Luck_18" xml:space="preserve">
-    <value>Через людей в люди выходят.</value>
+  <data name="LuckEn_18" xml:space="preserve">
+    <value>“Some luck lies in not getting what you thought you wanted but getting what you have, which once you have it you may be smart enough to see is what you would have wanted had you known. ”    ―    Garrison Keillor,          Lake Wobegon U.S.A.</value>
   </data>
-  <data name="Luck_19" xml:space="preserve">
-    <value>Потерпев поражение, начинай сначала.</value>
+  <data name="LuckEn_19" xml:space="preserve">
+    <value>“Nearly' only counts in horseshoes and hand-grenades.”    ―    Neil Gaiman,          The Graveyard Book</value>
+  </data>
+  <data name="LuckEn_20" xml:space="preserve">
+    <value>“Luck?" Drizzt replied.  "Perhaps.  But more often, I dare to say, luck is simply the advantage a true warrior gains in excuting the correct course of action.”    ―    R.A. Salvatore,          The Halfling's Gem</value>
+  </data>
+  <data name="LuckEn_21" xml:space="preserve">
+    <value>“I want to create moonglasses, and then write a song called, "I Wear My Moonglasses at Noon." Hopefully, with a little lunar luck, my track will also feature Corey Hart.”    ―    Jarod Kintz,          There are Two Typos of People in This World: Those Who Can Edit and Those Who Can't</value>
+  </data>
+  <data name="LuckEn_22" xml:space="preserve">
+    <value>“Love is like a unicorn with a rainbow for a horn. What I mean is it’s rare, and you’re lucky if you see it once, or at the most twice, in a given week. ”    ―    Jarod Kintz,          At even one penny, this book would be overpriced. In fact, free is too expensive, because you'd still waste time by reading it.</value>
+  </data>
+  <data name="LuckEn_23" xml:space="preserve">
+    <value>“Most young women do not welcome promiscuous advances. (Either that, or my luck's terrible.)”    ―    Groucho Marx,          Memoirs Of A Mangy Lover</value>
+  </data>
+  <data name="LuckEn_24" xml:space="preserve">
+    <value>“Million-to-one chances...crop up nine times out of ten.”    ―    Terry Pratchett,          Equal Rites</value>
+  </data>
+  <data name="LuckEn_25" xml:space="preserve">
+    <value>“Do ya' feel lucky, punk?”    ―    Clint Eastwood</value>
+  </data>
+  <data name="LuckEn_26" xml:space="preserve">
+    <value>“Sometimes not getting what you want is a brilliant stroke of luck.”    ―    Lorii Myers,          Make It Happen, A Healthy, Competitive Approach to Achieving Personal Success</value>
+  </data>
+  <data name="LuckEn_27" xml:space="preserve">
+    <value>“There's always the same amount of good luck and bad luck in the world. If one person doesn't get the bad luck, somebody else will have to get it in their place. There's always the same amount of good and evil, too. We can't eradicate evil, we can only evict it, force it to move across town. And when evil moves, some good always goes with it. But we can never alter the ratio of good to evil. All we can do is keep things stirred up so neither good nor evil solidifies. That's when things get scary. Life is like a stew, you have to stir it frequently, or all the scum rises to the top.”    ―    Tom Robbins</value>
+  </data>
+  <data name="LuckEn_28" xml:space="preserve">
+    <value>“But Gemma, you could change the world.""That should take far more than my power," I say."True. But change needn't happen all at once. It can be small gestures.""Moments. Do you understand?" He's looking at me differently now, though I cannot say how. I only know I need to look away...We pass by the pools, where the mud larks sift. And for only a few seconds, I let the magic loose again."Oi! By all the saints!" a boy cries from the river."Gone off the dock?" an old woman calls. The mud larks break into cackles."'S not a rock!" he shouts. He races out of the fog, cradling something in his palm. Curiosity gets the better of the others. They crowd about trying to see. In his palm is a smattering of rubies. "We're rich mates! It's a hot bath and a full belly for every one of us!"Kartik eyes me suspiciously. "That was a strange stroke of good fortune.""Yes it was.""I don't suppose that was your doing.""I'm not sure I don't know what you mean," I say.And that is how change happens. One gesture. One person. One moment at a time.”    ―    Libba Bray,          The Sweet Far Thing</value>
+  </data>
+  <data name="LuckEn_29" xml:space="preserve">
+    <value>“The fish is my friend too...I have never seen or heard of such a fish. But I must kill him. I am glad we do not have to try to kill the stars. Imagine if each day a man must try to kill the moon, he thought. The moon runs away. But imagine if a man each day should have to try to kill the sun? We were born lucky; he thought”    ―    Ernest Hemingway,          The Old Man and the Sea</value>
+  </data>
+  <data name="LuckEn_30" xml:space="preserve">
+    <value>“What do you think my chances might be of finding a soul mate in the group of you? I'll be lucky if I can just find someone who'll be able to stand me for the rest of our lives. What if I've already sent her home because I was relying on some sort of spark I didn't feel? What if she's waiting to leave me at the first sign of adversity? What if I don't find anyone at all? What do I do then, America?”    ―    Kiera Cass,          The Selection</value>
+  </data>
+  <data name="LuckEn_31" xml:space="preserve">
+    <value>“Why hasn't anyone killed him yet?”“Dumb luck,” Wit said. “In that I’m lucky you’re all so dumb.”    ―    Brandon Sanderson,          Words of Radiance</value>
+  </data>
+  <data name="LuckEn_32" xml:space="preserve">
+    <value>“Luck always seems like it belongs to someone else.”    ―    David Levien,          City of the Sun</value>
+  </data>
+  <data name="LuckEn_33" xml:space="preserve">
+    <value>“Ability is of little account without opportunity.”    ―    Napoléon Bonaparte</value>
+  </data>
+  <data name="LuckEn_34" xml:space="preserve">
+    <value>“That is life, isn’t it? Fate. Luck. Chance. A long series of what-if’s that lead from one moment to the next, time never pausing for you to catch your breath, to make sense of the cards that have been handed to you. And all you can do is play your cards and hope for the best, because in the end, it all comes back to those three basics.Fate. Luck. Chance.”    ―    Kelseyleigh Reber,          If I Fall</value>
+  </data>
+  <data name="LuckEn_35" xml:space="preserve">
+    <value>“People always call it luck when you’ve acted more sensibly than they have. ”    ―    Anne Tyler</value>
+  </data>
+  <data name="LuckEn_36" xml:space="preserve">
+    <value>“He was just a coward and that was the worst luck any many could have.”    ―    Ernest Hemingway,          For Whom the Bell Tolls</value>
+  </data>
+  <data name="LuckEn_37" xml:space="preserve">
+    <value>“Wayne's a little attached to that hat," Waxillium said.  "He thinks it's lucky."Wayne:  "It is lucky.  I ain't never died while wearing that hat."  Marasi frowned.  "I ... I'm not sure I know how to respond."Wax:  "That's a common reaction to Wayne.”    ―    Brandon Sanderson,          The Alloy of Law</value>
+  </data>
+  <data name="LuckEn_38" xml:space="preserve">
+    <value>“And then it occurs to me.  They are frightened. In me, they see their own daughters, just as ignorant, just as unmindful of all the truths and hopes they have brought to America. They see daughters who grow impatient when their mothers talk in Chinese, who think they are stupid when they explain things in fractured English. They see that joy and luck do not mean the same to their daughters, that to these closed American-born minds "joy luck" is not a word, it does not exist. They see daughters who will bear grandchildren born without any connecting hope passed from generation to generation.”    ―    Amy Tan,          The Joy Luck Club</value>
+  </data>
+  <data name="LuckEn_39" xml:space="preserve">
+    <value>“What’s so funny? (Astrid)I’m just thinking, here I am a slave who touched a star who then made him a demigod. I have to be the luckiest bastard who ever lived. (Zarek)”    ―    Sherrilyn Kenyon,          Dance with the Devil</value>
+  </data>
+  <data name="LuckEn_40" xml:space="preserve">
+    <value>“Luck is the residue of design.”    ―    John Milton</value>
+  </data>
+  <data name="LuckEn_41" xml:space="preserve">
+    <value>“Real love finds you once, if you're lucky.”    ―    Ellen Hopkins,          Burned</value>
+  </data>
+  <data name="LuckEn_42" xml:space="preserve">
+    <value>“All the luck in the world has to come every year, in every part of every year, or there is not a harvest and then the luck, the bad luck will come and everything we are, all that we can ever be, all the Einsteins and babies and love and hate, all the joy and sadness and sex and wanting and liking and disliking, all the soft summer breezes on cheeks and first snowflakes, all the Van Goghs and Rembrandts and Mozarts and Mahlers and Thomas Jeffersons and Lincolns and Ghandis and Jesus Christs, all the Cleopatras and lovemaking and riches and achievements and progress, all of that, every single damn thing that we are or ever will be is dependent on six inches of topsoil and the fact that the rain comes when it's needed and does not come when it is not needed; everything, every...single...thing comes with that luck.”    ―    Gary Paulsen,          Clabbered Dirt, Sweet Grass</value>
+  </data>
+  <data name="LuckEn_43" xml:space="preserve">
+    <value>“Sometimes a crumb fallsFrom the tables of joy, Sometimes a boneIs flung.To some peopleLove is given, To othersOnly heaven.”    ―    Langston Hughes</value>
+  </data>
+  <data name="LuckEn_44" xml:space="preserve">
+    <value>“Trust your luck, Taran Wanderer. But don't forget to put out your nets!”    ―    Lloyd Alexander,          Taran Wanderer</value>
+  </data>
+  <data name="LuckEn_45" xml:space="preserve">
+    <value>“This was how it was with travel: one city gives you gifts, another robs you. One gives you the heart’s affections, the other destroys your soul.  Cities and countries are as alive and feeling, as fickle and uncertain as people. Their degrees of love and devotion are as varying as with any human relation. Just as one is good, another is bad.”    ―    Roman Payne,          Cities &amp; Countries</value>
+  </data>
+  <data name="LuckEn_46" xml:space="preserve">
+    <value>“Luck is a word the bitter teach to the ignorant.”    ―    Steve Maraboli,          Unapologetically You: Reflections on Life and the Human Experience</value>
+  </data>
+  <data name="LuckEn_47" xml:space="preserve">
+    <value>“The harder I work, the luckier I get.”    ―    Samuel Goldwyn</value>
+  </data>
+  <data name="LuckEn_48" xml:space="preserve">
+    <value>“Mother Mary of Anabolic Grace, we got Teras incoming?” He levels angry blue eyes on me. “You’re a hex, lady, dark luck, powerful bad juju, ken?”“Only to people who try to kidnap me,” I tell him sweetly, and March snorts, so I feel obliged to add, “Or rescue me…” And then Dina makes a pfft sound. “Or who travel with me…” My gaze sweeps around the darkened interior, trying to find an ally, but nobody will hold my eyes more than two seconds, it seems. “Fine, frag you all, I’m dark juju, bad luck, and you’re all doomed.”    ―    Ann Aguirre,          Grimspace</value>
+  </data>
+  <data name="LuckEn_49" xml:space="preserve">
+    <value>“Why do we mortals wonder if it is through 'human chaos' or through 'divine perfection' when the world guides us to some magical event? In either case, is not the result the same? Is the result not 'divine perfection?”    ―    Roman Payne,          The Wanderess</value>
+  </data>
+  <data name="LuckEn_50" xml:space="preserve">
+    <value>“I've found that what most people call luck is often little more than raw talent combined with the ability to make the most of opportunities. (Talon Karrde)”    ―    Timothy Zahn,          Heir to the Empire</value>
+  </data>
+  <data name="LuckEn_51" xml:space="preserve">
+    <value>“On the bright side, I'm sure this isn't the last time you'll ever get firebombed, so maybe you'll have better luck next time.”    ―    Janet Evanovich,          Finger Lickin' Fifteen</value>
+  </data>
+  <data name="LuckEn_52" xml:space="preserve">
+    <value>“I am a great believer in luck, and I find the harder I work, the more I have of it”    ―    Stephen Leacock</value>
+  </data>
+  <data name="LuckEn_53" xml:space="preserve">
+    <value>“They had parted as boys, and now life presented one of them with a fugitive and the other with a dying man. Both wondered whether this was due to the cards they'd been dealt or to the way they had played them.”    ―    Carlos Ruiz Zafón,          The Shadow of the Wind</value>
+  </data>
+  <data name="LuckEn_54" xml:space="preserve">
+    <value>“Fortune favours the brave, sir," said Carrot cheerfully."Good. Good. Pleased to hear it, captain. What is her position vis a vis heavily armed, well prepared and excessively manned armies?""Oh, no–one's ever heard of Fortune favouring them, sir.""According to General Tacticus, it's because they favour themselves," said Vimes. He opened the battered book. Bits of paper and string indicated his many bookmarks. "In fact, men, the general has this to say about ensuring against defeat when outnumbered, out–weaponed and outpositioned. It is..." he turned the page, "'Don't Have a Battle.'""Sounds like a clever man," said Jenkins. He pointed to the yellow horizon."See all that stuff in the air?" he said. "What do you think that is?""Mist?" said Vimes."Hah, yes. Klatchian mist! It's a sandstorm! The sand blows about all the time. Vicious stuff. If you want to sharpen your sword, just hold it up in the air.""Oh.""And it's just as well because otherwise you'd see Mount Gebra. And below it is what they call the Fist of Gebra. It's a town but there's a bloody great fort, walls thirty feet thick. 's like a big city all by itself. 's got room inside for thousands of armed men, war elephants, battle camels, everything. And if you saw that, you'd want me to turn round right now. Whats your famous general got to say about it, eh?""I think I saw something..." said Vimes. He flicked to another page. "Ah, yes, he says, 'After the first battle of Sto Lat, I formulated a policy which has stood me in good stead in other battles. It is this: if the enemy has an impregnable stronghold, see he stays there.'""That's a lot of help," said Jenkins.Vimes slipped the book into a pocket."So, Constable Visit, there's a god on our side, is there?""Certainly, sir.""But probably also a god on their side as well?""Very likely, sir. There's a god on every side.""Let's hope they balance out, then.”    ―    Terry Pratchett,          Jingo</value>
+  </data>
+  <data name="LuckEn_55" xml:space="preserve">
+    <value>“Old people really do have a secret though. You wanna know what it is? Luck.”    ―    Craig Ferguson</value>
+  </data>
+  <data name="LuckEn_56" xml:space="preserve">
+    <value>“In the abstract, it might be tempting to imagine that irreducible complexity simply requires multiple simultaneous mutations - that evolution might be far chancier than we thought, but still possible. Such an appeal to brute luck can never be refuted... Luck is metaphysical speculation; scientific explanations invoke causes.”    ―    Michael J. Behe,          Darwin's Black Box: The Biochemical Challenge to Evolution</value>
+  </data>
+  <data name="LuckEn_57" xml:space="preserve">
+    <value>“With a library it is easier to hope for serendipity than to look for a precise answer.”    ―    Lemony Snicket,          When Did You See Her Last?</value>
+  </data>
+  <data name="LuckEn_58" xml:space="preserve">
+    <value>“Life goes on and on after one's luck has run out. Youthfulness persists, alas, long after one has ceased to be young.”    ―    Glenway Wescott,          The Pilgrim Hawk</value>
+  </data>
+  <data name="LuckEn_59" xml:space="preserve">
+    <value>“Lightning doesn't strike twice.”    ―    Robert Galbraith,          The Silkworm</value>
+  </data>
+  <data name="LuckEn_60" xml:space="preserve">
+    <value>“When life gets you down, improvise as if crawling was part of the choreography.”    ―    Iveta Cherneva</value>
+  </data>
+  <data name="LuckEn_61" xml:space="preserve">
+    <value>“Plus he was naturally lucky at cards. As Mam had always said, lucky at cards, or lucky at life. One or the other. Not both.”    ―    Cinda Williams Chima,          The Exiled Queen</value>
+  </data>
+  <data name="LuckEn_62" xml:space="preserve">
+    <value>“I think we consider too much the luck of the early bird and not enough the bad luck of the early worm.”    ―    Franklin D. Roosevelt</value>
+  </data>
+  <data name="LuckEn_63" xml:space="preserve">
+    <value>“It's a question of attitude. If you really work at something you can do it up to a point. If you really work at being happy you can do it up to a point. But anything more than that you can't. Anything more than that is luck.”    ―    Haruki Murakami,          Dance Dance Dance</value>
+  </data>
+  <data name="LuckEn_64" xml:space="preserve">
+    <value>“Concentration attracts luck factor.”    ―    Amit Ray,          Yoga and Vipassana: An Integrated Life Style</value>
+  </data>
+  <data name="LuckEn_65" xml:space="preserve">
+    <value>“Each spice has a special day to it. For turmeric it is Sunday, when light drips fat and butter-colored into the bins to be soaked up glowing, when you pray to the nine planets for love and luck.”    ―    Chitra Banerjee Divakaruni,          The Mistress of Spices</value>
+  </data>
+  <data name="LuckEn_66" xml:space="preserve">
+    <value>“There are rules to luck, not everything is chance for the wise; luck can be helped by skill.”    ―    Balthasar Gracian,          The Art of Worldly Wisdom</value>
+  </data>
+  <data name="LuckEn_67" xml:space="preserve">
+    <value>“The fairies, as their custom, clapped their hands with delight over their cleverness, and they were so madly in love with the little house that they could not bear to think they had finished it.”    ―    J.M. Barrie,          Peter Pan in Kensington Gardens</value>
+  </data>
+  <data name="LuckEn_68" xml:space="preserve">
+    <value>“Bad luck with women is a determined man's road to success. For every affliction, he makes, out of indignation, yet another advancement in order to exceed the man that the woman chose over him. This goes to show that great men are made great because they once learned how to fight the feeling of rejection.”    ―    Criss Jami,          Venus in Arms</value>
+  </data>
+  <data name="LuckEn_69" xml:space="preserve">
+    <value>“But, he thought, I keep them with precision. Only I have no luck anymore. But who knows? Maybe today. Every day is a new day. It is better to be lucky. But I would rather be exact. Then when luck comes you are ready.”    ―    Ernest Hemingway,          The Old Man and the Sea</value>
+  </data>
+  <data name="LuckEn_70" xml:space="preserve">
+    <value>“Above all, he liked it that everything was one's own fault. There was only oneself to praise or blame. Luck was a servant and not a master. Luck had to be accepted with a shrug or taken advantage of up to the hilt. But it had to be understood and recognized for what it was and not confused with a faulty appreciation of the odds, for, at gambling, the deadly sin is to mistake bad play for bad luck. And luck in all its moods had to be loved and not feared”    ―    Ian Fleming,          Casino Royale</value>
+  </data>
+  <data name="LuckEn_71" xml:space="preserve">
+    <value>“Luck is not as random as you think.Before that lottery ticket won the jackpot, someone had to buy it.”    ―    Vera Nazarian,          The Perpetual Calendar of Inspiration</value>
+  </data>
+  <data name="LuckEn_72" xml:space="preserve">
+    <value>“Do you wait for things to happen, or do you make them happen yourself? I believe in writing your own story.”    ―    Charlotte Eriksson</value>
+  </data>
+  <data name="LuckEn_73" xml:space="preserve">
+    <value>“Another mistaken notion connected with the law of large numbers is the idea that an event is more or less likely to occur because it has or has not happened recently.  The idea that the odds of an event with a fixed probability increase or decrease depending on recent occurrences of the event is called the gambler's fallacy.  For example, if Kerrich landed, say, 44 heads in the first 100 tosses, the coin would not develop a bias towards the tails in order to catch up!  That's what is at the root of such ideas as "her luck has run out" and "He is due." That does not happen.  For what it's worth, a good streak doesn't jinx you, and a bad one, unfortunately , does not mean better luck is in store.”    ―    Leonard Mlodinow,          The Drunkard's Walk: How Randomness Rules Our Lives</value>
+  </data>
+  <data name="LuckEn_74" xml:space="preserve">
+    <value>“Sadness and love and pain, they're easy to feel- but not luck.”    ―    S.D. Crockett,          After the Snow</value>
+  </data>
+  <data name="LuckEn_75" xml:space="preserve">
+    <value>“You know, if you're an American and you're born at this time in history especially, you're lucky. We all are. We won the world history Powerball lottery.”    ―    Bill Maher</value>
+  </data>
+  <data name="LuckEn_76" xml:space="preserve">
+    <value>“Learn to recognize good luck when it's waving at you, hoping to get your attention.”    ―    Sally Koslow</value>
+  </data>
+  <data name="LuckEn_77" xml:space="preserve">
+    <value>“You are the most lucky person in the world, only if you BELIEVE so.”    ―    Nitesh Aggarwaal</value>
+  </data>
+  <data name="LuckEn_78" xml:space="preserve">
+    <value>“I do strongly feel that among the greatest pieces of luck for high achievement is ordeal. Certain great artists can make out without it, Titian and others, but mostly you need ordeal. My idea is this: the artist is extremely lucky who is presented with the worst possible ordeal which will not actually kill him. At that point, he's in business: Beethoven's deafness, Goya's deafness, Milton's blindness, that kind of thing.”    ―    John Berryman</value>
+  </data>
+  <data name="LuckEn_79" xml:space="preserve">
+    <value>“Luck in all its moods had to be loved and not feared Bond saw luck as a woman, to be softly wooed or brutally ravaged, never pandered to or pursued. But he was honest enough to admit that he had never yet been made to suffer by cards or by women. One day, and he accepted the fact he would be brought to his knees by love or by luck.”    ―    Ian Fleming,          Casino Royale</value>
+  </data>
+  <data name="LuckEn_80" xml:space="preserve">
+    <value>“Indeed there's a woundy luck in names.”    ―    Ben Jonson</value>
+  </data>
+  <data name="LuckEn_81" xml:space="preserve">
+    <value>“Peter!  Were you looking for a horse-shoe?""No; I was expecting the horse, but the shoe is a piece of pure, gorgeous luck.""And observation.  I found it.""You did.  And I could kiss you for it.  You need not shrink and tremble.  I am not going to do it.  When I kiss you, it will be an important event -- one of those things which stand out among their surroundings like the first time you tasted li-chee.  It will not be an unimportant sideshow attached to a detective investigation.”    ―    Dorothy L. Sayers,          Have His Carcase</value>
+  </data>
+  <data name="LuckEn_82" xml:space="preserve">
+    <value>“If grace belongs to God, there are those who say that luck belongs to the Devil and that he looks after his own.”    ―    Sarah Dunant,          In the Company of the Courtesan</value>
+  </data>
+  <data name="LuckEn_83" xml:space="preserve">
+    <value>“My mother believed in God's will for many years. It was af if she had turned on a celestial faucet and goodness kept pouring out. She said it was faith that kept all these good things coming our way, only I thought she said "fate" because she couldn't pronounce the "th" sound in "faith". And later I discovered that maybe it was fate all along, that faith was just an illusion that somehow you're in control. I found out the most  I could have was hope, and with that I wasn't denying any possibility, good or bad. I was just saying, If there is a choice, dear God or whatever you are, here's where the odds should be placed.I remember the day I started thinking this, it was such a revelation to me. It was the day my mother lost her faith in God. She found that things of unquestioned certainty could never be trusted again.We had gone to the beach, to a secluded spot south of the city near Devil's Slide. My father had read in  Sunset  magazine that this was a good place to catch ocean perch. And although my father was not a fisherman but a pharmacist's assistant who had once been a doctor in China, he believed in his nenkan, his ability to do anything he put his mind to. My mother believed she had  nenkan  to cook anything my father had a mind to catch. It was this belief in their  nenkan that had brought my parents to America. It had enabled them to have seven children and buy a house in Sunset district with very little money. It had given them the confidence to believe their luck would never run out, that God was on their side, that house gods had only benevolent things to report and our ancestors were pleased, that lifetime warranties meant our lucky streak would never break, that all the elements were now in balance, the right amount of wind and water.”    ―    Amy Tan,          The Joy Luck Club</value>
+  </data>
+  <data name="LuckEn_84" xml:space="preserve">
+    <value>“Es dauerte einen Moment, bis er ihr antwortete:Nein, ich spreche von... von eurer Freiheit, glaube ich. Von dem Glück, das ihr habt, für euch zu leben und auf alles andere zu pfeifen.”    ―    Anna Gavalda,          Hunting and Gathering</value>
+  </data>
+  <data name="LuckEn_85" xml:space="preserve">
+    <value>“For some people, she thought, trials were only temporary; they sailed towards happiness through the roughest weather.”    ―    Emma Donoghue,          Slammerkin</value>
+  </data>
+  <data name="LuckEn_86" xml:space="preserve">
+    <value>“What i'm saying is that the sun always rises. Fortune's a mix of good and bad luck. Like they say/ good luck and bad luck are strands of the same rope.”    ―    Sakura Tsukuba,          Land of the Blindfolded, Vol. 8</value>
+  </data>
+  <data name="LuckEn_87" xml:space="preserve">
+    <value>“Hazard has conditioned us to live in hazard. All our pleasures are dependant upon it. Even though I arrange for a pleasure; and look forward to it, my eventual enjoyment of it is still a matter of hazard. Wherever time passes, there is hazard. You may die before you turn the next page.”    ―    John Fowles,          Áristos</value>
+  </data>
+  <data name="LuckEn_88" xml:space="preserve">
+    <value>“He is where he is supposed to be. And yet the place he has found is also of his own choosing. That is a piece of luck not to be despised.”    ―    Cormac McCarthy,          The Crossing</value>
+  </data>
+  <data name="LuckEn_89" xml:space="preserve">
+    <value>“Getting struck by lightning is like winning the lottery, only it’ll ruin your life faster.”    ―    Jarod Kintz,          A Zebra is the Piano of the Animal Kingdom</value>
+  </data>
+  <data name="LuckEn_90" xml:space="preserve">
+    <value>“I may say that this is the greatest factor: the way in which the expedition is equipped, the way in which every difficulty is foreseen, and precautions taken for meeting or avoiding it. Victory awaits him who has everything in order, luck, people call it. Defeat is certain for him who has neglected to take the necessary precautions in time, this is called bad luck.”    ―    Roald Amundsen</value>
+  </data>
+  <data name="LuckEn_91" xml:space="preserve">
+    <value>“The thoughts of othersWere light and fleeting,Of lovers' meetingOr luck or fame.Mine were of trouble,And mine were steady;So I was readyWhen trouble came.”    ―    A.E. Housman,          More Poems</value>
+  </data>
+  <data name="LuckEn_92" xml:space="preserve">
+    <value>“Luck is a goddess not to be coerced and forcibly wooed by those who seek her favours. From such masterful spirits she turns away. But it happens sometimes that, if we put our hand in hers with the humble trust of a little child, she will have pity on us, and not fail us in our hour of need.”    ―    P.G. Wodehouse</value>
+  </data>
+  <data name="LuckEn_93" xml:space="preserve">
+    <value>“Luck's the word those with poor hearts use for ka...”    ―    Stephen King</value>
+  </data>
+  <data name="LuckEn_94" xml:space="preserve">
+    <value>“No one is adequate to comprehending the misery of my lot! Fate obliges me to be constantly in movement: I am not permitted to pass more than a fortnight in the same place. I have no Friend in the world, and from the restlessness of my destiny I never can acquire one. Fain would I lay down my miserable life, for I envy those who enjoy the quiet of the Grave: But Death eludes me, and flies from my embrace. In vain do I throw myself in the way of danger. I plunge into the Ocean; The Waves throw me back with abhorrence upon the shore: I rush into fire; The flames recoil at my approach: I oppose myself to the fury of Banditti; Their swords become blunted, and break against my breast: The hungry Tiger shudders at my approach, and the Alligator flies from a Monster more horrible than itself. God has set his seal upon me, and all his Creatures respect this fatal mark!”    ―    Matthew Gregory Lewis,          The Monk</value>
+  </data>
+  <data name="LuckEn_95" xml:space="preserve">
+    <value>“Mankind accepts good fortune as his due, but when bad occurs, he thinks it was aimed at him, done to him, a hex, a curse, a punishment by his deity for some transgression, as though his god were a petty storekeeper, counting up the day's receipts.”    ―    Sheri S. Tepper,          The Visitor</value>
+  </data>
+  <data name="LuckEn_96" xml:space="preserve">
+    <value>“Beware what you wish for, unless you have the grace to hope that your luck can be shared.”    ―    Christopher Hitchens,          Love, Poverty, and War: Journeys and Essays</value>
+  </data>
+  <data name="LuckEn_97" xml:space="preserve">
+    <value>“Good luck is a residue of preparation.”    ―    Jack Youngblood</value>
+  </data>
+  <data name="LuckEn_98" xml:space="preserve">
+    <value>“A strategic victory seen as luck by laymen.”    ―    Toba Beta,          My Ancestor Was an Ancient Astronaut</value>
+  </data>
+  <data name="LuckEn_99" xml:space="preserve">
+    <value>“Wanita tanpa ibu mertua adalah menantu yang sangat beruntung.”    ―    Farahad Zama,          The Marriage Bureau for Rich People</value>
+  </data>
+  <data name="LuckEn_100" xml:space="preserve">
+    <value>“Come on! Think of Miandad hitting that six off Sharma. If he could do that, you can do this.”    ―    Kamila Shamsie,          Kartography</value>
+  </data>
+  <data name="LuckEn_101" xml:space="preserve">
+    <value>“It must be nice to be so strong and to think it's because you're so good, that you live right and eat right, so you deserve your health and happiness. But there is such a thing as luck, and there's more bad luck than good in this world.”    ―    Laura Lippman,          Baltimore Blues</value>
+  </data>
+  <data name="LuckEn_102" xml:space="preserve">
+    <value>“[His coat] emitted an odor of bus station so desolate that just standing next to him you could feel your luck changing for the worse.”    ―    Michael Chabon,          Wonder Boys</value>
+  </data>
+  <data name="LuckEn_103" xml:space="preserve">
+    <value>“But luck withered by conservative, tired, riskless living can be plumped up again--after all, it was only a bit thirsty for something to do.”    ―    Catherynne M. Valente,          The Girl Who Circumnavigated Fairyland in a Ship of Her Own Making</value>
+  </data>
+  <data name="LuckEn_104" xml:space="preserve">
+    <value>“A statement about luck is a statement about the mind, not about the world... We find what seems to have been the lucky break or the big mistake, and so we thank our lucky stars that we took the road less traveled or curse the fates that sent that little wavelet that flipped us on our backs. With hindsight, we seem to see that everything preceding the pivotal point was leading up to it, tending toward it, and that everything following it grew from it.To any observer outside the lucky one himself, however, luck is simply chance. Chance is neutral.”    ―    Eric Kraft</value>
+  </data>
+  <data name="LuckEn_105" xml:space="preserve">
+    <value>“The panic disappeared under those soothing old fingers and the breathing slowed down and stopped hurting the chest as if a fox was caught in it, and then at last Mr. Kroger began to lecture the boy as he used to, Pablo, he murmured, don't ever be so afraid of being lonely that you forget to be careful. Don't forget that you will find it sometimes but other times you won't be lucky, and those are the times when you have got to be patient, since patience is what you must have when you don't have luck. ("The Mysteries of the Joy Rio")”    ―    Tennessee Williams,          American Fantastic Tales: Terror and the Uncanny from the 1940's Until Now</value>
+  </data>
+  <data name="LuckEn_106" xml:space="preserve">
+    <value>“Luck is a favorable thing out of an  uncertainty. No such thing as luck when everything's certain.”    ―    Toba Beta,          Betelgeuse Incident: Insiden Bait Al-Jauza</value>
+  </data>
+  <data name="LuckEn_107" xml:space="preserve">
+    <value>“...luck is not to be coerced.”    ―    Albert Camus,          طاعون</value>
+  </data>
+  <data name="LuckEn_108" xml:space="preserve">
+    <value>“For luck you carried a horse chestnut and a rabbit’s foot in your right pocket. The fur had been worn off the rabbit’s foot long ago and the bones and the sinews were polished by the wear. The claws scratched in the lining of your pocket and you knew your luck was still there.”    ―    Ernest Hemingway,          A Moveable Feast</value>
+  </data>
+  <data name="LuckEn_109" xml:space="preserve">
+    <value>“It is still this moment and that will be true of every moment that follows, assuming this moment ever ends, which, if I am lucky, it won't.”    ―    Justin Taylor</value>
+  </data>
+  <data name="LuckEn_110" xml:space="preserve">
+    <value>“Tuck a buck as a puck of luck.”    ―    Toba Beta,          Master of Stupidity</value>
+  </data>
+  <data name="LuckEn_111" xml:space="preserve">
+    <value>“There are two ways to find a lost city. The first is to rely on luck alone, the second is to control all the information.”    ―    Tahir Shah,          House of the Tiger King: The Quest for a Lost City</value>
+  </data>
+  <data name="LuckEn_112" xml:space="preserve">
+    <value>“Luck which so often defies anticipation in matrimonial affairs, giving attraction to what is moderate rather than to what is superior.”    ―    Jane Austen,          Emma</value>
+  </data>
+  <data name="LuckEn_113" xml:space="preserve">
+    <value>“Then one woman looked directly at her husband. "Is our place gone?"    "I'm afraid so, girl," he said. "There isn't much left up there. But we're alive. We're all lucky to be alive. We'd have been dead if we'd stayed up above."    "Oh, what a mercy we didn't!" she exclaimed. "How lucky we are!"    Incredible though it sounds, within a few moments, a whole lot of people were congratulating each other on their extraordinary good fortune in only having lost all their worldy posessions.”    ―    Ida Cook,          Safe Passage</value>
+  </data>
+  <data name="LuckEn_114" xml:space="preserve">
+    <value>“Your money myth affects your gain and luck.In economics, illusion of money affects wealth.”    ―    Toba Beta,          Master of Stupidity</value>
+  </data>
+  <data name="LuckEn_115" xml:space="preserve">
+    <value>“…a woman's always safe and comfortable when a fellow's down on his luck.”    ―    Louisa May Alcott,          Jo's Boys</value>
+  </data>
+  <data name="LuckEn_116" xml:space="preserve">
+    <value>“I was afraid, sheer afraid, and wondered at myself.  You see, I've no more pluck than any man of my inches but I'd been about a good bit.  I'd seen adventure and heard other fellows talk it over, and I knew you're pretty sure to get out of everything with a whole skin till that last particular time that you don't - so what's the use of grizzling? ("Golden Baby")”    ―    Alice Brown</value>
+  </data>
+  <data name="LuckEn_117" xml:space="preserve">
+    <value>“He had fought wizards (though not because he wished to), battled goblinkin (only because running hadn't been an option at the time), and faced incredible monsters (drat the luck he sometimes had when he thought about it).”    ―    Mel Odom,          Boneslicer: The Quest for the Trilogy: Book One of the Trilogy</value>
+  </data>
+  <data name="LuckEn_118" xml:space="preserve">
+    <value>“My lucky rabbit's foot has kept me alive all these years. Hopefully it will do so indefinitely. Immortality through sheer luck.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
+  </data>
+  <data name="LuckEn_119" xml:space="preserve">
+    <value>“The man who pulled my winning raffle ticket out of the hat said I was one lucky guy. I guess he didn’t see me standing next to my clone, so I replied, “I am two lucky guys.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
+  </data>
+  <data name="LuckEn_120" xml:space="preserve">
+    <value>“He'd once known a man who said that life hinged on the moment, that everything changed in the blink of an eye.  Tesseract knew the truth of that as well as anybody.  It was in those moments that he struck, after all, snatching people's lives away.  He'd always known that it was only a matter of time before one of those moment's worked against him.”    ―    Derek Landy,          Mortal Coil</value>
+  </data>
+  <data name="LuckEn_121" xml:space="preserve">
+    <value>“Nobody knows anything...... Not one person in the entire motion picture field knows for a certainty what's going to work. Every time out it's a guess and, if you're lucky, an educated one.”    ―    William Goldman,          Adventures in the Screen Trade</value>
+  </data>
+  <data name="LuckEn_122" xml:space="preserve">
+    <value>“Lucky people should hide. Pray the days of wrath do not visit their home.”    ―    Josephine Hart,          Damage</value>
+  </data>
+  <data name="LuckEn_123" xml:space="preserve">
+    <value>“Together they spent their whole lives waiting for their luck to change, as though luck were some fabulous tide that would one day flood and consecrate the marshes of our island, christening us in the iridescent ointments of a charmed destiny.”    ―    Pat Conroy,          The Prince of Tides</value>
+  </data>
+  <data name="LuckEn_124" xml:space="preserve">
+    <value>“Luck always favors those who are bold.”    ―    Debasish Mridha</value>
+  </data>
+  <data name="LuckEn_125" xml:space="preserve">
+    <value>“An Widerständen zeigt sich das Genie des Generals, Glück verhüllt es.”    ―    Horace</value>
+  </data>
+  <data name="LuckEn_126" xml:space="preserve">
+    <value>“Hazel: Listen babe you have to search for your luck it's nice if it just falls in your lap but I look for my lucky pennies. ... Maggie: What do you do with all your pennies Hazel: I give them away. It's good to spread your luck around and it always comes back to you.”    ―    Fannie Flagg,          I Still Dream About You</value>
+  </data>
+  <data name="LuckEn_127" xml:space="preserve">
+    <value>“Luck prefers risk-based mindset.”    ―    Toba Beta</value>
+  </data>
+  <data name="LuckEn_128" xml:space="preserve">
+    <value>“Data that comes subliminally and is acted upon will look like luck or inspiration.”    ―    Peter Redgrove,          The Black Goddess and the Unseen Real: Our Uncommon Senses and Their Common Sense</value>
+  </data>
+  <data name="LuckEn_129" xml:space="preserve">
+    <value>“There's always a siren, singing you to shipwreck. Some of us may be more susceptible than others are, but there's always a siren. It may be with us all our lives, or it may be many years or decades before we find it or it finds us. But when it does find us, if we're lucky we're Odysseus tied up to the ship's mast, hearing the song with perfect clarity, but ferried to safety by a crew whose ears have been plugged with beeswax. If we're not at all lucky, we're another sort of sailor stepping off the deck to drown in the sea.”    ―    Caitlín R. Kiernan,          The Drowning Girl</value>
+  </data>
+  <data name="LuckEn_130" xml:space="preserve">
+    <value>“...среди долгих бед и горестей судьба дарит иногда вспышки необыкновенных удач.”    ―    Vladislav Krapivin,          Выстрел с монитора. Гуси-гуси, га-га-га...</value>
+  </data>
+  <data name="LuckEn_131" xml:space="preserve">
+    <value>“Hals und Beinbruch, Saukerl.”    ―    Markus Zusak,          The Book Thief</value>
+  </data>
+  <data name="LuckEn_132" xml:space="preserve">
+    <value>“Luck and nature shapes our imagination.”    ―    Kishore Bansal</value>
+  </data>
+  <data name="LuckEn_133" xml:space="preserve">
+    <value>“It was at this time that backgammon was invented and began to be popular. It is a kind of paradigm of how wealth is acquired, which in this world is not the reward of intelligence or ability, just as luck is not a product of skill... If luck favours the player, he gets what he wants; if it doesn't, a skilled and prudent man cannot win that which fortune only bestows on whom it likes. It is thus that the good things of this world are apportioned by chance.”    ―    Mas'udi,          From The Meadows of Gold</value>
+  </data>
+  <data name="LuckEn_134" xml:space="preserve">
+    <value>“Weeping for the dead's a waste of breath -they're lucky, they can't die again.”    ―    Tony Harrison</value>
+  </data>
+  <data name="LuckEn_135" xml:space="preserve">
+    <value>“Good things don't happen to "good people"; good things happen to happy people.”    ―    Vivian Amis</value>
+  </data>
+  <data name="LuckEn_136" xml:space="preserve">
+    <value>“A little government and a little luck are necessary in life, but only a fool trusts either of them.”    ―    P.J. O'Rourke,          Parliament of Whores: A Lone Humorist Attempts to Explain the Entire U.S. Government</value>
+  </data>
+  <data name="LuckEn_137" xml:space="preserve">
+    <value>“The cards always look different when it’s your turn to play them; loaded with subtly different possibilities.”    ―    Alastair Reynolds,          Revelation Space</value>
+  </data>
+  <data name="LuckEn_138" xml:space="preserve">
+    <value>“Quand j'étais petit, je me suis aperçu que je n'avais pas de ligne de chance, alors avec le rasoir de mon pére... zac, je m'en suis fait une comme je voulais.”    ―    Hugo Pratt,          Corto Maltese: La ballade de la mer salée</value>
+  </data>
+  <data name="LuckEn_139" xml:space="preserve">
+    <value>“But sometimes it is just when everything seems to be lost that we experience a presentiment that may save us; one has knocked on all the doors which lead nowhere, and then, unwittingly, one pushes against the only one through which one may enter and for which one would have searched in vain for a hundred years, and it opens.”    ―    Marcel Proust,          Time Regained</value>
+  </data>
+  <data name="LuckEn_140" xml:space="preserve">
+    <value>“luck is distributed at six in the morning”    ―    Luis Zamarro Fraile</value>
+  </data>
+  <data name="LuckEn_141" xml:space="preserve">
+    <value>“This tub is for washing your courage...When you are born your courage is new and clean. You are brave enough for anything: crawling off of staircases, saying your first words without fearing that someone will think you are foolish, putting strange things in your mouth. But as you get older, your courage attracts gunk and crusty things and dirt and fear and knowing how bad things can get and what pain feels like. By the time you're half-grown, your courage barely moves at all, it's so grunged up with living. So every once in awhile, you have to scrub it up and get the works going or else you'll never be brave again. Unfortunately, there are not many facilities in your world that provide the kind of services we do. So most people go around with grimy machinery, when all it would take is a bit of a spit and polish to make them paladins once more, bold knights and true....This tub is for washing your wishes...For the wishes of one's old life wither and shrivel like old leaves if they are not replaced with new wishes when the world changes. And the world always changes. Wishes get slimy, and their colors fade, and soon they are just mud, like all the rest of the mud, and not wishes at all, but regrets. The trouble is, not everyone can tell when they ought to launder their wishes. Even when one finds oneself in Fairyland and not at home at all, it is not always so easy to catch the world in its changing and change with it....Lastly, we must wash your luck. When souls queue up to be born, they all leap up at just the last moment, touching the lintel of the world for luck. Some jump high and can seize a great measure of luck; some jump only a bit and snatch a few loose strands. Everyone manages to catch some. If one did not have at least a little luck, one would never survive childhood. But luck can be spent, like money, and lost, like a memory; and wasted, like a life. If you know how to look, you can examine the kneecaps of a human and tell how much luck they have left. No bath can replenish luck that has been spent on avoiding an early death by automobile accident or winning too many raffles in a row. No bath can restore luck lost through absentmindedness and overconfidence. But luck withered by conservative, tired, riskless living can be pumped up again--after all, it is only a bit thirsty for something to do.”    ―    Catherynne M. Valente,          The Girl Who Circumnavigated Fairyland in a Ship of Her Own Making</value>
+  </data>
+  <data name="LuckEn_142" xml:space="preserve">
+    <value>“Every turning point in a person's life isn't reached by luck, they choose to be successful, they know what it takes to be there, they can do what is expected of them to do, they do not show trepidation about the requirements needed to be on top”    ―    Michael Bassey Johnson,          Classic Quotations From The Otherworlds</value>
+  </data>
+  <data name="LuckEn_143" xml:space="preserve">
+    <value>“It's good to be mad for someone, but that's great if you are made for same one.”    ―    Navnath Godse</value>
+  </data>
+  <data name="LuckEn_144" xml:space="preserve">
+    <value>“Life is full of different opportunities and decisions to make, and these decisions are what mold our future and “destiny”, and the results of these decisions are a product of hard work and determination and just maybe a little bit of luck.”    ―    Telson Erebor</value>
+  </data>
+  <data name="LuckEn_145" xml:space="preserve">
+    <value>“I had risked everything and gained everything, and here I was of the world and in it.”    ―    Maggie Stiefvater,          Linger</value>
+  </data>
+  <data name="LuckEn_146" xml:space="preserve">
+    <value>“Мне всю жизнь не везло с девушками. То есть поначалу всегда везло, даже слишком... а потом они решали, что им зачем-то срочно нужно выйти замуж, причем за кого-нибудь другого. Это особенно странно, поскольку я, как правило, влюблялся в умных девушек. Но и это не помогало, хотя как может умный человек всерьез захотеть замуж — не понимаю!”    ―    Max Frei,          The Stranger</value>
+  </data>
+  <data name="LuckEn_147" xml:space="preserve">
+    <value>“Daughter,” said the Hermit, “I have now lived a hundred and nine winters in this world and have never yet met any such thing as Luck.  There is something about all this that I do not understand:  but if ever we need to know it, you may be sure that we shall.”    ―    C.S. Lewis,          The Horse and His Boy</value>
+  </data>
+  <data name="LuckEn_148" xml:space="preserve">
+    <value>“Sometimes our fate – our destiny turns out to be something we had never thought of.”    ―    Waheed Ibne Musa,          Johnny Fracture</value>
+  </data>
+  <data name="LuckEn_149" xml:space="preserve">
+    <value>“When people say "Oh wow, you're so lucky" ... I always wonder how they define luck. I can assure you people don't achieve their dreams because their lucky; they work day and night, with little sleep, investing their own money and working extremely hard. You don't get lucky in this life, you work hard and show people that luck is something YOU create. So, if you want to chase your own passion start listening to your own little voice, but more than anything, don't wait on getting lucky or your dream will be as misguided as your definition of success! Anyone can change their life and anyone can achieve their dreams. So work hard, get inspired and go out there and do it!”    ―    Amanda Bernardo</value>
+  </data>
+  <data name="LuckEn_150" xml:space="preserve">
+    <value>“Luck comes and goes; you have to seize it. Bad luck comes and goes; it must be overcome. But I will never, never sit at the side of the road showing my wounds and shouting, 'It's destiny'!”    ―    Jean Van Hamme,          Dutch Connection</value>
+  </data>
+  <data name="LuckEn_151" xml:space="preserve">
+    <value>“Do adults realize how lucky they are?”    ―    Stephanie Perkins,          Isla and the Happily Ever After</value>
+  </data>
+  <data name="LuckEn_152" xml:space="preserve">
+    <value>“To love is a natural instinct. To be loved is “something”. To be loved like crazy, like their life depends on you is a once-in-a-lifetime feeling. How many of us can keep their right hand on their heart and say that they have actually experienced something like that? Not many, I guess. Because you know what, once-in-a-lifetime moments, well, come once in a lifetime. You either have to extremely, enormously and tremendously lucky or have to manage to fascinate a poet or a painter or someone really very naïve or mentally unsound.”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_153" xml:space="preserve">
+    <value>“it is the nature of stars to cross, and never was Shakespeare more wrong than when he had Cassius note, “The fault, dear Brutus, is not in our stars / But in ourselves.” Easy enough to say when you’re a Roman nobleman (or Shakespeare!), but there is no shortage of fault to be found amid our stars.”    ―    John Green</value>
+  </data>
+  <data name="LuckEn_154" xml:space="preserve">
+    <value>“I'd never believed in luck. Never had any cause to. Never relied on it, because I never could.”    ―    Lee Child,          Killing Floor</value>
+  </data>
+  <data name="LuckEn_155" xml:space="preserve">
+    <value>“A fool believes that math adds up, but also believes that they can master luck.”    ―    Justin K. McFarlane Beau</value>
+  </data>
+  <data name="LuckEn_156" xml:space="preserve">
+    <value>“Daughter," said the Hermit, "I have now lived a hundred and nine winters in this world and have never met any such thing as Luck.”    ―    C.S. Lewis,          The Horse and His Boy</value>
+  </data>
+  <data name="LuckEn_157" xml:space="preserve">
+    <value>“A trifle can be enough when luck is on your side.”    ―    Margi Preus,          West of the Moon</value>
+  </data>
+  <data name="LuckEn_158" xml:space="preserve">
+    <value>“How unfortunate is the guy who does not live in the extravagant memory of an infatuated young woman.”    ―    Manu Joseph,          The Illicit Happiness of Other People</value>
+  </data>
+  <data name="LuckEn_159" xml:space="preserve">
+    <value>“Ilse and I hunted all over the old orchard today for a four-leaved clover and couldn't find one. Then I found one in a clump of clover by the dairy steps tonight when I was straining the milk and never thinking of clovers. Cousin Jimmy says that is the way luck always comes, and it is no use to look for it.”    ―    L.M. Montgomery,          Emily of New Moon</value>
+  </data>
+  <data name="LuckEn_160" xml:space="preserve">
+    <value>“There’s randomness and there’s the demand and supply ratio. And both of these combine to stop the average man from making it big. More it happens, more is our guy forced to believe in luck. Decades, my friend, you know what that does to a man.”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_161" xml:space="preserve">
+    <value>“Like some people are bad at math, some people are bad at talking to women. And some at both, now that’s luck I guess.”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_162" xml:space="preserve">
+    <value>“I don’t think carrying an umbrella during monsoons is luck.”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_163" xml:space="preserve">
+    <value>“How would you complete with people who are more talented, more popular, who get better training, better mentoring and who get their share of luck, without some luck?”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_164" xml:space="preserve">
+    <value>“Good luck in a way is bad luck not occurring, but the world wants stories of how bad luck happened, and how good luck played a savior.”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_165" xml:space="preserve">
+    <value>“I am not sure if some people are luckier than others, but one thing’s sure: right place, right time, you can define it however you want, some people get more opportunities than others.”    ―    Daya Kudari</value>
+  </data>
+  <data name="LuckEn_166" xml:space="preserve">
+    <value>“Hope Love Grace Luckthere is space between them because you can't hanle them if all four comes at once...enjoy hope ,,,,definitely love will come to you with a small gap,and so grace and luck too.”    ―    pavankumar nagaraj</value>
+  </data>
+  <data name="LuckEn_167" xml:space="preserve">
+    <value>“Sweep my dreams not beneath my feet. Be somewhere that my steps won't meet. Breaking the broom isn't a must. Don't mistake unmoved dreams for dust”    ―    Isaiah J. Lawrence</value>
+  </data>
+  <data name="LuckEn_168" xml:space="preserve">
+    <value>“Are you what is called a lucky man? Well, you are sad every day. Each day has its great grief or its little care. Yesterday you were trembling for the health of one who is dear to you, today you fear for your own; tomorrow it will be an anxiety about money, the next day the slanders of a calumniator, the day after the misfortune of a friend; then the weather, then something broken or lost, then a pleasure for which you are reproached by your conscience or your vertebral column; another time, the course of public affairs. Not to mention heartaches. And so on. One cloud is dissipated, another gathers. Hardly one day in a hundred of unbroken joy and sunshine. And you are of that small number who are lucky! As for other men, stagnant night is upon them.”    ―    Victor Hugo,          Les Misérables</value>
+  </data>
+  <data name="LuckEn_169" xml:space="preserve">
+    <value>“To the ordinary, opposite, means hatred. Every person sees themselves as love. To the extraordinary, opposite means opportunity.”    ―    Justin K. McFarlane Beau</value>
+  </data>
+  <data name="LuckEn_170" xml:space="preserve">
+    <value>“Luck, Love and Life.The three of them are interrelated.Once you are in love, luck favors you and your life takes the good path at every turn.Once you get luck on your side, you find your life to be worthy and love at your doorstep.Once you realise the importance of your life, love comes all the way to you and brings luck all along.”    ―    Hanif Hassan Barbhuiya</value>
+  </data>
+  <data name="LuckEn_171" xml:space="preserve">
+    <value>“Luck is what happens, when preparation meets opportunity”    ―    Randy Pausch</value>
+  </data>
+  <data name="LuckEn_172" xml:space="preserve">
+    <value>“MURRY: I believe in a lot of things. Santa Claus, magic, vampires, and even ghosts but I don't believe in luck. Good or bad.”    ―    Hillary DePiano,          New Year's Thieve</value>
+  </data>
+  <data name="LuckEn_173" xml:space="preserve">
+    <value>“It’s human nature to find patterns where there are none and to find skill where luck is a more likely explanation.”    ―    William Bernstein</value>
+  </data>
+  <data name="LuckEn_174" xml:space="preserve">
+    <value>“A strong man can make his own luck.”    ―    Gregory David Roberts,          Shantaram</value>
+  </data>
+  <data name="LuckEn_175" xml:space="preserve">
+    <value>“The happy-go-lucky have the best luck.”    ―    Marty Rubin</value>
+  </data>
+  <data name="LuckEn_176" xml:space="preserve">
+    <value>“Hard work, determination, and talent are key for any successful venture.  But sometimes you need that fourth ingredient: dumb luck.  Luck can never replace hard work and talent, but sometimes it can win out over both.”    ―    Abby Rosmarin,          I'm Just Here for the Free Scrutiny: One Model's Tale of Insanity and Inanity in the Wonderful World of Fashion</value>
+  </data>
+  <data name="LuckEn_177" xml:space="preserve">
+    <value>“I strongly believe that luck favours those who are in submission to the cause, nature and its godly principles.”    ―    Vishwas Chavan</value>
+  </data>
+  <data name="LuckEn_178" xml:space="preserve">
+    <value>“Some people have no talent but we can't all be that lucky.”    ―    Marty Rubin</value>
+  </data>
+  <data name="LuckEn_179" xml:space="preserve">
+    <value>“Fortune frowns as often as he smiles, and you don’t want to be in his line of sight when he does.”    ―    Amy Neftzger,          The Ferryman</value>
+  </data>
+  <data name="LuckEn_180" xml:space="preserve">
+    <value>“People often attribute their successes to skill, and their failures to unfortunate circumstances. It’s like if I win it’s because I’m good, and if I lose it’s because I’m unlucky. With every victory, I amplify my talents and ascribe it entirely to my intrinsic nature, and with every defeat I reduce my faults by highlighting circumstances, chance, and nurture. But if we don’t hold ourselves personally accountable to ourselves, we never fully progress and develop.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
+  </data>
+  <data name="LuckEn_181" xml:space="preserve">
+    <value>“Living did not mean one joy piled upon another. It was merely the hope for less pain, hope played like a playing card upon another hope, a wish for kindnesses and mercies to emerge like kings and queens in an unexpected change of the game. One could hold the cards oneself or not: they would land the same regardless.”    ―    Lorrie Moore,          Bark: Stories</value>
+  </data>
+  <data name="LuckEn_182" xml:space="preserve">
+    <value>“When Fortune knocks, open the door,' they say. But why should one make fortune knock, by keeping the door shut?”    ―    Idries Shah,          Caravan of Dreams</value>
+  </data>
+  <data name="LuckEn_183" xml:space="preserve">
+    <value>“My impression of love: I found her—lucky me. I found her—unlucky her. She’d probably agree with me, which would be a first.”    ―    Jarod Kintz,          Love quotes for the ages. And the ageless sages.</value>
+  </data>
+  <data name="LuckEn_184" xml:space="preserve">
+    <value>“Shallow men believe in luck. Strong men believe in cause and effect.”    ―    Ralph Waldo Emerson</value>
+  </data>
+  <data name="LuckEn_185" xml:space="preserve">
+    <value>“Respect, wealth, property, friendship, even love. Did I expect to simply fall over each of them as I strolled aimlessly through the years? Was I expecting my whole life to be some form of lucky accident?”    ―    Chris     Murray,          The Extremely Successful Salesman's Club</value>
+  </data>
+  <data name="LuckEn_186" xml:space="preserve">
+    <value>“I wear a tinfoil suit, because you never know when you’ll be going to the moon. I’ll probably have more luck finding the love of my life on a lonely and dead space rock.”    ―    Jarod Kintz,          Love quotes for the ages. Specifically ages 18-81.</value>
+  </data>
+  <data name="LuckEn_187" xml:space="preserve">
+    <value>“As regards the extraordinary prizes, the element of luck is the determining factor.”    ―    Theodore Roosevelt</value>
+  </data>
+  <data name="LuckEn_188" xml:space="preserve">
+    <value>“Maybe he was overwhelmed, like I am overwhelmed, by that mysterious intersection where love meets luck, where fate meets will. Because he'd been waiting for her. And there she was.”    ―    Gayle Forman,          Just One Year</value>
+  </data>
+  <data name="LuckEn_189" xml:space="preserve">
+    <value>“This guy was beyond lucky. He was Midas with a better attorney, or the owner of a Monkey’s Paw version 2.0, or Richard Cory on Prozac.”    ―    John L. Monk,          Kick</value>
+  </data>
+  <data name="LuckEn_190" xml:space="preserve">
+    <value>“I’ve always felt that love and luck are two sides of the same pair of jeans. Pick a partner that won’t pick your pockets, and you won’t have to be plucky to find pleasure.”    ―    Jarod Kintz,          Love quotes for the ages. And the ageless sages.</value>
+  </data>
+  <data name="LuckEn_191" xml:space="preserve">
+    <value>“I'm as lucky as a bed of oysters on cioppino night.”    ―    Nenia Campbell,          Touched with Sight</value>
+  </data>
+  <data name="LuckEn_192" xml:space="preserve">
+    <value>“Knock on wood for good luck—and if you think that’s the best way to get the door to open. ”    ―    Jarod Kintz,          Sleepwalking is restercise</value>
+  </data>
+  <data name="LuckEn_193" xml:space="preserve">
+    <value>“Luck often comes to those who are brave.”    ―    Kateryna Kei,          Raven Boy</value>
+  </data>
+  <data name="LuckEn_194" xml:space="preserve">
+    <value>“I have come to realize that my stupid gestures excites women alot, and if I'm really stupid, i will dare to take them to bed and excite them even more.”    ―    Michael Bassey Johnson</value>
+  </data>
+  <data name="LuckEn_195" xml:space="preserve">
+    <value>“No One is Unlucky in this World"! ..!!! "But Ups and Downs created by ourselves".”    ―    Nasir</value>
+  </data>
+  <data name="LuckEn_196" xml:space="preserve">
+    <value>“No one I met at this time -- doctors, nurses, practicantes, or fellow-patients-- failed to assure me that a man who is hit through the neck and survives it is the luckiest creature alive. I could not help thinking that it would be even luckier not to be hit at all.”    ―    George Orwell,          Homage to Catalonia</value>
+  </data>
+  <data name="LuckEn_197" xml:space="preserve">
+    <value>“He just knew we would find luck, but believing something don't make it true.”    ―    Michael Lee West,          American Pie</value>
+  </data>
+  <data name="LuckEn_198" xml:space="preserve">
+    <value>“សំណាងកើតមានចំពោះតែមនុស្សណាដែលមានគំនិតតែប៉ុណ្ណោះ។”    ―    Mang Chet</value>
+  </data>
+  <data name="LuckEn_199" xml:space="preserve">
+    <value>“Don't act so callous to blank out good friends who failed on their way to success, just because something unusual hindered them, but you meandered out by a stroke of luck.”    ―    Michael Bassey Johnson</value>
+  </data>
+  <data name="LuckEn_200" xml:space="preserve">
+    <value>“People dont work hard to achieve their goals,and then blame it on their luck.”    ―    Sham Hinduja</value>
+  </data>
+  <data name="LuckEn_201" xml:space="preserve">
+    <value>“People choose bad at first then say we are unlucky .”    ―    Muhammad Saqib</value>
+  </data>
+  <data name="LuckEn_202" xml:space="preserve">
+    <value>“Only few people enjoy life in better way rest of the made just to facilitate those few.”    ―    Kartik Mehta</value>
+  </data>
+  <data name="LuckEn_203" xml:space="preserve">
+    <value>“Everyone knows the principles of Beautiful life but,only few of them have opportunities to follow them.”    ―    Kartik Mehta</value>
+  </data>
+  <data name="LuckEn_204" xml:space="preserve">
+    <value>“You can take care of everything except chance. Chance can kill you.”    ―    Charles   Williams,          The Hot Spot</value>
+  </data>
+  <data name="LuckEn_205" xml:space="preserve">
+    <value>“Luck is not fate. Believe it or not, it's largely an attitude.”    ―    Willis Turner</value>
+  </data>
+  <data name="LuckEn_206" xml:space="preserve">
+    <value>“Luck is not some esoteric, godlike phenomenon.  Luck is countable but undefinable. Luck easily can be explained as number of factors acting in a favour of a person. These factors' behaviour could be statistically proved , and the probability of such result is possible. It is not related to something explainable event. Actually, the miracle would be if these events (luck) are not in presence in our life. The matter as then would be mathematics proved wrong. So, make your luck!"﻿”    ―    Csaba Gabor - B</value>
+  </data>
+  <data name="LuckEn_207" xml:space="preserve">
+    <value>“USE SANDAWANA OIL &amp; SKIN              {+27781629341}   (3days results guaranteed  when you applying the Oil)  aproved and licenced by the ministry of finance and health department{win lotto, Casino, money power,bussiness, love portion,luck, penis enlargement oil and more}Get to know the secret behind rich people. Now is the time to know the power of the Miracle Money power in (SANDAWANA OIL) ON SABC TV AND RADIO (DR UTHMAN )Describes very well how to use  (SANDAWANA OIL), you apply it every day, it will attracts all the rich people to you so that you can do business with them. Apply when going to meet high rich people and they will  accept you. Apply when u want to apply for tender, Apply when you need promotion,WIN LOTTO,CASINOS,BETTING GAMES,AUCTIONS and other gamblings, (widen your luck in life,this is available to make you rich,Just make a call to {Dr UTHMAN} strictly by appointment  for you order.                                                       Am here to testify about"' Sandawana OIls'': Ihave been using his SANDAWANA LOTTO$CASINO  OIL but Am always supirsed with myself the way iget to win several times, the first time iwon ajackpot at  (SUN COAST CASINO),try {DR UTHMAN }your life wont be the same financially,if your looking for payable job, you want to be promoted at work, going for ahigh job interviews, they  are  the right and trustworthy  people in africa.they saved me from credit ican now capitalize thank you so much, {Mrs Sumitha Rakesh} from Phoenix           Kapano, 47yrs from alexander,told me about the Sandawana Oil  but is 100% true, iwon R2.6million the night after applying  Oil the way  he directed everytime am going play, ihave been announced many times awinner in lotto draws,Coast Casino now almost my creditors are now done happy with my family , thankx to {Dr Uthman}for saving my life          Thando is my name from pinetown;am here to testify the miracles about the Sandawana Business Oil, ihave been using this oil for weeks now and ever since iwas directed how to be using it in my business by { DR UTHMAN} my business is always growing day by day and am even planning to soon open up another better earning business of my own soon.         My loving husband left me for another woman.for 7yrs itried to bring him back but failed.my business partner refered me to {DR UTHMAN},after checking me he gave me sandawana Love portion  Oil and directed me very well how to use if iwant him to come back by the end of 3nights my husband called me saying he had adream about me and he misses me so much, and cant stop thinking about me and he is coming home.To the public try this Man.Lerato; pretoria.            Larry,57yrs from Dubai (carter},for years my husband had amanhood problem.itried him and he gave him the Sandawana manhood oil to apply every after ashower now is strong,long endurance, powerful and it stops early ejaculation,normal size. { DR UTHMAN he helped me to  also bond him to love me alone using sandawana love bond oil .Men and women for { DR UTHMAN}.His on contact DR UTHMAN +27781629341”    ―    Uthman Ibrahim-Morrison</value>
+  </data>
+  <data name="LuckEn_208" xml:space="preserve">
+    <value>“DURBAN&gt; PIETERMARITBURG&gt; SOUTH AFRICA&gt; "SUPERLICIOUS" SANDAWANA OIL, FOR LUCK, WIN CASINO, LOTTO,  {+27781629341} LOVE.BONDING, BUSINESS, MONEY POWER IN PINETOWN, PHOENIX, INANDA, CHATSWORTH, GLENWOOD, DAVENPORT, MORNING SIDE, BEREA, WESTVILLE, MUSGRAVE, UMLAZI, UMTATA         USE SANDAWANA OIL &amp; SKIN              {+27781629341}   (3days results guaranteed  when you applying the Oil)  aproved and licenced by the ministry of finance and health department{win lotto, Casino, money power,bussiness, love portion,luck, penis enlargement oil and more}Get to know the secret behind rich people. Now is the time to know the power of the Miracle Money power in (SANDAWANA OIL) ON SABC TV AND RADIO (DR UTHMAN )Describes very well how to use  (SANDAWANA OIL), you apply it every day, it will attracts all the rich people to you so that you can do business with them. Apply when going to meet high rich people and they will  accept you. Apply when u want to apply for tender, Apply when you need promotion,WIN LOTTO,CASINOS,BETTING GAMES,AUCTIONS and other gamblings, (widen your luck in life,this is available to make you rich,Just make a call to {Dr UTHMAN} strictly by appointment  for you order.                                                       Am here to testify about"' Sandawana OIls'': Ihave been using his SANDAWANA LOTTO$CASINO  OIL but Am always supirsed with myself the way iget to win several times, the first time iwon ajackpot at  (SUN COAST CASINO),try {DR UTHMAN }your life wont be the same financially,if your looking for payable job, you want to be promoted at work, going for ahigh job interviews, they  are  the right and trustworthy  people in africa.they saved me from credit ican now capitalize thank you so much, {Mrs Sumitha Rakesh} from Phoenix           Kapano, 47yrs from alexander,told me about the Sandawana Oil  but is 100% true, iwon R2.6million the night after applying  Oil the way  he directed everytime am going play, ihave been announced many times awinner in lotto draws,Coast Casino now almost my creditors are now done happy with my family , thankx to {Dr Uthman}for saving my life          Thando is my name from pinetown;am here to testify the miracles about the Sandawana Business Oil, ihave been using this oil for weeks now and ever since iwas directed how to be using it in my business by { DR UTHMAN} my business is always growing day by day and am even planning to soon open up another better earning business of my own soon.         My loving husband left me for another woman.for 7yrs itried to bring him back but failed.my business partner refered me to {DR UTHMAN},after checking me he gave me sandawana Love portion  Oil and directed me very well how to use if iwant him to come back by the end of 3nights my husband called me saying he had adream about me and he misses me so much, and cant stop thinking about me and he is coming home.To the public try this Man.Lerato; pretoria.            Larry,57yrs from Dubai (carter},for years my husband had amanhood problem.itried him and he gave him the Sandawana manhood oil to apply every after ashower now is strong,long endurance, powerful and it stops early ejaculation,normal size. { DR UTHMAN he helped me to  also bond him to love me alone using sandawana love bond oil .Men and women for { DR UTHMAN}.His on contact DR UTHMAN +27781629341”    ―    Uthman Hutchinson</value>
+  </data>
+  <data name="LuckEn_209" xml:space="preserve">
+    <value>“PRETORIA&gt; DURBANCENTRAL"SUPERB"SANDAWANA OIL, FOR LOVE.BOND, WIN CASINO, LOTTO, BUSINESS,MONEYPOWER,MANHOODCALL+2771629341&gt;Dundee|Greytown|Kranskop|Muden|witbank|BergvilleLadysmith|Weenen|Empangeni|Eshowe|Mandini|Melmoth|Mtunzini.iLembe|Ballito|StangeiLembe|Ballito|Stanger                USE SANDAWANA OIL &amp; SKIN              {+27781629341}   (3days results guaranteed  when you applying the Oil)  aproved and licenced by the ministry of finance and health department{win lotto, Casino, money power,bussiness, love portion,luck, penis enlargement oil and more}Get to know the secret behind rich people. Now is the time to know the power of the Miracle Money power in (SANDAWANA OIL) ON SABC TV AND RADIO (DR UTHMAN )Describes very well how to use  (SANDAWANA OIL), you apply it every day, it will attracts all the rich people to you so that you can do business with them. Apply when going to meet high rich people and they will  accept you. Apply when u want to apply for tender, Apply when you need promotion,WIN LOTTO,CASINOS,BETTING GAMES,AUCTIONS and other gamblings, (widen your luck in life,this is available to make you rich,Just make a call to {Dr UTHMAN} strictly by appointment  for you order.                                                       Am here to testify about"' Sandawana OIls'': Ihave been using his SANDAWANA LOTTO$CASINO  OIL but Am always supirsed with myself the way iget to win several times, the first time iwon ajackpot at  (SUN COAST CASINO),try {DR UTHMAN }your life wont be the same financially,if your looking for payable job, you want to be promoted at work, going for ahigh job interviews, they  are  the right and trustworthy  people in africa.they saved me from credit ican now capitalize thank you so much, {Mrs Sumitha Rakesh} from Phoenix           Kapano, 47yrs from alexander,told me about the Sandawana Oil  but is 100% true, iwon R2.6million the night after applying  Oil the way  he directed everytime am going play, ihave been announced many times awinner in lotto draws,Coast Casino now almost my creditors are now done happy with my family , thankx to {Dr Uthman}for saving my life          Thando is my name from pinetown;am here to testify the miracles about the Sandawana Business Oil, ihave been using this oil for weeks now and ever since iwas directed how to be using it in my business by { DR UTHMAN} my business is always growing day by day and am even planning to soon open up another better earning business of my own soon.         My loving husband left me for another woman.for 7yrs itried to bring him back but failed.my business partner refered me to {DR UTHMAN},after checking me he gave me sandawana Love portion  Oil and directed me very well how to use if iwant him to come back by the end of 3nights my husband called me saying he had adream about me and he misses me so much, and cant stop thinking about me and he is coming home.To the public try this Man.Lerato; pretoria.            Larry,57yrs from Dubai (carter},for years my husband had amanhood problem.itried him and he gave him the Sandawana manhood oil to apply every after ashower now is strong,long endurance, powerful and it stops early ejaculation,normal size. { DR UTHMAN he helped me to  also bond him to love me alone using sandawana love bond oil .Men and women for { DR UTHMAN}.His on contact DR UTHMAN +27781629341”    ―    Uthman Ibrahim-Morrison</value>
   </data>
 </root>

@@ -117,205 +117,634 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Love_0" xml:space="preserve">
-    <value>Милее всего, кто любит кого.</value>
+  <data name="LoveEn_0" xml:space="preserve">
+    <value>“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.”    ―    Marilyn Monroe</value>
   </data>
-  <data name="Love_1" xml:space="preserve">
-    <value>Миленек — и не умыт беленек.</value>
+  <data name="LoveEn_1" xml:space="preserve">
+    <value>“You've gotta dance like there's nobody watching,Love like you'll never be hurt,Sing like there's nobody listening,And live like it's heaven on earth.”    ―    William W. Purkey</value>
   </data>
-  <data name="Love_2" xml:space="preserve">
-    <value>Молодость без любви, как утро без солнца.</value>
+  <data name="LoveEn_2" xml:space="preserve">
+    <value>“You know you're in love when you can't fall asleep because reality is finally better than your dreams.”    ―    Dr. Seuss</value>
   </data>
-  <data name="Love_3" xml:space="preserve">
-    <value>Насильно мил не будешь.</value>
+  <data name="LoveEn_3" xml:space="preserve">
+    <value>“A friend is someone who knows all about you and still loves you.”    ―    Elbert Hubbard</value>
   </data>
-  <data name="Love_4" xml:space="preserve">
-    <value>Не по-хорошу мил, а по-милу хорош</value>
+  <data name="LoveEn_4" xml:space="preserve">
+    <value>“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”    ―    Martin Luther King Jr.,          A Testament of Hope: The Essential Writings and Speeches</value>
   </data>
-  <data name="Love_5" xml:space="preserve">
-    <value>Нет ценности супротив любви.</value>
+  <data name="LoveEn_5" xml:space="preserve">
+    <value>“We accept the love we think we deserve.”    ―    Stephen Chbosky,          The Perks of Being a Wallflower</value>
   </data>
-  <data name="Love_6" xml:space="preserve">
-    <value>Полюби нас в черненьких, а в беленьких и всяк полюбит.</value>
+  <data name="LoveEn_6" xml:space="preserve">
+    <value>“It is better to be hated for what you are than to be loved for what you are not.”    ―    André Gide,          Autumn Leaves</value>
   </data>
-  <data name="Love_7" xml:space="preserve">
-    <value>Полюбится сова лучше ясного сокола.</value>
+  <data name="LoveEn_7" xml:space="preserve">
+    <value>“Only once in your life, I truly believe, you find someone who can completely turn your world around. You tell them things that you’ve never shared with another soul and they absorb everything you say and actually want to hear more. You share hopes for the future, dreams that will never come true, goals that were never achieved and the many disappointments life has thrown at you. When something wonderful happens, you can’t wait to tell them about it, knowing they will share in your excitement. They are not embarrassed to cry with you when you are hurting or laugh with you when you make a fool of yourself. Never do they hurt your feelings or make you feel like you are not good enough, but rather they build you up and show you the things about yourself that make you special and even beautiful. There is never any pressure, jealousy or competition but only a quiet calmness when they are around. You can be yourself and not worry about what they will think of you because they love you for who you are. The things that seem insignificant to most people such as a note, song or walk become invaluable treasures kept safe in your heart to cherish forever. Memories of your childhood come back and are so clear and vivid it’s like being young again. Colours seem brighter and more brilliant. Laughter seems part of daily life where before it was infrequent or didn’t exist at all. A phone call or two during the day helps to get you through a long day’s work and always brings a smile to your face. In their presence, there’s no need for continuous conversation, but you find you’re quite content in just having them nearby. Things that never interested you before become fascinating because you know they are important to this person who is so special to you. You think of this person on every occasion and in everything you do. Simple things bring them to mind like a pale blue sky, gentle wind or even a storm cloud on the horizon. You open your heart knowing that there’s a chance it may be broken one day and in opening your heart, you experience a love and joy that you never dreamed possible. You find that being vulnerable is the only way to allow your heart to feel true pleasure that’s so real it scares you. You find strength in knowing you have a true friend and possibly a soul mate who will remain loyal to the end. Life seems completely different, exciting and worthwhile. Your only hope and security is in knowing that they are a part of your life.”    ―    Bob Marley</value>
   </data>
-  <data name="Love_8" xml:space="preserve">
-    <value>Ради милого и себя не жаль.</value>
+  <data name="LoveEn_8" xml:space="preserve">
+    <value>“As he read, I fell in love the way you fall asleep: slowly, and then all at once.”    ―    John Green,          The Fault in Our Stars</value>
   </data>
-  <data name="Love_9" xml:space="preserve">
-    <value>Сердце сердцу весть подает.</value>
+  <data name="LoveEn_9" xml:space="preserve">
+    <value>“It is not a lack of love, but a lack of friendship that makes unhappy marriages.”    ―    Friedrich Nietzsche</value>
   </data>
-  <data name="Love_10" xml:space="preserve">
-    <value>Сердце сердце чует.</value>
+  <data name="LoveEn_10" xml:space="preserve">
+    <value>“The opposite of love is not hate, it's indifference. The opposite of art is not ugliness, it's indifference. The opposite of faith is not heresy, it's indifference. And the opposite of life is not death, it's indifference.”    ―    Elie Wiesel</value>
   </data>
-  <data name="Love_11" xml:space="preserve">
-    <value>Сердцем не приманишь, так за уши не притянешь.</value>
+  <data name="LoveEn_11" xml:space="preserve">
+    <value>“I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.”    ―    Pablo Neruda,          100 Love Sonnets</value>
   </data>
-  <data name="Love_12" xml:space="preserve">
-    <value>Совет да любовь, на этом свет стоит.</value>
+  <data name="LoveEn_12" xml:space="preserve">
+    <value>“Have you ever been in love? Horrible isn't it? It makes you so vulnerable. It opens your chest and it opens up your heart and it means that someone can get inside you and mess you up.”    ―    Neil Gaiman,          The Sandman, Vol. 9: The Kindly Ones</value>
   </data>
-  <data name="Love_13" xml:space="preserve">
-    <value>Старая любовь долго помнится.</value>
+  <data name="LoveEn_13" xml:space="preserve">
+    <value>“There is never a time or place for true love. It happens accidentally, in a heartbeat, in a single flashing, throbbing moment.”    ―    Sarah Dessen,          The Truth About Forever</value>
   </data>
-  <data name="Love_14" xml:space="preserve">
-    <value>Ум истиною просветляется, сердце любовью согревается.</value>
+  <data name="LoveEn_14" xml:space="preserve">
+    <value>“Love all, trust a few, do wrong to none.”    ―    William Shakespeare,          All's Well That Ends Well</value>
   </data>
-  <data name="Love_15" xml:space="preserve">
-    <value>Сам себя губит, кто других не любит.</value>
+  <data name="LoveEn_15" xml:space="preserve">
+    <value>“This life is what you make it. No matter what, you're going to mess up sometimes, it's a universal truth. But the good part is you get to decide how you're going to mess it up. Girls will be your friends - they'll act like it anyway. But just remember, some come, some go. The ones that stay with you through everything - they're your true best friends. Don't let go of them. Also remember, sisters make the best friends in the world. As for lovers, well, they'll come and go too. And baby, I hate to say it, most of them - actually pretty much all of them are going to break your heart, but you can't give up because if you give up, you'll never find your soulmate. You'll never find that half who makes you whole and that goes for everything. Just because you fail once, doesn't mean you're gonna fail at everything. Keep trying, hold on, and always, always, always believe in yourself, because if you don't, then who will, sweetie? So keep your head high, keep your chin up, and most importantly, keep smiling, because life's a beautiful thing and there's so much to smile about.”    ―    Marilyn Monroe</value>
   </data>
-  <data name="Love_16" xml:space="preserve">
-    <value>Любовь закона не знает, годов не считает.</value>
+  <data name="LoveEn_16" xml:space="preserve">
+    <value>“Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.”    ―    Lao Tzu</value>
   </data>
-  <data name="Love_17" xml:space="preserve">
-    <value>Кто кого любит, тот того и голубит.</value>
+  <data name="LoveEn_17" xml:space="preserve">
+    <value>“Love is that condition in which the happiness of another person is essential to your own.”    ―    Robert A. Heinlein,          Stranger in a Strange Land</value>
   </data>
-  <data name="Love_18" xml:space="preserve">
-    <value>Без солнышка нельзя пробыть, без милого нельзя прожить.</value>
+  <data name="LoveEn_18" xml:space="preserve">
+    <value>“You love me. Real or not real?"I tell him, "Real.”    ―    Suzanne Collins,          Mockingjay</value>
   </data>
-  <data name="Love_19" xml:space="preserve">
-    <value>Был бы милый по душе, проживем и в шалаше.</value>
+  <data name="LoveEn_19" xml:space="preserve">
+    <value>“You may not be her first, her last, or her only. She loved before she may love again. But if she loves you now, what else matters? She's not perfect—you aren't either, and the two of you may never be perfect together but if she can make you laugh, cause you to think twice, and admit to being human and making mistakes, hold onto her and give her the most you can. She may not be thinking about you every second of the day, but she will give you a part of her that she knows you can break—her heart. So don't hurt her, don't change her, don't analyze and don't expect more than she can give. Smile when she makes you happy, let her know when she makes you mad, and miss her when she's not there.”    ―    Bob Marley</value>
   </data>
-  <data name="Love_20" xml:space="preserve">
-    <value>Из жалости любви не выкроишь.</value>
+  <data name="LoveEn_20" xml:space="preserve">
+    <value>“I am nothing special, of this I am sure. I am a common man with common thoughts and I've led a common life. There are no monuments dedicated to me and my name will soon be forgotten, but I've loved another with all my heart and soul, and to me, this has always been enough..”    ―    Nicholas Sparks,          The Notebook</value>
   </data>
-  <data name="Love_21" xml:space="preserve">
-    <value>Любовь и не глядит, а все видит.</value>
+  <data name="LoveEn_21" xml:space="preserve">
+    <value>“Love looks not with the eyes, but with the mind,And therefore is winged Cupid painted blind.”    ―    William Shakespeare,          A Midsummer Night's Dream</value>
   </data>
-  <data name="Love_22" xml:space="preserve">
-    <value>Любовь и умника в дураки ставит.</value>
+  <data name="LoveEn_22" xml:space="preserve">
+    <value>“Love is like the wind, you can't see it but you can feel it.”    ―    Nicholas Sparks,          A Walk to Remember</value>
   </data>
-  <data name="Love_23" xml:space="preserve">
-    <value>Не по хорошему мил, а по милу хорош.</value>
+  <data name="LoveEn_23" xml:space="preserve">
+    <value>“If you can make a woman laugh, you can make her do anything.”    ―    Marilyn Monroe</value>
   </data>
-  <data name="Love_24" xml:space="preserve">
-    <value>Всякому своя милая хороша.</value>
+  <data name="LoveEn_24" xml:space="preserve">
+    <value>“I'm in love with you," he said quietly."Augustus," I said."I am," he said. He was staring at me, and I could see the corners of his eyes crinkling. "I'm in love with you, and I'm not in the business of denying myself the simple pleasure of saying true things. I'm in love with you, and I know that love is just a shout into the void, and that oblivion is inevitable, and that we're all doomed and that there will come a day when all our labor has been returned to dust, and I know the sun will swallow the only earth we'll ever have, and I am in love with you.”    ―    John Green,          The Fault in Our Stars</value>
   </data>
-  <data name="Love_25" xml:space="preserve">
-    <value>Любить не люби — почаще взглядывай.</value>
+  <data name="LoveEn_25" xml:space="preserve">
+    <value>“We’re all a little weird. And life is a little weird. And when we find someone whose weirdness is compatible with ours, we join up with them and fall into mutually satisfying weirdness—and call it love—true love.”    ―    Robert Fulghum,          True Love</value>
   </data>
-  <data name="Love_26" xml:space="preserve">
-    <value>С милым рай и в шалаше.</value>
+  <data name="LoveEn_26" xml:space="preserve">
+    <value>“People think a soul mate is your perfect fit, and that's what everyone wants. But a true soul mate is a mirror, the person who shows you everything that is holding you back, the person who brings you to your own attention so you can change your life.  A true soul mate is probably the most important person you'll ever meet, because they tear down your walls and smack you awake.  But to live with a soul mate forever?  Nah. Too painful.  Soul mates, they come into your life just to reveal another layer of yourself to you, and then leave.  A soul mates purpose is to shake you up, tear apart your ego a little bit, show you your obstacles and addictions, break your heart open so new light can get in, make you so desperate and out of control that you have to transform your life, then introduce you to your spiritual master...”    ―    Elizabeth Gilbert,          Eat, Pray, Love</value>
   </data>
-  <data name="Love_27" xml:space="preserve">
-    <value>Для милого дружка и сережка из ушка.</value>
+  <data name="LoveEn_27" xml:space="preserve">
+    <value>“The real lover is the man who can thrill you by kissing your forehead or smiling into your eyes or just staring into space.”    ―    Marilyn Monroe</value>
   </data>
-  <data name="Love_28" xml:space="preserve">
-    <value>Для милого дружка семь верст не околица.</value>
+  <data name="LoveEn_28" xml:space="preserve">
+    <value>“You don't love someone because they're perfect, you love them in spite of the fact that they're not.”    ―    Jodi Picoult,          My Sister's Keeper</value>
   </data>
-  <data name="Love_29" xml:space="preserve">
-    <value>Полюби нас черненькими, а беленькими нас всяк полюбит.</value>
+  <data name="LoveEn_29" xml:space="preserve">
+    <value>“Love never dies a natural death. It dies because we don't know how to replenish its source. It dies of blindness and errors and betrayals. It dies of illness and wounds; it dies of weariness, of witherings, of tarnishings.”    ―    Anaïs Nin</value>
   </data>
-  <data name="Love_30" xml:space="preserve">
-    <value>Милые бранятся, только тешатся</value>
+  <data name="LoveEn_30" xml:space="preserve">
+    <value>“If I had a flower for every time I thought of you...I could walk through my garden forever.”    ―    Alfred Tennyson</value>
   </data>
-  <data name="Love_31" xml:space="preserve">
-    <value>Любовь да свара хуже пожара.</value>
+  <data name="LoveEn_31" xml:space="preserve">
+    <value>“There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.”    ―    Jane Austen,          Northanger Abbey</value>
   </data>
-  <data name="Love_32" xml:space="preserve">
-    <value>Легко свыкаться, трудно расставаться.</value>
+  <data name="LoveEn_32" xml:space="preserve">
+    <value>“I've been making a list of the things they don't teach you at school. They don't teach you how to love somebody. They don't teach you how to be famous. They don't teach you how to be rich or how to be poor. They don't teach you how to walk away from someone you don't love any longer. They don't teach you how to know what's going on in someone else's mind. They don't teach you what to say to someone who's dying. They don't teach you anything worth knowing.”    ―    Neil Gaiman,          The Sandman, Vol. 9: The Kindly Ones</value>
   </data>
-  <data name="Love_33" xml:space="preserve">
-    <value>С глаз долой, из сердца вон</value>
+  <data name="LoveEn_33" xml:space="preserve">
+    <value>“So it's not gonna be easy. It's going to be really hard; we're gonna have to work at this everyday, but I want to do that because I want you. I want all of you, forever, everyday. You and me... everyday.”    ―    Nicholas Sparks,          The Notebook</value>
   </data>
-  <data name="Love_34" xml:space="preserve">
-    <value>С милым годок покажется за часок.</value>
+  <data name="LoveEn_34" xml:space="preserve">
+    <value>“To love at all is to be vulnerable. Love anything and your heart will be wrung and possibly broken. If you want to make sure of keeping it intact you must give it to no one, not even an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements. Lock it up safe in the casket or coffin of your selfishness. But in that casket, safe, dark, motionless, airless, it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. To love is to be vulnerable.”    ―    C.S. Lewis,          The Four Loves</value>
   </data>
-  <data name="Love_35" xml:space="preserve">
-    <value>В опорках ходить, да с милым жить.</value>
+  <data name="LoveEn_35" xml:space="preserve">
+    <value>“When someone loves you, the way they talk about you is different. You feel safe and comfortable.”    ―    Jess C. Scott,          The Intern</value>
   </data>
-  <data name="Love_36" xml:space="preserve">
-    <value>Сердцу не прикажешь</value>
+  <data name="LoveEn_36" xml:space="preserve">
+    <value>“To die would be an awfully big adventure.”    ―    J.M. Barrie,          Peter Pan</value>
   </data>
-  <data name="Love_37" xml:space="preserve">
-    <value>Три вещи вызывают любовь: вера, скромность и щедрость.</value>
+  <data name="LoveEn_37" xml:space="preserve">
+    <value>“Just when you think it can't get any worse, it can. And just when you think it can't get any better, it can.”    ―    Nicholas Sparks,          At First Sight</value>
   </data>
-  <data name="Love_38" xml:space="preserve">
-    <value>Люди не любят того, чего не знают.</value>
+  <data name="LoveEn_38" xml:space="preserve">
+    <value>“Tis better to have loved and lostThan never to have loved at all.”    ―    Alfred Tennyson,          In Memoriam</value>
   </data>
-  <data name="Love_39" xml:space="preserve">
-    <value>Голова без любви, что бесплодная тыква.</value>
+  <data name="LoveEn_39" xml:space="preserve">
+    <value>“A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.”    ―    Jane Austen,          Pride and Prejudice</value>
   </data>
-  <data name="Love_40" xml:space="preserve">
-    <value>Если уйдешь оттуда, где тебя любят, придешь туда, где тебя ненавидят.</value>
+  <data name="LoveEn_40" xml:space="preserve">
+    <value>“Dumbledore watched her fly away, and as her silvery glow faded he turned back to Snape, and his eyes were full of tears."After all this time?""Always," said Snape.”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
   </data>
-  <data name="Love_41" xml:space="preserve">
-    <value>У любви, как у кольца, нет конца.</value>
+  <data name="LoveEn_41" xml:space="preserve">
+    <value>“The one you love and the one who loves you are never, ever the same person.”    ―    Chuck Palahniuk,          Invisible Monsters</value>
   </data>
-  <data name="Love_42" xml:space="preserve">
-    <value>Люби два раза, но не люби двух сразу.</value>
+  <data name="LoveEn_42" xml:space="preserve">
+    <value>“He’s not perfect. You aren’t either, and the two of you will never be perfect. But if he can make you laugh at least once, causes you to think twice, and if he admits to being human and making mistakes, hold onto him and give him the most you can. He isn’t going to quote poetry, he’s not thinking about you every moment, but he will give you a part of him that he knows you could break. Don’t hurt him, don’t change him, and don’t expect for more than he can give. Don’t analyze. Smile when he makes you happy, yell when he makes you mad, and miss him when he’s not there. Love hard when there is love to be had. Because perfect guys don’t exist, but there’s always one guy that is perfect for you.”    ―    Bob Marley</value>
   </data>
-  <data name="Love_43" xml:space="preserve">
-    <value>С любовью не шутят.</value>
+  <data name="LoveEn_43" xml:space="preserve">
+    <value>“Love is needing someone. Love is putting up with someone's bad qualities because they somehow complete you.”    ―    Sarah Dessen,          This Lullaby</value>
   </data>
-  <data name="Love_44" xml:space="preserve">
-    <value>Любовь - стекло: разобьёшь - не склеишь.</value>
+  <data name="LoveEn_44" xml:space="preserve">
+    <value>“Some people don't understand the promises they're making when they make them," I said."Right, of course. But you keep the promise anyway. That's what love is. Love is keeping the promise anyway.”    ―    John Green,          The Fault in Our Stars</value>
   </data>
-  <data name="Love_45" xml:space="preserve">
-    <value>Хорошую любовь и топором не разрубишь.</value>
+  <data name="LoveEn_45" xml:space="preserve">
+    <value>“I love you as certain dark things are to be loved, in secret, between the shadow and the soul.”    ―    Pablo Neruda,          100 Love Sonnets</value>
   </data>
-  <data name="Love_46" xml:space="preserve">
-    <value>Сердце сердцу весть подаёт.</value>
+  <data name="LoveEn_46" xml:space="preserve">
+    <value>“Love is patient,  love is kind. It does not envy, it does not boast, it is not proud. It is not rude, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.”    ―    Anonymous,          Holy Bible: New International Version</value>
   </data>
-  <data name="Love_47" xml:space="preserve">
-    <value>Сердце - вещун.</value>
+  <data name="LoveEn_47" xml:space="preserve">
+    <value>“You are, and always have been, my dream.”    ―    Nicholas Sparks,          The Notebook</value>
   </data>
-  <data name="Love_48" xml:space="preserve">
-    <value>Любовь - не картошка, не выбросишь в окошко.</value>
+  <data name="LoveEn_48" xml:space="preserve">
+    <value>“When I despair, I remember that all through history the way of truth and love have always won. There have been tyrants and murderers, and for a time, they can seem invincible, but in the end, they always fall. Think of it--always.”    ―    Mahatma Gandhi</value>
   </data>
-  <data name="Love_49" xml:space="preserve">
-    <value>С милым мужем и зимой не стужа.</value>
+  <data name="LoveEn_49" xml:space="preserve">
+    <value>“I no longer believed in the idea of soul mates, or love at first sight.  But I was beginning to believe that a very few times in your life, if you were lucky, you might meet someone who was exactly right for you.  Not because he was perfect, or because you were, but because your combined flaws were arranged in a way that allowed two separate beings to hinge together.”    ―    Lisa Kleypas,          Blue-Eyed Devil</value>
   </data>
-  <data name="Love_50" xml:space="preserve">
-    <value>Деньги - прах, одежда - тоже, а любовь всего дороже.</value>
+  <data name="LoveEn_50" xml:space="preserve">
+    <value>“You are my best friend as well as my lover, and I do not know which side of you I enjoy the most. I treasure each side, just as I have treasured our life together.”    ―    Nicholas Sparks,          The Notebook</value>
   </data>
-  <data name="Love_51" xml:space="preserve">
-    <value>Деньги - дело нажитое, о них нечего тужить, а любовь - дело другое: ею надо дорожить.</value>
+  <data name="LoveEn_51" xml:space="preserve">
+    <value>“We love the things we love for what they are.”    ―    Robert Frost</value>
   </data>
-  <data name="Love_52" xml:space="preserve">
-    <value>Новое вино в старые мехи не наливают.</value>
+  <data name="LoveEn_52" xml:space="preserve">
+    <value>“Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage. Perhaps everything that frightens us is, in its deepest essence, something helpless that wants our love.”    ―    Rainer Maria Rilke,          Letters to a Young Poet</value>
   </data>
-  <data name="Love_53" xml:space="preserve">
-    <value>Старая любовь не ржавеет</value>
+  <data name="LoveEn_53" xml:space="preserve">
+    <value>“One is loved because one is loved. No reason is needed for loving.”    ―    Paulo Coelho,          The Alchemist</value>
   </data>
-  <data name="Love_54" xml:space="preserve">
-    <value>Без милого спать - холодна кровать.</value>
+  <data name="LoveEn_54" xml:space="preserve">
+    <value>“In vain have I struggled. It will not do. My feelings will not be repressed. You must allow me to tell you how ardently I admire and love you.”    ―    Jane Austen,          Pride And Prejudice</value>
   </data>
-  <data name="Love_55" xml:space="preserve">
-    <value>Целовать в уста нет поста.</value>
+  <data name="LoveEn_55" xml:space="preserve">
+    <value>“I would die for you. But I won't live for you.”    ―    Stephen Chbosky,          The Perks of Being a Wallflower</value>
   </data>
-  <data name="Love_56" xml:space="preserve">
-    <value>Одной любовью сыт не будешь.</value>
+  <data name="LoveEn_56" xml:space="preserve">
+    <value>“Where there is love there is life.”    ―    Mahatma Gandhi</value>
   </data>
-  <data name="Love_57" xml:space="preserve">
-    <value>Он и себя-то любит только по праздникам.</value>
+  <data name="LoveEn_57" xml:space="preserve">
+    <value>“We fell in love, despite our differences, and once we did, something rare and beautiful was created. For me, love like that has only happened once, and that's why every minute we spent together has been seared in my memory. I'll never forget a single moment of it.”    ―    Nicholas Sparks,          The Notebook</value>
   </data>
-  <data name="Love_58" xml:space="preserve">
-    <value>Любит, как душу, а трясёт, как грушу.</value>
+  <data name="LoveEn_58" xml:space="preserve">
+    <value>“Promise me you'll always remember: You're braver than you believe, and stronger than you seem, and smarter than you think.”    ―    A.A. Milne</value>
   </data>
-  <data name="Love_59" xml:space="preserve">
-    <value>На красный (красивый) цветок летит и мотылек.</value>
+  <data name="LoveEn_59" xml:space="preserve">
+    <value>“I carry your heart with me (I carry it in my heart)I am never without it (anywhereI go you go,my dear; and whatever is done by only me is your doing,my darling)I fear no fate (for you are my fate,my sweet)I want no world (for beautiful you are my world,my true)and it's you are whatever a moon has always meant and whatever a sun will always sing is youhere is the deepest secret nobody knows(here is the root of the root and the bud of the bud and the sky of the sky of a tree called life; which growshigher than the soul can hope or mind can hide)and this is the wonder that's keeping the stars apartI carry your heart (I carry it in my heart)”    ―    E.E. Cummings</value>
   </data>
-  <data name="Love_60" xml:space="preserve">
-    <value>Полюби нас чёрненькими, а красненькими нас всяк полюбит.</value>
+  <data name="LoveEn_60" xml:space="preserve">
+    <value>“Nobody has ever measured, not even poets, how much the heart can hold.”    ―    Zelda Fitzgerald</value>
   </data>
-  <data name="Love_61" xml:space="preserve">
-    <value>Кто пьяницу любит, свою жизнь загубит.</value>
+  <data name="LoveEn_61" xml:space="preserve">
+    <value>“So, I love you because the entire universe conspired to help me find you.”    ―    Paulo Coelho,          The Alchemist</value>
   </data>
-  <data name="Love_62" xml:space="preserve">
-    <value>Любовь без ссоры - что суп без соли.</value>
+  <data name="LoveEn_62" xml:space="preserve">
+    <value>“And now I’m looking at you,” he said, “and you’re asking me if I still want you, as if I could stop loving you. As if I would want to give up the thing that makes me stronger than anything else ever has. I never dared give much of myself to anyone before – bits of myself to the Lightwoods, to Isabelle and Alec, but it took years to do it – but, Clary, since the first time I saw you, I have belonged to you completely. I still do. If you want me.”    ―    Cassandra Clare,          City of Glass</value>
   </data>
-  <data name="Love_63" xml:space="preserve">
-    <value>Путь к сердцу мужа лежит через желудок.</value>
+  <data name="LoveEn_63" xml:space="preserve">
+    <value>“The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds. And that's what you've given me. That's what I'd hoped to give you forever”    ―    Nicholas Sparks</value>
   </data>
-  <data name="Love_64" xml:space="preserve">
-    <value>Если любишь, то женись, а не любишь - отвяжись.</value>
+  <data name="LoveEn_64" xml:space="preserve">
+    <value>“When we love, we always strive to become better than we are. When we strive to become better than we are, everything around us becomes better too.”    ―    Paulo Coelho,          The Alchemist</value>
   </data>
-  <data name="Love_65" xml:space="preserve">
-    <value>Любовь - рыбная ловля: не клюёт - сматывай удочки.</value>
+  <data name="LoveEn_65" xml:space="preserve">
+    <value>“Once upon a time there was a boy who loved a girl, and her laughter was a question he wanted to spend his whole life answering.”    ―    Nicole Krauss,          The History of Love</value>
   </data>
-  <data name="Love_66" xml:space="preserve">
-    <value>Всю воду не перепьёшь, всех женщин не перецелуешь.</value>
+  <data name="LoveEn_66" xml:space="preserve">
+    <value>“The only thing worse than a boy who hates you: a boy that loves you.”    ―    Markus Zusak,          The Book Thief</value>
+  </data>
+  <data name="LoveEn_67" xml:space="preserve">
+    <value>“There are two basic motivating forces: fear and love. When we are afraid, we pull back from life. When we are in love, we open to all that life has to offer with passion, excitement, and acceptance. We need to learn to love ourselves first, in all our glory and our imperfections. If we cannot love ourselves, we cannot fully open to our ability to love others or our potential to create. Evolution and all hopes for a better world rest in the fearlessness and open-hearted vision of people who embrace life.”    ―    John Lennon</value>
+  </data>
+  <data name="LoveEn_68" xml:space="preserve">
+    <value>“And so the lion fell in love with the lamb…" he murmured. I looked away, hiding my eyes as I thrilled to the word."What a stupid lamb," I sighed."What a sick, masochistic lion.”    ―    Stephenie Meyer,          Twilight</value>
+  </data>
+  <data name="LoveEn_69" xml:space="preserve">
+    <value>“Promise YourselfTo be so strong that nothingcan disturb your peace of mind.To talk health, happiness, and prosperityto every person you meet.To make all your friends feelthat there is something in themTo look at the sunny side of everythingand make your optimism come true.To think only the best, to work only for the best,and to expect only the best.To be just as enthusiastic about the success of othersas you are about your own.To forget the mistakes of the pastand press on to the greater achievements of the future.To wear a cheerful countenance at all timesand give every living creature you meet a smile.To give so much time to the improvement of yourselfthat you have no time to criticize others.To be too large for worry, too noble for anger, too strong for fear,and too happy to permit the presence of trouble.To think well of yourself and to proclaim this fact to the world,not in loud words but great deeds.To live in faith that the whole world is on your sideso long as you are true to the best that is in you.”    ―    Christian D. Larson,          Your Forces and How to Use Them</value>
+  </data>
+  <data name="LoveEn_70" xml:space="preserve">
+    <value>“Some women choose to follow men, and some women choose to follow their dreams. If you're wondering which way to go, remember that your career will never wake up and tell you that it doesn't love you anymore.”    ―    Lady Gaga</value>
+  </data>
+  <data name="LoveEn_71" xml:space="preserve">
+    <value>“Life will break you. Nobody can protect you from that, and living alone won't either, for solitude will also break you with its yearning. You have to love. You have to feel. It is the reason you are here on earth. You are here to risk your heart. You are here to be swallowed up. And when it happens that you are broken, or betrayed, or left, or hurt, or death brushes near, let yourself sit by an apple tree and listen to the apples falling all around you in heaps, wasting their sweetness. Tell yourself you tasted as many as you could.”    ―    Louise Erdrich,          The Painted Drum LP</value>
+  </data>
+  <data name="LoveEn_72" xml:space="preserve">
+    <value>“I would always rather be happy than dignified.”    ―    Charlotte Brontë,          Jane Eyre</value>
+  </data>
+  <data name="LoveEn_73" xml:space="preserve">
+    <value>“I heard what you said. I’m not the silly romantic you think. I don’t want the heavens or the shooting stars. I don’t want gemstones or gold. I have those things already. I want…a steady hand. A kind soul. I want to fall asleep, and wake, knowing my heart is safe. I want to love, and be loved.”    ―    Shana Abe</value>
+  </data>
+  <data name="LoveEn_74" xml:space="preserve">
+    <value>“This is a good sign, having a broken heart. It means we have tried for something.”    ―    Elizabeth Gilbert,          Eat, Pray, Love</value>
+  </data>
+  <data name="LoveEn_75" xml:space="preserve">
+    <value>“The more I know of the world, the more I am convinced that I shall never see a man whom I can really love. I require so much!”    ―    Jane Austen,          Sense And Sensibility</value>
+  </data>
+  <data name="LoveEn_76" xml:space="preserve">
+    <value>“No relationship is perfect, ever. There are always some ways you have to bend, to compromise, to give something up in order to gain something greater...The love we have for each other is bigger than these small differences. And that's the key. It's like a big pie chart, and the love in a relationship has to be the biggest piece. Love can make up for a lot.”    ―    Sarah Dessen,          This Lullaby</value>
+  </data>
+  <data name="LoveEn_77" xml:space="preserve">
+    <value>“Love is always patient and kind. It is never jealous. Love is never boastful or conceited. It is never rude or selfish. It does not take offense and is not resentful. Love takes no pleasure in other people’s sins, but delights in the truth. It is always ready to excuse, to trust, to hope, and to endure whatever comes.”    ―    Anonymous,          Holy Bible: New International Version</value>
+  </data>
+  <data name="LoveEn_78" xml:space="preserve">
+    <value>“A guy and a girl can be just friends, but at one point or another, they will fall for each other...Maybe temporarily, maybe at the wrong time, maybe too late, or maybe forever”    ―    Dave Matthews Band</value>
+  </data>
+  <data name="LoveEn_79" xml:space="preserve">
+    <value>“Every heart sings a song, incomplete, until another heart whispers back. Those who wish to sing always find a song. At the touch of a lover, everyone becomes a poet.”    ―    Plato</value>
+  </data>
+  <data name="LoveEn_80" xml:space="preserve">
+    <value>“Never love anyone who treats you like you're ordinary.”    ―    Oscar Wilde</value>
+  </data>
+  <data name="LoveEn_81" xml:space="preserve">
+    <value>“What's meant to be will always find a way”    ―    Trisha Yearwood</value>
+  </data>
+  <data name="LoveEn_82" xml:space="preserve">
+    <value>“Two people in love, alone, isolated from the world, that's beautiful.”    ―    Milan Kundera</value>
+  </data>
+  <data name="LoveEn_83" xml:space="preserve">
+    <value>“Doubt thou the stars are fire;Doubt that the sun doth move;Doubt truth to be a liar;But never doubt I love.”    ―    William Shakespeare,          Hamlet</value>
+  </data>
+  <data name="LoveEn_84" xml:space="preserve">
+    <value>“Everyone, at some point in their lives, wakes up in the middle of the night with the feeling that they are all alone in the world, and that nobody loves them now and that nobody will ever love them, and that they will never have a decent night's sleep again and will spend their lives wandering blearily around a loveless landscape, hoping desperately that their circumstances will improve, but suspecting, in their heart of hearts, that they will remain unloved forever. The best thing to do in these circumstances is to wake somebody else up, so that they can feel this way, too.”    ―    Lemony Snicket,          Horseradish</value>
+  </data>
+  <data name="LoveEn_85" xml:space="preserve">
+    <value>“I think you still love me, but we can’t escape the fact that I’m not enough for you. I knew this was going to happen. So I’m not blaming you for falling in love with another woman. I’m not angry, either. I should be, but I’m not. I just feel pain. A lot of pain. I thought I could imagine how much this would hurt, but I was wrong.”    ―    Haruki Murakami,          South of the Border, West of the Sun</value>
+  </data>
+  <data name="LoveEn_86" xml:space="preserve">
+    <value>“This above all: to thine own self be true, And it must follow, as the night the day, Thou canst not then be false to any man.”    ―    William Shakespeare,          Hamlet</value>
+  </data>
+  <data name="LoveEn_87" xml:space="preserve">
+    <value>“The heart was made to be broken.”    ―    Oscar Wilde</value>
+  </data>
+  <data name="LoveEn_88" xml:space="preserve">
+    <value>“They didn’t agree on much. In fact, they didn’t agree on anything. They fought all the time and challenged each other ever day. But despite their differences, they had one important thing in common. They were crazy about each other.”    ―    Nicholas Sparks,          The Notebook</value>
+  </data>
+  <data name="LoveEn_89" xml:space="preserve">
+    <value>“I have a history of making decisions very quickly about men.  I have always fallen in love fast and without measuring risks.  I have a tendency not only to see the best in everyone, but to assume that everyone is emotionally capable of reaching his highest potential.  I have fallen in love more times than I care to count with the highest potential of a man, rather than with the man himself, and I have hung on to the relationship for a long time (sometimes far too long) waiting for the man to ascend to his own greatness.  Many times in romance I have been a victim of my own optimism.”    ―    Elizabeth Gilbert,          Eat, Pray, Love</value>
+  </data>
+  <data name="LoveEn_90" xml:space="preserve">
+    <value>“Any man who can drive safely while kissing a pretty girl is simply not giving the kiss the attention it deserves.”    ―    Albert Einstein</value>
+  </data>
+  <data name="LoveEn_91" xml:space="preserve">
+    <value>“I think if I've learned anything about friendship, it's to hang in, stay connected, fight for them, and let them fight for you. Don't walk away, don't be distracted, don't be too busy or tired, don't take them for granted. Friends are part of the glue that holds life and faith together. Powerful stuff.”    ―    Jon Katz</value>
+  </data>
+  <data name="LoveEn_92" xml:space="preserve">
+    <value>“You could have had anything else in the world, and you asked for me."She smiled up at him. Filthy as he was, covered in blood and dirt, he was the most beautiful thing she'd ever seen."But I don't want anything else in the world.”    ―    Cassandra Clare,          City of Glass</value>
+  </data>
+  <data name="LoveEn_93" xml:space="preserve">
+    <value>“My daddy said, that the first time you fall in love, it changes you forever and no matter how hard you try, that feeling just never goes away.”    ―    Nicholas Sparks,          The Notebook</value>
+  </data>
+  <data name="LoveEn_94" xml:space="preserve">
+    <value>“What I want is to be needed. What I need is to be indispensable to somebody. Who I need is somebody that will eat up all my free time, my ego, my attention. Somebody addicted to me. A mutual addiction.”    ―    Chuck Palahniuk,          Choke</value>
+  </data>
+  <data name="LoveEn_95" xml:space="preserve">
+    <value>“To douchebags!" he said, gesturing to Brad. "And to girls that break your heart," he bowed his head to me. His eyes lost focus. "And to the absolute fucking horror of losing your best friend because you were stupid enough to fall in love with her.”    ―    Jamie McGuire,          Beautiful Disaster</value>
+  </data>
+  <data name="LoveEn_96" xml:space="preserve">
+    <value>“And, in the endThe love you takeis equal to the love you make.”    ―    Paul McCartney,          The Beatles Illustrated Lyrics</value>
+  </data>
+  <data name="LoveEn_97" xml:space="preserve">
+    <value>“Love is a fire. But whether it is going to warm your hearth or burn down your house, you can never tell.”    ―    Joan Crawford</value>
+  </data>
+  <data name="LoveEn_98" xml:space="preserve">
+    <value>“Have you ever been in love? Horrible isn't it? It makes you so vulnerable. It opens your chest and it opens up your heart and it means that someone can get inside you and mess you up. You build up all these defenses, you build up a whole suit of armor, so that nothing can hurt you, then one stupid person, no different from any other stupid person, wanders into your stupid life...You give them a piece of you. They didn't ask for it. They did something dumb one day, like kiss you or smile at you, and then your life isn't your own anymore. Love takes hostages. It gets inside you. It eats you out and leaves you crying in the darkness, so simple a phrase like 'maybe we should be just friends' turns into a glass splinter working its way into your heart. It hurts. Not just in the imagination. Not just in the mind. It's a soul-hurt, a real gets-inside-you-and-rips-you-apart pain. I hate love.”    ―    Neil Gaiman,          The Sandman, Vol. 9: The Kindly Ones</value>
+  </data>
+  <data name="LoveEn_99" xml:space="preserve">
+    <value>“They say a person needs just three things to be truly happy in this world: someone to love, something to do, and something to hope for.”    ―    Tom Bodett</value>
+  </data>
+  <data name="LoveEn_100" xml:space="preserve">
+    <value>“I am not sure exactly what heaven will be like, but I know that when we die and it comes time for God to judge us, he will not ask, 'How many good things have you done in your life?' rather he will ask, 'How much love did you put into what you did?”    ―    Mother Teresa</value>
+  </data>
+  <data name="LoveEn_101" xml:space="preserve">
+    <value>“Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others. And having no respect he ceases to love.”    ―    Fyodor Dostoyevsky,          The Brothers Karamazov</value>
+  </data>
+  <data name="LoveEn_102" xml:space="preserve">
+    <value>“You are the answer to every prayer I've offered. You are a song, a dream, a whisper, and I don't know how I could have lived without you for as long as I have.”    ―    Nicholas Sparks,          The Notebook</value>
+  </data>
+  <data name="LoveEn_103" xml:space="preserve">
+    <value>“He's more myself than I am. Whatever our souls are made of, his and mine are the same.”    ―    Emily Brontë,          Wuthering Heights</value>
+  </data>
+  <data name="LoveEn_104" xml:space="preserve">
+    <value>“Out beyond ideas of wrongdoing and rightdoing there is a field.I'll meet you there.When the soul lies down in that grassthe world is too full to talk about.”    ―    Rumi</value>
+  </data>
+  <data name="LoveEn_105" xml:space="preserve">
+    <value>“What I need is the dandelion in the spring. The bright yellow that means rebirth instead of destruction. The promise that life can go on, no matter how bad our losses. That it can be good again.”    ―    Suzanne Collins,          Mockingjay</value>
+  </data>
+  <data name="LoveEn_106" xml:space="preserve">
+    <value>“I can feel Peeta press his forehead into my temple and he asks, 'So now that you've got me, what are you going to do with me?' I turn into him. 'Put you somewhere you can't get hurt.”    ―    Suzanne Collins,          The Hunger Games</value>
+  </data>
+  <data name="LoveEn_107" xml:space="preserve">
+    <value>“It hurts to let go. Sometimes it seems the harder you try to hold on to something or someone the more it wants to get away. You feel like some kind of criminal for having felt, for having wanted. For having wanted to be wanted. It confuses you, because you think that your feelings were wrong and it makes you feel so small because it's so hard to keep it inside when you let it out and it doesn't coma back. You're left so alone that you can't explain. Damn, there's nothing like that, is there? I've been there and you have too. You're nodding your head.”    ―    Henry Rollins,          The Portable Henry Rollins</value>
+  </data>
+  <data name="LoveEn_108" xml:space="preserve">
+    <value>“The very essence of romance is uncertainty.”    ―    Oscar Wilde,          The Importance of Being Earnest and Other Plays</value>
+  </data>
+  <data name="LoveEn_109" xml:space="preserve">
+    <value>“If all else perished, and he remained, I should still continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger.”    ―    Emily Brontë,          Wuthering Heights</value>
+  </data>
+  <data name="LoveEn_110" xml:space="preserve">
+    <value>“The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.”    ―    J.R.R. Tolkien,          The Two Towers</value>
+  </data>
+  <data name="LoveEn_111" xml:space="preserve">
+    <value>“There is always some madness in love. But there is also always some reason in madness.”    ―    Friedrich Nietzsche</value>
+  </data>
+  <data name="LoveEn_112" xml:space="preserve">
+    <value>“Love does not consist of gazing at each other, but in looking outward together in the same direction.”    ―    Antoine de Saint-Exupéry,          Airman's Odyssey</value>
+  </data>
+  <data name="LoveEn_113" xml:space="preserve">
+    <value>“For the two of us, home isn't a place. It is a person. And we are finally home.”    ―    Stephanie Perkins,          Anna and the French Kiss</value>
+  </data>
+  <data name="LoveEn_114" xml:space="preserve">
+    <value>“If you like her, if she makes you happy, and if you feel like you know her---then don't let her go.”    ―    Nicholas Sparks,          Message in a Bottle</value>
+  </data>
+  <data name="LoveEn_115" xml:space="preserve">
+    <value>“I have something I need to tell you," he says. I run my fingers along the tendons in his hands and look back at him. "I might be in love with you."  He smiles a little. "I'm waiting until I'm sure to tell you, though.""That's sensible of you," I say, smiling too. "We should find some paper so you can make a list or a chart or something."I feel his laughter against my side, his nose sliding along my jaw, his lips pressing my ear."Maybe I'm already sure," he says, "and I just don't want to frighten you."I laugh a little. "Then you should know better.""Fine," he says. "Then I love you.”    ―    Veronica Roth,          Divergent</value>
+  </data>
+  <data name="LoveEn_116" xml:space="preserve">
+    <value>“We loved with a love that was more than love.”    ―    Edgar Allan Poe</value>
+  </data>
+  <data name="LoveEn_117" xml:space="preserve">
+    <value>“If he’s not calling you, it’s because you are not on his mind. If he creates expectations for you, and then doesn’t follow through on little things, he will do same for big things. Be aware of this and realize that he’s okay with disappointing you. Don’t be with someone who doesn’t do what they say they’re going to do.  If he’s choosing not to make a simple effort that would put you at ease and bring harmony to a recurring fight, then he doesn’t respect your feelings and needs. “Busy” is another word for “asshole.” “Asshole” is another word for the guy you’re dating. You deserve a fcking phone call.”    ―    Greg Behrendt</value>
+  </data>
+  <data name="LoveEn_118" xml:space="preserve">
+    <value>“Love doesn't just sit there, like a stone, it has to be made, like bread; remade all the time, made new.”    ―    Ursula K. Le Guin,          The Lathe of Heaven</value>
+  </data>
+  <data name="LoveEn_119" xml:space="preserve">
+    <value>“I love you more than there are stars in the sky and fish in the sea.”    ―    Nicholas Sparks</value>
+  </data>
+  <data name="LoveEn_120" xml:space="preserve">
+    <value>“Man may have discovered fire, but women discovered how to play with it.”    ―    Candace Bushnell,          Sex and the City</value>
+  </data>
+  <data name="LoveEn_121" xml:space="preserve">
+    <value>“And now these three remain: faith, hope and love. But the greatest of these is love.”    ―    Anonymous,          Holy Bible: King James Version</value>
+  </data>
+  <data name="LoveEn_122" xml:space="preserve">
+    <value>“Do you think I'm pretty?I think you're beautifulBeautiful?You are so beautiful, it hurts sometimes.”    ―    Richelle Mead,          Vampire Academy</value>
+  </data>
+  <data name="LoveEn_123" xml:space="preserve">
+    <value>“How many slams in an old screen door? Depends how loud you shut it. How many slices in a bread? Depends how thin you cut it. How much good inside a day? Depends how good you live 'em. How much love inside a friend? Depends how much you give 'em.”    ―    Shel Silverstein</value>
+  </data>
+  <data name="LoveEn_124" xml:space="preserve">
+    <value>“A woman's heart should be so hidden in God that a man has to seek Him just to find her.”    ―    Max Lucado</value>
+  </data>
+  <data name="LoveEn_125" xml:space="preserve">
+    <value>“We’re all seeking that special person who is right for us. But if you’ve been through enough relationships, you begin to suspect there’s no right person, just different flavors of wrong. Why is this? Because you yourself are wrong in some way, and you seek out partners who are wrong in some complementary way. But it takes a lot of living to grow fully into your own wrongness. And it isn’t until you finally run up against your deepest demons, your unsolvable problems—the ones that make you truly who you are—that we’re ready to find a lifelong mate. Only then do you finally know what you’re looking for. You’re looking for the wrong person. But not just any wrong person: the right wrong person—someone you lovingly gaze upon and think, “This is the problem I want to have.”I will find that special person who is wrong for me in just the right way.Let our scars fall in love.”    ―    Andrew Boyd</value>
+  </data>
+  <data name="LoveEn_126" xml:space="preserve">
+    <value>“I love you. Remember. They cannot take it”    ―    Lauren Oliver,          Delirium</value>
+  </data>
+  <data name="LoveEn_127" xml:space="preserve">
+    <value>“Love does not begin and end the way we seem to think it does. Love is a battle, love is a war; love is a growing up.”    ―    James Baldwin</value>
+  </data>
+  <data name="LoveEn_128" xml:space="preserve">
+    <value>“We live and breathe words. .... It was books that made me feel that perhaps I was not completely alone. They could be honest with me, and I with them. Reading your words, what you wrote, how you were lonely sometimes and afraid, but always brave; the way you saw the world, its colors and textures and sounds, I felt--I felt the way you thought, hoped, felt, dreamt. I felt I was dreaming and thinking and feeling with you. I dreamed what you dreamed, wanted what you wanted--and then I realized that truly I just wanted you.”    ―    Cassandra Clare,          Clockwork Prince</value>
+  </data>
+  <data name="LoveEn_129" xml:space="preserve">
+    <value>“I have decided to stick to love...Hate is too great a burden to bear.”    ―    Martin Luther King Jr.,          A Testament of Hope: The Essential Writings and Speeches</value>
+  </data>
+  <data name="LoveEn_130" xml:space="preserve">
+    <value>“True love is rare, and it's the only thing that gives life real meaning.”    ―    Nicholas Sparks,          Message in a Bottle</value>
+  </data>
+  <data name="LoveEn_131" xml:space="preserve">
+    <value>“I don't trust people who don't love themselves and tell me, 'I love you.' ... There is an African saying which is: Be careful when a naked person offers you a shirt.”    ―    Maya Angelou</value>
+  </data>
+  <data name="LoveEn_132" xml:space="preserve">
+    <value>“Declarations of love amuse me. Especially when unrequited.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="LoveEn_133" xml:space="preserve">
+    <value>“When love is not madness it is not love.”    ―    Pedro Calderón de la Barca</value>
+  </data>
+  <data name="LoveEn_134" xml:space="preserve">
+    <value>“Love is an irresistible desire to be irresistibly desired.”    ―    Robert Frost</value>
+  </data>
+  <data name="LoveEn_135" xml:space="preserve">
+    <value>“It was love at first sight, at last sight, at ever and ever sight.”    ―    Vladimir Nabokov,          Lolita</value>
+  </data>
+  <data name="LoveEn_136" xml:space="preserve">
+    <value>“Be careful of love. It'll twist your brain around and leave you thinking up is down and right is wrong.”    ―    Rick Riordan,          The Battle of the Labyrinth</value>
+  </data>
+  <data name="LoveEn_137" xml:space="preserve">
+    <value>“If pain must come, may it come quickly. Because I have a life to live, and I need to live it in the best way possible. If he has to make a choice, may he make it now. Then I will either wait for him or forget him.”    ―    Paulo Coelho,          By the River Piedra I Sat Down and Wept</value>
+  </data>
+  <data name="LoveEn_138" xml:space="preserve">
+    <value>“Eleanor was right. She never looked nice. She looked like art, and art wasn't supposed to look nice; it was supposed to make you feel something.”    ―    Rainbow Rowell,          Eleanor &amp; Park</value>
+  </data>
+  <data name="LoveEn_139" xml:space="preserve">
+    <value>“The greater the love, the greater the tragedy when it's over.”    ―    Nicholas Sparks,          Nights in Rodanthe</value>
+  </data>
+  <data name="LoveEn_140" xml:space="preserve">
+    <value>“I love you also means I love you more than anyone loves you, or has loved you, or will love you, and also, I love you in a way that no one loves you, or has loved you, or will love you, and also, I love you in a way that I love no one else, and never have loved anyone else, and never will love anyone else.”    ―    Jonathan Safran Foer</value>
+  </data>
+  <data name="LoveEn_141" xml:space="preserve">
+    <value>“What's this?" he demanded, looking from Clary to his companions, as if they might know what she was doing there."It's a girl," Jace said,recovering his composure. "Surely you've seen girls before, Alec. Your sister Isabelle is one.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="LoveEn_142" xml:space="preserve">
+    <value>“Well, it seems to me that the best relationships - the ones that last - are frequently the ones that are rooted in friendship. You know, one day you look at the person and you see something more than you did the night before. Like a switch has been flicked somewhere. And the person who was just a friend is... suddenly the only person you can ever imagine yourself with.”    ―    Gillian Anderson</value>
+  </data>
+  <data name="LoveEn_143" xml:space="preserve">
+    <value>“There was a clatter as the basilisk fangs cascaded out of Hermione's arms. Running at Ron, she flung them around his neck and kissed him full on the mouth. Ron threw away the fangs and broomstick he was holding and responded with such enthusiasm that he lifted Hermione off her feet. "Is this the moment?" Harry asked weakly, and when nothing happened except that Ron and Hermione gripped each other still more firmly and swayed on the spot, he raised his voice. "OI! There's a war going on here!" Ron and Hermione broke apart, their arms still around each other. "I know, mate," said Ron, who looked as though he had recently been hit on the back of the head with a Bludger, "so it's now or never, isn't it?" "Never mind that, what about the Horcrux?" Harry shouted. "D'you think you could just --- just hold it in, until we've got the diadem?" "Yeah --- right --- sorry ---" said Ron, and he and Hermione set about gathering up fangs, both pink in the face.”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
+  </data>
+  <data name="LoveEn_144" xml:space="preserve">
+    <value>“I was smiling yesterday,I am smiling today and I will smile tomorrow.Simply because life is too short to cry for anything.”    ―    Santosh Kalwar,          Quote Me Everyday</value>
+  </data>
+  <data name="LoveEn_145" xml:space="preserve">
+    <value>“If I can stop one heart from breaking, I shall not live in vain.”    ―    Emily Dickinson</value>
+  </data>
+  <data name="LoveEn_146" xml:space="preserve">
+    <value>“I love you like a fat kid loves cake!”    ―    Scott Adams</value>
+  </data>
+  <data name="LoveEn_147" xml:space="preserve">
+    <value>“One love, one heart, one destiny.”    ―    Bob Marley</value>
+  </data>
+  <data name="LoveEn_148" xml:space="preserve">
+    <value>“To me, Fearless is not the absense of fear. It's not being completely unafraid. To me, Fearless is having fears. Fearless is having doubts. Lots of them. To me, Fearless is living in spite of those things that scare you to death.”    ―    Taylor Swift</value>
+  </data>
+  <data name="LoveEn_149" xml:space="preserve">
+    <value>“And when her lips met mine, I knew that I could live to be a hundred and visit every country in the world, but nothing would ever compare to that single moment when I first kissed the girl of my dreams and knew that my love would last forever.”    ―    Nicholas Sparks,          Dear John</value>
+  </data>
+  <data name="LoveEn_150" xml:space="preserve">
+    <value>“You know, when it works, love is pretty amazing. It's not overrated. There's a reason for all those songs.”    ―    Sarah Dessen,          This Lullaby</value>
+  </data>
+  <data name="LoveEn_151" xml:space="preserve">
+    <value>“It's not the face, but the expressions on it. It's not the voice, but what you say. It's not how you look in that body, but the thing you do with it. You are beautiful.”    ―    Stephenie Meyer,          The Host</value>
+  </data>
+  <data name="LoveEn_152" xml:space="preserve">
+    <value>“If you gave someone your heart and they died, did they take it with them? Did you spend the rest of forever with a hole inside you that couldn't be filled?”    ―    Jodi Picoult,          Nineteen Minutes</value>
+  </data>
+  <data name="LoveEn_153" xml:space="preserve">
+    <value>“Hate the sin, love the sinner.”    ―    Mahatma Gandhi</value>
+  </data>
+  <data name="LoveEn_154" xml:space="preserve">
+    <value>“Of all forms of caution, caution in love is perhaps the most fatal to true happiness.”    ―    Bertrand Russell,          The Conquest of Happiness</value>
+  </data>
+  <data name="LoveEn_155" xml:space="preserve">
+    <value>“It is a curious thought, but it is only when you see people looking ridiculous that you realize just how much you love them.  ”    ―    Agatha Christie,          An Autobiography</value>
+  </data>
+  <data name="LoveEn_156" xml:space="preserve">
+    <value>“Gravitation is not responsible for people falling in love.”    ―    Albert Einstein</value>
+  </data>
+  <data name="LoveEn_157" xml:space="preserve">
+    <value>“Life, he realize, was much like a song. In the beginning there is mystery, in the end there is confirmation, but it's in the middle where all the emotion resides to make the whole thing worthwhile.”    ―    Nicholas Sparks,          The Last Song</value>
+  </data>
+  <data name="LoveEn_158" xml:space="preserve">
+    <value>“We waste time looking for the perfect lover, instead of creating the perfect love.”    ―    Tom Robbins</value>
+  </data>
+  <data name="LoveEn_159" xml:space="preserve">
+    <value>“If you love somebody, let them go, for if they return, they were always yours. If they don't, they never were.”    ―    Kahlil Gibran</value>
+  </data>
+  <data name="LoveEn_160" xml:space="preserve">
+    <value>“It isn't possible to love and part.  You will wish that it was.  You can transmute love, ignore it, muddle it, but you can never pull it out of you. I know by experience that the poets are right:  love is eternal.”    ―    E.M. Forster,          A Room with a View</value>
+  </data>
+  <data name="LoveEn_161" xml:space="preserve">
+    <value>“If you remember me, then I don't care if everyone else forgets.”    ―    Haruki Murakami,          Kafka on the Shore</value>
+  </data>
+  <data name="LoveEn_162" xml:space="preserve">
+    <value>“Welcome to the wonderful world of jealousy, he thought. For the price of admission, you get a splitting headache, a nearly irresistable urge to commit murder, and an inferiority  complex. Yippee.”    ―    J.R. Ward,          Dark Lover</value>
+  </data>
+  <data name="LoveEn_163" xml:space="preserve">
+    <value>“Sometimes it's a form of love just to talk to somebody that you have nothing in common with and still be fascinated by their presence.”    ―    David Byrne</value>
+  </data>
+  <data name="LoveEn_164" xml:space="preserve">
+    <value>“What Is Love? I have met in the streets a very poor young man who was in love. His hat was old, his coat worn, the water passed through his shoes and the stars through his soul”    ―    Victor Hugo</value>
+  </data>
+  <data name="LoveEn_165" xml:space="preserve">
+    <value>“And then he gives me a smile that just seems so genuinely sweet with just the right touch of shyness that unexpected warmth rushes through me.”    ―    Suzanne Collins,          The Hunger Games</value>
+  </data>
+  <data name="LoveEn_166" xml:space="preserve">
+    <value>“Love is so short, forgetting is so long.”    ―    Pablo Neruda,          Love: Ten Poems</value>
+  </data>
+  <data name="LoveEn_167" xml:space="preserve">
+    <value>“If loving someone is putting them in a straitjacket and kicking them down a flight of stairs, then yes, I have loved a few people.”    ―    Jarod Kintz,          It Occurred to Me</value>
+  </data>
+  <data name="LoveEn_168" xml:space="preserve">
+    <value>“Look after my heart - I've left it with you.”    ―    Stephenie Meyer,          Eclipse</value>
+  </data>
+  <data name="LoveEn_169" xml:space="preserve">
+    <value>“Before you, Bella, my life was like a moonless night. Very dark, but there were stars, points of light and reason. ...And then you shot across my sky like a meteor. Suddenly everything was on fire; there was brilliancy, there was beauty. When you were gone, when the meteor had fallen over the horizon, everything went black. Nothing had changed, but my eyes were blinded by the light. I couldn’t see the stars anymore. And there was no more reason, for anything.”    ―    Stephenie Meyer,          New Moon</value>
+  </data>
+  <data name="LoveEn_170" xml:space="preserve">
+    <value>“It is good to love many things, for therein lies the true strength, and whosoever loves much performs much, and can accomplish much, and what is done in love is well done.”    ―    Vincent van Gogh</value>
+  </data>
+  <data name="LoveEn_171" xml:space="preserve">
+    <value>“I cannot fix on the hour, or the spot, or the look or the words, which laid the foundation. It is too long ago. I was in the middle before I knew that I had begun.”    ―    Jane Austen,          Pride and Prejudice</value>
+  </data>
+  <data name="LoveEn_172" xml:space="preserve">
+    <value>“They say when you are missing someone that they are probably feeling the same, but I don't think it's possible for you to miss me as much as I'm missing you right now”    ―    Edna St. Vincent Millay</value>
+  </data>
+  <data name="LoveEn_173" xml:space="preserve">
+    <value>“Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us. When we try to understand it, it leaves us feeling lost and confused.”    ―    Paulo Coelho</value>
+  </data>
+  <data name="LoveEn_174" xml:space="preserve">
+    <value>“Well, nowIf little by little you stop loving meI shall stop loving youLittle by littleIf suddenly you forget meDo not look for meFor I shall already have forgotten youIf you think it long and mad the wind of banners that passes through my lifeAnd you decide to leave me at the shore of the heart where I have rootsRememberThat on that day, at that hour, I shall lift my armsAnd my roots will set off to seek another land”    ―    Pablo Neruda,          Selected Poems</value>
+  </data>
+  <data name="LoveEn_175" xml:space="preserve">
+    <value>“Let there be spaces in your togetherness, And let the winds of the heavens dance between you. Love one another but make not a bond of love: Let it rather be a moving sea between the shores of your souls. Fill each other's cup but drink not from one cup. Give one another of your bread but eat not from the same loaf. Sing and dance together and be joyous, but let each one of you be alone, Even as the strings of a lute are alone though they quiver with the same music. Give your hearts, but not into each other's keeping. For only the hand of Life can contain your hearts. And stand together, yet not too near together: For the pillars of the temple stand apart, And the oak tree and the cypress grow not in each other's shadow.”    ―    Kahlil Gibran,          The Prophet</value>
+  </data>
+  <data name="LoveEn_176" xml:space="preserve">
+    <value>“Love is a temporary madness, it erupts like volcanoes and then subsides.  And when it subsides, you have to make a decision.  You have to work out whether your roots have so entwined together that it is inconceivable that you should ever part.  Because this is what love is.  Love is not breathlessness, it is not excitement, it is not the promulgation of promises of eternal passion, it is not the desire to mate every second minute of the day, it is not lying awake at night imagining that he is kissing every cranny of your body.  No, don't blush, I am telling you some truths.  That is just being "in love", which any fool can do.  Love itself is what is left over when being in love has burned away, and this is both an art and a fortunate accident.”    ―    Louis de Bernières,          Captain Corelli's Mandolin</value>
+  </data>
+  <data name="LoveEn_177" xml:space="preserve">
+    <value>“I think... if it is true that there are as many minds as there are heads, then there are as many kinds of love as there are hearts.”    ―    Leo Tolstoy,          Anna Karenina</value>
+  </data>
+  <data name="LoveEn_178" xml:space="preserve">
+    <value>“You can't measure the mutual affection of two human beings by the number of words they exchange.”    ―    Milan Kundera</value>
+  </data>
+  <data name="LoveEn_179" xml:space="preserve">
+    <value>“Love is not affectionate feeling, but a steady wish for the loved person's ultimate good as far as it can be obtained.”    ―    C.S. Lewis</value>
+  </data>
+  <data name="LoveEn_180" xml:space="preserve">
+    <value>“I'm saying that I'm a moody, insecure, narrow-minded, jealous, borderline homicidal bitch, and I want you to promise me that you're okay with that, because it's who I am, and you're what I need.”    ―    Jeaniene Frost,          Halfway to the Grave</value>
+  </data>
+  <data name="LoveEn_181" xml:space="preserve">
+    <value>“I fell in love with her courage, her sincerity, and her flaming self respect. And it's these things I'd believe in, even if the whole world indulged in wild suspicions that she wasn't all she should be. I love her and it is the beginning of everything.”    ―    F. Scott Fitzgerald</value>
+  </data>
+  <data name="LoveEn_182" xml:space="preserve">
+    <value>“You couldn't relive your life, skipping the awful parts, without losing what made it worthwhile.  You had to accept it as a whole--like the world, or the person you loved.”    ―    Stewart O'Nan,          The Odds: A Love Story</value>
+  </data>
+  <data name="LoveEn_183" xml:space="preserve">
+    <value>“If she's amazing, she won't be easy. If she's easy, she won't be amazing. If she's worth it, you wont give up. If you give up, you're not worthy. ... Truth is, everybody is going to hurt you; you just gotta find the ones worth suffering for.”    ―    Bob Marley,          Guitar Chord Songbook - Bob Marley</value>
+  </data>
+  <data name="LoveEn_184" xml:space="preserve">
+    <value>“One day you will kiss a man you can't breathe without, and find that breath is of little consequence.”    ―    Karen Marie Moning,          Bloodfever</value>
+  </data>
+  <data name="LoveEn_185" xml:space="preserve">
+    <value>“It’s probably not just by chance that I’m alone.  It would be very hard for a man to live with me, unless he’s terribly strong.   And if he’s stronger than I, I’m the one who can’t live with him.  … I’m neither smart nor stupid, but I don’t think I’m a run-of-the-mill person.  I’ve been in business without being a businesswoman, I’ve loved without being a woman made only for love.  The two men I’ve loved, I think, will remember me, on earth or in heaven, because men always remember a woman who caused them concern and uneasiness.   I’ve done my best, in regard to people and to life, without precepts, but with a taste for justice.”    ―    Coco Chanel</value>
+  </data>
+  <data name="LoveEn_186" xml:space="preserve">
+    <value>“Art and love are the same thing: It’s the process of seeing yourself in things that are not you.”    ―    Chuck Klosterman,          Killing Yourself to Live: 85% of a True Story</value>
+  </data>
+  <data name="LoveEn_187" xml:space="preserve">
+    <value>“Letting go doesn't mean that you don't care about someone anymore. It's just realizing that the only person you really have control over is yourself.”    ―    Deborah Reber,          Chicken Soup for the Teenage Soul</value>
+  </data>
+  <data name="LoveEn_188" xml:space="preserve">
+    <value>“If conversation was the lyrics, laughter was the music, making time spent together a melody that could be replayed over and over without getting stale.”    ―    Nicholas Sparks</value>
+  </data>
+  <data name="LoveEn_189" xml:space="preserve">
+    <value>“Promise me you'll never forget me because if I thought you would, I'd never leave.”    ―    A.A. Milne</value>
+  </data>
+  <data name="LoveEn_190" xml:space="preserve">
+    <value>“Then I realize what it is. It's him. Something about him makes me feel like I am about to fall. Or turn to liquid. Or burst into flames.”    ―    Veronica Roth,          Divergent</value>
+  </data>
+  <data name="LoveEn_191" xml:space="preserve">
+    <value>“In time, the hurt began to fade and it was easier to just let it go. At least I thought it was. But in every boy I met in the next few years, I found myself looking for you, and when the feelings got too strong, I'd write you another letter. But I never sent them for fear of what I might find. By then, you'd gone on with your life and I didn't want to think about you loving someone else. I wanted to remember us like we were that summer. I didn't ever want to lose that.”    ―    Nicholas Sparks,          The Notebook</value>
+  </data>
+  <data name="LoveEn_192" xml:space="preserve">
+    <value>“What is hell? I maintain that it is the suffering of being unable to love.”    ―    Fyodor Dostoyevsky,          The Brothers Karamazov</value>
+  </data>
+  <data name="LoveEn_193" xml:space="preserve">
+    <value>“We have to allow ourselves to be loved by the people who really love us, the people who really matter. Too much of the time, we are blinded by our own pursuits of people to love us, people that don't even matter, while all that time we waste and the people who do love us have to stand on the sidewalk and watch us beg in the streets! It's time to put an end to this. It's time for us to let ourselves be loved.”    ―    C. JoyBell C.</value>
+  </data>
+  <data name="LoveEn_194" xml:space="preserve">
+    <value>“Was it hard?" I ask.Letting go?"Not as hard as holding on to something that wasn't real.”    ―    Lisa Schroeder</value>
+  </data>
+  <data name="LoveEn_195" xml:space="preserve">
+    <value>“Never close your lips to those whom you have already opened your heart.”    ―    Charles Dickens</value>
+  </data>
+  <data name="LoveEn_196" xml:space="preserve">
+    <value>“The saddest people I've ever met in life are the ones who don't care deeply about anything at all. Passion and satisfaction go hand in hand, and without them, any happiness is only temporary, because there's nothing to make it last.”    ―    Nicholas Sparks,          Dear John</value>
+  </data>
+  <data name="LoveEn_197" xml:space="preserve">
+    <value>“I crave your mouth, your voice, your hair.Silent and starving, I prowl through the streets. Bread does not nourish me, dawn disrupts me, all day I hunt for the liquid measure of your steps. I hunger for your sleek laugh, your hands the color of a savage harvest, hunger for the pale stones of your fingernails, I want to eat your skin like a whole almond. I want to eat the sunbeam flaring in your lovely body, the sovereign nose of your arrogant face, I want to eat the fleeting shade of your lashes, and I pace around hungry, sniffing the twilight, hunting for you, for your hot heart, Like a puma in the barrens of Quitratue.”    ―    Pablo Neruda</value>
+  </data>
+  <data name="LoveEn_198" xml:space="preserve">
+    <value>“You could have fooled me. Everytime I called you, Luke said you were sick. I figured you were avoiding me. Again.""I wasn't. I did want to talk to you. I've been thinking about you all the time.""I've been thinking about you, too.""I really was sick. I swear. I almost died back there on the ship, you know.""I know. Everytime you almost die, I almost die myself.”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="LoveEn_199" xml:space="preserve">
+    <value>“How do you spell 'love'?" - Piglet"You don't spell it...you feel it." - Pooh”    ―    A.A. Milne</value>
+  </data>
+  <data name="LoveEn_200" xml:space="preserve">
+    <value>“He does something to me, that boy. Every time. It’s his only detriment. He steps on my heart. He makes me cry.”    ―    Markus Zusak,          The Book Thief</value>
+  </data>
+  <data name="LoveEn_201" xml:space="preserve">
+    <value>“Have enough courage to trust love one more time and always one more time.”    ―    Maya Angelou</value>
+  </data>
+  <data name="LoveEn_202" xml:space="preserve">
+    <value>“Anyone who falls in love is searching for the missing pieces of themselves. So anyone who's in love gets sad when they think of their lover. It's like stepping back inside a room you have fond memories of, one you haven't seen in a long time.”    ―    Haruki Murakami</value>
+  </data>
+  <data name="LoveEn_203" xml:space="preserve">
+    <value>“I wantTo do with you what spring does with the cherry trees.”    ―    Pablo Neruda,          Twenty Love Poems and a Song of Despair</value>
+  </data>
+  <data name="LoveEn_204" xml:space="preserve">
+    <value>“Sorrow is how we learn to love.  Your heart isn't breaking.  It hurts because it's getting larger.  The larger it gets, the more love it holds.”    ―    Rita Mae Brown,          Riding Shotgun</value>
+  </data>
+  <data name="LoveEn_205" xml:space="preserve">
+    <value>“Find what you love and let it kill you.”    ―    Charles Bukowski</value>
+  </data>
+  <data name="LoveEn_206" xml:space="preserve">
+    <value>“My dear,Find what you love and let it kill you.Let it drain you of your all. Let it cling onto your back and weigh you down into eventual nothingness.Let it kill you and let it devour your remains.For all things will kill you, both slowly and fastly, but it’s much better to be killed by a lover.~ Falsely yours”    ―    Charles Bukowski</value>
+  </data>
+  <data name="LoveEn_207" xml:space="preserve">
+    <value>“A DEFINITION NOT FOUNDIN THE DICTIONARYNot leaving: an act of trust and love,often deciphered by children”    ―    Markus Zusak,          The Book Thief</value>
+  </data>
+  <data name="LoveEn_208" xml:space="preserve">
+    <value>“I like flaws. I think they make things interesting.”    ―    Sarah Dessen,          The Truth About Forever</value>
+  </data>
+  <data name="LoveEn_209" xml:space="preserve">
+    <value>“I fell in love with her when we were together, then fell deeper in love with her in the years we were apart.”    ―    Nicholas Sparks,          Dear John</value>
   </data>
 </root>

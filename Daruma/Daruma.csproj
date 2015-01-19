@@ -16,7 +16,7 @@
     <SilverlightVersion>
     </SilverlightVersion>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>ru-RU</SupportedCultures>
+    <SupportedCultures>ru-RU%3bru</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>Daruma_$(Configuration)_$(Platform).xap</XapFilename>
@@ -29,7 +29,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <TargetFrameworkProfile />
-    <DefaultLanguage>ru-Ru</DefaultLanguage>
+    <DefaultLanguage>en</DefaultLanguage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -179,6 +179,7 @@
     <Content Include="Assets\SquareTile150x150.png" />
     <Content Include="Assets\SquareTile71x71.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Tiles\darumaMainTileWide.png" />
     <Content Include="Assets\WideLogo.png" />
     <Content Include="Langs\AppResLib.dll.0401.mui" />
     <Content Include="Langs\AppResLib.dll.0402.mui" />

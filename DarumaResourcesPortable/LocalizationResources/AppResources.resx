@@ -122,133 +122,127 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>ru-RU</value>
+    <value>en-US</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="DarumaInfo" xml:space="preserve">
-    <value>Японская традиционная кукла-неваляшка приносит счастье и исполняет желания. Нарисуй зрачок Даруме и запиши свою мечту. Когда мечта сбудется, закрась и второй зрачок Дарумы. 
-Коснись Дарумы и проведи пальцем вправо или влево, чтобы пообщаться с Дарумой.
-
-Дарума рассказывает тебе притчу. Мужик в троллейбусе едет и думает: «Жена капризная, друзья вечно заняты, жизнь не интересная». За спиной стоит Ангел, записывает в блокнот и думает:«Какие странные желания, а главное одни и те же каждый день! Но ничего не поделаешь, надо исполнять!».</value>
+    <value>The Daruma doll (達磨 daruma?), also known as a Dharma doll, is a hollow, round, Japanese traditional doll modeled after Bodhidharma, the founder of the Zen sect of Buddhism. These dolls, though typically red and depicting a bearded man (Dharma), vary greatly in color and design depending on region and artist. Though considered an omocha, meaning toy, Daruma has a design that is rich in symbolism and is regarded more as a talisman of good luck to the Japanese. Daruma dolls are seen as a symbol of perseverance and good luck, making them a popular gift of encouragement. The doll has also been commercialized by many Buddhist temples to use alongside goal setting.</value>
   </data>
   <data name="EmptyWishTextBox" xml:space="preserve">
-    <value>Пусто, придумайте желание</value>
+    <value>Empty</value>
   </data>
   <data name="WishButton" xml:space="preserve">
-    <value>Загадать</value>
-  </data>
-  <data name="Empty" xml:space="preserve">
-    <value>Пустые</value>
-  </data>
-  <data name="Executed" xml:space="preserve">
-    <value>Исполненные</value>
-  </data>
-  <data name="Expired" xml:space="preserve">
-    <value>Истекшие</value>
-  </data>
-  <data name="Maked" xml:space="preserve">
-    <value>Загаданные</value>
-  </data>
-  <data name="Friendship" xml:space="preserve">
-    <value>Дружба</value>
-  </data>
-  <data name="Funny" xml:space="preserve">
-    <value>Смешное</value>
-  </data>
-  <data name="Health" xml:space="preserve">
-    <value>Здоровье</value>
-  </data>
-  <data name="Love" xml:space="preserve">
-    <value>Любовь</value>
-  </data>
-  <data name="Luck" xml:space="preserve">
-    <value>Удача</value>
-  </data>
-  <data name="Rich" xml:space="preserve">
-    <value>Богатство</value>
+    <value>Wish</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Добавить</value>
-  </data>
-  <data name="Burn" xml:space="preserve">
-    <value>Сжечь</value>
+    <value>Add</value>
   </data>
   <data name="Info" xml:space="preserve">
-    <value>Инфо</value>
+    <value>Info</value>
+  </data>
+  <data name="Burn" xml:space="preserve">
+    <value>Burn</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Executed" xml:space="preserve">
+    <value>Executed</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="Maked" xml:space="preserve">
+    <value>Maked</value>
   </data>
   <data name="Back" xml:space="preserve">
-    <value>Назад</value>
+    <value>Back</value>
+  </data>
+  <data name="Friendship" xml:space="preserve">
+    <value>Friendship</value>
+  </data>
+  <data name="Funny" xml:space="preserve">
+    <value>Funny</value>
+  </data>
+  <data name="Health" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="Love" xml:space="preserve">
+    <value>Love</value>
+  </data>
+  <data name="Luck" xml:space="preserve">
+    <value>Luck</value>
+  </data>
+  <data name="Rich" xml:space="preserve">
+    <value>Rich</value>
   </data>
   <data name="Pin" xml:space="preserve">
-    <value>Закрепить</value>
+    <value>Pin</value>
   </data>
   <data name="Unpin" xml:space="preserve">
-    <value>Открепить</value>
+    <value>Unpin</value>
   </data>
   <data name="Daruma" xml:space="preserve">
-    <value>Дарума</value>
+    <value>Daruma</value>
   </data>
   <data name="Daruma_Up_Case" xml:space="preserve">
-    <value>ДАРУМА</value>
+    <value>DARUMA</value>
   </data>
   <data name="TouchAndWish" xml:space="preserve">
-    <value>Коснись и загадай</value>
-  </data>
-  <data name="IsWishComeTrue" xml:space="preserve">
-    <value>Желание исполнилоcь?</value>
-  </data>
-  <data name="WishComeTrue" xml:space="preserve">
-    <value>Исполнение желания</value>
+    <value>Touch and make a wish</value>
   </data>
   <data name="Copy" xml:space="preserve">
-    <value>Копировать</value>
+    <value>Copy</value>
   </data>
   <data name="Share" xml:space="preserve">
-    <value>Поделиться</value>
+    <value>Share</value>
   </data>
   <data name="IsDelete" xml:space="preserve">
-    <value>Точно удалить?</value>
+    <value>Is delete?</value>
   </data>
   <data name="Mail" xml:space="preserve">
-    <value>Почту</value>
+    <value>Mail</value>
   </data>
   <data name="Messages" xml:space="preserve">
-    <value>Сообщения</value>
+    <value>Messages</value>
   </data>
   <data name="ShareBy_Up_Case" xml:space="preserve">
-    <value>ПОДЕЛИТЬСЯ ЧЕРЕЗ</value>
+    <value>SHARE BY</value>
   </data>
   <data name="SocialNetwork" xml:space="preserve">
-    <value>Социальные сети</value>
+    <value>Social Networks</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>В избранное</value>
+    <value>Favorites</value>
   </data>
   <data name="FavoritQuotations" xml:space="preserve">
-    <value>Сохраненные цитаты</value>
+    <value>Favorit quotations</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Удалить</value>
+    <value>Delete</value>
   </data>
   <data name="ToСlipboard" xml:space="preserve">
-    <value>Буфер обмена</value>
+    <value>Сlipboard</value>
   </data>
   <data name="Refresh" xml:space="preserve">
-    <value>Цитата</value>
+    <value>Quote</value>
   </data>
   <data name="Home" xml:space="preserve">
-    <value>К списку</value>
+    <value>Home</value>
   </data>
   <data name="Close" xml:space="preserve">
-    <value>Закрыть</value>
+    <value>Close</value>
   </data>
   <data name="Forward" xml:space="preserve">
-    <value>Вперед</value>
+    <value>Forward</value>
   </data>
   <data name="RateAndReview" xml:space="preserve">
-    <value>Оценить приложение</value>
+    <value>Rate and review</value>
   </data>
   <data name="QuoteSeparator" xml:space="preserve">
     <value>***</value>
+  </data>
+  <data name="IsWishComeTrue" xml:space="preserve">
+    <value>Is wish come true?</value>
   </data>
 </root>

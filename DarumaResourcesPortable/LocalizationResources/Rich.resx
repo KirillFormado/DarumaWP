@@ -117,592 +117,634 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Rich_0" xml:space="preserve">
-    <value>Не богатый кормит, тороватый. Не богат, да тороват.</value>
+  <data name="RichEn_0" xml:space="preserve">
+    <value>“The biggest challenge after success is shutting up about it.”    ―    Criss Jami</value>
   </data>
-  <data name="Rich_1" xml:space="preserve">
-    <value>Не богато, да торовато живет.</value>
+  <data name="RichEn_1" xml:space="preserve">
+    <value>“There’s no way that Michael Jackson or whoever Jackson should have a million thousand droople billion dollars and then there’s people starving. There’s no way! There’s no way that these people should own planes and there people don’t have houses. Apartments. Shacks. Drawers. Pants! I know you’re rich. I know you got 40 billion dollars, but can you just keep it to one house? You only need ONE house. And if you only got two kids, can you just keep it to two rooms? I mean why have 52 rooms and you know there’s somebody with no room?! It just don’t make sense to me. It don’t.”    ―    Tupac Shakur</value>
   </data>
-  <data name="Rich_2" xml:space="preserve">
-    <value>Без нужды живет, кто деньги бережет.</value>
+  <data name="RichEn_2" xml:space="preserve">
+    <value>“No man is rich enough to buy back his past.”    ―    Oscar Wilde</value>
   </data>
-  <data name="Rich_3" xml:space="preserve">
-    <value>И бедно, да сбойливо; и богато, да рассыпчато.</value>
+  <data name="RichEn_3" xml:space="preserve">
+    <value>“Look at that sea, girls--all silver and shadow and vision of things not seen. We couldn't enjoy its loveliness any more if we had millions of dollars and ropes of diamonds.”    ―    L.M. Montgomery,          Anne of Green Gables</value>
   </data>
-  <data name="Rich_4" xml:space="preserve">
-    <value>Держи девку в темноте, а деньги в тесноте.</value>
+  <data name="RichEn_4" xml:space="preserve">
+    <value>“I had noticed that both in the very poor and very rich extremes of society the mad were often allowed to mingle freely.”    ―    Charles Bukowski,          Ham on Rye</value>
   </data>
-  <data name="Rich_5" xml:space="preserve">
-    <value>При сытости помни голод, а при богатстве - убожество (см. ниже:</value>
+  <data name="RichEn_5" xml:space="preserve">
+    <value>“A man is rich in proportion to the number of things which he can afford to let alone.”    ―    Henry David Thoreau</value>
   </data>
-  <data name="Rich_6" xml:space="preserve">
-    <value>\&amp;quot;Тороватость - скупость\&amp;quot;).</value>
+  <data name="RichEn_6" xml:space="preserve">
+    <value>“Never use the word “cheap”. Today everybody can look chic in inexpensive clothes (the rich buy them too). There is good clothing design on every level today. You can be the chicest thing in the world in a T-shirt and jeans — it’s up to you.”    ―    Karl Lagerfeld</value>
   </data>
-  <data name="Rich_7" xml:space="preserve">
-    <value>Добрая земля - полная мошна; худая земля - пустая мошна.</value>
+  <data name="RichEn_7" xml:space="preserve">
+    <value>“If a free society cannot help the many who are poor, it cannot save the few who are rich.[Inaugural Address, January 20 1961]”    ―    John F. Kennedy</value>
   </data>
-  <data name="Rich_8" xml:space="preserve">
-    <value>Тощ хвощ, а колосянка (хлеб) дородна.</value>
+  <data name="RichEn_8" xml:space="preserve">
+    <value>“I love money. I love everything about it. I bought some pretty good stuff. Got me a $300 pair of socks. Got a fur sink. An electric dog polisher. A gasoline powered turtleneck sweater. And, of course, I bought some dumb stuff, too.”    ―    Steve Martin</value>
   </data>
-  <data name="Rich_9" xml:space="preserve">
-    <value>Стали дела наши поправляться: стало земли от семян оставаться.</value>
+  <data name="RichEn_9" xml:space="preserve">
+    <value>“The few own the many because they possess the means of livelihood of all ... The country is governed for the richest, for the corporations, the bankers, the land speculators, and for the exploiters of labor. The majority of mankind are working people. So long as their fair demands - the ownership and control of their livelihoods - are set at naught, we can have neither men's rights nor women's rights. The majority of mankind is ground down by industrial oppression in order that the small remnant may live in ease.”    ―    Helen Keller,          Rebel Lives: Helen Keller</value>
   </data>
-  <data name="Rich_10" xml:space="preserve">
-    <value>Стужи да нужи - нет их хуже.</value>
+  <data name="RichEn_10" xml:space="preserve">
+    <value>“In the past, humans hesitated when they took lives, even non-human lives. But society had changed, and they no longer felt that way. As humans grew stronger, I think that we became quite arrogant, losing the sorrow of 'we have no other choice.' I think that in the essence of human civilization, we have the desire to become rich without limit, by taking the lives of other creatures.”    ―    Hayao Miyazaki</value>
   </data>
-  <data name="Rich_11" xml:space="preserve">
-    <value>Дорог хлеб, коли денег нет.</value>
+  <data name="RichEn_11" xml:space="preserve">
+    <value>“History is written by the rich, and so the poor get blamed for everything.”    ―    Jeffrey D. Sachs</value>
   </data>
-  <data name="Rich_12" xml:space="preserve">
-    <value>Что шаг, то гривна. Что ступишь, то рублем прост.</value>
+  <data name="RichEn_12" xml:space="preserve">
+    <value>“Do not waste your time on Social Questions. What is the matter with the poor is Poverty  what is the matter with the rich is Uselessness.”    ―    George Bernard Shaw</value>
   </data>
-  <data name="Rich_13" xml:space="preserve">
-    <value>Что ни ступишь, то копейка; переступишь - другая; а станешь семенить, и рублем не покрыть.</value>
+  <data name="RichEn_13" xml:space="preserve">
+    <value>“There’s class warfare, all right, but it’s my class, the rich class, that’s making war, and we’re winning.”    ―    Warren Buffett</value>
   </data>
-  <data name="Rich_14" xml:space="preserve">
-    <value>Подать - не мудрено, а мудреней того, где взять.</value>
+  <data name="RichEn_14" xml:space="preserve">
+    <value>“To us — richer and cleverer than everyone else!”    ―    Scott Lynch,          The Lies of Locke Lamora</value>
   </data>
-  <data name="Rich_15" xml:space="preserve">
-    <value>Кус хватишь - рубль платишь; досыта наешься - не разделаешься.</value>
+  <data name="RichEn_15" xml:space="preserve">
+    <value>“The man who does more than he is paid for will soon be paid for more than he does.”    ―    Napoleon Hill</value>
   </data>
-  <data name="Rich_16" xml:space="preserve">
-    <value>Бог любит веру (или: правду), а деньги счет.</value>
+  <data name="RichEn_16" xml:space="preserve">
+    <value>“One of the Great Rules of Economics According to John GreenIf you are rich, you have to be an idiot not to stay rich.  And if you are poor, you have to be really smart to get rich.”    ―    John Green</value>
   </data>
-  <data name="Rich_17" xml:space="preserve">
-    <value>Деньги любят счет, а хлеб - меру.</value>
+  <data name="RichEn_17" xml:space="preserve">
+    <value>“Conservatives say if you don't give the rich more money, they will lose their incentive to invest. As for the poor, they tell us they've lost all incentive because we've given them too much money.”    ―    George Carlin</value>
   </data>
-  <data name="Rich_18" xml:space="preserve">
-    <value>Слову - вера, хлебу - мера, деньгам - счет.</value>
+  <data name="RichEn_18" xml:space="preserve">
+    <value>“When you have two people who love each other, are happy and gay and really good work is being done by one or both of them, people are drawn to them as surely as migrating birds are drawn at night to a powerful beacon. If the two people were as solidly constructed as the beacon there would be little damage except to the birds. Those who attract people by their happiness and their performance are usually inexperienced. They do not know how not to be overrun and how to go away. They do not always learn about the good, the attractive, the charming, the soon-beloved, the generous, the understanding rich who have no bad qualities and who give each day the quality of a festival and who, when they have passed and taken the nourishment they needed, leave everything deader than the roots of any grass Attila's horses' hooves have ever scoured.”    ―    Ernest Hemingway,          A Moveable Feast</value>
   </data>
-  <data name="Rich_19" xml:space="preserve">
-    <value>Чаще счет—крепче дружба.</value>
+  <data name="RichEn_19" xml:space="preserve">
+    <value>“I always knew I was going to be rich. I don't think I ever doubted it for a minute. ”    ―    Warren Buffett</value>
   </data>
-  <data name="Rich_20" xml:space="preserve">
-    <value>Не считанной тысячи в итоге нет.</value>
+  <data name="RichEn_20" xml:space="preserve">
+    <value>“Why are you not smarter? It's only the rich who can't afford to be smart. They're compromised. They got locked years ago into privilege. They have to protect their belongings. No one is meaner than the rich. Trust me. But they have to follow the rules of their shitty civilised world. They declare war, they have honour, and they can't leave. But you two. We three. We're free.”    ―    Michael Ondaatje,          The English Patient</value>
   </data>
-  <data name="Rich_21" xml:space="preserve">
-    <value>Деньги счетом крепки. Считанная сотня полна.</value>
+  <data name="RichEn_21" xml:space="preserve">
+    <value>“I will tell you the secret to getting rich on Wall Street. You try to be greedy when others are fearful. And you try to be fearful when others are greedy.”    ―    Warren Buffett</value>
   </data>
-  <data name="Rich_22" xml:space="preserve">
-    <value>Деньги не щепка (т. е. считай да поберегай).</value>
+  <data name="RichEn_22" xml:space="preserve">
+    <value>“I hadn't found out yet that mankind consists of two very different races, the rich and the poor. It took me ... and plenty of other people . . . twenty years and the war to learn to stick to my class and ask the price of things before touching them, let alone setting my heart on them.”    ―    Louis-Ferdinand Céline,          Journey to the End of the Night</value>
   </data>
-  <data name="Rich_23" xml:space="preserve">
-    <value>Деньги не щепки, счетом крепки.</value>
+  <data name="RichEn_23" xml:space="preserve">
+    <value>“Words rich in meaning can be cheap in sound effects.”    ―    Dejan Stojanovic</value>
   </data>
-  <data name="Rich_24" xml:space="preserve">
-    <value>Не ворохом деньги принимают.</value>
+  <data name="RichEn_24" xml:space="preserve">
+    <value>“It is better to live rich than to die rich. ”    ―    Samuel Johnson</value>
   </data>
-  <data name="Rich_25" xml:space="preserve">
-    <value>Счесть да после сгресть.</value>
+  <data name="RichEn_25" xml:space="preserve">
+    <value>“People who advocate simplicity have money in the bank; the money came first, not the simplicity.”    ―    Douglas Coupland,          The Gum Thief</value>
   </data>
-  <data name="Rich_26" xml:space="preserve">
-    <value>Сосчитать - после не хлопотать.</value>
+  <data name="RichEn_26" xml:space="preserve">
+    <value>“If Warren Buffet made chocolate, I’ll bet it’d be really rich. And corrupt.”    ―    Jarod Kintz,          This Book Has No Title</value>
   </data>
-  <data name="Rich_27" xml:space="preserve">
-    <value>От счету не убудет (прибавка: а от недочету убывает).</value>
+  <data name="RichEn_27" xml:space="preserve">
+    <value>“Rich folk don't try so hard”    ―    Kathryn Stockett,          The Help</value>
   </data>
-  <data name="Rich_28" xml:space="preserve">
-    <value>Лишние деньги - лишняя забота.</value>
+  <data name="RichEn_28" xml:space="preserve">
+    <value>“Crew up, Nailer!" Lucky Girl shouted. "You think I'm going to pull your ass up here like a damn swank?”    ―    Paolo Bacigalupi,          Ship Breaker</value>
   </data>
-  <data name="Rich_29" xml:space="preserve">
-    <value>Не убогий должает, а богатый.</value>
+  <data name="RichEn_29" xml:space="preserve">
+    <value>“I want a driveway so long you couldn’t see the end of it even if you were 26.1 miles into running a marathon on it. But why would you run? That’s why my clone will have invented teleportation.”    ―    Jarod Kintz,          This Book Has No Title</value>
   </data>
-  <data name="Rich_30" xml:space="preserve">
-    <value>Деньги - забота, мешок - тягота.</value>
+  <data name="RichEn_30" xml:space="preserve">
+    <value>“My mother always says people should be able to take care of themselves, even if they're rich and important.”    ―    Frances Hodgson Burnett,          The Secret Garden</value>
   </data>
-  <data name="Rich_31" xml:space="preserve">
-    <value>Богатый и не тужит, да брюзжит.</value>
+  <data name="RichEn_31" xml:space="preserve">
+    <value>“In much of the rest of the world, rich people live in gated communities and drink bottled water. That's increasingly the case in Los Angeles where I come from. So that wealthy people in much of the world are insulated from the consequences of their actions.”    ―    Jared Diamond</value>
   </data>
-  <data name="Rich_32" xml:space="preserve">
-    <value>У богатого мужика все в долгу, у богатого барина всс в долгу.</value>
+  <data name="RichEn_32" xml:space="preserve">
+    <value>“The world is a goddamned evil place, the strong prey on the weak, the rich on the poor; I’ve given up hope that there is a God that will save us all. How am I supposed to believe that there’s a heaven and a hell when all I see now is hell.”    ―    Aaron B. Powell,          Doomsday Diaries III: Luke the Protector</value>
   </data>
-  <data name="Rich_33" xml:space="preserve">
-    <value>Богатому не спится: богатый вора боится.</value>
+  <data name="RichEn_33" xml:space="preserve">
+    <value>“There is no point in getting rich if we lose our soul along the way.”    ―    Farahad Zama,          The Marriage Bureau for Rich People</value>
   </data>
-  <data name="Rich_34" xml:space="preserve">
-    <value>Мамон гнетет, так и сон неймет.</value>
+  <data name="RichEn_34" xml:space="preserve">
+    <value>“We ought not to ask why the human mind troubles to fathom the secrets of the universe. The diversity of the phenomena of nature is so great, and the treasures hidden in the skies so rich, precisely in order that the human mind shall never be lacking in fresh nourishment.”    ―    Johannes Kepler</value>
   </data>
-  <data name="Rich_35" xml:space="preserve">
-    <value>Убогого докука, богатого скука одолевает.</value>
+  <data name="RichEn_35" xml:space="preserve">
+    <value>“You have to be objective about money to use it fairly. It doesn't make you any better or any more useful than any other person. Even if you use your money to help people...that doesn't make you better than somebody who has no money but is sympathetic and genuinely loving to fellow human beings.”    ―    Keith Haring,          Keith Haring Journals</value>
   </data>
-  <data name="Rich_36" xml:space="preserve">
-    <value>Богатый и не тужит, да скучает.</value>
+  <data name="RichEn_36" xml:space="preserve">
+    <value>“To get rich, one must have but a single idea, one fixed, hard, immutable thought: the desire to make a heap of gold. And in order to increase this heap of gold, one must be inflexible, a usurer, thief, extortionist, and murderer! And one must especially mistreat the small and the weak!And when this mountain of gold has been amassed, one can climb up on it, and from up on the summit, a smile on one’s lips, one can contemplate the valley of poor wretches that one has created.”    ―    Petrus Borel,          Champavert, le lycanthrope</value>
   </data>
-  <data name="Rich_37" xml:space="preserve">
-    <value>Богатство родителей - порча детям (или: кара детям).</value>
+  <data name="RichEn_37" xml:space="preserve">
+    <value>“I thought we were celebrating being richer and cleverer than everyone else!”    ―    Scott Lynch,          The Lies of Locke Lamora</value>
   </data>
-  <data name="Rich_38" xml:space="preserve">
-    <value>Отец богатый, да сын неудатный.</value>
+  <data name="RichEn_38" xml:space="preserve">
+    <value>“How in hell did those bombers get up there every single second of our lives!  Why doesn't someone want to talk about it!  We've started and won two atomic wars since 2022!  Is it because we're having so much fun at home we've forgotten the world? Is it because we're so rich and the rest of the world's so poor and we just don't care if they are? I've heard rumors; the world is starving, but we're well fed. Is it true, the world works hard and we play? Is that why we're hated so much? I've heard the rumors about hate too, once in a long while, over the years. Do you know why? I don't, that's sure! Maybe the books can get us half out of the cave. They just might stop us from making the same damn insane mistakes!”    ―    Ray Bradbury,          Fahrenheit 451</value>
   </data>
-  <data name="Rich_39" xml:space="preserve">
-    <value>Соболино одеяльце в ногах, да потонули подушки в слезах.</value>
+  <data name="RichEn_39" xml:space="preserve">
+    <value>“Then she added in a sort of childish delight: 'We'll be poor, won't we? Like people in books. And I'll be an orphan and utterly free. Free and poor! What fun!' She stopped and raised her lips to him in a delighted kiss.'It's impossible to be both together,' said John grimly. 'People have found that out. And I should choose to be free as preferable of the two...”    ―    F. Scott Fitzgerald,          The Diamond as Big as the Ritz, and Other Stories</value>
   </data>
-  <data name="Rich_40" xml:space="preserve">
-    <value>Через золото слезы льются.</value>
+  <data name="RichEn_40" xml:space="preserve">
+    <value>“Why, Tom - us people will go on livin' when all them people is gone. Why, Tom, we're the people that live. They ain't gonna wipe us out. Why, we're the people - we go on.''We take a beatin' all the time.''I know.' Ma chuckled. 'Maybe that makes us tough. Rich fellas come up an' they die, an' their kids ain't no good, an' they die out. But, Tom, we keep a-comin'. Don' you fret none, Tom. A different time's comin'.”    ―    John Steinbeck,          The Grapes of Wrath</value>
   </data>
-  <data name="Rich_41" xml:space="preserve">
-    <value>И то бывает, что и деньгам не рад.</value>
+  <data name="RichEn_41" xml:space="preserve">
+    <value>“Some women seem so voluptuous in every sense, richly bountiful and fertile with generous gifts of plenty, sensual and confident in their female strength that they are called "earth mothers."That’s how some days feel—when they are bountiful and fertile with the power of our imagination.”    ―    Vera Nazarian,          The Perpetual Calendar of Inspiration</value>
   </data>
-  <data name="Rich_42" xml:space="preserve">
-    <value>Богатство с рогами, бедность с ногами (рога - надменность).</value>
+  <data name="RichEn_42" xml:space="preserve">
+    <value>“Am I right in suggesting that ordinary life is a mean between these extremes, that the noble man devotes his material wealth to lofty ends, the advancement of science, or art, or some such true ideal; and that the base man does the opposite by concentrating all his abilities on the amassing of wealth?'Exactly; that is the real distinction between the artist and the bourgeois, or, if you prefer it, between the gentleman and the cad. Money, and the things money can buy, have no value, for there is no question of creation, but only of exchange. Houses, lands, gold, jewels, even existing works of art, may be tossed about from one hand to another; they are so, constantly. But neither you nor I can write a sonnet; and what we have, our appreciation of art, we did not buy. We inherited the germ of it, and we developed it by the sweat of our brows. The possession of money helped us, but only by giving us time and opportunity and the means of travel. Anyhow, the principle is clear; one must sacrifice the lower to the higher, and, as the Greeks did with their oxen, one must fatten and bedeck the lower, so that it may be the worthier offering.”    ―    Aleister Crowley,          Moonchild</value>
   </data>
-  <data name="Rich_43" xml:space="preserve">
-    <value>Богатый - что бык рогатый: в тесные ворота не влезет.</value>
+  <data name="RichEn_43" xml:space="preserve">
+    <value>“It is the privilege of the richTo waste the time of the poorTo water with tears in secretA tree that grows in secretThat bears fruit in secretThat ripened falls to the ground in secretAnd manures the parent treeOh the wicked tree of hatred and the secretThe sap rising and the tears falling.”    ―    Stevie Smith,          Selected Poems</value>
   </data>
-  <data name="Rich_44" xml:space="preserve">
-    <value>Мужик богатый - что бык рогатый.</value>
+  <data name="RichEn_44" xml:space="preserve">
+    <value>“Real women don't love the richest guy in the world they love the guy who can make their world the richest.”    ―    G.K. Griswold</value>
   </data>
-  <data name="Rich_45" xml:space="preserve">
-    <value>Не шумаркай, голый, коли Марко пьет.</value>
+  <data name="RichEn_45" xml:space="preserve">
+    <value>“You can never have too much money.”    ―    Jess C. Scott,          Poor Little Rich Dude</value>
   </data>
-  <data name="Rich_46" xml:space="preserve">
-    <value>И двери богатых стыдятся нищих.</value>
+  <data name="RichEn_46" xml:space="preserve">
+    <value>“I have not yet lost a feeling of wonder, and of delight, that this delicate motion should reside in all the things around us, revealing itself only to him who looks for it. I remember, in the winter of our first experiments, just seven years ago, looking on snow with new eyes. There the snow lay around my doorstep — great heaps of protons quietly precessing in the earth's magnetic field. To see the world for a moment as something rich and strange is the private reward of many a discovery.”    ―    Edward M. Purcell</value>
   </data>
-  <data name="Rich_47" xml:space="preserve">
-    <value>Богатство спеси сродни.</value>
+  <data name="RichEn_47" xml:space="preserve">
+    <value>“In the Blue Room, Cora Cash was trying to concentrate on her book.  Cora found most novels hard to sympathise with -- all those plain governesses -- but this one had much to recommend it.  The heroine was 'handsome, clever, and rich', rather like Cora herself.  Cora knew she was handsome -- wasn't she always referred to in the papers as 'the divine Miss Cash'?  She was clever -- she could speak three languages and could handle calculus.  And as to rich, well, she was undoubtedly that.  Emma Woodhouse was not rich in the way that she, Cora Cash, was rich.  Emma Woodhouse did not lie on a lit à la polonaise once owned by Madame du Barry in a room which was, but for the lingering smell of paint, an exact replica of Marie Antoinette's bedchamber at le petit Trianon.  Emma Woodhouse went to dances at the Assembly Rooms, not fancy dress spectaculars in specially built ballrooms.  But Emma Woodhouse was motherless which meant, thought Cora, that she was handsome, clever, rich and free.”    ―    Daisy Goodwin,          The American Heiress</value>
   </data>
-  <data name="Rich_48" xml:space="preserve">
-    <value>Богатый никого не помнит - только себя помнит.</value>
+  <data name="RichEn_48" xml:space="preserve">
+    <value>“I do not see how it is possible for a man to die worth fifty million of dollars, or ten million of dollars, in a city full of want, when he meets almost every day the withered hand of beggary and the white lips of famine. How a man can withstand all that, and hold in the clutch of his greed twenty or thirty million of dollars, is past my comprehension. I do not see how he can do it. I should not think he could do it any more than he could keep a pile of lumber on the beach, where hundreds and thousands of men were drowning in the sea.”    ―    Robert G. Ingersoll,          The Liberty of Man, Woman and Child</value>
   </data>
-  <data name="Rich_49" xml:space="preserve">
-    <value>Будешь богат, будешь и рогат. Кто богат, тот и рогат.</value>
+  <data name="RichEn_49" xml:space="preserve">
+    <value>“You don't have to be like most people around you, because most people never become truly rich and wealthy.”    ―    Manoj Arora,          From the Rat Race to Financial Freedom</value>
   </data>
-  <data name="Rich_50" xml:space="preserve">
-    <value>Нищий болезней ищет, а к богатому они сами идут.</value>
+  <data name="RichEn_50" xml:space="preserve">
+    <value>“I have nothing, so I think having something would mean everything to me. But I don’t want to get to the point where I have everything, so having something would mean nothing to me.”    ―    Jarod Kintz,          99 Cents For Some Nonsense</value>
   </data>
-  <data name="Rich_51" xml:space="preserve">
-    <value>Убогий бога боится и богача боится, а богатый (до поры) никого не боится.</value>
+  <data name="RichEn_51" xml:space="preserve">
+    <value>“...when I see you here amidst all this, I realise that I proposed to a very small part of you. I thought I was giving you a home and a position, but here I see that I am taking you away from so much.”    ―    Daisy Goodwin,          The American Heiress</value>
   </data>
-  <data name="Rich_52" xml:space="preserve">
-    <value>Богат Тимошка, и кила с лукошко.</value>
+  <data name="RichEn_52" xml:space="preserve">
+    <value>“I have the worst kind of history—a non history. I wasn’t born poor, oppressed, rich, famous, or any other such extreme. I was born in the middle, and I desperately want to hide it.”    ―    Jarod Kintz,          This Book Has No Title</value>
   </data>
-  <data name="Rich_53" xml:space="preserve">
-    <value>Богатство гинет, а нищета живет.</value>
+  <data name="RichEn_53" xml:space="preserve">
+    <value>“You will never be able to live with two kinds of people; greedy rich and arrogant poor.”    ―    M.F. Moonzajer</value>
   </data>
-  <data name="Rich_54" xml:space="preserve">
-    <value>Нищета прочней богатства (шуточ.).</value>
+  <data name="RichEn_54" xml:space="preserve">
+    <value>“Wealth—one billion, two billion, what’s the difference? The difference is one billion—the same difference as flat broke, like me, and one billion.”    ―    Jarod Kintz,          99 Cents For Some Nonsense</value>
   </data>
-  <data name="Rich_55" xml:space="preserve">
-    <value>Деньги, что каменья: тяжело на душу ложатся.</value>
+  <data name="RichEn_55" xml:space="preserve">
+    <value>“It’s now 4:17 am, and I just got done dealing with Mrs. Indianapolis, of Indiana. She’s a regular here, and she accompanies her husband on all his business meetings. When I say business meetings, I mean of course rounds of golf played at the prestigious TPC at Sawgrass. I feel bad for the guy. Life for a multi millionaire must be hard.”    ―    Jarod Kintz,          Gosh, I probably shouldn't publish this.</value>
   </data>
-  <data name="Rich_56" xml:space="preserve">
-    <value>Богатство полюбится, и ум расступится.</value>
+  <data name="RichEn_56" xml:space="preserve">
+    <value>“If you put the “rich” in ostrich, I’ll put in the “ost.”    ―    Jarod Kintz,          This Book Has No Title</value>
   </data>
-  <data name="Rich_57" xml:space="preserve">
-    <value>Богатый совести не купит, а свою погубляет.</value>
+  <data name="RichEn_57" xml:space="preserve">
+    <value>“When I feel sad, I try to think of someone else in the world who is suffering worse than me. Like someone in Seattle, who is hurting so bad financially that instead of a vente coffee at Starbucks every morning, they have to downsize to grande.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
   </data>
-  <data name="Rich_58" xml:space="preserve">
-    <value>Ведь я не на богатого мужика шлюсь, а на бога (если не верят божбе).</value>
+  <data name="RichEn_58" xml:space="preserve">
+    <value>“I take my investment advice from my dentist, because he’s just as likely to lose me money as a financial advisor.”    ―    Jarod Kintz,          This Book Title is Invisible</value>
   </data>
-  <data name="Rich_59" xml:space="preserve">
-    <value>И бедный украдет, да его бог прощает.</value>
+  <data name="RichEn_59" xml:space="preserve">
+    <value>“As far as how my mom might view me, I can imagine her saying something like this to me: “You may be ugly, son, but that doesn’t mean you can’t be rich. In fact, it kind of means you have to be rich. At least if you don’t want to be asexual and alone your whole life.”    ―    Jarod Kintz,          Gosh, I probably shouldn't publish this.</value>
   </data>
-  <data name="Rich_60" xml:space="preserve">
-    <value>Хлеб с водою, да не пирог с лихвою</value>
+  <data name="RichEn_60" xml:space="preserve">
+    <value>“Fear of the mob is a superstitious fear. It is based on the idea that there is some mysterious, fundamental difference between rich and poor, as though they were two different races, like Negroes and white men. But in reality there is no such difference. The mass of the rich and the poor are differentiated by their incomes and nothing else, and the average millionaire is only the average dishwasher dressed in a new suit. Change places, and handy dandy, which is the justice, which is the thief? Everyone who has mixed on equal terms with the poor knows this quite well. But the trouble is that intelligent, cultivated people, the very people who might be expected to have liberal opinions, never do mix with the poor. For what do the majority of educated people know about poverty?”    ―    George Orwell,          Down and Out in Paris and London</value>
   </data>
-  <data name="Rich_61" xml:space="preserve">
-    <value>Деньгами души не выкупишь.</value>
+  <data name="RichEn_61" xml:space="preserve">
+    <value>“In Paris there are two dens, one for thieves, the other for murderers. The den of thieves is the Stock Exchange; the den of murderers is the Courthouse.”    ―    Petrus Borel,          Champavert, le lycanthrope</value>
   </data>
-  <data name="Rich_62" xml:space="preserve">
-    <value>Пусти душу в ад, будешь богат.</value>
+  <data name="RichEn_62" xml:space="preserve">
+    <value>“The mass of the rich and the poor are differentiated by their incomes and nothing else,and the average millionaire is only the average dishwasher dressed in a new suit.”    ―    George Orwell,          Down and Out in Paris and London</value>
   </data>
-  <data name="Rich_63" xml:space="preserve">
-    <value>Грехов много, да и денег вволю.</value>
+  <data name="RichEn_63" xml:space="preserve">
+    <value>“Somewhere, things must be beautiful and vivid. Somewhere else, life has to be beautiful and vivid and rich. Not like this muted palette -a pale blue bedroom, washed out sunny sky, dull green yellow brown of the fields. Here, I know ever twist of every road, every blade of grass, every face in this town, and I am suffocating.”    ―    Lisa Ann Sandell,          A Map of the Known World</value>
   </data>
-  <data name="Rich_64" xml:space="preserve">
-    <value>В аду не быть - богатства не нажить.</value>
+  <data name="RichEn_64" xml:space="preserve">
+    <value>“In Europe the rich are refined enough to act as if they're not wealthy.  That is how civilized people behave.  If you ask me, being cultured and civilized is not about everyone being free and equal; it's about everyone being refined enough to act as if they were.  Then no one has to feel guilty.”    ―    Orhan Pamuk,          The Museum of Innocence</value>
   </data>
-  <data name="Rich_65" xml:space="preserve">
-    <value>Не отвернешь головы клячом, не будешь богачом.</value>
+  <data name="RichEn_65" xml:space="preserve">
+    <value>“When you optimize your talents very well, you can pick money from people's pockets and nobody will ever get the guts to call you a thief.”    ―    Israelmore Ayivor</value>
   </data>
-  <data name="Rich_66" xml:space="preserve">
-    <value>Ростовщики на том свете каленые пятаки голыми руками считают.</value>
+  <data name="RichEn_66" xml:space="preserve">
+    <value>“The Artist," an ancient sage had once said, "is always sitting on the doorsteps of the rich.”    ―    Charles Bukowski,          The Days Run Away Like Wild Horses Over the Hills</value>
   </data>
-  <data name="Rich_67" xml:space="preserve">
-    <value>Вся правда в счете.</value>
+  <data name="RichEn_67" xml:space="preserve">
+    <value>“The educated man pictures a horde of submen, wanting only a day's liberty to loot his house, burn his books, and set him to work minding a machine or sweeping out a lavatory. 'Anything,' he thinks, 'any injustice, sooner than let that mob loose.' He does not see that since there is no difference between the mass of rich and poor, there is no question of setting the mob loose. The mob is in fact loose now, and--in the shape of rich men--is using its power to set up enormous treadmills of boredom, such as 'smart' hotels.”    ―    George Orwell,          Down and Out in Paris and London</value>
   </data>
-  <data name="Rich_68" xml:space="preserve">
-    <value>Деньги - оселок.</value>
+  <data name="RichEn_68" xml:space="preserve">
+    <value>“Rich and famous and doing good," mused Schlichtmann.  "Rich isn't so difficult.  Famous isn't so difficult.  Rich and famous together aren't so difficult.  Rich, famous, and doing good--now, that's very difficult.”    ―    Jonathan Harr,          A Civil Action</value>
   </data>
-  <data name="Rich_69" xml:space="preserve">
-    <value>Изведай человека на деньгах. Деньги искус любят.</value>
+  <data name="RichEn_69" xml:space="preserve">
+    <value>“I do not believe that one can become rich without being a shark; a sensitive man will never amass wealth.”    ―    Petrus Borel,          Champavert, le lycanthrope</value>
   </data>
-  <data name="Rich_70" xml:space="preserve">
-    <value>Что у старухи за деньги! Всс копеечки.</value>
+  <data name="RichEn_70" xml:space="preserve">
+    <value>“One thing's sure and nothing surer. The rich get richer and the poor get- children”    ―    Ron Rash,          Serena</value>
   </data>
-  <data name="Rich_71" xml:space="preserve">
-    <value>Что милее ста рублей? - Двести.</value>
+  <data name="RichEn_71" xml:space="preserve">
+    <value>“I have always found that it is far more convenient to be rich rather than to be poor.”    ―    Amanda Quick,          Burning Lamp (Arcane Society, #8)</value>
   </data>
-  <data name="Rich_72" xml:space="preserve">
-    <value>Меди рубль, да бумажек с пуд.</value>
+  <data name="RichEn_72" xml:space="preserve">
+    <value>“It's easier for a rich man to ride that camel through the eye of a needle directly into the Kingdom of Heaven, than for some of us to give up our cell phone.”    ―    Vera Nazarian,          The Perpetual Calendar of Inspiration</value>
   </data>
-  <data name="Rich_73" xml:space="preserve">
-    <value>На деньгах царская печать.</value>
+  <data name="RichEn_73" xml:space="preserve">
+    <value>“Aunt Elizabeth said, 'Do you expect to attend many balls, if I may ask?' and I said, 'Yes, when I am rich and famous.' and Aunt Elizabeth said, 'Yes, when the moon is made of green cheese.”    ―    L.M. Montgomery</value>
   </data>
-  <data name="Rich_74" xml:space="preserve">
-    <value>Не только добра, что много серебра.</value>
+  <data name="RichEn_74" xml:space="preserve">
+    <value>“La revolución beneficia al pobre, al ignorante, al que toda su vida ha sido esclavo, a los infelices que ni siquiera saben que si lo son es porque el rico convierte en oro las lágrimas, el sudor y la sangre de los pobres. || The revolution benefits the poor, the ignorant, who all his life has been a slave, the unfortunate who do not know if they are is because the rich becomes the tears, sweat and blood of the poor in gold.”    ―    Mariano Azuela,          Los de abajo</value>
   </data>
-  <data name="Rich_75" xml:space="preserve">
-    <value>Не штука деньги; штука разум.</value>
+  <data name="RichEn_75" xml:space="preserve">
+    <value>“It's an easy guess, why some get famous over night and not during the day.”    ―    Aleksandra Ninkovic,          Write like no one is reading</value>
   </data>
-  <data name="Rich_76" xml:space="preserve">
-    <value>Дураку мука, умному честь (т. е. деньги).</value>
+  <data name="RichEn_76" xml:space="preserve">
+    <value>“The fancies that take their monstrous birth from the spinelessness and boredom of usurped wealth bring in their wake every defect ... and though rich men's crimes escape the law, protected as they are by the cowardice of governments and people, Nature, more real than society, sets her anarchic example by abandoning the wretched time servers of Capital to the shame and madness of the worst aberrations.”    ―    Jean Lorrain,          Le Crime Des Riches (1905): Suivi de Paris Forain</value>
   </data>
-  <data name="Rich_77" xml:space="preserve">
-    <value>Без хозяина - деньги черепки.</value>
+  <data name="RichEn_77" xml:space="preserve">
+    <value>“And, conversely, she went on to herself, sneering at the Grand Duke's palace, poverty is wasted on the poor, who never know how to make the best of things, are only the rich without money, are just as useless at looking after themselves, can't handle their cash just like the rich can't, always squandering it on bright, pretty, useless things in just the same way.”    ―    Angela Carter,          Nights at the Circus</value>
   </data>
-  <data name="Rich_78" xml:space="preserve">
-    <value>Ни конь без узды, ни богатство без ума.</value>
+  <data name="RichEn_78" xml:space="preserve">
+    <value>“The rich and the poor truly are from different realms: one has adapted to become an expert in material forfeit; the other has forfeited all they are to material, and thus is enslaved, by it.”    ―    Justin K. McFarlane Beau</value>
   </data>
-  <data name="Rich_79" xml:space="preserve">
-    <value>Вдруг густо - вдруг пусто.</value>
+  <data name="RichEn_79" xml:space="preserve">
+    <value>“إن الثراء ليس غاية الجميع”    ―    Jeffrey Archer,          As the Crow Flies</value>
   </data>
-  <data name="Rich_80" xml:space="preserve">
-    <value>Деньги пух - только дунь на них - и нет.</value>
+  <data name="RichEn_80" xml:space="preserve">
+    <value>“ليس هنا أسوأ من هؤلاء السادة المتأنقين الذين يخرجون عن مسارهم ، ويقطعون الصلة بأعراف طبقتهم و عاداتها ، إنهم شديدو الخطر ، لأنهم خلّفوا وراءهم المبادئ التي ولدوا عليها ، ولايحترمون أبدًا تلك التي يقرها الرعاع”    ―    Álvaro Mutis,          Abdul Bashur, soñador de navíos</value>
   </data>
-  <data name="Rich_81" xml:space="preserve">
-    <value>Деньги что вода. Богатство - вода: пришла и ушла.</value>
+  <data name="RichEn_81" xml:space="preserve">
+    <value>“The idea of luxury, even the word "luxury," was important to Arabella.  Luxury meant something that was by definition overpriced, but was so nice, so lovely, in itself that you did not mind, in fact was so lovely that the expensiveness became part of the point, part of the distinction between the people who could not afford a thing and the select few who not only could, but also understood the desirability of paying so much for it.  Arabella knew that there were thoughtlessly rich people who could afford everything; she didn't see herself as one of them but instead as one of an elite who both knew what money meant and could afford the things they wanted; and the knowledge of what money meant gave the drama of high prices a special piquancy.  She loved expensive things because she knew what their expensiveness meant.  She had a complete understanding of the signifiers.”    ―    John Lanchester,          Capital</value>
   </data>
-  <data name="Rich_82" xml:space="preserve">
-    <value>Деньги - слина, а без них схима.</value>
+  <data name="RichEn_82" xml:space="preserve">
+    <value>“You were born rich and influential. You can do rich and influential in jammies and bunny slippers.”    ―    Starr Ambrose,          Thieves Like Us</value>
   </data>
-  <data name="Rich_83" xml:space="preserve">
-    <value>Деньги - склока, а без них плохо.</value>
+  <data name="RichEn_83" xml:space="preserve">
+    <value>“To the rich, therefore, falls the burden of Beauty. And if they cannot assume it, then they deserve to die.”    ―    Muriel Barbery</value>
   </data>
-  <data name="Rich_84" xml:space="preserve">
-    <value>Денежка мана (или: мала), задает тумана.</value>
+  <data name="RichEn_84" xml:space="preserve">
+    <value>“If all the rich people in the world divided up their money among themselves there wouldn't be enough to go around.”    ―    Christina Stead,          House of All Nations</value>
   </data>
-  <data name="Rich_85" xml:space="preserve">
-    <value>Много денег - много и хлопот (или: забот).</value>
+  <data name="RichEn_85" xml:space="preserve">
+    <value>“He stared to sea. "I gave up all ideas of practicing medicine. In spite of what I have just said about the wave and the water, in those years in France I am afraid I lived a selfish life. That is, I offered myself every pleasure. I traveled a great deal. I lost some money dabbling in the theatre, but I made much more dabbling on the Bourse. I gained a great many amusing friends, some of whom are now quite famous. But I was never very happy. I suppose I was fortunate. It took me only five years to discover what some rich people never discover — that we all have a certain capacity for happiness and unhappiness. And that the economic hazards of life do not seriously affect it.”    ―    John Fowles,          The Magus</value>
   </data>
-  <data name="Rich_86" xml:space="preserve">
-    <value>Меньше денег - меньше хлопот.</value>
+  <data name="RichEn_86" xml:space="preserve">
+    <value>“I'm not fluent in affluent. Still, I’m grin rich, and my smile stretches from yesterday to tomorrow. You should kiss me on today.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
   </data>
-  <data name="Rich_87" xml:space="preserve">
-    <value>Богатому сладко естся, да плохо спится.</value>
+  <data name="RichEn_87" xml:space="preserve">
+    <value>“I’m two quarters the way to having 50 cents. That’s right, I have one quarter. But I’m also one quarter in love, and I feel rich!”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
   </data>
-  <data name="Rich_88" xml:space="preserve">
-    <value>Без денег сон крепче.</value>
+  <data name="RichEn_88" xml:space="preserve">
+    <value>“Hammacher Schlemmer is selling a shelter,worthy of Kubla Khan's Xanadu dome;Plushy and swanky, with posh hanky pankythat affluent Yankees can really callhome.Hammacher Schlemmer is selling a shelter,a push-button palace, fluorescent repose;Electric devices for facing a crisiswith frozen fruit ices and cinema shows.Hammacher Schlemmer is selling a shelterall chromium kitchens and rubber-tiled dorms;With waterproof portals to echo the chortlesof weatherproof mortals in hydrogen storms.What a great come-to-glory emporium!To enjoy a deluxe moratorium,Where nuclear heat can beguile the elitein a creme-de-la-creme crematorium.”    ―    E.Y. Harburg</value>
   </data>
-  <data name="Rich_89" xml:space="preserve">
-    <value>Денег нет, так подушка под головой не вертится.</value>
+  <data name="RichEn_89" xml:space="preserve">
+    <value>“In a depression, I’d imagine rich people try to dress like they’re poor, and poor people try to dress like they’re rich. As for me, I try to dress exactly like my clone would.”    ―    Jarod Kintz,          At even one penny, this book would be overpriced. In fact, free is too expensive, because you'd still waste time by reading it.</value>
   </data>
-  <data name="Rich_90" xml:space="preserve">
-    <value>Денег нету, и дела нету (т. е. без хлопот).</value>
+  <data name="RichEn_90" xml:space="preserve">
+    <value>“A rich person who has no love in his heart  is poorer than a poor person who has no money in his pocket.”    ―    Debasish Mridha</value>
   </data>
-  <data name="Rich_91" xml:space="preserve">
-    <value>Яко благ, яко наг, яко нет ничего (прибавка: опричь простоты).</value>
+  <data name="RichEn_91" xml:space="preserve">
+    <value>“Share your love, share your happiness; you will be rich and a great success.”    ―    Debasish Mridha</value>
   </data>
-  <data name="Rich_92" xml:space="preserve">
-    <value>Деньги – хороший слуга, но плохой хозяин.</value>
+  <data name="RichEn_92" xml:space="preserve">
+    <value>“Those who are rich cannot see reasons for poor becoming poorer and those who are poor cannot see reasons for rich getting richer.”    ―    Santosh Kalwar</value>
   </data>
-  <data name="Rich_93" xml:space="preserve">
-    <value>В лесу дуб – рубль, в столице – по рублю спица.</value>
+  <data name="RichEn_93" xml:space="preserve">
+    <value>“Say goodbye to the IMF once and for all as the  IMF's conditions enriches the rich and impoverishes the poor.”    ―    Imran Khan</value>
   </data>
-  <data name="Rich_94" xml:space="preserve">
-    <value>Дай вору целковых гору – воровать не перестанет.</value>
+  <data name="RichEn_94" xml:space="preserve">
+    <value>“Rich people read their bills. Poor people dread theirs.”    ―    Mokokoma Mokhonoana,          N for Nigger</value>
   </data>
-  <data name="Rich_95" xml:space="preserve">
-    <value>Без копейки рубль щербатый.</value>
+  <data name="RichEn_95" xml:space="preserve">
+    <value>“I have learned in life to be happy regardless of life circumstancesI have learned in life to be humble in greatnessI have learned in life to respect everyone and not to look down upon othersI have learned in life that time changes; the weak can be strong and the strong can be the weakI have learned in life that a single day to wake up after a night sleep in good strength is the richest day in lifeI have learned in life that words can be a blessing and a curseI have learned in life to be content but not to be a mediocreI have learned in life to take my time but be poised to dareI have learned in life that the river we use is the river that can use usI have learned in life that the rich are rich because the poor are poor I have learned in life that regardless of how rich you are, you need free air to live freelyI have learned in life that taking the lead doesn't mean being the championI have learned in life that every one is a prey to someoneI have learned in life that we all do answer the same life questionsI have learned in life that when you skip one life question, you will answer another life questionI have learned in life that the old can be the young and the young can be the oldI have learned in life that what you spend is what someone receivesI have learned in life that problems are there because people have created themI have learned in life that the seeds we sow are the fruits we eatI have learned in life that the same things that amuses us are the same things that can annoy usI have learned in life that today is tomorrow and tomorrow is todayI have learned in life to be simple but complexI have learned in life that hard work without wisdom is an effort in futilityI have learned in life that the tongues that hail are the tongues that abuseI have learned in life that prayer and faith can work greatly without great worksI have learned in life that the end is much more important than the beginning I have learned in life to ponder to wonder”    ―    Ernest Agyemang Yeboah</value>
   </data>
-  <data name="Rich_96" xml:space="preserve">
-    <value>Алтын серебра не ломит ребра.</value>
+  <data name="RichEn_96" xml:space="preserve">
+    <value>“Getting rich is not real and staying rich is real.”    ―    Sivaprakash Sidhu</value>
   </data>
-  <data name="Rich_97" xml:space="preserve">
-    <value>В деньгах родства нет.</value>
+  <data name="RichEn_97" xml:space="preserve">
+    <value>“To become a filthy rich, first you need to be filthy.”    ―    M.F. Moonzajer,          LOVE, HATRED AND MADNESS</value>
   </data>
-  <data name="Rich_98" xml:space="preserve">
-    <value>Больше денег — больше хлопот.</value>
+  <data name="RichEn_98" xml:space="preserve">
+    <value>“People used to make money, but somewhere along the way, it started making us.”    ―    Trevor D. Richardson,          Dystopia Boy: The Unauthorized Files</value>
   </data>
-  <data name="Rich_99" xml:space="preserve">
-    <value>Деньги не пахнут</value>
+  <data name="RichEn_99" xml:space="preserve">
+    <value>“The poor will will provide you with what they don't have and what you need. The rich will give you what they have and what you want.”    ―    Lik Hock Yap Ivan</value>
   </data>
-  <data name="Rich_100" xml:space="preserve">
-    <value>Деньги не грибы – можно и зимой найти.</value>
+  <data name="RichEn_100" xml:space="preserve">
+    <value>“Don't ever think that life is unfair. People may be different in status and identity, but what matters most is your personality. God created all humans with equal love and attention. In times that you think you are alone, remember that He is always there for you. He will never leave you because He loves you. Always bear in mind that all of us are His children and He is our father. And in times of need, hold on to Him because He will never let you suffer. Even though life varies in some circumstances, all will experience a composition of victory and failure. Victory as a reward and failure as a lesson. If you are born poor, do everything to achieve your dreams and strive for success. If you are born rich, be charitable to others and keep your feet on the ground. Everyone is special. Everyone is unique. Everyone is blessed. But not everyone knows how to value it. Be the best that you can become, always acquire happiness and live your life to the fullest!”    ―    Joe Mari Fadrigalan</value>
   </data>
-  <data name="Rich_101" xml:space="preserve">
-    <value>В чужом кармане трудно деньги проверять.</value>
+  <data name="RichEn_101" xml:space="preserve">
+    <value>“It is no exaggeration to say that the rich own most of what there is that is not nailed down.”    ―    Robert Paul Wolff</value>
   </data>
-  <data name="Rich_102" xml:space="preserve">
-    <value>Быть было беде, да деньги на бедре.</value>
+  <data name="RichEn_102" xml:space="preserve">
+    <value>“The poor will provide you what they don't have and what you need while the rich will give you what they have and what you want.”    ―    Lik Hock Yap Ivan</value>
   </data>
-  <data name="Rich_103" xml:space="preserve">
-    <value>Дурак легко с деньгами расстается.</value>
+  <data name="RichEn_103" xml:space="preserve">
+    <value>“Money gives you permission to just walk away from everything that isn't pretty and perfect. You can't put up with anything less than lovely. You spend your life running, avoiding, escaping.”    ―    Chuck Palahniuk,          Diary</value>
   </data>
-  <data name="Rich_104" xml:space="preserve">
-    <value>Восьми гривен до рубля не хватает.</value>
+  <data name="RichEn_104" xml:space="preserve">
+    <value>“Being rich is not how much is stacked in your bank account but how much you can stack in the hands of men...how much you can give.”    ―    Ikechukwu Izuakor</value>
   </data>
-  <data name="Rich_105" xml:space="preserve">
-    <value>Денежки не рожь, и зимой растут; денежки и не лед, а зимой тают.</value>
+  <data name="RichEn_105" xml:space="preserve">
+    <value>“I still dream to quiver rich,And we still tremble poor.Over, under, Madam and Bitch,To each, her John Does floor.Grieved cliche to ban the kiss,And yet we all refuse.To add one name onto our lists,Of cants, and don'ts, and dudes.Unuttered sighs of uncriticized law,Polished flesh covering strong, well members.Real grins and moans, matching fair new bras,Sweet nights with long, full slumbers.In which we lie in thoughts like these,The things we once deserved.Homes, and love, own families,Now, far, and wrong, absurd.Once done, now blue and black with lace.Yes Sir it was my fault.The suck, the chew, my class and taste?My only taste is salt.”    ―    Hannah Kilfoyle</value>
   </data>
-  <data name="Rich_106" xml:space="preserve">
-    <value>Алтынного вора вешают, полтинного чествуют</value>
+  <data name="RichEn_106" xml:space="preserve">
+    <value>“A bodyguard for a pretty socialite, I was moving up in the world. Like all idiots I naturally assumed she was pretty because she was rich. You can buy anything with money, even people, even... beauty.”    ―    Bruce Crown,          Forlorn Passions</value>
   </data>
-  <data name="Rich_107" xml:space="preserve">
-    <value>Были денежки – любили Сеню денежки, а не стало денежек – забыли Сеню девушки.</value>
+  <data name="RichEn_107" xml:space="preserve">
+    <value>“Death after all is only a matter of a few hours, a few minutes, but a pension is like poverty, it lasts a whole lifetime. Rich people are drunk in a different way, they can't understand this frenzy about security. Being rich is another kind of drunkenness, the forgetful kind. That, in fact, is the whole point of getting rich: to forget.”    ―    Louis-Ferdinand Céline,          Journey to the End of the Night</value>
   </data>
-  <data name="Rich_108" xml:space="preserve">
-    <value>Грози богатому, так денежку даст.</value>
+  <data name="RichEn_108" xml:space="preserve">
+    <value>“We always been rich, Lydia. We just ain't had much money.”    ―    Marilyn Sue Shank,          Child of the Mountains</value>
   </data>
-  <data name="Rich_109" xml:space="preserve">
-    <value>Без ума торговать – только деньги терять.</value>
+  <data name="RichEn_109" xml:space="preserve">
+    <value>“Every capitalist is rich, but every rich is not a capitalist.”    ―    Amit Kalantri</value>
   </data>
-  <data name="Rich_110" xml:space="preserve">
-    <value>Гроша не стоит, а глядит рублем.</value>
+  <data name="RichEn_110" xml:space="preserve">
+    <value>“Capitalism is an ability to stay rich and keep getting rich.”    ―    Amit Kalantri</value>
   </data>
-  <data name="Rich_111" xml:space="preserve">
-    <value>Денег нет, зато сами золото.</value>
+  <data name="RichEn_111" xml:space="preserve">
+    <value>“A man protects his fish from rats by keeping it under a cat's watch. How wise!Another buys a gun for security reasons, but decides to kill a ghost with it. How smart!One prays to God for safety, as he climbs a palm tree with sewing thread. How intelligent!Man does not want the truth, and God does not want lies, yet there is no third option.One pretends to be rich, yet has nothing. That's pride. Another pretends to be poor, yet has great wealth. Humility!Not all that glitters is gold, and not all gold glitters. Watch, with the eyes, and also with the heart.Just because all things are lawful, don't make them expedient. And because a thing is right doesn't mean it edifies.With Faith, Wisdom comes highly recommended!”    ―    Olaotan Fawehinmi,          If I Were A Girl, I Would Not...</value>
   </data>
-  <data name="Rich_112" xml:space="preserve">
-    <value>Даровой рубль дешев, нажитый дорог.</value>
+  <data name="RichEn_112" xml:space="preserve">
+    <value>“Getting rich is easy and staying rich is hard”    ―    Sivaprakash Sidhu</value>
   </data>
-  <data name="Rich_113" xml:space="preserve">
-    <value>Дурак деньги напоказ носит.</value>
+  <data name="RichEn_113" xml:space="preserve">
+    <value>“Keep the change," he smiled. Was there ever a more empowering phrase than "Keep the change"?”    ―    David Nicholls,          One Day</value>
   </data>
-  <data name="Rich_114" xml:space="preserve">
-    <value>Всюду вхож, как медный грош.</value>
+  <data name="RichEn_114" xml:space="preserve">
+    <value>“It's scented! Your wedding invitations are scented?""It's meant to be lavender.""No, Dex - it's money. It smells of money.”    ―    David Nicholls,          One Day</value>
   </data>
-  <data name="Rich_115" xml:space="preserve">
-    <value>Деньги – что галки, все в стаю сбиваются.</value>
+  <data name="RichEn_115" xml:space="preserve">
+    <value>“Next to God, Family is the best thing.”    ―    April Floyd,          Unique: Take a Look Into a Unique World &amp; a Unique Life</value>
   </data>
-  <data name="Rich_116" xml:space="preserve">
-    <value>Ближняя копеечка дороже дальнего рубля.</value>
+  <data name="RichEn_116" xml:space="preserve">
+    <value>“Turn thy crown upside down! You need to feel how it is to kneel as those less fortunate than your noble deal.”    ―    Stanley Victor Paskavich,          Stantasyland: Quips Quotes and Quandaries</value>
   </data>
-  <data name="Rich_117" xml:space="preserve">
-    <value>Говорят, хорош, а дела ни на грош.</value>
+  <data name="RichEn_117" xml:space="preserve">
+    <value>“Talents are seeds of greatness. With big dreams well dispensed in form of achievements, you can pick money from people’s pockets and they will never get the guts to call you a thief.”    ―    Israelmore Ayivor,          Dream Big!: See Your Bigger Picture!</value>
   </data>
-  <data name="Rich_118" xml:space="preserve">
-    <value>Грош за него дать мало, а два – много.</value>
+  <data name="RichEn_118" xml:space="preserve">
+    <value>“When you unleash your divine talents to produce better articles, people will pay for them and that creates wealth for you. Spend time well!”    ―    Israelmore Ayivor,          Dream Big!: See Your Bigger Picture!</value>
   </data>
-  <data name="Rich_119" xml:space="preserve">
-    <value>Вовремя копейка дороже рубля.</value>
+  <data name="RichEn_119" xml:space="preserve">
+    <value>“In effect, the poor person is a rich person left to fend for him or herself, without the support of institutions that help the person to take 'good' decisions.”    ―    Daniel Cohen</value>
   </data>
-  <data name="Rich_120" xml:space="preserve">
-    <value>Денег-то много, да не во что класть.</value>
+  <data name="RichEn_120" xml:space="preserve">
+    <value>“Life… For some it is battle for others its dance...For rich it is party for poor it is chance!”    ―    Nino Varsimashvili</value>
   </data>
-  <data name="Rich_121" xml:space="preserve">
-    <value>Горе – деньги, а вдвое – без денег.</value>
+  <data name="RichEn_121" xml:space="preserve">
+    <value>“When a person finds life hard, he needs motivation and inspiration; but if he finds life’s journey easy, then he needs meditation and introspection to know the true quality of his life.”    ―    Anuj Somany</value>
   </data>
-  <data name="Rich_122" xml:space="preserve">
-    <value>Деньги девать некуда, кошелька купить не на что.</value>
+  <data name="RichEn_122" xml:space="preserve">
+    <value>“I think everybody should get rich and famous and do everything they ever dreamed of so they can see that it's not the answer.”    ―    Jim Carrey</value>
   </data>
-  <data name="Rich_123" xml:space="preserve">
-    <value>Денежки – что голуби: где обживутся, там и поведутся.</value>
+  <data name="RichEn_123" xml:space="preserve">
+    <value>“History will judge societies and governments — and their institutions — not by how big they are or how well they serve the rich and the powerful, but by how effectively they respond to the needs of the poor and the helpless.”    ―    César Chávez</value>
   </data>
-  <data name="Rich_124" xml:space="preserve">
-    <value>Денег много, да разума мало.</value>
+  <data name="RichEn_124" xml:space="preserve">
+    <value>“Money makes people stupid. They don't have to work as hard as people who don't have money. That's why the smart people who do have money mostly use it for one thing… They use it to make sure the people without it don't get any more.”    ―    Charlie Huston,          Sleepless</value>
   </data>
-  <data name="Rich_125" xml:space="preserve">
-    <value>Гляди вниз: денег не найдешь – ног не зашибешь.</value>
+  <data name="RichEn_125" xml:space="preserve">
+    <value>“Hard work may not make a person filthy rich, but it does not ditch for it keeps him always as rich as healthy.”    ―    Anuj Somany</value>
   </data>
-  <data name="Rich_126" xml:space="preserve">
-    <value>Алтын сам ворота отпирает и путь очищает.</value>
+  <data name="RichEn_126" xml:space="preserve">
+    <value>“Feeble is the character, that bows to inflated ego, arrogance, and whines of affluent, whilst raising itself mercilessly on the humble and underprivileged.”    ―    Aniruddha Sastikar</value>
   </data>
-  <data name="Rich_127" xml:space="preserve">
-    <value>Денежка дорожку прокладывает.</value>
+  <data name="RichEn_127" xml:space="preserve">
+    <value>“Having always observed that most of them who constantly took in the weekly Bills of Mortality made little other use of them than to look at the foot how the burials increased or decreased, and among the Casualties what had happened, rare and extraordinary, in the week current; so as they might take the same as a Text to talk upon in the next company, and withal in the Plague-time, how the Sickness increased or decreased, that the Rich might judge of the necessity of their removal, and Trades-men might conjecture what doings they were likely to have in their respective dealings.”    ―    John Graunt,          Natural And Political Observations Mentioned In A Following Index And Made Upon The Bills Of Mortality</value>
   </data>
-  <data name="Rich_128" xml:space="preserve">
-    <value>Голосом петь, конем воевать, а деньгами торговать.</value>
+  <data name="RichEn_128" xml:space="preserve">
+    <value>“Maskini mwenye pesa nyingi ni tajiri bahili. Tajiri mwenye mifuko iliyotoboka ni tajiri badhiri.”    ―    Enock Maregesi</value>
   </data>
-  <data name="Rich_129" xml:space="preserve">
-    <value>В гроб смотрит, а деньги копит.</value>
+  <data name="RichEn_129" xml:space="preserve">
+    <value>“The tendency of the human mind is to see the world with a ‘dualistic’ view that describes everything through comparisons: good and bad, pain and happiness, beauty and ugliness, rich and poor.”    ―    Gyalwa Dokhampa,          The Restful Mind</value>
   </data>
-  <data name="Rich_130" xml:space="preserve">
-    <value>Денежка не бог, а бережет.</value>
+  <data name="RichEn_130" xml:space="preserve">
+    <value>“Toa msaada katika jamii iliyosaidia kukulea ulipokuwa mdogo.”    ―    Enock Maregesi</value>
   </data>
-  <data name="Rich_131" xml:space="preserve">
-    <value>Денег накопил, да дури накупил.</value>
+  <data name="RichEn_131" xml:space="preserve">
+    <value>“Upon the whole, Chymistry is as yet but an opening science, closely connected with the useful and ornamental arts, and worthy the attention of the liberal mind. And it must always become more and more so: for though it is only of late, that it has been looked upon in that light, the great progress already made in Chymical knowledge, gives us a pleasant prospect of rich additions to it. The Science is now studied on solid and rational grounds. While our knowledge is imperfect, it is apt to run into error: but Experiment is the thread that will lead us out of the labyrinth.”    ―    Joseph Black</value>
   </data>
-  <data name="Rich_132" xml:space="preserve">
-    <value>Денежка рубль бережет, а рубль голову стережет.</value>
+  <data name="RichEn_132" xml:space="preserve">
+    <value>“The year that Rutherford died (1938) there disappeared forever the happy days of free scientific work which gave us such delight in our youth. Science has lost her freedom. Science has become a productive force. She has become rich but she has become enslaved and part of her is veiled in secrecy. I do not know whether Rutherford would continue to joke and laugh as he used to.”    ―    Pyotr Kapitsa</value>
   </data>
-  <data name="Rich_133" xml:space="preserve">
-    <value>Два гроша – куча хороша.</value>
+  <data name="RichEn_133" xml:space="preserve">
+    <value>“A woman does not marry with a man for his wealth, unless he is too rich and a man does not marry with a girl for her beauty, unless she is too beautiful.”    ―    M.F. Moonzajer,          LOVE, HATRED AND MADNESS</value>
   </data>
-  <data name="Rich_134" xml:space="preserve">
-    <value>Бог даст денежку, а черт – дырочку, и пойдет богова денежка в чертову дырочку.</value>
+  <data name="RichEn_134" xml:space="preserve">
+    <value>“Heri kuishi kama maskini mwenye pesa nyingi kuliko tajiri mwenye mifuko iliyotoboka, kuliko kusema mbele za watu kwamba pesa haijakupa furaha. Wengi hupata jeuri ya kusema hivyo kutokana na umaskini wa watu wanaowazunguka.”    ―    Enock Maregesi</value>
   </data>
-  <data name="Rich_135" xml:space="preserve">
-    <value>Без денег торговать, как без соли хлебать.</value>
+  <data name="RichEn_135" xml:space="preserve">
+    <value>“Mtu anayesema pesa haijampa furaha hana nia ya kusaidia watu.”    ―    Enock Maregesi</value>
   </data>
-  <data name="Rich_136" xml:space="preserve">
-    <value>Моложе – так рублем дороже.</value>
+  <data name="RichEn_136" xml:space="preserve">
+    <value>“What is MONEY? a piece of PAPER, a chunk of METAL or just some bits and bytes.It’s been called the ROOT OF ALL EVIL, but it can also help UPROOT ALL EVIL.It can’t buy you HAPPINESS or LOVE, but some fall in LOVE WITH IT anyway.It can CHANGE who you are, help find out WHO YOU really are.It can ENSLAVE you, and FREE you.It can open DOORS, buy you DOORS, But it won’t tell you what to do once you are INSIDE, CONTROL you and give you CONTROL.It can give you the power to say YES and the freedom to say NO.It’s EVERYTHING ……………. and NOTHING. Because MONEY is just money”    ―    Harmon okinyo</value>
   </data>
-  <data name="Rich_137" xml:space="preserve">
-    <value>Умом туп, да кошелек туг.</value>
+  <data name="RichEn_137" xml:space="preserve">
+    <value>“You put yourself in a tight corner of failure if you think "it's only the rich that get richer while the poor get poorer". No! Something good can come out from you no matter who you are, what you have done and where you have been to!”    ―    Israelmore Ayivor,          The Great Hand Book of Quotes</value>
   </data>
-  <data name="Rich_138" xml:space="preserve">
-    <value>За грош с колокольни соскочит.</value>
+  <data name="RichEn_138" xml:space="preserve">
+    <value>“Don't be taken in when they pat you paternally on the shoulder and say that there's no inequality worth speaking of and no more reason for fighting. Because if you believe them they will be completely in charge in their marble homes and granite banks from which they rob the people of the world under the pretense of bringing them culture. Watch out, for as soon as it pleases them they'll send you out to protect their gold in wars whose weapons rapidly developed by servile scientists will become more and more deadly until they can with a flick of the finger tear a million of you into pieces.”    ―    Peter Weiss,          The Persecution and Assassination of Jean-Paul Marat as Performed by the Inmates of the Asylum of Charenton Under the Direction of the Marquis de Sade</value>
   </data>
-  <data name="Rich_139" xml:space="preserve">
-    <value>На пустой карман и грош хорош.</value>
+  <data name="RichEn_139" xml:space="preserve">
+    <value>“I love you, Althea—you are so beautiful,” murmured the young man into my ear.Well, I was willing enough. I looked up at him from under my eyelashes. “I love you too,” I confessed. I averted my gaze and added privately, “You are so rich.”Unfortunately, I apparently said this aloud, if just barely, and his hearing was sharper than one would expect, given his other attributes.”    ―    Patrice Kindl</value>
   </data>
-  <data name="Rich_140" xml:space="preserve">
-    <value>У богатого денег куры не клюют.</value>
+  <data name="RichEn_140" xml:space="preserve">
+    <value>“We bask in the scent of cinnamon beforeMom puts a scone her plate.'His name is Rich,' she says.I select a scone too.'I like a man with an adjective for a name.”    ―    Kelly Bingham,          Formerly Shark Girl</value>
   </data>
-  <data name="Rich_141" xml:space="preserve">
-    <value>Когда кошелек легок – на душе тяжело.</value>
+  <data name="RichEn_141" xml:space="preserve">
+    <value>“The government belongs to the poor people of the country. We are custodian of people's hope. For whom should the government be? For educated people or few others. Government should be for the poor. If rich want to educate their children, they can send anywhere. If rich fall ill, hundreds of doctors are at service. So the foremost responsibility of the government should be to listen to the poor and work for them. If we do not work for the poor, the people will never pardon us.”    ―    Narendra Modi</value>
   </data>
-  <data name="Rich_142" xml:space="preserve">
-    <value>Мы-то родня, а деньги наши чужие.</value>
+  <data name="RichEn_142" xml:space="preserve">
+    <value>“Thoughtout life, we all live our lives assuming two roles, the role of a slave and the role of a master. It only depend on an individual which role he assumes first”    ―    Nathanael Kanyinga</value>
   </data>
-  <data name="Rich_143" xml:space="preserve">
-    <value>На грош дела, на рубль суматохи.</value>
+  <data name="RichEn_143" xml:space="preserve">
+    <value>“And what I thought most about was luxury. I had never realised before that it is more than just having things; it makes the very air feel different. And I felt different, breathing the air: relaxed, lazy, still sad but with the edge taken off the sadness. Perhaps the effect wears off in time, or perhaps you don't notice it if you are born to it, but it does seem to me that the climate of richness must always be a little dulling to the senses. Perhaps it takes the edge off joy as well as off sorrow.”    ―    Dodie Smith,          I Capture the Castle</value>
   </data>
-  <data name="Rich_144" xml:space="preserve">
-    <value>Человек не скотина, а деньги не мякина.</value>
+  <data name="RichEn_144" xml:space="preserve">
+    <value>“Simplicity comes at a cost; the rich can't stand for, forget affording.”    ―    Aniruddha Sastikar</value>
   </data>
-  <data name="Rich_145" xml:space="preserve">
-    <value>Тот алтын не того рубля.</value>
+  <data name="RichEn_145" xml:space="preserve">
+    <value>“The poor manufacture the engines of their own destruction, but it's the rich who sell them.”    ―    Sebastian Japrisot</value>
   </data>
-  <data name="Rich_146" xml:space="preserve">
-    <value>Кто украдет рубль, того отдают под суд, а кто тысяч двести, того держат в чести.</value>
+  <data name="RichEn_146" xml:space="preserve">
+    <value>“If you had a lot of money and you were miserable, you’d be miserable poor.”    ―    Glen Duncan,          By Blood We Live</value>
   </data>
-  <data name="Rich_147" xml:space="preserve">
-    <value>Последнюю копейку ребром не ставят.</value>
+  <data name="RichEn_147" xml:space="preserve">
+    <value>“Money wont make you happy but if you insist on being miserable, you may as well be rich...”    ―    Hank Curci</value>
   </data>
-  <data name="Rich_148" xml:space="preserve">
-    <value>Отдашь деньги руками, а ходишь за ними ногами</value>
+  <data name="RichEn_148" xml:space="preserve">
+    <value>“She came from the most worthless of classes - the rich, with a smattering of culture.”    ―    Virginia Woolf,          Mrs. Dalloway</value>
   </data>
-  <data name="Rich_149" xml:space="preserve">
-    <value>Работа денежку копит, а вино топит.</value>
+  <data name="RichEn_149" xml:space="preserve">
+    <value>“The poor makes good morals. The rich always gives them way to be brain. say Bhutta”    ―    M.K. Bhutta</value>
   </data>
-  <data name="Rich_150" xml:space="preserve">
-    <value>Сделал на пятак, а испортил на гривенник.</value>
+  <data name="RichEn_150" xml:space="preserve">
+    <value>“They couldn't hurt Gansey. Nothing could hurt him; people who said money couldn't buy everything hadn't seen anyone as rich as the Aglionby boys. They were untouchable, immune to life's troubles. Only death couldn't be swiped away by a credit card.”    ―    Maggie Stiefvater,          The Dream Thieves</value>
   </data>
-  <data name="Rich_151" xml:space="preserve">
-    <value>Федюшке дали денежку, а он и алтын просит.</value>
+  <data name="RichEn_151" xml:space="preserve">
+    <value>“Don't envy what people have, emulate what they did to have it.”    ―    Tim Fargo</value>
   </data>
-  <data name="Rich_152" xml:space="preserve">
-    <value>И гроши – деньги хороши.</value>
+  <data name="RichEn_152" xml:space="preserve">
+    <value>“These days, it's better to look poor and be safe, than look rich and be a victim.”    ―    Anthony Liccione</value>
   </data>
-  <data name="Rich_153" xml:space="preserve">
-    <value>Заклад – деньгам перемена.</value>
+  <data name="RichEn_153" xml:space="preserve">
+    <value>“We live in a world where we give our pounds to those who have too much and our pennies to those who have too little”    ―    Dean Griffiths</value>
   </data>
-  <data name="Rich_154" xml:space="preserve">
-    <value>Украдешь песчинку, заплатишь полтинку.</value>
+  <data name="RichEn_154" xml:space="preserve">
+    <value>“We may not have the choice to be rich or comfortable, but whatever happens; we do always have the choice to be an educated person.”    ―    M.F. Moonzajer,          LOVE, HATRED AND MADNESS</value>
   </data>
-  <data name="Rich_155" xml:space="preserve">
-    <value>От туго набитого кошелька на сердце легко.</value>
+  <data name="RichEn_155" xml:space="preserve">
+    <value>“Healthy people sleep eight hours,Wealthy people sleep four hours.”    ―    Amit Kalantri</value>
   </data>
-  <data name="Rich_156" xml:space="preserve">
-    <value>Из чужого кошелька легко платить.</value>
+  <data name="RichEn_156" xml:space="preserve">
+    <value>“There are poor men out there. And rich ones. Rich men never wait for nothing, so why would they be good? Good men are poor, because they have to count on others' kindnesses.”    ―    A.C. Gaughen,          Scarlet</value>
   </data>
-  <data name="Rich_157" xml:space="preserve">
-    <value>На пятака дружбы не купишь.</value>
+  <data name="RichEn_157" xml:space="preserve">
+    <value>“The law," he continued, "is made by the rich people so that the poor people can't get ahead...”    ―    Walter Mosley,          Devil in a Blue Dress</value>
   </data>
-  <data name="Rich_158" xml:space="preserve">
-    <value>Кто врет, тот и денежки берет.</value>
+  <data name="RichEn_158" xml:space="preserve">
+    <value>“For their holidays: the rich go see the world; the poor go see their parents.”    ―    Mokokoma Mokhonoana</value>
   </data>
-  <data name="Rich_159" xml:space="preserve">
-    <value>Кто рано встает, у того копейка растет.</value>
+  <data name="RichEn_159" xml:space="preserve">
+    <value>“I had a dream about you. We were both surrounded by poor people, but there was one big difference—I was poor, but you were rich. That’s why I was shocked when you tried to rob me. After all, I was one of many who voted you into power. ”    ―    Jarod Kintz,          I had a dream about you 2</value>
   </data>
-  <data name="Rich_160" xml:space="preserve">
-    <value>Частные пирушки изведут полушки.</value>
+  <data name="RichEn_160" xml:space="preserve">
+    <value>“There are many pleasant fictions of the law in constant operation, but there is not one so pleasant or practically humorous as that which supposes every man to be of equal value in its impartial eye, and the benefits of all laws to be equally attainable by all men, without the smallest reference to the furniture of their pockets.”    ―    Charles Dickens,          Nicholas Nickleby</value>
   </data>
-  <data name="Rich_161" xml:space="preserve">
-    <value>За тем дело стало, что денег мало.</value>
+  <data name="RichEn_161" xml:space="preserve">
+    <value>“A truly rich man is one whose children run into his arms when his hands are empty.”    ―    Ziad K. Abdelnour</value>
   </data>
-  <data name="Rich_162" xml:space="preserve">
-    <value>У кого нет денег, тому и кошелек не нужен.</value>
+  <data name="RichEn_162" xml:space="preserve">
+    <value>“Most people couldn't be rich if they wanted to be honest; most people couldn't be honest if they wanted to be rich.”    ―    Margaret Peterson Haddix,          Full Ride</value>
   </data>
-  <data name="Rich_163" xml:space="preserve">
-    <value>Купи поросенка в грош да посади его в рожь – и будет хорош.</value>
+  <data name="RichEn_163" xml:space="preserve">
+    <value>“{From Luther Burbank's funeral. He was loved until he revealed he was an atheist, then he began to receive death threats. He tried to amiably answer them all, leading to his death}It is impossible to estimate the wealth he has created. It has been generously given to the world. Unlike inventors, in other fields, no patent rights were given him, nor did he seek a monopoly in what he created. Had that been the case, Luther Burbank would have been perhaps the world's richest man. But the world is richer because of him. In this he found joy that no amount of money could give.And so we meet him here today, not in death, but in the only immortal life we positively know--his good deeds, his kindly, simple, life of constructive work and loving service to the whole wide world.These things cannot die. They are cumulative, and the work he has done shall be as nothing to its continuation in the only immortality this brave, unselfish man ever sought, or asked to know.As great as were his contributions to the material wealth of this planet, the ages yet to come, that shall better understand him, will give first place in judging the importance of his work to what he has done for the betterment of human plants and the strength they shall gain, through his courage, to conquer the tares, the thistles and the weeds. Then no more shall we have a mythical God that smells of brimstone and fire; that confuses hate with love; a God that binds up the minds of little children, as other heathen bind up their feet--little children equally helpless to defend their precious right to think and choose and not be chained from the dawn of childhood to the dogmas of the dead.Luther Burbank will rank with the great leaders who have driven heathenish gods back into darkness, forever from this earth.In the orthodox threat of eternal punishment for sin--which he knew was often synonymous with yielding up all liberty and freedom--and in its promise of an immortality, often held out for the sacrifice of all that was dear to life, the right to think, the right to one's mind, the right to choose, he saw nothing but cowardice. He shrank from such ways of thought as a flower from the icy blasts of death. As shown by his work in life, contributing billions of wealth to humanity, with no more return than the maintenance of his own breadline, he was too humble, too unselfish, to be cajoled with dogmatic promises of rewards as a sort of heavenly bribe for righteous conduct here. He knew that the man who fearlessly stands for the right, regardless of the threat of punishment or the promise of reward, was the real man.Rather was he willing to accept eternal sleep, in returning to the elements from whence he came, for in his lexicon change was life. Here he was content to mingle as a part of the whole, as the raindrop from the sea performs its sacred service in watering the land to which it is assigned, that two blades may grow instead of one, and then, its mission ended, goes back to the ocean from whence it came. With such service, with such a life as gardener to the lilies of the field, in his return to the bosoms of infinity, he has not lost himself. There he has found himself, is a part of the cosmic sea of eternal force, eternal energy. And thus he lived and always will live.Thomas Edison, who believes very much as Burbank, once discussed with me immortality. He pointed to the electric light, his invention, saying: 'There lives Tom Edison.' So Luther Burbank lives. He lives forever in the myriad fields of strengthened grain, in the new forms of fruits and flowers, plants, vines, and trees, and above all, the newly watered gardens of the human mind, from whence shall spring human freedom that shall drive out false and brutal gods. The gods are toppling from their thrones. They go before the laughter and the joy of the new childhood of the race, unshackled and unafraid.”    ―    Ben Lindsey</value>
   </data>
-  <data name="Rich_164" xml:space="preserve">
-    <value>Охал дядя на чужие деньги глядя.</value>
+  <data name="RichEn_164" xml:space="preserve">
+    <value>“He buys Playboy magazines and looks through them once, then gives them to me. That’s what it’s like to be rich.Here’s what it’s like to be poor. Your wife leaves you because you can’t find a job because there aren’t any jobs to find. You empty the jar of pennies on the mantel to buy cigarettes. You hate to answer the phone; it can’t possibly be good news. When your friends invite you out, you don’t go. After a while, they stop inviting. You owe them money, and sometimes they ask for it. You tell them you’ll see what you can scrape up.Which is this: nothing.”    ―    Tom Franklin,          Poachers</value>
   </data>
-  <data name="Rich_165" xml:space="preserve">
-    <value>Мужик богатый гребет деньги лопатой.</value>
+  <data name="RichEn_165" xml:space="preserve">
+    <value>“The level of your self-control is measured as the difference between how you act when you have nothing and how you react when you have everything.”    ―    Israelmore Ayivor,          The Great Hand Book of Quotes</value>
   </data>
-  <data name="Rich_166" xml:space="preserve">
-    <value>Иному слова не скажи, а только деньги покажи</value>
+  <data name="RichEn_166" xml:space="preserve">
+    <value>“Poor is what people become, not what they are born to be.”    ―    Saji Ijiyemi,          Don't Die Sitting</value>
   </data>
-  <data name="Rich_167" xml:space="preserve">
-    <value>Не легко деньги нажить, а легко прожить.</value>
+  <data name="RichEn_167" xml:space="preserve">
+    <value>“A family with all creditable members who can bank upon each other to build a healthy, trustworthy and sustainable relationship is truly and happily rich.”    ―    Anuj Somany</value>
   </data>
-  <data name="Rich_168" xml:space="preserve">
-    <value>Лучше на гривну убытку, чем на алтын стыда.</value>
+  <data name="RichEn_168" xml:space="preserve">
+    <value>“I had a dream about you. You were a burlesque dancer in a burlap sack, and I was a first-time kidnapper. I wanted to be rich in dance moves, and I thought the best way to achieve it would be to extort it from your talented family. ”    ―    Jarod Kintz,          I had a dream about you 2</value>
   </data>
-  <data name="Rich_169" xml:space="preserve">
-    <value>Размах рублевый – удар копеечный.</value>
+  <data name="RichEn_169" xml:space="preserve">
+    <value>“Why are so many very smart people not also rich? I guess they are too busy calculating risks rather than getting into action.”    ―    Ziad K. Abdelnour</value>
   </data>
-  <data name="Rich_170" xml:space="preserve">
-    <value>Есть чем звякнуть, так можно и крякнуть</value>
+  <data name="RichEn_170" xml:space="preserve">
+    <value>“I believe if you're not a very curious person by nature, its unlikely you'll become rich at all or make it to the top. Smart is curious.”    ―    Ziad K. Abdelnour,          Economic Warfare: Secrets of Wealth Creation in the Age of Welfare Politics</value>
   </data>
-  <data name="Rich_171" xml:space="preserve">
-    <value>Пожалел алтын – потерял гривну.</value>
+  <data name="RichEn_171" xml:space="preserve">
+    <value>“Remember this: Everybody is less fortunate than you, in some way or another. If you are poor in wealth, be rich in spirit. ”    ―    Jarod Kintz,          Sleepwalking is restercise</value>
   </data>
-  <data name="Rich_172" xml:space="preserve">
-    <value>От вора – дубинкой, от попа – полтинкой.</value>
+  <data name="RichEn_172" xml:space="preserve">
+    <value>“It's never better to make somebody poorer, even if they're rich.”    ―    Ziad K. Abdelnour,          Economic Warfare: Secrets of Wealth Creation in the Age of Welfare Politics</value>
   </data>
-  <data name="Rich_173" xml:space="preserve">
-    <value>За денежки и черт спляшет.</value>
+  <data name="RichEn_173" xml:space="preserve">
+    <value>“Success can not be measured in dollars and cents.”    ―    Adam LiVecchi</value>
   </data>
-  <data name="Rich_174" xml:space="preserve">
-    <value>За спрос денег не берут.</value>
+  <data name="RichEn_174" xml:space="preserve">
+    <value>“I said I didn't think it would be a collectivist state so much as a wilderness in which most people lived hand to mouth, and the rich would live like princes - better than the rich had ever lived, except that their lives would constantly be in danger from the hungry predatory poor. All the technology would serve the rich, but they would need it for their own protection and to assure their continued prosperity.”    ―    Paul Theroux,          The Kingdom by the Sea</value>
   </data>
-  <data name="Rich_175" xml:space="preserve">
-    <value>Три деньги в день – куда хочешь, туда и день.</value>
+  <data name="RichEn_175" xml:space="preserve">
+    <value>“Difference between being Rich and Being Wealthy? Time...Nothing is more important than TIME... can't buy it back ever.”    ―    Ziad K. Abdelnour,          Economic Warfare: Secrets of Wealth Creation in the Age of Welfare Politics</value>
   </data>
-  <data name="Rich_176" xml:space="preserve">
-    <value>Время деньги дает, а на деньги время не купишь.</value>
+  <data name="RichEn_176" xml:space="preserve">
+    <value>“You can go with an empty pocket and come back heavily loaded if you allow your passion to escort you!”    ―    Israelmore Ayivor,          The Great Hand Book of Quotes</value>
   </data>
-  <data name="Rich_177" xml:space="preserve">
-    <value>За деньги славы не дают.</value>
+  <data name="RichEn_177" xml:space="preserve">
+    <value>“For their holidays: the rich’s kids travel the world; the poor’s kids roam around their grandparents’ yard.”    ―    Mokokoma Mokhonoana</value>
   </data>
-  <data name="Rich_178" xml:space="preserve">
-    <value>Кто до денег охоч, тот не спит и ночь.</value>
+  <data name="RichEn_178" xml:space="preserve">
+    <value>“Poor people do not go on holiday; they go home.”    ―    Mokokoma Mokhonoana</value>
   </data>
-  <data name="Rich_179" xml:space="preserve">
-    <value>Не оставляй денег детям: глупый проживет, а умный сам наживет.</value>
+  <data name="RichEn_179" xml:space="preserve">
+    <value>“How often do the poor in the US get to stand in front of their nation's Marie Antoinette's and shove the stale, mass-produced cake of lower class reality back into their mouths?”    ―    M.B. Dallocchio</value>
   </data>
-  <data name="Rich_180" xml:space="preserve">
-    <value>На грош амуниции, на рубль веревок.</value>
+  <data name="RichEn_180" xml:space="preserve">
+    <value>“There are many different ways to be poor in the world but increasingly there seems to be one single way to be rich.”    ―    Chimamanda Ngozi Adichie,          Americanah</value>
   </data>
-  <data name="Rich_181" xml:space="preserve">
-    <value>На рубль работы, на два похвальбы.</value>
+  <data name="RichEn_181" xml:space="preserve">
+    <value>“A wealthy and wise man doesn't shake hands with people, he gives an helping hand.”    ―    Michael Bassey Johnson</value>
   </data>
-  <data name="Rich_182" xml:space="preserve">
-    <value>Щербата денежка, да гладок калач.</value>
+  <data name="RichEn_182" xml:space="preserve">
+    <value>“A poor man knows the true value of money and will not dare waste it, but a rich man is extravagant and always looking for an opportunity to empty his pockets.”    ―    Michael Bassey Johnson</value>
   </data>
-  <data name="Rich_183" xml:space="preserve">
-    <value>Люди – все, а деньги – сор.</value>
+  <data name="RichEn_183" xml:space="preserve">
+    <value>“You will miss a normal life while living a successful life, but not as much as the craving for a successful life while you were living a normal life.”    ―    Amit Kalantri</value>
   </data>
-  <data name="Rich_184" xml:space="preserve">
-    <value>Почет дороже денег.</value>
+  <data name="RichEn_184" xml:space="preserve">
+    <value>“Half of the world population is dying from poverty and hunger and still you think you are not rich enough.”    ―    M.F. Moonzajer</value>
   </data>
-  <data name="Rich_185" xml:space="preserve">
-    <value>Не то денежки, что у бабушки, а то, что в запазушке.</value>
+  <data name="RichEn_185" xml:space="preserve">
+    <value>“The only step that makes the valuable to become valueless is the negative side of your eyes that you use to see it.”    ―    Israelmore Ayivor</value>
   </data>
-  <data name="Rich_186" xml:space="preserve">
-    <value>Рабочему полтина, а нарядчику рубль.</value>
+  <data name="RichEn_186" xml:space="preserve">
+    <value>“According to Google statistics, people search the word "money" four times as often as the word "goal". This creates a word: "frustration".”    ―    Tim Fargo,          Alphabet Success - Keeping it Simple</value>
   </data>
-  <data name="Rich_187" xml:space="preserve">
-    <value>С деньгами мил, без денег постыл.</value>
+  <data name="RichEn_187" xml:space="preserve">
+    <value>“This love of money is the curse of American, and for the sake of it men will sell honor and honesty, till we don't know whom to trust, and it is only a genius like Agassiz who dares to say, 'I cannot waste my time in getting rich,'" said Mrs. Jessie sadly.”    ―    Louisa May Alcott</value>
   </data>
-  <data name="Rich_188" xml:space="preserve">
-    <value>На деньги поста нет.</value>
+  <data name="RichEn_188" xml:space="preserve">
+    <value>“If you have money but not love you will somehow manage, but if you don't have both then you are in serious trouble.”    ―    Amit Kalantri</value>
   </data>
-  <data name="Rich_189" xml:space="preserve">
-    <value>Кто попу рубль, тот и во святых свой.</value>
+  <data name="RichEn_189" xml:space="preserve">
+    <value>“Maybe we are the wealthiest people around the world; but we haven’t found wealth on the road.”    ―    M.F. Moonzajer</value>
   </data>
-  <data name="Rich_190" xml:space="preserve">
-    <value>Лишняя денежка карману не в тягость.</value>
+  <data name="RichEn_190" xml:space="preserve">
+    <value>“When the going gets tough: the poor close their eyes, the rich open their wallets.”    ―    Mokokoma Mokhonoana,          Divided &amp; Conquered</value>
   </data>
-  <data name="Rich_191" xml:space="preserve">
-    <value>И барину деньга господин.</value>
+  <data name="RichEn_191" xml:space="preserve">
+    <value>“No despotism, no privileged monopolies, no police societies, no divine rights of the emirs or feudal landlords or shady priests and sheikhs. All had the same equal footing—the rich and the poor, the noble and the common.”    ―    Rami Ollaik,          The Bees Road</value>
   </data>
-  <data name="Rich_192" xml:space="preserve">
-    <value>Медные деньги звонче золотых.</value>
+  <data name="RichEn_192" xml:space="preserve">
+    <value>“Not every happy person is rich, and, Not every rich person is happy.”    ―    Mokokoma Mokhonoana</value>
   </data>
-  <data name="Rich_193" xml:space="preserve">
-    <value>Неистраченные деньги — приобретение</value>
+  <data name="RichEn_193" xml:space="preserve">
+    <value>“Mother Atkinson thought that every one should have a trade, or something to make a living out of , for rich people may grow poor, you know, and poor people have to work.... so when I saw how happy and independent those young ladies were, I wanted to have a trade, and then it wouldn't matter about money, though I like to have it well enough.”    ―    Louisa May Alcott</value>
   </data>
-  <data name="Rich_194" xml:space="preserve">
-    <value>Кто за копейкой не нагнется – ломаного гроша не стоит.</value>
+  <data name="RichEn_194" xml:space="preserve">
+    <value>“Or can it be thought that they who heap up an useless mass of wealth, not for any use that it is to bring them, but merely to please themselves with the contemplation of it, enjoy any true pleasure in it? The delight they find is only a false shadow of joy. Those are no better whose error is somewhat different from the former, and who hide it, out of their fear of losing it; for what other name can fit the hiding it in the earth, or rather the restoring to it again, it being thus cut off from being useful, either to its owner or to the rest of mankind? And yet the owner having hid it carefully, is glad, because he thinks he is now sure of it. It if should be stole, the owner, though he might live perhaps ten years after the theft, of which he knew nothing, would find no difference between his having or losing it; for both ways it was equally useless to him.”    ―    Thomas More,          Utopia</value>
   </data>
-  <data name="Rich_195" xml:space="preserve">
-    <value>У скупого рубль плачет, а у щедрого и полушка скачет.</value>
+  <data name="RichEn_195" xml:space="preserve">
+    <value>“I don't have to worry about Madame Ouche! she'll still be robbing me blind when she's dead!...having made her last confession and received extreme unction...all the cataclysms will pass over her without harming a single gray hair on her head! it's a paradise here for scum like her, on earth as there is in heaven...they don't really die, the sluts, the hussies, the really awful ones, they just go from one paradise to another, with their money, servants, cars...just buy their cute little ticket and off they go! final absolution and see you later! they shit in your hands!...they're born to slip out of both hells - the one here and the one in the next world...all they do is fuck and whine...loads of cash! never broke!...cheers! here's to you! no regrets! you realize too late...”    ―    Louis-Ferdinand Céline,          Normance</value>
+  </data>
+  <data name="RichEn_196" xml:space="preserve">
+    <value>“Money should not direct you to what to do and what not to do; the giver of the money is responsible for playing that role.”    ―    Israelmore Ayivor</value>
+  </data>
+  <data name="RichEn_197" xml:space="preserve">
+    <value>“The human eye is restricted to see the useen, because there’s a price to be paid to the rulers of this image and if this image is seen by you, you’ll dare not divulge it to others, for others must pay a price”    ―    Michael Bassey Johnson</value>
+  </data>
+  <data name="RichEn_198" xml:space="preserve">
+    <value>“Les gens riches à Paris demeurent ensemble, leurs quartiers, en bloc, forment une tranche de gâteau urbain dont la pointe vient toucher au Louvre, cependant que le rebord rebondi s'arrête aux arbres entre le Pont d'Auteuil et la Porte des Ternes. Voilà. C'est le bon morceau. Tout le reste n'est que peine et fumier.”    ―    Louis-Ferdinand Céline,          Journey to the End of the Night</value>
+  </data>
+  <data name="RichEn_199" xml:space="preserve">
+    <value>“A live broke man is 'luckier' than a dead rich man.”    ―    Mokokoma Mokhonoana</value>
+  </data>
+  <data name="RichEn_200" xml:space="preserve">
+    <value>“Saving money won't get us rich. You have to spend it to get it.”    ―    Jonathan Anthony Burkett</value>
+  </data>
+  <data name="RichEn_201" xml:space="preserve">
+    <value>“The real rich people doesn't have bank accounts, they have treasures.”    ―    Amit Kalantri</value>
+  </data>
+  <data name="RichEn_202" xml:space="preserve">
+    <value>“There's poverty in wealth. If a man is wealthy without good health, is he not poor? If a man is wealthy without children, is he not poor? If a man is wealthy without God, is he not poor? If a man is wealthy without giving alms, is he not poor? If a man is wealthy without wisdom, is he not poor? Then there's a great lack in riches.”    ―    Michael Bassey Johnson</value>
+  </data>
+  <data name="RichEn_203" xml:space="preserve">
+    <value>“Being rich is an untalented artist’s consolation prize.”    ―    Mokokoma Mokhonoana</value>
+  </data>
+  <data name="RichEn_204" xml:space="preserve">
+    <value>“Apart from the economic value, money does have high moral value.”    ―    Amit Kalantri</value>
+  </data>
+  <data name="RichEn_205" xml:space="preserve">
+    <value>“Poors are Gift of Rich And Politics”    ―    Santosh More</value>
+  </data>
+  <data name="RichEn_206" xml:space="preserve">
+    <value>“With some money in your pocket you walk confidently, you talk confidently and you work confidently.”    ―    Amit Kalantri</value>
+  </data>
+  <data name="RichEn_207" xml:space="preserve">
+    <value>“To the rich, the really poor don't know that the level of comfort you experience exist at all, so you see, they don't need your sympathy, and you should not feel guilty,  just teach them how to fish.”    ―    Peter Ojo</value>
+  </data>
+  <data name="RichEn_208" xml:space="preserve">
+    <value>“You will get your father's wealth one day but not his legacy.”    ―    Amit Kalantri</value>
+  </data>
+  <data name="RichEn_209" xml:space="preserve">
+    <value>“Jede menschliche Nase riecht unweigerlich sofort den zarten Hauch von Unabhängigkeit, Gewohnheit, zu befehlen, Gewohnheit, überall das Beste für sich zu wählen, leichter Weltverachtung und beständiger Machtverantwortung, der von einem großen und sicheren Einkommen aufstieg.”    ―    Robert Musil,          Der Mann ohne Eigenschaften</value>
   </data>
 </root>

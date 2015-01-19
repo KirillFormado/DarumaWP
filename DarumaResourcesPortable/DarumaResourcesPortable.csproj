@@ -34,136 +34,139 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <EmbeddedResource Include="LocalizationResources\AppResources.en-US.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>AppResources.en-US.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\CitationLocalizationResources.en-US.resx">
+    <EmbeddedResource Include="LocalizationResources\AppResources.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>CitationLocalizationResources.en-US.Designer.cs</LastGenOutput>
+      <LastGenOutput>AppResources.ru.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\CitationLocalizationResources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>CitationLocalizationResources.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="LocalizationResources\CitationLocalizationResources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CitationLocalizationResources.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Friendship.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Friendship.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Friendship2.resx" />
-    <EmbeddedResource Include="LocalizationResources\Funy.resx">
+    <EmbeddedResource Include="LocalizationResources\Friendship.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Funy.Designer.cs</LastGenOutput>
+      <LastGenOutput>Friendship.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationResources\CitationLocalizationResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CitationLocalizationResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Health.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Health.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Health2.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Health2.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="LocalizationResources\Health.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Health.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Love.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Love.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Love2.resx" />
+    <EmbeddedResource Include="LocalizationResources\Love.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Love.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Luck.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Luck.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Luck2.resx" />
+    <EmbeddedResource Include="LocalizationResources\Luck.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Luck.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocalizationResources\Rich.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Rich.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationResources\Rich2.resx" />
+    <EmbeddedResource Include="LocalizationResources\Rich.ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Rich.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infrastructure\DarumaWishThemeToLocalizationString.cs" />
     <Compile Include="Infrastructure\LocalizedStrings.cs" />
     <Compile Include="Infrastructure\LocalizationResourseStorage.cs" />
-    <Compile Include="LocalizationResources\Friendship2.Designer.cs">
+    <Compile Include="LocalizationResources\Friendship.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Friendship2.resx</DependentUpon>
+      <DependentUpon>Friendship.resx</DependentUpon>
     </Compile>
-    <Compile Include="LocalizationResources\Health2.Designer.cs">
+    <Compile Include="LocalizationResources\Friendship.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Health2.resx</DependentUpon>
-    </Compile>
-    <Compile Include="LocalizationResources\Love2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Love2.resx</DependentUpon>
-    </Compile>
-    <Compile Include="LocalizationResources\Luck2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Luck2.resx</DependentUpon>
-    </Compile>
-    <Compile Include="LocalizationResources\Rich2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Rich2.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LocalizationResources\AppResources.en-US.Designer.cs">
-      <DependentUpon>AppResources.en-US.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="LocalizationResources\AppResources.Designer.cs">
-      <DependentUpon>AppResources.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
+      <DependentUpon>Friendship.ru.resx</DependentUpon>
     </Compile>
     <Compile Include="LocalizationResources\CitationLocalizationResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CitationLocalizationResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="LocalizationResources\CitationLocalizationResources.en-US.Designer.cs">
-      <DependentUpon>CitationLocalizationResources.en-US.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="LocalizationResources\Friendship.Designer.cs">
-      <DependentUpon>Friendship.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="LocalizationResources\Funy.Designer.cs">
-      <DependentUpon>Funy.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <Compile Include="LocalizationResources\Health.Designer.cs">
-      <DependentUpon>Health.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>Health.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationResources\Health.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Health.ru.resx</DependentUpon>
     </Compile>
     <Compile Include="LocalizationResources\Love.Designer.cs">
-      <DependentUpon>Love.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>Love.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationResources\Love.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Love.ru.resx</DependentUpon>
     </Compile>
     <Compile Include="LocalizationResources\Luck.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
       <DependentUpon>Luck.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationResources\Luck.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Luck.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationResources\Rich.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rich.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizationResources\Rich.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rich.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LocalizationResources\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="LocalizationResources\Rich.Designer.cs">
-      <DependentUpon>Rich.resx</DependentUpon>
+    <Compile Include="LocalizationResources\AppResources.ru.Designer.cs">
+      <DependentUpon>AppResources.ru.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="LocalizationResources\CitationLocalizationResources.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CitationLocalizationResources.ru.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

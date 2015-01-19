@@ -117,43 +117,634 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Funy_0" xml:space="preserve">
-    <value>Обходя разложенные грабли - ты теряешь драгоценный опыт!</value>
+  <data name="FunyEn_0" xml:space="preserve">
+    <value>“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”    ―    Albert Einstein</value>
   </data>
-  <data name="Funy_1" xml:space="preserve">
-    <value>Жизнь удалась, если коньяк, который мы пьем, старше женщин, с которыми мы спим.</value>
+  <data name="FunyEn_1" xml:space="preserve">
+    <value>“So many books, so little time.”    ―    Frank Zappa</value>
   </data>
-  <data name="Funy_2" xml:space="preserve">
-    <value>Умна та женщина, в обществе которой можно вести себя как угодно глупо.</value>
+  <data name="FunyEn_2" xml:space="preserve">
+    <value>“You only live once, but if you do it right, once is enough.”    ―    Mae West</value>
   </data>
-  <data name="Funy_3" xml:space="preserve">
-    <value>Одиночество - это когда ты всегда знаешь, где лежат твои вещи.</value>
+  <data name="FunyEn_3" xml:space="preserve">
+    <value>“Insanity is doing the same thing, over and over again, but expecting different results.”    ―    Narcotics Anonymous,          Narcotics Anonymous</value>
   </data>
-  <data name="Funy_4" xml:space="preserve">
-    <value>Второй брак - это победа надежды над здравым смыслом.</value>
+  <data name="FunyEn_4" xml:space="preserve">
+    <value>“The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”    ―    Jane Austen</value>
   </data>
-  <data name="Funy_5" xml:space="preserve">
-    <value>Ничего страшного если над тобой смеются... Гораздо хуже, когда над тобой плачут...</value>
+  <data name="FunyEn_5" xml:space="preserve">
+    <value>“Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.”    ―    Groucho Marx,          The Essential Groucho: Writings For By And About Groucho Marx</value>
   </data>
-  <data name="Funy_6" xml:space="preserve">
-    <value>Утро - это такая часть суток, когда завидуешь безработным...</value>
+  <data name="FunyEn_6" xml:space="preserve">
+    <value>“A day without sunshine is like, you know, night.”    ―    Steve Martin</value>
   </data>
-  <data name="Funy_7" xml:space="preserve">
-    <value>Детская мудрость: если мама смеется над остротами папы, значит, в доме гости.</value>
+  <data name="FunyEn_7" xml:space="preserve">
+    <value>“Never put off till tomorrow what may be done day after tomorrow just as well". From: "More Maxims of Mark”    ―    Mark Twain</value>
   </data>
-  <data name="Funy_8" xml:space="preserve">
-    <value>Если женщина вас обманывает, значит, вы ей небезразличны</value>
+  <data name="FunyEn_8" xml:space="preserve">
+    <value>“I love deadlines. I love the whooshing noise they make as they go by.”    ―    Douglas Adams,          The Salmon of Doubt</value>
   </data>
-  <data name="Funy_9" xml:space="preserve">
-    <value>Девушки бывают или умные, или красивые.</value>
+  <data name="FunyEn_9" xml:space="preserve">
+    <value>“Anyone who thinks sitting in church can make you a Christian must also think that sitting in a garage can make you a car.”    ―    Garrison Keillor</value>
   </data>
-  <data name="Funy_10" xml:space="preserve">
-    <value>Если ты хочешь выйти замуж за умного, красивого и богатого, придется выходить замуж три раза.</value>
+  <data name="FunyEn_10" xml:space="preserve">
+    <value>“Women and cats will do as they please, and men and dogs should relax and get used to the idea.”    ―    Robert A. Heinlein</value>
   </data>
-  <data name="Funy_11" xml:space="preserve">
-    <value>Мужчине достаточно быть чуть красивее обезьяны.</value>
+  <data name="FunyEn_11" xml:space="preserve">
+    <value>“Beauty is in the eye of the beholder and it may be necessary from time to time to give a stupid or misinformed beholder a black eye.”    ―    Jim Henson</value>
   </data>
-  <data name="Funy_12" xml:space="preserve">
-    <value>Шутки шутками, но могут быть и дети.</value>
+  <data name="FunyEn_12" xml:space="preserve">
+    <value>“Whenever I feel the need to exercise, I lie down until it goes away.”    ―    Paul   Terry</value>
+  </data>
+  <data name="FunyEn_13" xml:space="preserve">
+    <value>“I'm not afraid of death; I just don't want to be there when it happens.”    ―    Woody Allen</value>
+  </data>
+  <data name="FunyEn_14" xml:space="preserve">
+    <value>“The difference between genius and stupidity is; genius has its limits.”    ―    Albert Einstein</value>
+  </data>
+  <data name="FunyEn_15" xml:space="preserve">
+    <value>“Saying 'I notice you're a nerd' is like saying, 'Hey, I notice that you'd rather be intelligent than be stupid, that you'd rather be thoughtful than be vapid, that you believe that there are things that matter more than the arrest record of Lindsay Lohan. Why is that?' In fact, it seems to me that most contemporary insults are pretty lame. Even 'lame' is kind of lame. Saying 'You're lame' is like saying 'You walk with a limp.' Yeah, whatever, so does 50 Cent, and he's done all right for himself.”    ―    John Green</value>
+  </data>
+  <data name="FunyEn_16" xml:space="preserve">
+    <value>“All you need is love. But a little chocolate now and then doesn't hurt.”    ―    Charles M. Schulz</value>
+  </data>
+  <data name="FunyEn_17" xml:space="preserve">
+    <value>“I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.”    ―    Groucho Marx</value>
+  </data>
+  <data name="FunyEn_18" xml:space="preserve">
+    <value>“The story so far:In the beginning the Universe was created.This has made a lot of people very angry and been widely regarded as a bad move.”    ―    Douglas Adams,          The Restaurant at the End of the Universe</value>
+  </data>
+  <data name="FunyEn_19" xml:space="preserve">
+    <value>“The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.”    ―    Terry Pratchett,          Diggers</value>
+  </data>
+  <data name="FunyEn_20" xml:space="preserve">
+    <value>“I love mankind ... it's people I can't stand!!”    ―    Charles M. Schulz,          The Complete Peanuts, Vol. 5: 1959-1960</value>
+  </data>
+  <data name="FunyEn_21" xml:space="preserve">
+    <value>“Reality continues to ruin my life.”    ―    Bill Watterson,          The Complete Calvin and Hobbes</value>
+  </data>
+  <data name="FunyEn_22" xml:space="preserve">
+    <value>“Remember, we're madly in love, so it's all right to kiss me anytime you feel like it.”    ―    Suzanne Collins,          The Hunger Games</value>
+  </data>
+  <data name="FunyEn_23" xml:space="preserve">
+    <value>“Go to heaven for the climate and hell for the company.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_24" xml:space="preserve">
+    <value>“Some people never go crazy. What truly horrible lives they must lead.”    ―    Charles Bukowski</value>
+  </data>
+  <data name="FunyEn_25" xml:space="preserve">
+    <value>“I am free of all prejudice. I hate everyone equally. ”    ―    W.C. Fields</value>
+  </data>
+  <data name="FunyEn_26" xml:space="preserve">
+    <value>“The reason I talk to myself is because I’m the only one whose answers I accept.”    ―    George Carlin</value>
+  </data>
+  <data name="FunyEn_27" xml:space="preserve">
+    <value>“Be nice to nerds. You may end up working for them. We all could.”    ―    Charles J. Sykes,          Dumbing Down Our Kids: Why American Children Feel Good about Themselves but Can't Read, Write or Add</value>
+  </data>
+  <data name="FunyEn_28" xml:space="preserve">
+    <value>“A lady's imagination is very rapid; it jumps from admiration to love, from love to matrimony in a moment.”    ―    Jane Austen,          Pride and Prejudice</value>
+  </data>
+  <data name="FunyEn_29" xml:space="preserve">
+    <value>“Be careful about reading health books. You may die of a misprint.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_30" xml:space="preserve">
+    <value>“Have you ever noticed how ‘What the hell’ is always the right decision to make?”    ―    Terry Johnson,          Insignificance</value>
+  </data>
+  <data name="FunyEn_31" xml:space="preserve">
+    <value>“The statistics on sanity are that one out of every four people is suffering from a mental illness. Look at your 3 best friends. If they're ok, then it's you.”    ―    Rita Mae Brown</value>
+  </data>
+  <data name="FunyEn_32" xml:space="preserve">
+    <value>“Creativity is knowing how to hide your sources”    ―    Albert Einstein</value>
+  </data>
+  <data name="FunyEn_33" xml:space="preserve">
+    <value>“Do you remember me telling you we are practicing non-verbal spells, Potter?""Yes," said Harry stiffly."Yes, sir.""There's no need to call me "sir" Professor."The words had escaped him before he knew what he was saying.”    ―    J.K. Rowling,          Harry Potter and the Half-Blood Prince</value>
+  </data>
+  <data name="FunyEn_34" xml:space="preserve">
+    <value>“I can't go back to yesterday because I was a different person then.”    ―    Lewis Carroll,          Alice in Wonderland</value>
+  </data>
+  <data name="FunyEn_35" xml:space="preserve">
+    <value>“Jesus!" Luke exclaimed."Actually, it's just me," said Simon. "Although I've been told the resemblance is startling.”    ―    Cassandra Clare</value>
+  </data>
+  <data name="FunyEn_36" xml:space="preserve">
+    <value>“I don't want to be a man," said Jace. "I want to be an angst-ridden teenager who can't confront his own inner demons and takes it out verbally on other people instead.""Well," said Luke, "you're doing a fantastic job.”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_37" xml:space="preserve">
+    <value>“All God does is watch us and kill us when we get boring. We must never, ever be boring.”    ―    Chuck Palahniuk,          Invisible Monsters</value>
+  </data>
+  <data name="FunyEn_38" xml:space="preserve">
+    <value>“Life's hard. It's even harder when you're stupid.”    ―    John Wayne</value>
+  </data>
+  <data name="FunyEn_39" xml:space="preserve">
+    <value>“Give a man a fire and he's warm for a day, but set fire to him and he's warm for the rest of his life.”    ―    Terry Pratchett,          Jingo</value>
+  </data>
+  <data name="FunyEn_40" xml:space="preserve">
+    <value>“I refuse to answer that question on the grounds that I don't know the answer”    ―    Douglas Adams</value>
+  </data>
+  <data name="FunyEn_41" xml:space="preserve">
+    <value>“Two wrongs don't make a right, but they make a good excuse.”    ―    Thomas Stephen Szasz</value>
+  </data>
+  <data name="FunyEn_42" xml:space="preserve">
+    <value>“There's a fine line between genius and insanity. I have erased this line.”    ―    Oscar Levant</value>
+  </data>
+  <data name="FunyEn_43" xml:space="preserve">
+    <value>“When you're in jail, a good friend will be trying to bail you out. A best friend will be in the cell next to you saying, 'Damn, that was fun'.”    ―    Groucho Marx</value>
+  </data>
+  <data name="FunyEn_44" xml:space="preserve">
+    <value>“When you are courting a nice girl an hour seems like a second. When you sit on a red-hot cinder a second seems like an hour. That's relativity.”    ―    Albert Einstein</value>
+  </data>
+  <data name="FunyEn_45" xml:space="preserve">
+    <value>“He can run faster than Severus Snape confronted with shampoo.”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
+  </data>
+  <data name="FunyEn_46" xml:space="preserve">
+    <value>“Mr. Moony presents his compliments to Professor Snape, and begs him to keep his abnormally large nose out of other people's business.Mr. Prongs agrees with Mr. Moony, and would like to add that Professor Snape is an ugly git.Mr. Padfoot would like to register his astonishment that an idiot like that ever became a professor.Mr. Wormtail bids Professor Snape good day, and advises him to wash his hair, the slimeball.”    ―    J.K. Rowling,          Harry Potter and the Prisoner of Azkaban</value>
+  </data>
+  <data name="FunyEn_47" xml:space="preserve">
+    <value>“Fate is like a strange, unpopular restaurant filled with odd little waiters who bring you things you never asked for and don't always like.”    ―    Lemony Snicket</value>
+  </data>
+  <data name="FunyEn_48" xml:space="preserve">
+    <value>“Some humans would do anything to see if it was possible to do it. If you put a large switch in some cave somewhere, with a sign on it saying 'End-of-the-World Switch. PLEASE DO NOT TOUCH', the paint wouldn't even have time to dry.”    ―    Terry Pratchett,          Thief of Time</value>
+  </data>
+  <data name="FunyEn_49" xml:space="preserve">
+    <value>“You know the world is going crazy when the best rapper is a white guy, the best golfer is a black guy, the tallest guy in the NBA is Chinese, the Swiss hold the America's Cup, France is accusing the U.S. of arrogance, Germany doesn't want to go to war, and the three most powerful men in America are named "Bush", "Dick", and "Colin." Need I say more?”    ―    Chris Rock</value>
+  </data>
+  <data name="FunyEn_50" xml:space="preserve">
+    <value>“If the world were merely seductive, that would be easy. If it were merely challenging, that would be no problem. But I arise in the morning torn between a desire to improve the world and a desire to enjoy the world. This makes it hard to plan the day.”    ―    E.B. White</value>
+  </data>
+  <data name="FunyEn_51" xml:space="preserve">
+    <value>“Going to church doesn’t make you a Christian any more than going to a garage makes you an automobile.”    ―    Billy Sunday,          Billy Sunday, the Man and His Message: With His Own Words Which Have Won Thousands for Christ</value>
+  </data>
+  <data name="FunyEn_52" xml:space="preserve">
+    <value>“Death's got an Invisibility Cloak?" Harry interrupted again."So he can sneak up on people," said Ron. "Sometimes he gets bored of running at them, flapping his arms and shrieking...”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
+  </data>
+  <data name="FunyEn_53" xml:space="preserve">
+    <value>“Never memorize something that you can look up.”    ―    Albert Einstein</value>
+  </data>
+  <data name="FunyEn_54" xml:space="preserve">
+    <value>“Reader, suppose you were an idiot. And suppose you were a member of Congress. But I repeat myself.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_55" xml:space="preserve">
+    <value>“Substitute 'damn' every time you're inclined to write 'very;' your editor will delete it and the writing will be just as it should be.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_56" xml:space="preserve">
+    <value>“I do not want people to be very agreeable, as it saves me the trouble of liking them a great deal.”    ―    Jane Austen,          Jane Austen's Letters</value>
+  </data>
+  <data name="FunyEn_57" xml:space="preserve">
+    <value>“I like work: it fascinates me. I can sit and look at it for hours.”    ―    Jerome K. Jerome</value>
+  </data>
+  <data name="FunyEn_58" xml:space="preserve">
+    <value>“Do you remember back at the hotel when you promised that if we lived, you’d get dressed up in a nurse’s outfit and give me a sponge bath?" asked Jace."It was Simon who promised you the sponge bath.""As soon as I’m back on my feet, handsome," said Simon."I knew we should have left you a rat.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_59" xml:space="preserve">
+    <value>“THE FIRST TEN LIES THEY TELL YOU IN HIGH SCHOOL 1. We are here to help you. 2. You will have time to get to your class before the bell rings. 3. The dress code will be enforced. 4. No smoking is allowed on school grounds. 5. Our football team will win the championship this year. 6. We expect more of you here. 7. Guidance counselors are always available to listen. 8. Your schedule was created with you in mind. 9. Your locker combination is private. 10. These will be the years you look back on fondly. TEN MORE LIES THEY TELL YOU IN HIGH SCHOOL 1. You will use algebra in your adult lives. 2. Driving to school is a privilege that can be taken away. 3. Students must stay on campus during lunch. 4. The new text books will arrive any day now. 5. Colleges care more about you than your SAT scores. 6. We are enforcing the dress code. 7. We will figure out how to turn off the heat soon. 8. Our bus drivers are highly trained professionals. 9. There is nothing wrong with summer school. 10. We want to hear what you have to say.”    ―    Laurie Halse Anderson,          Speak</value>
+  </data>
+  <data name="FunyEn_60" xml:space="preserve">
+    <value>“Is it true that you shouted at Professor Umbridge?""Yes.""You called her a liar?""Yes.""You told her He Who Must Not Be Named is back?""Yes.""Have a biscuit, Potter.”    ―    J.K. Rowling,          Harry Potter and the Order of the Phoenix</value>
+  </data>
+  <data name="FunyEn_61" xml:space="preserve">
+    <value>“It means 'Shadowhunters: Looking Better in Black Than the Widows of our Enemies Since 1234'.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_62" xml:space="preserve">
+    <value>“Let us find the dam snack bar," Zoe said. "We should eat while we can."Grover cracked a smile. "The dam snack bar?"Zoe blinked. "Yes. What is funny?""Nothing," Grover said, trying to keep a straight face. "I could use some dam french fries."Even Thalia smiled at that. "And I need to use the dam restroom."...I started cracking up, and Thalia and Grover joined in, while Zoe just looked at me. "I do not understand.""I want to use the dam water fountain," Grover said."And..." Thalia tried to catch her breath. "I want to buy a dam t-shirt.”    ―    Rick Riordan,          The Titan's Curse</value>
+  </data>
+  <data name="FunyEn_63" xml:space="preserve">
+    <value>“I generally avoid temptation unless I can't resist it.”    ―    Mae West</value>
+  </data>
+  <data name="FunyEn_64" xml:space="preserve">
+    <value>“What the hell is that?" I laughed."It's my fox hat.""Your fox hat?""Yeah, Pudge. My fox hat.""Why are you wearing your fox hat?" I asked."Because no one can catch the motherfucking fox.”    ―    John Green,          Looking for Alaska</value>
+  </data>
+  <data name="FunyEn_65" xml:space="preserve">
+    <value>“Malachi scowled. "I don't remember the Clave inviting you into the Glass City, Magnus Bane.""They didn't," Magnus said. "Your wards are down.""Really?" the Consul's voice dripped sarcasm. "I hadn't noticed."Magnus looked concerned. "That's terrible. Someone should have told you." He glanced at Luke. "Tell him the wards are down.”    ―    Cassandra Clare,          City of Glass</value>
+  </data>
+  <data name="FunyEn_66" xml:space="preserve">
+    <value>“Where is human nature so weak as in the bookstore?”    ―    Henry Ward Beecher</value>
+  </data>
+  <data name="FunyEn_67" xml:space="preserve">
+    <value>“Well, I’m not kissing the mundane," said Jace. "I’d rather stay down here and rot.""Forever?" said Simon. "Forever’s an awfully long time."Jace raised his eyebrows. "I knew it," he said. "You want to kiss me, don’t you?”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_68" xml:space="preserve">
+    <value>“When his life was ruined, his family killed, his farm destroyed, Job knelt down on the ground and yelled up to the heavens, "Why god? Why me?" and the thundering voice of God answered, There's just something about you that pisses me off.”    ―    Stephen King,          Storm of the Century: An Original Screenplay</value>
+  </data>
+  <data name="FunyEn_69" xml:space="preserve">
+    <value>“There are two motives for reading a book; one, that you enjoy it; the other, that you can boast about it.”    ―    Bertrand Russell</value>
+  </data>
+  <data name="FunyEn_70" xml:space="preserve">
+    <value>“There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.”    ―    Douglas Adams,          The Restaurant at the End of the Universe</value>
+  </data>
+  <data name="FunyEn_71" xml:space="preserve">
+    <value>“If at first you don't succeed, try, try again. Then quit. No use being a damn fool about it.”    ―    W.C. Fields</value>
+  </data>
+  <data name="FunyEn_72" xml:space="preserve">
+    <value>“The planet is fine. The people are fucked.”    ―    George Carlin</value>
+  </data>
+  <data name="FunyEn_73" xml:space="preserve">
+    <value>“Happiness is a warm puppy.”    ―    Charles M. Schulz</value>
+  </data>
+  <data name="FunyEn_74" xml:space="preserve">
+    <value>“I don't know the question, but sex is definitely the answer.”    ―    Woody Allen</value>
+  </data>
+  <data name="FunyEn_75" xml:space="preserve">
+    <value>“It is hard enough to remember my opinions, without also remembering my reasons for them!”    ―    Friedrich Nietzsche</value>
+  </data>
+  <data name="FunyEn_76" xml:space="preserve">
+    <value>“If a cluttered desk is a sign of a cluttered mind, of what, then, is an empty desk a sign?”    ―    Albert Einstein</value>
+  </data>
+  <data name="FunyEn_77" xml:space="preserve">
+    <value>“Time flies like an arrow; fruit flies like a banana.”    ―    Anthony G. Oettinger</value>
+  </data>
+  <data name="FunyEn_78" xml:space="preserve">
+    <value>“I did not attend his funeral, but I sent a nice letter saying I approved of it.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_79" xml:space="preserve">
+    <value>“Fantasy is a necessary ingredient in living, it's a way of looking at life through the wrong end of a telescope.”    ―    Dr. Seuss</value>
+  </data>
+  <data name="FunyEn_80" xml:space="preserve">
+    <value>“So, please, oh please, we beg, we pray, go throw your TV set away, and in its place you can install, a lovely bookcase on the wall.”    ―    Roald Dahl</value>
+  </data>
+  <data name="FunyEn_81" xml:space="preserve">
+    <value>“I have great faith in fools - self-confidence my friends will call it.”    ―    Edgar Allan Poe,          Marginalia</value>
+  </data>
+  <data name="FunyEn_82" xml:space="preserve">
+    <value>“That does it," said Jace.  "I'm going to get you a dictionary for Christmas this year.""Why?" Isabelle said."So you can look up 'fun.'  I'm not sure you know what it means.”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_83" xml:space="preserve">
+    <value>“I was gratified to be able to answer promptly, and I did. I said I didn’t know.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_84" xml:space="preserve">
+    <value>“Percy wouldn't notice a joke if it danced naked in front of him wearing one of Dobby's hats.”    ―    J.K. Rowling,          Harry Potter and the Goblet of Fire</value>
+  </data>
+  <data name="FunyEn_85" xml:space="preserve">
+    <value>“I love to see a young girl go out and grab the world by the lapels. Life's a bitch. You've got to go out and kick ass.”    ―    Maya Angelou</value>
+  </data>
+  <data name="FunyEn_86" xml:space="preserve">
+    <value>“Religion has actually convinced people that there's an invisible man living in the sky who watches everything you do, every minute of every day. And the invisible man has a special list of ten things he does not want you to do. And if you do any of these ten things, he has a special place, full of fire and smoke and burning and torture and anguish, where he will send you to live and suffer and burn and choke and scream and cry forever and ever 'til the end of time!But He loves you. He loves you, and He needs money! He always needs money! He's all-powerful, all-perfect, all-knowing, and all-wise, somehow just can't handle money!”    ―    George Carlin</value>
+  </data>
+  <data name="FunyEn_87" xml:space="preserve">
+    <value>“My tastes are simple: I am easily satisfied with the best.”    ―    Winston S. Churchill</value>
+  </data>
+  <data name="FunyEn_88" xml:space="preserve">
+    <value>“I think God, in creating man, somewhat overestimated his ability.”    ―    Oscar Wilde</value>
+  </data>
+  <data name="FunyEn_89" xml:space="preserve">
+    <value>“Happiness is having a large, loving, caring, close-knit family in another city.”    ―    George Burns</value>
+  </data>
+  <data name="FunyEn_90" xml:space="preserve">
+    <value>“You haven't got a letter on yours," George observed. "I suppose she thinks you don't forget your name. But we're not stupid-we know we're called Gred and Forge.”    ―    J.K. Rowling,          Harry Potter and the Sorcerer's Stone</value>
+  </data>
+  <data name="FunyEn_91" xml:space="preserve">
+    <value>“Mom says it's because she has PMS.Do you even know what that means?"I'm not a little kid anymore. It means pissed-at- men syndrome”    ―    Nicholas Sparks,          The Last Song</value>
+  </data>
+  <data name="FunyEn_92" xml:space="preserve">
+    <value>“I have something I need to tell you," he says. I run my fingers along the tendons in his hands and look back at him. "I might be in love with you."  He smiles a little. "I'm waiting until I'm sure to tell you, though.""That's sensible of you," I say, smiling too. "We should find some paper so you can make a list or a chart or something."I feel his laughter against my side, his nose sliding along my jaw, his lips pressing my ear."Maybe I'm already sure," he says, "and I just don't want to frighten you."I laugh a little. "Then you should know better.""Fine," he says. "Then I love you.”    ―    Veronica Roth,          Divergent</value>
+  </data>
+  <data name="FunyEn_93" xml:space="preserve">
+    <value>“I’d said it before and meant it: Alive or undead, the love of my life was a badass.”    ―    Richelle Mead,          Blood Promise</value>
+  </data>
+  <data name="FunyEn_94" xml:space="preserve">
+    <value>“It is said that your life flashes before your eyes just before you die. That is true, it's called Life.”    ―    Terry Pratchett,          The Last Continent</value>
+  </data>
+  <data name="FunyEn_95" xml:space="preserve">
+    <value>“I never travel without my diary. One should always have something sensational to read in the train.”    ―    Oscar Wilde,          The Importance of Being Earnest</value>
+  </data>
+  <data name="FunyEn_96" xml:space="preserve">
+    <value>“The fact that we live at the bottom of a deep gravity well, on the surface of a gas covered planet going around a nuclear fireball 90 million miles away and think this to be normal is obviously some indication of how skewed our perspective tends to be.”    ―    Douglas Adams,          The Salmon of Doubt: Hitchhiking the Galaxy One Last Time</value>
+  </data>
+  <data name="FunyEn_97" xml:space="preserve">
+    <value>“Never let your sense of morals prevent you from doing what is right.”    ―    Isaac Asimov,          Foundation</value>
+  </data>
+  <data name="FunyEn_98" xml:space="preserve">
+    <value>“Investigation?" Isabelle laughed.  "Now we're detectives?  Maybe we should all have code names.""Good idea," said Jace. "I shall be Baron Hotschaft Von Hugenstein.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_99" xml:space="preserve">
+    <value>“Tell the truth, or someone will tell it for you.”    ―    Stephanie Klein,          Straight Up and Dirty: A Memoir</value>
+  </data>
+  <data name="FunyEn_100" xml:space="preserve">
+    <value>“Only a true best friend can protect you from your immortal enemies.”    ―    Richelle Mead,          Vampire Academy</value>
+  </data>
+  <data name="FunyEn_101" xml:space="preserve">
+    <value>“Why are they all staring?" demanded Albus as he and Rose craned around to look at the other students."Don’t let it worry you," said Ron. "It’s me. I’m extremely famous.”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
+  </data>
+  <data name="FunyEn_102" xml:space="preserve">
+    <value>“You guessed? You must have been pretty sure, considering you could have killed me.""I was ninety percent sure.""I see," Clary said. There must have been something in her voice, because he turned to look at her. Her hand cracked across his face, a slap that rocked him back on his heels. He put his hands on his cheek, more in surprise than pain."What the hell was that for?""The other ten percent.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_103" xml:space="preserve">
+    <value>“Right now I’m having amnesia and déjà vu at the same time. I think I’ve forgotten this before.”    ―    Steven Wright</value>
+  </data>
+  <data name="FunyEn_104" xml:space="preserve">
+    <value>“I suppose I'll have to add the force of gravity to my list of enemies.”    ―    Lemony Snicket,          The Penultimate Peril</value>
+  </data>
+  <data name="FunyEn_105" xml:space="preserve">
+    <value>“Begin at the beginning," the King said, very gravely, "and go on till you come to the end: then stop.”    ―    Lewis Carroll,          Alice in Wonderland</value>
+  </data>
+  <data name="FunyEn_106" xml:space="preserve">
+    <value>“Think left and think right and think low and think high. Oh, the thinks you can think up if only you try!”    ―    Dr. Seuss</value>
+  </data>
+  <data name="FunyEn_107" xml:space="preserve">
+    <value>“Stories of imagination tend to upset those without one.”    ―    Terry Pratchett</value>
+  </data>
+  <data name="FunyEn_108" xml:space="preserve">
+    <value>“The Guide says there is an art to flying", said Ford, "or rather a knack. The knack lies in learning how to throw yourself at the ground and miss.”    ―    Douglas Adams,          Life, the Universe and Everything</value>
+  </data>
+  <data name="FunyEn_109" xml:space="preserve">
+    <value>“Just because you call an electric eel a rubber duck doesn't make it a rubber duck, does it? And God help the poor bastard who decides they want to take a bath with the duckie. (Jace Wayland)”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_110" xml:space="preserve">
+    <value>“Mom. I have something to tell you. I’m undead. Now, I know you may have some preconceived notions about the undead. I know you may not be comfortable with the idea of me being undead. But I’m here to tell you that undead are just like you and me … well, okay. Possibly more like me than you.”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_111" xml:space="preserve">
+    <value>“Some people have lives; some people have music.”    ―    John Green,          Will Grayson, Will Grayson</value>
+  </data>
+  <data name="FunyEn_112" xml:space="preserve">
+    <value>“What's this?" he demanded, looking from Clary to his companions, as if they might know what she was doing there."It's a girl," Jace said,recovering his composure. "Surely you've seen girls before, Alec. Your sister Isabelle is one.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_113" xml:space="preserve">
+    <value>“Holey? You have the the whole world of ear-related humor before you, you go for holey?”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
+  </data>
+  <data name="FunyEn_114" xml:space="preserve">
+    <value>“Deadlines just aren't real to me until I'm staring one in the face.”    ―    Rick Riordan,          The Lightning Thief</value>
+  </data>
+  <data name="FunyEn_115" xml:space="preserve">
+    <value>“Out of the corner of her eye she thought she saw Jace shoot her a look of white rage - but when she glanced at him, he looked as he always did: easy, confident, slightly bored."In future, Clarissa," he said, "it might be wise to mention that you already have a man in your bed, to avoid such tedious situations.""You invited him into bed?" Simon demanded, looking shaken."Ridiculous, isn't it?" said Jace.  "We would never have all fit.""I didn't invite him into bed," Clary snapped. "We were just kissing.""Just kissing?" Jace's tone mocked her with its false hurt. "How swiftly you dismiss our love.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_116" xml:space="preserve">
+    <value>“If writers wrote as carelessly as some people talk, then adhasdh asdglaseuyt[bn[ pasdlgkhasdfasdf.”    ―    Lemony Snicket,          Horseradish</value>
+  </data>
+  <data name="FunyEn_117" xml:space="preserve">
+    <value>“Love conquers all," Aphrodite promised. "Look at Helen and Paris. Did they let anything come between them?""Didn't they start the Trojan War and get thousands of people killed?""Pfft. That's not the point. Follow your heart.”    ―    Rick Riordan,          The Titan's Curse</value>
+  </data>
+  <data name="FunyEn_118" xml:space="preserve">
+    <value>“There is nothing in the world so irresistibly contagious as laughter and good humor.”    ―    Charles Dickens,          A Christmas Carol</value>
+  </data>
+  <data name="FunyEn_119" xml:space="preserve">
+    <value>“What would men be without women? Scarce, sir...mighty scarce.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_120" xml:space="preserve">
+    <value>“Don't talk to me.""Why not?""Because I want to fix that in my memory for ever. Draco Malfoy, the amazing bouncing ferret...”    ―    J.K. Rowling,          Harry Potter and the Goblet of Fire</value>
+  </data>
+  <data name="FunyEn_121" xml:space="preserve">
+    <value>“How do you feel, Georgie?" whispered Mrs. Weasley.George's fingers groped for the side of his head."Saintlike," he murmured."What's wrong with him?" croaked Fred, looking terrified. "Is his mind affected?""Saintlike," repeated George, opening his eyes and looking up at his brother. "You see...I'm HOLEY, Fred, geddit?”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
+  </data>
+  <data name="FunyEn_122" xml:space="preserve">
+    <value>“I love you like a fat kid loves cake!”    ―    Scott Adams</value>
+  </data>
+  <data name="FunyEn_123" xml:space="preserve">
+    <value>“Oh well... I'd just been thinking, if you had died, you'd have been welcome to share my toilet.”    ―    J.K. Rowling,          Harry Potter and the Chamber of Secrets</value>
+  </data>
+  <data name="FunyEn_124" xml:space="preserve">
+    <value>“Now, you two – this year, you behave yourselves. If I get one more owl telling me you've – you've blown up a toilet or –""Blown up a toilet? We've never blown up a toilet.""Great idea though, thanks, Mum.”    ―    J.K. Rowling,          Harry Potter and the Sorcerer's Stone</value>
+  </data>
+  <data name="FunyEn_125" xml:space="preserve">
+    <value>“Do your thing and don't care if they like it.”    ―    Tina Fey,          Bossypants</value>
+  </data>
+  <data name="FunyEn_126" xml:space="preserve">
+    <value>“You here to finish me off, Sweetheart?”    ―    Suzanne Collins,          The Hunger Games</value>
+  </data>
+  <data name="FunyEn_127" xml:space="preserve">
+    <value>“If cats looked like frogs we'd realize what nasty, cruel little bastards they are.  Style.  That's what people remember.”    ―    Terry Pratchett,          Lords and Ladies</value>
+  </data>
+  <data name="FunyEn_128" xml:space="preserve">
+    <value>“Say 'provoking' again. Your mouth looks provocative when you do.”    ―    Becca Fitzpatrick,          Hush, Hush</value>
+  </data>
+  <data name="FunyEn_129" xml:space="preserve">
+    <value>“Isabelle drifted over, Jace a pace behind her. She was wearing a long black dress with boots and an even longer cutaway coat of soft green velvet, the color of moss. "I can't believe you did it!" she exclaimed. "How did you get Magnus to let Jace leave?""Traded him for Alec," Clary said.Isabelle looked mildly alarmed. "Not permanently?""No," said Jace. "Just for a few hours. Unless I don't come back," he added thoughtfully. "In which case, maybe he does get to keep Alec. Think of it as a lease with an option to buy."Isabelle looked dubious. "Mom and Dad won't be pleased if they find out.""That you freed a possible criminal by trading away your brother to a warlock who looks like a gay Sonic the Hedgehog and dresses like the Child Catcher from Chitty Chitty Bang Bang?" Simon inquired. "No, probably not.”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_130" xml:space="preserve">
+    <value>“Yeah, Quirrell was a great teacher. There was just that minor drawback of him having Lord Voldemort sticking out of the back of his head!”    ―    J.K. Rowling,          Harry Potter and the Order of the Phoenix</value>
+  </data>
+  <data name="FunyEn_131" xml:space="preserve">
+    <value>“Welcome to the wonderful world of jealousy, he thought. For the price of admission, you get a splitting headache, a nearly irresistable urge to commit murder, and an inferiority  complex. Yippee.”    ―    J.R. Ward,          Dark Lover</value>
+  </data>
+  <data name="FunyEn_132" xml:space="preserve">
+    <value>“So be sure when you step, Step with care and great tact. And remember that life's A Great Balancing Act. And will you succeed? Yes! You will, indeed! (98 and ¾ percent guaranteed) Kid, you'll move mountains.”    ―    Dr. Seuss,          Oh, The Places You'll Go!</value>
+  </data>
+  <data name="FunyEn_133" xml:space="preserve">
+    <value>“Finally, from so little sleeping and so much reading, his brain dried up and he went completely out of his mind.”    ―    Miguel de Cervantes Saavedra,          Don Quixote</value>
+  </data>
+  <data name="FunyEn_134" xml:space="preserve">
+    <value>“Yes, frosting. The final defense of the dying.”    ―    Suzanne Collins,          The Hunger Games</value>
+  </data>
+  <data name="FunyEn_135" xml:space="preserve">
+    <value>“Some people say, “Never let them see you cry.” I say, if you’re so mad you could just cry, then cry. It terrifies everyone.”    ―    Tina Fey,          Bossypants</value>
+  </data>
+  <data name="FunyEn_136" xml:space="preserve">
+    <value>“If loving someone is putting them in a straitjacket and kicking them down a flight of stairs, then yes, I have loved a few people.”    ―    Jarod Kintz,          It Occurred to Me</value>
+  </data>
+  <data name="FunyEn_137" xml:space="preserve">
+    <value>“Don't Panic.”    ―    Douglas Adams,          The Hitchhiker's Guide to the Galaxy</value>
+  </data>
+  <data name="FunyEn_138" xml:space="preserve">
+    <value>“The meek may inherit the earth, but at the moment it belongs to the conceited. Like me.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_139" xml:space="preserve">
+    <value>“Sometimes when I'm talking, my words can't keep up with my thoughts. I wonder why we think faster than we speak. Probably so we can think twice.”    ―    Bill Watterson</value>
+  </data>
+  <data name="FunyEn_140" xml:space="preserve">
+    <value>“Have you ever noticed that anybody driving slower than you is an idiot, and anyone going faster than you is a maniac?”    ―    George Carlin</value>
+  </data>
+  <data name="FunyEn_141" xml:space="preserve">
+    <value>“Even if you are on the right track, you’ll get run over if you just sit there.”    ―    Will Rogers</value>
+  </data>
+  <data name="FunyEn_142" xml:space="preserve">
+    <value>“It is a great thing to start life with a small number of really good books which are your very own.”    ―    Arthur Conan Doyle</value>
+  </data>
+  <data name="FunyEn_143" xml:space="preserve">
+    <value>“So when the moon's only partly full, you only feel a little wolfy?" "You could say that.""Well, you can go ahead and hang your head out the car window if you feel like it.""I'm a werewolf, not a golden retriever.”    ―    Cassandra Clare</value>
+  </data>
+  <data name="FunyEn_144" xml:space="preserve">
+    <value>“I'm saying that I'm a moody, insecure, narrow-minded, jealous, borderline homicidal bitch, and I want you to promise me that you're okay with that, because it's who I am, and you're what I need.”    ―    Jeaniene Frost,          Halfway to the Grave</value>
+  </data>
+  <data name="FunyEn_145" xml:space="preserve">
+    <value>“From the moment I picked your book up until I laid it down, I convulsed with laughter. Someday I intend on reading it.”    ―    Groucho Marx</value>
+  </data>
+  <data name="FunyEn_146" xml:space="preserve">
+    <value>“Fighting for peace is like screwing for virginity.”    ―    George Carlin</value>
+  </data>
+  <data name="FunyEn_147" xml:space="preserve">
+    <value>“Today was good. Today was fun. Tomorrow is another one.”    ―    Dr. Seuss</value>
+  </data>
+  <data name="FunyEn_148" xml:space="preserve">
+    <value>“What are all these?" Clary asked."Vials of holy water, blessed knives, steel and silver blades," Jace said, piling the weapons on the floor beside him, "electrum wire - not much use at the moment but it's always good to have spares - silver bullets, charms of protetion, crucifixes, stars of David-""Jesus," said Clary"I doubt he'd fit.""Jace." Clary was appalled.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_149" xml:space="preserve">
+    <value>“From there to here, from here to there, funny things are everywhere!”    ―    Dr. Seuss,          One Fish, Two Fish, Red Fish, Blue Fish</value>
+  </data>
+  <data name="FunyEn_150" xml:space="preserve">
+    <value>“History will be kind to me for I intend to write it.”    ―    Winston S. Churchill</value>
+  </data>
+  <data name="FunyEn_151" xml:space="preserve">
+    <value>“You possess other people's...bodies."He accepted that statement with a nod."Do you want to possess my body?""I want to do a lot of things to your body, but that's not one of them.”    ―    Becca Fitzpatrick,          Hush, Hush</value>
+  </data>
+  <data name="FunyEn_152" xml:space="preserve">
+    <value>“I'm not going to wear a red dress," she said."It would look stunning, My Lady," she called.She spoke to the bubbles gathered on the surface of the water. "If there's anyone I wish to stun at dinner, I'll hit him in the face.”    ―    Kristin Cashore,          Graceling</value>
+  </data>
+  <data name="FunyEn_153" xml:space="preserve">
+    <value>“He was my mum and dad's best friend. He's a convicted murderer, but he's broken out of wizard prison and he's on the run. He likes to keep in touch with me, though...keep up with my news...check if I'm happy...”    ―    J.K. Rowling,          Harry Potter and the Prisoner of Azkaban</value>
+  </data>
+  <data name="FunyEn_154" xml:space="preserve">
+    <value>“Your friend's poetry is terrible," he said.Clary blinked, caught momentarily off guard. "What?""I said his poetry was terrible. It sounds like he ate a dictionary and started vomiting up words at random.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_155" xml:space="preserve">
+    <value>“I'll just have them change the entry in the demonology textbook from 'almost extinct' to 'not extinct enough for Alec. He prefers his monsters really, really extinct.' Will that make you happy?”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_156" xml:space="preserve">
+    <value>“Because you can't argue with all the fools in the world. It's easier to let them have their way, then trick them when they're not paying attention.”    ―    Christopher Paolini</value>
+  </data>
+  <data name="FunyEn_157" xml:space="preserve">
+    <value>“I consider conversations with people to be mind exercises, but I don't want to pull a muscle, so I stretch a lot. That's why I'm constantly either rolling my eyes or yawning.”    ―    Jarod Kintz,          It Occurred to Me</value>
+  </data>
+  <data name="FunyEn_158" xml:space="preserve">
+    <value>“What's the good of living if you don't try a few things?”    ―    Charles M. Schulz</value>
+  </data>
+  <data name="FunyEn_159" xml:space="preserve">
+    <value>“When I was a boy of 14, my father was so ignorant I could hardly stand to have the old man around. But when I got to be 21, I was astonished at how much the old man had learned in seven years.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_160" xml:space="preserve">
+    <value>“Ask not what you can do for your country. Ask what’s for lunch.”    ―    Orson Welles</value>
+  </data>
+  <data name="FunyEn_161" xml:space="preserve">
+    <value>“I meant what I said and I said what I meant. An elephant's faithful one-hundred percent!”    ―    Dr. Seuss,          Horton Hatches the Egg</value>
+  </data>
+  <data name="FunyEn_162" xml:space="preserve">
+    <value>“It's not gray," Clary felt compelled to point out. "It's green.""If there was such a thing as terminal literalism, you'd have died in childhood," said Jace.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_163" xml:space="preserve">
+    <value>“I wrote the story myself. It's about a girl who lost her reputation and never missed it.”    ―    Mae West</value>
+  </data>
+  <data name="FunyEn_164" xml:space="preserve">
+    <value>“Of all the trees we could've hit, we had to get one that hits back.”    ―    J.K. Rowling,          Harry Potter and the Chamber of Secrets</value>
+  </data>
+  <data name="FunyEn_165" xml:space="preserve">
+    <value>“I'm tough, I'm ambitious, and I know exactly what I want. If that makes me a bitch, okay.”    ―    Madonna</value>
+  </data>
+  <data name="FunyEn_166" xml:space="preserve">
+    <value>“Time is a drug.  Too much of it kills you.”    ―    Terry Pratchett,          Small Gods</value>
+  </data>
+  <data name="FunyEn_167" xml:space="preserve">
+    <value>“A smile is a curve that sets everything straight.”    ―    Phyllis Diller</value>
+  </data>
+  <data name="FunyEn_168" xml:space="preserve">
+    <value>“A diary with no drawings of me in it? Where are the torrid fantasies? The romance covers?”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_169" xml:space="preserve">
+    <value>“Why were you lurking under our window?""Yes - yes, good point, Petunia! What were you doing under our windows, boy?""Listening to the news," said Harry in a resigned voice.His aunt and uncle exchanged looks of outrage."Listening to the news! Again?""Well, it changes every day, you see," said Harry.”    ―    J.K. Rowling,          Harry Potter and the Order of the Phoenix</value>
+  </data>
+  <data name="FunyEn_170" xml:space="preserve">
+    <value>“The real story of the Fleece: there were these two children of Zeus, Cadmus and Europa, okay? They were about to get offered up as human sacrifices, when they prayed to Zeus to save them. So Zeus sent this magical flying ram with golden wool, which picked them up in Greece and carried them all the way to Colchis in Asia Minor. Well, actually it carried Cadmus. Europa fell off and died along the way, but that's not important.""It was probably important to her.”    ―    Rick Riordan,          The Sea of Monsters</value>
+  </data>
+  <data name="FunyEn_171" xml:space="preserve">
+    <value>“Beauty is only skin deep, but ugly goes clean to the bone.”    ―    Dorothy Parker</value>
+  </data>
+  <data name="FunyEn_172" xml:space="preserve">
+    <value>“That's why they call it the American Dream, because you have to be asleep to believe it.”    ―    George Carlin</value>
+  </data>
+  <data name="FunyEn_173" xml:space="preserve">
+    <value>“In a way, it's nice to know that there are Greek gods out there, because you have somebody to blame when things go wrong. For instance, when you're walking away from a bus that's just been attacked by monster hags and blown up by lightning, and it's raining on top of everything else, most people might think that's just really bad luck; when you're a half-blood, you understand that some devine force is really trying to mess up your day.”    ―    Rick Riordan,          The Titan's Curse</value>
+  </data>
+  <data name="FunyEn_174" xml:space="preserve">
+    <value>“I'm going to wake Peeta," I say."No, wait," says Finnick. "Let's do it together. Put our faces right in front of his."Well, there's so little opportunity for fun left in my life, I agree. We position ourselves on either side of Peeta, lean over until our faces are inches frim his nose, and give him a shake. "Peeta. Peeta, wake up," I say in a soft, singsong voice.His eyelids flutter open and then he jumps like we've stabbed him. "Aa!"Finnick and I fall back in the sand, laughing our heads off. Every time we try to stop, we look at Peeta's attempt to maintain a disdainful expression and it sets us off again.”    ―    Suzanne Collins,          Catching Fire</value>
+  </data>
+  <data name="FunyEn_175" xml:space="preserve">
+    <value>“My rapier wit hides my inner pain.”    ―    Cassandra Clare</value>
+  </data>
+  <data name="FunyEn_176" xml:space="preserve">
+    <value>“I always arrive late at the office, but I make up for it by leaving early.”    ―    Charles Lamb</value>
+  </data>
+  <data name="FunyEn_177" xml:space="preserve">
+    <value>“I don't want tea," said Clary, with muffled force. "I want to find my mother. And then I want to find out who took her in the first place, and I want to kill them.""Unfortunately," said Hodge, "we're all out of bitter revenge at the moment, so it's either tea or nothing.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_178" xml:space="preserve">
+    <value>“The capacity for friendship is God's way of apologizing for our families.”    ―    Jay McInerney,          The Last of the Savages</value>
+  </data>
+  <data name="FunyEn_179" xml:space="preserve">
+    <value>“Beautiful face. Beautiful body. Horrible attitude. It was the holy trinity of hot boys.”    ―    Jennifer L. Armentrout,          Obsidian</value>
+  </data>
+  <data name="FunyEn_180" xml:space="preserve">
+    <value>“Basically, I have two speeds.... Hostile or smart-aleck.  Your choice.”    ―    James Patterson,          Saving the World and Other Extreme Sports</value>
+  </data>
+  <data name="FunyEn_181" xml:space="preserve">
+    <value>“Jace shook his blond head in exasperation. "You had to make a crazy jail friend, didn't you? You couldn't just count ceiling tiles or tame a pet mouse like normal prisoners do?”    ―    Cassandra Clare,          City of Glass</value>
+  </data>
+  <data name="FunyEn_182" xml:space="preserve">
+    <value>“People say nothing is impossible, but I do nothing every day.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
+  </data>
+  <data name="FunyEn_183" xml:space="preserve">
+    <value>“The worst part of success is trying to find someone who is happy for you.”    ―    Bette Midler</value>
+  </data>
+  <data name="FunyEn_184" xml:space="preserve">
+    <value>“I love books, by the way, way more than movies. Movies tell you what to think. A good book lets you choose a few thoughts for yourself. Movies show you the pink house. A good book tells you there's a pink house and lets you paint some of the finishing touches, maybe choose the roof style,park your own car out front. My imagination has always topped anything a movie could come up with. Case in point, those darned Harry Potter movies. That was so not what that part-Veela-chick, Fleur Delacour, looked like.”    ―    Karen Marie Moning,          Darkfever</value>
+  </data>
+  <data name="FunyEn_185" xml:space="preserve">
+    <value>“Must you go? I was rather hoping you'd stay and be a ministering angel, but if you must go, you must.""I'll stay," Will said a bit crossly, and threw himself down in the armchair Tessa had just vacated. "I can minister angelically.""None too convincingly. And you're not as pretty to look at as Tessa is," Jem said, closing his eyes as he leaned back against the pillow."How rude. Many who have gazed upon me have compared the experience to gazing at the radiance of the sun."Jem still had his eyes closed. "If they mean it gives you a headache, they aren't wrong.”    ―    Cassandra Clare,          Clockwork Angel</value>
+  </data>
+  <data name="FunyEn_186" xml:space="preserve">
+    <value>“I thought I'd lie on the floor and writhe in pain for a while," he grunted, "It relaxes me.""It does? Oh - you're being sarcastic. That's a good sign probably.”    ―    Cassandra Clare,          City of Ashes</value>
+  </data>
+  <data name="FunyEn_187" xml:space="preserve">
+    <value>“You're an idiot.""I've never claimed to be otherwise.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_188" xml:space="preserve">
+    <value>“Dreams like a podcast,Downloading truth in my ears.They tell me cool stuff.""Apollo?" I guess, because I figured nobody else could make a haiku that bad.He put his finger to his lips. "I'm incognito. Call me Fred.""A god named Fred?”    ―    Rick Riordan</value>
+  </data>
+  <data name="FunyEn_189" xml:space="preserve">
+    <value>“Animals are my friends...and I don't eat my friends.”    ―    George Bernard Shaw</value>
+  </data>
+  <data name="FunyEn_190" xml:space="preserve">
+    <value>“Black holes are where God divided by zero.”    ―    Albert Einstein</value>
+  </data>
+  <data name="FunyEn_191" xml:space="preserve">
+    <value>“You can only be young once.  But you can always be immature.”    ―    Dave Barry</value>
+  </data>
+  <data name="FunyEn_192" xml:space="preserve">
+    <value>“Time is an illusion. Lunchtime doubly so.”    ―    Douglas Adams,          The Hitchhiker's Guide to the Galaxy</value>
+  </data>
+  <data name="FunyEn_193" xml:space="preserve">
+    <value>“What's up?" I asked.You tell me," he said. "You were the one about ready to start making out with Adrian."It was an experiment," I said. "It was part of my therapy."What the hell kind of therapy are you in?”    ―    Richelle Mead,          Shadow Kiss</value>
+  </data>
+  <data name="FunyEn_194" xml:space="preserve">
+    <value>“Ginny!" said Mr. Weasley, flabbergasted. "Haven't I taught you anything? What have I always told you? Never trust anything that can think for itself if you can't see where it keeps its brain?”    ―    J.K. Rowling,          Harry Potter and the Chamber of Secrets</value>
+  </data>
+  <data name="FunyEn_195" xml:space="preserve">
+    <value>“The longer and more carefully we look at a funny story, the sadder it becomes.”    ―    Nikolai Gogol</value>
+  </data>
+  <data name="FunyEn_196" xml:space="preserve">
+    <value>“Headline?" he asked."'Swing Set Needs Home,'" I said."'Desperately Lonely Swing Set Needs Loving Home,'" he said."'Lonely, Vaguely Pedophilic Swing Set Seeks the Butts of Children,'" I said.”    ―    John Green,          The Fault in Our Stars</value>
+  </data>
+  <data name="FunyEn_197" xml:space="preserve">
+    <value>“If you want to know what God thinks of money, just look at the people he gave it to.”    ―    Dorothy Parker</value>
+  </data>
+  <data name="FunyEn_198" xml:space="preserve">
+    <value>“Love can change a person the way a parent can change a baby- awkwardly, and often with a great deal of mess.”    ―    Lemony Snicket,          Horseradish</value>
+  </data>
+  <data name="FunyEn_199" xml:space="preserve">
+    <value>“Most books on witchcraft will tell you that witches work naked.  This is because most books on witchcraft were written by men.”    ―    Neil Gaiman</value>
+  </data>
+  <data name="FunyEn_200" xml:space="preserve">
+    <value>“Do you wish me a good morning, or mean that it is a good morning whether I want it or not; or that you feel good this morning; or that it is a morning to be good on?”    ―    J.R.R. Tolkien,          The Hobbit</value>
+  </data>
+  <data name="FunyEn_201" xml:space="preserve">
+    <value>“Why are you worrying about YOU-KNOW-WHO, when you should be worrying about YOU-NO-POO? The constipation sensation that's gripping the nation!”    ―    J.K. Rowling,          Harry Potter and the Half-Blood Prince</value>
+  </data>
+  <data name="FunyEn_202" xml:space="preserve">
+    <value>“Magnus, standing by the door, snapped his fingers impatiently. "Move it along, teenagers. The only person who gets to canoodle in my bedroom is my magnificent self.""Canoodle?" repeated Clary, never having heard the word before."Magnificent?" repeated Jace, who was just being nasty. Magnus growled. The growl sounded like "Get out.”    ―    Cassandra Clare,          City of Bones</value>
+  </data>
+  <data name="FunyEn_203" xml:space="preserve">
+    <value>“I have the simplest tastes. I am always satisfied with the best.”    ―    Oscar Wilde</value>
+  </data>
+  <data name="FunyEn_204" xml:space="preserve">
+    <value>“Don't feel bad, I'm usually about to die.”    ―    Rick Riordan,          The Battle of the Labyrinth</value>
+  </data>
+  <data name="FunyEn_205" xml:space="preserve">
+    <value>“It is forbidden to kill; therefore all murderers are punished unless they kill in large numbers and to the sound of trumpets.”    ―    Voltaire</value>
+  </data>
+  <data name="FunyEn_206" xml:space="preserve">
+    <value>“I've lived through some terrible things in my life, some of which actually happened.”    ―    Mark Twain</value>
+  </data>
+  <data name="FunyEn_207" xml:space="preserve">
+    <value>“Moths," repeats Will. "You're afraid of moths?" "Not just a cloud of moths," she says, "like...a swarm of them. Everywhere. All those wings and legs and..." She shudders and shakes her head."Terrifying," Will says with mock seriousness. "That's my girl. Tough as cotton balls.""Oh, Shut up.”    ―    Veronica Roth,          Divergent</value>
+  </data>
+  <data name="FunyEn_208" xml:space="preserve">
+    <value>“I have nothing to declare except my genius.”    ―    Oscar Wilde</value>
+  </data>
+  <data name="FunyEn_209" xml:space="preserve">
+    <value>“Of course motivation is not permanent. But then, neither is bathing; but it is something you should do on a regular basis.”    ―    Zig Ziglar,          Raising Positive Kids in a Negative World</value>
   </data>
 </root>

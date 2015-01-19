@@ -117,235 +117,634 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Health_0" xml:space="preserve">
-    <value>Болен - лечись, а здоров - берегись.</value>
+  <data name="HealthEn_0" xml:space="preserve">
+    <value>“Be careful about reading health books. You may die of a misprint.”    ―    Mark Twain</value>
   </data>
-  <data name="Health_1" xml:space="preserve">
-    <value>Каждому своя болезнь тяжела.</value>
+  <data name="HealthEn_1" xml:space="preserve">
+    <value>“Keep your best wishes, close to your heart and watch what happens”    ―    Tony DeLiso,          Legacy: The Power Within</value>
   </data>
-  <data name="Health_2" xml:space="preserve">
-    <value>Боль без языка, да сказывается.</value>
+  <data name="HealthEn_2" xml:space="preserve">
+    <value>“The individual who says it is not possible should move out of the way of those doing it.”    ―    Tricia Cunningham</value>
   </data>
-  <data name="Health_3" xml:space="preserve">
-    <value>Береги платье снову, а здоровье смолоду.</value>
+  <data name="HealthEn_3" xml:space="preserve">
+    <value>“A fit, healthy body—that is the best fashion statement”    ―    Jess C. Scott</value>
   </data>
-  <data name="Health_4" xml:space="preserve">
-    <value>Приехал - не здоровался, поехал - не простился.</value>
+  <data name="HealthEn_4" xml:space="preserve">
+    <value>“Let food be thy medicine and medicine be thy food.”    ―    Hippocrates</value>
   </data>
-  <data name="Health_5" xml:space="preserve">
-    <value>Болезнь да горе изведут скоро.</value>
+  <data name="HealthEn_5" xml:space="preserve">
+    <value>“People use drugs, legal and illegal, because their lives are intolerably painful or dull.  They hate their work and find no rest in their leisure.  They are estranged from their families and their neighbors.  It should tell us something that in healthy societies drug use is celebrative, convivial, and occasional, whereas among us it is lonely, shameful, and addictive.  We need drugs, apparently, because we have lost each other.”    ―    Wendell Berry,          The Art of the Commonplace: The Agrarian Essays</value>
   </data>
-  <data name="Health_6" xml:space="preserve">
-    <value>Закрытую рану лечить трудно.</value>
+  <data name="HealthEn_6" xml:space="preserve">
+    <value>“Healthy citizens are the greatest asset any country can have.”    ―    Winston S. Churchill</value>
   </data>
-  <data name="Health_7" xml:space="preserve">
-    <value>Чистота - половина здоровья.</value>
+  <data name="HealthEn_7" xml:space="preserve">
+    <value>“We are healthy only to the extent that our ideas are humane.”    ―    Kurt Vonnegut,          Breakfast of Champions</value>
   </data>
-  <data name="Health_8" xml:space="preserve">
-    <value>Бабий век - сорок лет.</value>
+  <data name="HealthEn_8" xml:space="preserve">
+    <value>“One rarely falls in love without being as much attracted to what is interestingly wrong with someone as what is objectively healthy.”    ―    Alain de Botton</value>
   </data>
-  <data name="Health_9" xml:space="preserve">
-    <value>Потерявши голову по волосам не плачут.</value>
+  <data name="HealthEn_9" xml:space="preserve">
+    <value>“You are not a mistake.  You are not a problem to be solved.  But you won't discover this until you are willing to stop banging your head against the wall of shaming and caging and fearing yourself. (p. 84)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_10" xml:space="preserve">
-    <value>Людям скромно, а нам на здоровье.</value>
+  <data name="HealthEn_10" xml:space="preserve">
+    <value>“Money cannot buy health, but I'd settle for a diamond-studdedwheelchair.”    ―    Dorothy Parker</value>
   </data>
-  <data name="Health_11" xml:space="preserve">
-    <value>После обеда полежи, после ужина походи.</value>
+  <data name="HealthEn_11" xml:space="preserve">
+    <value>“Happiness is part of who we are. Joy is the feeling”    ―    Tony DeLiso,          Legacy: The Power Within</value>
   </data>
-  <data name="Health_12" xml:space="preserve">
-    <value>Хотя не скоро, да здорово.</value>
+  <data name="HealthEn_12" xml:space="preserve">
+    <value>“When you believe without knowing you believe that you are damaged at your core, you also believe that you need to hide that damage for anyone to love you.  You walk around ashamed of being yourself.  You try hard to make up for the way you look, walk, feel.  Decisions are agonizing because if you, the person who makes the decision, is damaged, then how can you trust what you decide?  You doubt your own impulses so you become masterful at looking outside yourself for comfort.  You become an expert at finding experts and programs, at striving and trying hard and then harder to change yourself, but this process only reaffirms what you already believe about yourself -- that your needs and choices cannot be trusted, and left to your own devices you are out of control (p.82-83)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_13" xml:space="preserve">
-    <value>Не всякая болезнь к смерти.</value>
+  <data name="HealthEn_13" xml:space="preserve">
+    <value>“A further sign of health is that we don't become undone by fear and trembling, but we take it as a message that it's time to stop struggling and look directly at what's threatening us. ”    ―    Pema Chödrön,          The Places that Scare You</value>
   </data>
-  <data name="Health_14" xml:space="preserve">
-    <value>Больны раны на своих плечах.</value>
+  <data name="HealthEn_14" xml:space="preserve">
+    <value>“. . . hell is wanting to be somewhere different from where you are.  Being one place and wanting to be somewhere else . . . .  Wanting life to be different from what it is.  That's also called leaving without leaving.  Dying before you die.  It's as if there is a part of you that so rails against being shattered by love that you shatter yourself first.  (p. 44)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_15" xml:space="preserve">
-    <value>Больному и золотая кровать не поможет.</value>
+  <data name="HealthEn_15" xml:space="preserve">
+    <value>“Healing is impossible in loneliness; it is the opposite of loneliness.  Conviviality is healing.  To be healed we must come with all the other creatures to the feast of Creation.(pg.99, "The Body and the Earth")”    ―    Wendell Berry,          The Art of the Commonplace: The Agrarian Essays</value>
   </data>
-  <data name="Health_16" xml:space="preserve">
-    <value>Доброму человеку и чужая болезнь к сердцу.</value>
+  <data name="HealthEn_16" xml:space="preserve">
+    <value>“If we are creating ourselves all the time, then it is never too late to begin creating the bodies we want instead of the ones we mistakenly assume we are stuck with.”    ―    Deepak Chopra</value>
   </data>
-  <data name="Health_17" xml:space="preserve">
-    <value>Всякая болезнь идет к сердцу.</value>
+  <data name="HealthEn_17" xml:space="preserve">
+    <value>“Wine is the most healthful and most hygienic of beverages.”    ―    Louis Pasteur</value>
   </data>
-  <data name="Health_18" xml:space="preserve">
-    <value>Когда-то черт умрет, а он еще и не хворает.</value>
+  <data name="HealthEn_18" xml:space="preserve">
+    <value>“Freedom from obsession is not about something you do; it's about knowing who you are.  It's about recognizing what sustains you and what exhausts you.  What you love and what you think you love because you believe you can't have it.  (p. 163)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_19" xml:space="preserve">
-    <value>В добром здоровье и хворать хорошо.</value>
+  <data name="HealthEn_19" xml:space="preserve">
+    <value>“Elsewhere the paper notes that vegetarians and vegans (including athletes) 'meet and exceed requirements' for protein. And, to render the whole we-should-worry-about-getting-enough-protein-and-therefore-eat-meat idea even more useless, other data suggests that excess animal protein intake is linked with osteoporosis, kidney disease, calcium stones in the urinary tract, and some cancers. Despite some persistent confusion, it is clear that vegetarians and vegans tend to have more optimal protein consumption than omnivores. ”    ―    Jonathan Safran Foer,          Eating Animals</value>
   </data>
-  <data name="Health_20" xml:space="preserve">
-    <value>Замерзших - больше чем зажаренных.</value>
+  <data name="HealthEn_20" xml:space="preserve">
+    <value>“No one wakes up in the morning and says, 'I want to gain 150 pounds and I will start right now!”    ―    Tricia Cunningham,          The Reverse Diet: Lose 20, 50, 100 Pounds or More by Eating Dinner for Breakfast and Breakfast for Dinner</value>
   </data>
-  <data name="Health_21" xml:space="preserve">
-    <value>Руби дерево здоровое, а гнилое и само свалится.</value>
+  <data name="HealthEn_21" xml:space="preserve">
+    <value>“Eat healthily, sleep well, breathe deeply, move harmoniously.”    ―    Jean-Pierre Barral</value>
   </data>
-  <data name="Health_22" xml:space="preserve">
-    <value>Я глупый, но здоровый.</value>
+  <data name="HealthEn_22" xml:space="preserve">
+    <value>“I am not my body. My body is nothing without me.”    ―    Tom Stoppard,          Rock 'n' Roll</value>
   </data>
-  <data name="Health_23" xml:space="preserve">
-    <value>Не вовремя старость, не к делу хворь.</value>
+  <data name="HealthEn_23" xml:space="preserve">
+    <value>“Respect your body. Eat well. Dance forever.”    ―    Eliza Gaynor Minden</value>
   </data>
-  <data name="Health_24" xml:space="preserve">
-    <value>Если хочешь быть здоров - закаляйся.</value>
+  <data name="HealthEn_24" xml:space="preserve">
+    <value>“It's a pretty amazing to wake up every morning, knowing that every decision I make is to cause as little harm as possible. It's a pretty fantastic way to live.”    ―    Colleen Patrick-Goudreau</value>
   </data>
-  <data name="Health_25" xml:space="preserve">
-    <value>Что скоро, то хворо.</value>
+  <data name="HealthEn_25" xml:space="preserve">
+    <value>“True discipline is really just self-remembering; no forcing or fighting is necessary.”    ―    Charles Eisenstein,          The Yoga of Eating: Transcending Diets and Dogma to Nourish the Natural Self</value>
   </data>
-  <data name="Health_26" xml:space="preserve">
-    <value>Жди, когда черт умрет: он и хворать не думал.</value>
+  <data name="HealthEn_26" xml:space="preserve">
+    <value>“Ethical veganism results in a profound revolution within the individual; a complete rejection of the paradigm of oppression and violence that she has been taught from childhood to accept as the natural order. It changes her life and the lives of those with whom she shares this vision of nonviolence. Ethical veganism is anything but passive; on the contrary, it is the active refusal to cooperate with injustice”    ―    Gary L. Francione</value>
   </data>
-  <data name="Health_27" xml:space="preserve">
-    <value>Застарелую болезнь трудно лечить.</value>
+  <data name="HealthEn_27" xml:space="preserve">
+    <value>“I don't understand why asking people to eat a well-balanced vegetarian diet is considered drastic, while it is medically conservative to cut people open and put them on cholesterol lowering drugs for the rest of their lives.”    ―    Dean Ornish</value>
   </data>
-  <data name="Health_28" xml:space="preserve">
-    <value>Хлеб да крупы на здоровье лупи.</value>
+  <data name="HealthEn_28" xml:space="preserve">
+    <value>“Very simply, we subsidize high-fructose corn syrup in this country, but not carrots.  While the surgeon general is raising alarms over the epidemic of obesity, the president is signing farm bills designed to keep the river of cheap corn flowing, guaranteeing that the cheapest calories in the supermarket will continue to be the unhealthiest.”    ―    Michael Pollan,          The Omnivore's Dilemma: A Natural History of Four Meals</value>
   </data>
-  <data name="Health_29" xml:space="preserve">
-    <value>Болячка мала, да болезнь велика.</value>
+  <data name="HealthEn_29" xml:space="preserve">
+    <value>“I never touch sugar, cheese, bread... I only like what I'm allowed to like. I'm beyond temptation. There is no weakness. When I see tons of food in the studio, for us and for everybody, for me it's as if this stuff was made out of plastic. The idea doesn't even enter my mind that a human being could put that into their mouth. I'm like the animals in the forest. They don't touch what they cannot eat.”    ―    Karl Lagerfeld</value>
   </data>
-  <data name="Health_30" xml:space="preserve">
-    <value>Болит бок девятый год, не знаю которо место.</value>
+  <data name="HealthEn_30" xml:space="preserve">
+    <value>“I promise you nothing is as chaotic as it seems. Nothing is worth diminishing your health. Nothing is worth poisoning yourself into stress, anxiety, and fear.”    ―    Steve Maraboli,          Unapologetically You: Reflections on Life and the Human Experience</value>
   </data>
-  <data name="Health_31" xml:space="preserve">
-    <value>Шуба елова, да к сердцу здорова.</value>
+  <data name="HealthEn_31" xml:space="preserve">
+    <value>“I run because if I didn’t, I’d be sluggish and glum and spend too much time on the couch.  I run to breathe the fresh air.  I run to explore. I run to escape the ordinary. I run…to savor the trip along the way.  Life becomes a little more vibrant, a little more intense.  I like that.”    ―    Dean Karnazes,          Ultramarathon Man: Confessions of an All-Night Runner</value>
   </data>
-  <data name="Health_32" xml:space="preserve">
-    <value>Болен - через силу хворает.</value>
+  <data name="HealthEn_32" xml:space="preserve">
+    <value>“When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.”    ―    Herophilus</value>
   </data>
-  <data name="Health_33" xml:space="preserve">
-    <value>Румянами хворь не лечат.</value>
+  <data name="HealthEn_33" xml:space="preserve">
+    <value>“I always take Scotch whiskey at night as a preventive of toothache. I have never had the toothache; and what is more, I never intend to have it.”    ―    Mark Twain</value>
   </data>
-  <data name="Health_34" xml:space="preserve">
-    <value>Дурака учить - что горбатого лечить.</value>
+  <data name="HealthEn_34" xml:space="preserve">
+    <value>“I take literally the statement in the Gospel of John that God loves the world.  I believe that the world was created and approved by love, that it subsists, coheres, and endures by love, and that, insofar as it is redeemable, it can be redeemed only by love.  I believe that divine love, incarnate and indwelling in the world, summons the world always toward wholeness, which ultimately is reconciliation and atonement with God.”    ―    Wendell Berry,          The Art of the Commonplace: The Agrarian Essays</value>
   </data>
-  <data name="Health_35" xml:space="preserve">
-    <value>Ты мне не здорово, а я тебе не челом.</value>
+  <data name="HealthEn_35" xml:space="preserve">
+    <value>“All too often women believe it is a sign of commitment, an expression of love, to endure unkindness or cruelty, to forgive and forget. In actuality, when we love rightly we know that the healthy, loving response to cruelty and abuse is putting ourselves out of harm's way.”    ―    Bell Hooks,          All About Love: New Visions</value>
   </data>
-  <data name="Health_36" xml:space="preserve">
-    <value>Кто в двадцать лет не здоров, в тридцать не умен, а в сорок не богат, тому век таким не бывать.</value>
+  <data name="HealthEn_36" xml:space="preserve">
+    <value>“Our duty is wakefulness, the fundamental condition of life itself. The unseen, the unheard, the untouchable is what weaves the fabric of our see-able universe together.”    ―    Robin Craig Clark,          The Garden</value>
   </data>
-  <data name="Health_37" xml:space="preserve">
-    <value>Больна жена мужу не мила.</value>
+  <data name="HealthEn_37" xml:space="preserve">
+    <value>“I could never kill myself. I approve of suicide if you have horrible health. Otherwise it's the ultimate hissy fit.”    ―    John Waters</value>
   </data>
-  <data name="Health_38" xml:space="preserve">
-    <value>Без случайности человеку век не прожить.</value>
+  <data name="HealthEn_38" xml:space="preserve">
+    <value>“...compulsive eating is basically a refusal to be fully alive.  No matter what we weigh, those of us who are compulsive eaters have anorexia of the soul.  We refuse to take in what sustains us.  We live lives of deprivation.  And when we can't stand it any longer, we binge.  The way we are able to accomplish all of this is by the simple act of bolting -- of leaving ourselves -- hundreds of times a day.”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_39" xml:space="preserve">
-    <value>Где кашель, там и хворь.</value>
+  <data name="HealthEn_39" xml:space="preserve">
+    <value>“It's never been true, not anywhere at any time, that the value of a soul, of a human spirit, is dependent on a number on a scale.  We are unrepeatable beings of light and space and water who need these physical vehicles to get around.  When we start defining ourselves by that which can be measured or weighed, something deep within us rebels. We don't want to EAT hot fudge sundaes as much as we want our lives to BE hot fudge sundaes.  We want to come home to ourselves.  (p. 174-5)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_40" xml:space="preserve">
-    <value>Не бойся дороги, были б кони здоровы.</value>
+  <data name="HealthEn_40" xml:space="preserve">
+    <value>“By choosing healthy over skinny you are choosing self-love over self-judgment. You are beautiful!”    ―    Steve Maraboli,          Unapologetically You: Reflections on Life and the Human Experience</value>
   </data>
-  <data name="Health_41" xml:space="preserve">
-    <value>Лучше сорок раз - вспотеть, чем один - заиндеветь.</value>
+  <data name="HealthEn_41" xml:space="preserve">
+    <value>“The best six doctors anywhereAnd no one can deny itAre sunshine, water, rest, and airExercise and diet.These six will gladly you attendIf only you are willingYour mind they'll easeYour will they'll mendAnd charge you not a shilling.”-- Nursery rhyme quoted by Wayne Fields, What the River Knows, 1990”    ―    Wayne Fields</value>
   </data>
-  <data name="Health_42" xml:space="preserve">
-    <value>Больному и мед не вкусен, а здоровый и камень ест.</value>
+  <data name="HealthEn_42" xml:space="preserve">
+    <value>“Don't destroy yourself by allowing negative people add gibberish and debris to your character, reputation, and aspirations. Keep all dreams alive but discreet, so that those with unhealthy tongues won't have any other option than to infest themselves with their own diseases.”    ―    Michael Bassey Johnson</value>
   </data>
-  <data name="Health_43" xml:space="preserve">
-    <value>Больной от могилы бежит, а здоровый в могилу спешит.</value>
+  <data name="HealthEn_43" xml:space="preserve">
+    <value>“It is easier to change a man's religion than to change his diet.”    ―    Margaret Mead</value>
   </data>
-  <data name="Health_44" xml:space="preserve">
-    <value>Болезнь и поросенка не красит.</value>
+  <data name="HealthEn_44" xml:space="preserve">
+    <value>“1 billion people in the world are chronically hungry.  1 billion people are overweight.”    ―    Mark Bittman,          Food Matters: A Guide to Conscious Eating with More Than 75 Recipes</value>
   </data>
-  <data name="Health_45" xml:space="preserve">
-    <value>Любовь до гроба - дураки оба.</value>
+  <data name="HealthEn_45" xml:space="preserve">
+    <value>“Love lets us ride on its back as if it were a camel. But you’ve got to water it, or it won’t grow into a healthy rose bush.”    ―    Jarod Kintz,          The Titanic would never have sunk if it were made out of a sink.</value>
   </data>
-  <data name="Health_46" xml:space="preserve">
-    <value>Дай бог здоровья кнуту да хомуту, а лошадь довезет.</value>
+  <data name="HealthEn_46" xml:space="preserve">
+    <value>“Each patient carries his own doctor inside him.”    ―    Norman Cousins,          Anatomy of an Illness</value>
   </data>
-  <data name="Health_47" xml:space="preserve">
-    <value>Будь не красен, да здоров.</value>
+  <data name="HealthEn_47" xml:space="preserve">
+    <value>“Objection, evasion, joyous distrust, and love of irony are signs of health; everything absolute belongs to pathology.”    ―    Friedrich Nietzsche,          Beyond Good and Evil</value>
   </data>
-  <data name="Health_48" xml:space="preserve">
-    <value>С больной головы да на здоровую.</value>
+  <data name="HealthEn_48" xml:space="preserve">
+    <value>“We should resolve now that the health of this nation is a national concern; that financial barriers in the way of attaining health shall be removed; that the health of all it's citizens deserves the help of all the nation.”    ―    Harry S. Truman</value>
   </data>
-  <data name="Health_49" xml:space="preserve">
-    <value>Нищий болезней ищет, а к богатому они сами идут.</value>
+  <data name="HealthEn_49" xml:space="preserve">
+    <value>“Surgeons can cut out everything except cause.”    ―    Herbert M. Shelton</value>
   </data>
-  <data name="Health_50" xml:space="preserve">
-    <value>Тебе на здоровье, да и нам нескромно.</value>
+  <data name="HealthEn_50" xml:space="preserve">
+    <value>“Our work is not to change what you do, but to witness what you do with enough awareness, enough curiosity, enough tenderness that the lies and old decisions upon which the compulsion is based become apparent and fall away.  When you no longer believe that eating will save your life when you feel exhausted or overwhelmed or lonely, you will stop.  When you believe in yourself more than you believe in food, you will stop using food as if it were your only chance at not falling apart.  When the shape of your body no longer matches the shape of your beliefs, the weight disappears. (p. 80-81)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_51" xml:space="preserve">
-    <value>Муж любит жену здоровую, а брат сестру богатую.</value>
+  <data name="HealthEn_51" xml:space="preserve">
+    <value>“Restore your attention or bring it to a new level by dramatically slowing down whatever you're doing.”    ―    Sharon Salzberg,          Real Happiness: The Power of Meditation</value>
   </data>
-  <data name="Health_52" xml:space="preserve">
-    <value>Кто не болел, тот здоровью цены не знает.</value>
+  <data name="HealthEn_52" xml:space="preserve">
+    <value>“May your heart be lighter today.”    ―    Harley King</value>
   </data>
-  <data name="Health_53" xml:space="preserve">
-    <value>Баня здоровит, разговор веселит.</value>
+  <data name="HealthEn_53" xml:space="preserve">
+    <value>“Usually, we believe that our pain is a misfortune that needs to be fixed, but in fact, all pain (physical, mental, and emotional) is a necessary step towards becoming conscious.”    ―    Mada Eliza Dalian</value>
   </data>
-  <data name="Health_54" xml:space="preserve">
-    <value>Хотя бы изба елова, да сердце здорово.</value>
+  <data name="HealthEn_54" xml:space="preserve">
+    <value>“the body is wiser than its inhabitants. the body is the soul. the body is god’s messenger.”    ―    Erica Jong</value>
   </data>
-  <data name="Health_55" xml:space="preserve">
-    <value>Кто встал до дня, тот днем здоров.</value>
+  <data name="HealthEn_55" xml:space="preserve">
+    <value>“We should always be clear that animal exploitation is wrong because it involves speciesism. And speciesism is wrong because, like racism, sexism, homophobia, anti-semitism, classism, and all other forms of human discrimination, speciesism involves violence inflicted on members of the moral community where that infliction of violence cannot be morally justified. But that means that those of us who oppose speciesism necessarily oppose discrimination against humans. It makes no sense to say that speciesism is wrong because it is like racism (or any other form of discrimination) but that we do not have a position about racism. We do. We should be opposed to it and we should always be clear about that.”    ―    Gary L. Francione</value>
   </data>
-  <data name="Health_56" xml:space="preserve">
-    <value>Кожа-то елова, да сердце-то здорово.</value>
+  <data name="HealthEn_56" xml:space="preserve">
+    <value>“Mindfulness isn't difficult, we just need to remember to do it.”    ―    Sharon Salzberg,          Real Happiness: The Power of Meditation</value>
   </data>
-  <data name="Health_57" xml:space="preserve">
-    <value>Где здоровье, там и красота.</value>
+  <data name="HealthEn_57" xml:space="preserve">
+    <value>“I believe that the community - in the fullest sense: a place and all its creatures - is the smallest unit of health and that to speak of the health of an isolated individual is a contradiction in terms. (pg. 146, Health is Membership)”    ―    Wendell Berry,          The Art of the Commonplace: The Agrarian Essays</value>
   </data>
-  <data name="Health_58" xml:space="preserve">
-    <value>Грамота не болезнь - годы не уносит.</value>
+  <data name="HealthEn_58" xml:space="preserve">
+    <value>“Will is a skill.”    ―    Jillian Michaels,          Unlimited: A Three-Step Plan for Achieving Your Dreams</value>
   </data>
-  <data name="Health_59" xml:space="preserve">
-    <value>От здоровья не лечатся</value>
+  <data name="HealthEn_59" xml:space="preserve">
+    <value>“Regaining health is more difficult an objective then becoming ill. Becoming ill is a random act of ignorance and regaining health is an intentional effort in frustration.”    ―    Richard Diaz</value>
   </data>
-  <data name="Health_60" xml:space="preserve">
-    <value>У кого пропало, у того б в горле торчало, а кто украл, тому бы на здоровье.</value>
+  <data name="HealthEn_60" xml:space="preserve">
+    <value>“Suffering usually relates to wanting things to be different from the way they are.”    ―    Allan Lokos,          Pocket Peace: Effective Practices for Enlightened Living</value>
   </data>
-  <data name="Health_61" xml:space="preserve">
-    <value>По здоровом сынке сердце ноет, по больном вдвое.</value>
+  <data name="HealthEn_61" xml:space="preserve">
+    <value>“We cut the throat of a calf and hang it up by the heels to bleed to death so that our veal cutlet may be white; we nail geese to a board and cram them with food because we like the taste of liver disease; we tear birds to pieces to decorate our women's hats; we mutilate domestic animals for no reason at all except to follow an instinctively cruel fashion; and we connive at the most abominable tortures in the hope of discovering some magical cure for our own diseases by them.”    ―    George Bernard Shaw,          Man and Superman</value>
   </data>
-  <data name="Health_62" xml:space="preserve">
-    <value>Человека лень не кормит, а здоровье только портит.</value>
+  <data name="HealthEn_62" xml:space="preserve">
+    <value>“The First wealth is health.”    ―    Ralph Waldo Emerson</value>
   </data>
-  <data name="Health_63" xml:space="preserve">
-    <value>Не дай бог лечиться да судиться.</value>
+  <data name="HealthEn_63" xml:space="preserve">
+    <value>“Eating crappy food isn't a reward -- it's a punishment.”    ―    Drew Carey</value>
   </data>
-  <data name="Health_64" xml:space="preserve">
-    <value>Лук семь недугов лечит, а чеснок семь недугов изводит.</value>
+  <data name="HealthEn_64" xml:space="preserve">
+    <value>“To wish a healthy man to die is the wish from a mind of sickness. To wish an ailing man to die is the wish of the ambitious.”    ―    Roman Payne</value>
   </data>
-  <data name="Health_65" xml:space="preserve">
-    <value>Болезнь нас не спрашивает.</value>
+  <data name="HealthEn_65" xml:space="preserve">
+    <value>“Then they gave me a loaf of bread and told me to walk through the forest and give some to anyone who asked. I did exactly what they told me, and the second beggar-woman was a fairy in disguise, but instead of saying that whenever I spoke, diamonds and roses would drop from my mouth, she said that since I was so kind, I would never have any problems with my teeth.”“Really? Did it work?”“Well, I haven’t had a toothache since I met her.”“I’d much rather have good teeth than have diamonds and roses drop out of my mouth whenever I said something”    ―    Patricia C. Wrede,          Dealing with Dragons</value>
   </data>
-  <data name="Health_66" xml:space="preserve">
-    <value>Других лечить беремся, а сами больны.</value>
+  <data name="HealthEn_66" xml:space="preserve">
+    <value>“Weight (too much or too little) is a by-product.  Weight is what happens when you use food to flatten your life.  Even with aching joints, it's not about food.  Even with arthritis, diabetes, high blood pressure.  It's about your desire to flatten your life.  It's about the fact that you've given up without saying so.  It's about your belief that it's not possible to live any other way -- and you're using food to act that out without ever having to admit it. (p. 53)”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
   </data>
-  <data name="Health_67" xml:space="preserve">
-    <value>И одна корова, да есть здорова.</value>
+  <data name="HealthEn_67" xml:space="preserve">
+    <value>“Meditation is the ultimate mobile device; you can use it anywhere, anytime, unobtrusively.”    ―    Sharon Salzberg,          Real Happiness: The Power of Meditation</value>
   </data>
-  <data name="Health_68" xml:space="preserve">
-    <value>Дал бог здоровья, да денег нет.</value>
+  <data name="HealthEn_68" xml:space="preserve">
+    <value>“Getting fit is all about mind over matter. I don't mind, so it doesn't matter.”    ―    Adam Hargreaves,          Mr. Lazy's Guide to Fitness</value>
   </data>
-  <data name="Health_69" xml:space="preserve">
-    <value>Что русскому здорово, то немцу смерть.</value>
+  <data name="HealthEn_69" xml:space="preserve">
+    <value>“According to the surgeon general, obesity today is officially an epidemic; it is arguably the most pressing public health problem we face, costing the health care system an estimated $90 billion a year. Three of every five Americans are overweight; one of every five is obese. The disease formerly known as adult-onset diabetes has had to be renamed Type II diabetes since it now occurs so frequently in children. A recent study in the Journal of the American Medical Association predicts that a child born in 2000 has a one-in-three chance of developing diabetes. (An African American child's chances are two in five.) Because of diabetes and all the other health problems that accompany obesity, today's children may turn out to be the first generation of Americans whose life expectancy will actually be shorter than that of their parents. The problem is not limited to America: The United Nations reported that in 2000 the number of people suffering from overnutrition--a billion--had officially surpassed the number suffering from malnutrition--800 million.”    ―    Michael Pollan,          The Omnivore's Dilemma: A Natural History of Four Meals</value>
   </data>
-  <data name="Health_70" xml:space="preserve">
-    <value>Сердобольный врач ухудшает страдания.</value>
+  <data name="HealthEn_70" xml:space="preserve">
+    <value>“It is important to keep in mind that our bodies must work pretty well, or their wouldn't be so many humans on the planet.”    ―    Ina May Gaskin,          Ina May's Guide to Childbirth</value>
   </data>
-  <data name="Health_71" xml:space="preserve">
-    <value>Дай боли волю, она в дугу согнет.</value>
+  <data name="HealthEn_71" xml:space="preserve">
+    <value>“The fact is that Chinese parents can do things that would seem unimaginable-even legally actionable-to Westerners. Chinese mothers can say to their daughters, "Hey fatty-lose some weight." By contrast, Western parents have to tiptoe around the issue, talking in terms of "health" and never ever mentioning the f-word, and their kids still end up in therapy for eating disorders and negative self image.”    ―    Amy Chua,          Battle Hymn of the Tiger Mother</value>
   </data>
-  <data name="Health_72" xml:space="preserve">
-    <value>На всякую болезнь зелье вырастает.</value>
+  <data name="HealthEn_72" xml:space="preserve">
+    <value>“I read once that you need two things to be happy: any two of health, money, and love. You can cover the absense of one with the other two... But now I realized this was unmitigated bullshit, because health and money did not compare with love at all.”    ―    Max Barry,          Machine Man</value>
   </data>
-  <data name="Health_73" xml:space="preserve">
-    <value>Нога споткнется, а голове достанется.</value>
+  <data name="HealthEn_73" xml:space="preserve">
+    <value>“While the repression of a memory is a psychological process, the suppression of feeling is accomplished by deadening a part of the body or reducing its motility so that feeling is diminished. The repression of the memory is dependent upon and related to the suppression of feeling, for as long as the feeling persists, the memory remains vivid. Suppression entails the development of chronic muscular tension in those areas of the body where the feeling would be experienced. In the case of sexual feeling, this tension is found in and about the abdomen and pelvis”    ―    Alexander Lowen,          Fear of Life</value>
   </data>
-  <data name="Health_74" xml:space="preserve">
-    <value>Рана, нанесенная самому себе, плохо заживает.</value>
+  <data name="HealthEn_74" xml:space="preserve">
+    <value>“Health makes good propaganda.”    ―    Naomi Wolf,          The Beauty Myth</value>
   </data>
-  <data name="Health_75" xml:space="preserve">
-    <value>Больное место скорее ушибешь.</value>
+  <data name="HealthEn_75" xml:space="preserve">
+    <value>“Millions of our citizens do not now have a full measure of opportunity to achieve and to enjoy good health. Millions do not now have protection or security against the economic effects of sickness. And the time has now arrived for action to help them attain that opportunity and to help them get that protection.”    ―    Harry S. Truman</value>
   </data>
-  <data name="Health_76" xml:space="preserve">
-    <value>Не каждый больной, кто стонет.</value>
+  <data name="HealthEn_76" xml:space="preserve">
+    <value>“When you got a condition, it's bad to forget your medicine.”    ―    Frank Miller,          Sin City, Vol. 1: The Hard Goodbye</value>
+  </data>
+  <data name="HealthEn_77" xml:space="preserve">
+    <value>“Health nuts are going to feel stupid someday, lying in hospitals dying of nothing.”    ―    Red Fox</value>
+  </data>
+  <data name="HealthEn_78" xml:space="preserve">
+    <value>“May you be ordinary, as the poet once wished the new-born baby.”    ―    Julian Barnes,          The Sense of an Ending</value>
+  </data>
+  <data name="HealthEn_79" xml:space="preserve">
+    <value>“It is in the balancing of your spirituality with your humanity that you will find immeasurable happiness, success, good health, and love.”    ―    Steve Maraboli,          Unapologetically You: Reflections on Life and the Human Experience</value>
+  </data>
+  <data name="HealthEn_80" xml:space="preserve">
+    <value>“I don't understand why asking people to eat a well-balanced, vegetarian diet is considered drastic, while it is medically conservative to cut people open.”    ―    Dean Ornish</value>
+  </data>
+  <data name="HealthEn_81" xml:space="preserve">
+    <value>“...A person who is headstrong enough to open their eyes and their heart to the full depth and weight of the world is inviting in everything out there - both evil and good, both dark and light, and the sheer bravery of that openness enables them to gain profound insight into the human condition. It also fucks them up. It may even make them more prone to stick their head in an oven than to engage in self-promotional chitchat on Jay Leno.”    ―    Patricia Pearson</value>
+  </data>
+  <data name="HealthEn_82" xml:space="preserve">
+    <value>“You don't need treatment. The fever, inflammation, coughing, etc., constitute the healing process. Just get out of their way and permit them to complete their work. Don't try to 'aid' nature. She doesn't need your puny aid—she only asks that you cease interfering.”    ―    Herbert M. Shelton,          Getting Well</value>
+  </data>
+  <data name="HealthEn_83" xml:space="preserve">
+    <value>“Health isn’t about being “perfect” with food or exercise or herbs.  Health is about balancing those things with your desires.  It’s about nourishing your spirit as well as your body.”    ―    Golda Poretsky</value>
+  </data>
+  <data name="HealthEn_84" xml:space="preserve">
+    <value>“Through recognizing and realizing the empty essence, instead of being selfish and self-centered, one feels very open and free”    ―    Tsoknyi Rinpoche,          Carefree Dignity: Discourses on Training in the Nature of Mind</value>
+  </data>
+  <data name="HealthEn_85" xml:space="preserve">
+    <value>“Childbirth is normal until proven otherwise.”    ―    Peggy Vincent,          Baby Catcher: Chronicles of a Modern Midwife</value>
+  </data>
+  <data name="HealthEn_86" xml:space="preserve">
+    <value>“If somebody offered me Cyanide, my only question would be, Is it organic? Because organic is always the healthier option.”    ―    Jarod Kintz,          This is the best book I've ever written, and it still sucks</value>
+  </data>
+  <data name="HealthEn_87" xml:space="preserve">
+    <value>“Meditation is a microcosm, a model, a mirror. The skills we practice when we sit are transferable to the rest of our lives.”    ―    Sharon Salzberg,          Real Happiness: The Power of Meditation</value>
+  </data>
+  <data name="HealthEn_88" xml:space="preserve">
+    <value>“When you feel yourself to be in critical condition, you must treat yourself as gently as you would a sick friend.”    ―    Julia Cameron,          Finding Water: The Art of Perseverance</value>
+  </data>
+  <data name="HealthEn_89" xml:space="preserve">
+    <value>“Man is more miserable, more restless and unsatisfied than ever before, simply because half his nature--the spiritual--is starving for true food, and the other half--the material--is fed with bad food.”    ―    Paul Brunton</value>
+  </data>
+  <data name="HealthEn_90" xml:space="preserve">
+    <value>“Health is the greatest possession. Contentment is the greatest treasure. Confidence is the greatest friend.”    ―    Lao Tzu</value>
+  </data>
+  <data name="HealthEn_91" xml:space="preserve">
+    <value>“No disease that can be treated by diet should be treated with any other means.”    ―    Maimonides</value>
+  </data>
+  <data name="HealthEn_92" xml:space="preserve">
+    <value>“The doctor of the future will be oneself.”    ―    Albert Schweitzer</value>
+  </data>
+  <data name="HealthEn_93" xml:space="preserve">
+    <value>“When you ignore your belly, you become homeless.  You spend your life trying to erase your own existence.  Apologizing for yourself.  Feeling like a ghost.  Eating to take up space, eating to give yourself the feeling that you have weight here, you belong here, you are allowed to be yourself -- but never quite believing it because you don't sense yourself directly.. . . I started teaching a simple belly meditation in which I asked people to become aware of sensations in their belly (numbness and emptiness count as sensations).  Every time their mind wandered . . . I asked them to begin counting their breaths so they could anchor their concentration.  Starting with the number one and saying it on the out breath, they'd count to seven and begin again.  If they were able to stay concentrated on the sensations in their belly centers, they didn't need to use counting as a concentration anchor.. . . you begin the process of bringing yourself back to your body, to your belly, to your breath because they -- not the mind medleys -- are here now.  And it is only here, only now that you can make a decision to eat or not eat.  To occupy your own body or to vacate your arms and your legs while still breathing and go through your days as a walking head.  . . . Meditation is a tool to shake yourself awake.  A way to discover what you love.  A practice to return yourself to your body when the mind medleys threaten to usurp your sanity.”    ―    Geneen Roth,          Women, Food and God: An Unexpected Path to Almost Everything</value>
+  </data>
+  <data name="HealthEn_94" xml:space="preserve">
+    <value>“Let's say that the consensus is that our species, being the higher primates, Homo Sapiens, has been on the planet for at least 100,000 years, maybe more. Francis Collins says maybe 100,000. Richard Dawkins thinks maybe a quarter-of-a-million. I'll take 100,000. In order to be a Christian, you have to believe that for 98,000 years, our species suffered and died, most of its children dying in childbirth, most other people having a life expectancy of about 25 years, dying of their teeth. Famine, struggle, bitterness, war, suffering, misery, all of that for 98,000 years.Heaven watches this with complete indifference. And then 2000 years ago, thinks 'That's enough of that. It's time to intervene,' and the best way to do this would be by condemning someone to a human sacrifice somewhere in the less literate parts of the Middle East. Don't lets appeal to the Chinese, for example, where people can read and study evidence and have a civilization. Let's go to the desert and have another revelation there. This is nonsense. It can't be believed by a thinking person.Why am I glad this is the case? To get to the point of the wrongness of Christianity, because I think the teachings of Christianity are immoral. The central one is the most immoral of all, and that is the one of vicarious redemption. You can throw your sins onto somebody else, vulgarly known as scapegoating. In fact, originating as scapegoating in the same area, the same desert. I can pay your debt if I love you. I can serve your term in prison if I love you very much. I can volunteer to do that. I can't take your sins away, because I can't abolish your responsibility, and I shouldn't offer to do so. Your responsibility has to stay with you. There's no vicarious redemption. There very probably, in fact, is no redemption at all. It's just a part of wish-thinking, and I don't think wish-thinking is good for people either.It even manages to pollute the central question, the word I just employed, the most important word of all: the word love, by making love compulsory, by saying you MUST love. You must love your neighbour as yourself, something you can't actually do. You'll always fall short, so you can always be found guilty. By saying you must love someone who you also must fear. That's to say a supreme being, an eternal father, someone of whom you must be afraid, but you must love him, too. If you fail in this duty, you're again a wretched sinner. This is not mentally or morally or intellectually healthy.And that brings me to the final objection - I'll condense it, Dr. Orlafsky - which is, this is a totalitarian system. If there was a God who could do these things and demand these things of us, and he was eternal and unchanging, we'd be living under a dictatorship from which there is no appeal, and one that can never change and one that knows our thoughts and can convict us of thought crime, and condemn us to eternal punishment for actions that we are condemned in advance to be taking. All this in the round, and I could say more, it's an excellent thing that we have absolutely no reason to believe any of it to be true.”    ―    Christopher Hitchens</value>
+  </data>
+  <data name="HealthEn_95" xml:space="preserve">
+    <value>“no disease suffered by a live man can be known, for every living person has his own peculiarities and always has his own peculiar, personal, novel, complicated disease, unknown to medicine -- not a disease of the lungs, liver, skin, heart, nerves, and so on mentioned in medical books, but a disease consisting of one of the innumerable combinations of the maladies of those organs. This simple thought could not occur to the doctors (as it cannot occur to a wizard that he is unable to work his charms) because the business of their lives was to cure, and they received money for it and had spent the best years of their lives on that business. But above all that thought was kept out of their minds by the fact that they saw they were really useful [...] Their usefulness did not depend on making the patient swallow substances for the most part harmful (the harm was scarcely perceptible because they were given in small doses) but they were useful, necessary, and indispensable because they satisfied a mental need of the invalid and those who loved her -- and that is why there are, and always will be, pseudo-healers, wise women, homoeopaths, and allopaths. They satisfied that eternal human need for hope of relief, for sympathy, and that something should be done, which is felt by those who are suffering.”    ―    Leo Tolstoy</value>
+  </data>
+  <data name="HealthEn_96" xml:space="preserve">
+    <value>“[G]rowing into your future with health and grace and beauty doesn’t have to take all your time.  It rather requires a dedication to caring for yourself as if you were rare and precious, which you are, and regarding all life around you as equally so, which it is.  (267-268)”    ―    Victoria Moran,          Younger by the Day: 365 Ways to Rejuvenate Your Body and Revitalize Your Spirit</value>
+  </data>
+  <data name="HealthEn_97" xml:space="preserve">
+    <value>“Sorry, there´s no magic bullet. You gotta eat healthy and live healthy to be healthy and look healthy. End of story.”    ―    Morgan Spurlock,          Don't Eat This Book</value>
+  </data>
+  <data name="HealthEn_98" xml:space="preserve">
+    <value>“What drains your spirit drains your body. What fuels your spirit fuels your body.”    ―    Caroline Myss,          Anatomy of the Spirit</value>
+  </data>
+  <data name="HealthEn_99" xml:space="preserve">
+    <value>“These people go on to tell us that mobile phones will cook our children’s ears, that long-haul flights will fill our legs with thrombosis and that meat is murder. They want an end to all deaths – and it doesn’t stop there. They don’t even see why anyone should have to suffer from a spot of light bruising. Every week, as we filmed my television chat show, food would be spilt on the floor, and every week the recording would have to be stopped so it could be swept away. ‘What would happen,’ said the man from health and safety, ‘if a cameraman were to slip over?’ ‘Well,’ I would reply, ‘he’d probably have to stand up again.”    ―    Jeremy Clarkson,          The World According to Clarkson</value>
+  </data>
+  <data name="HealthEn_100" xml:space="preserve">
+    <value>“One doesn't have to be religious to lead a moral life or attain wisdom.”    ―    Allan Lokos,          Pocket Peace: Effective Practices for Enlightened Living</value>
+  </data>
+  <data name="HealthEn_101" xml:space="preserve">
+    <value>“Would it really be so bad if you slowed your life down even a teensy bit? If you took charge of the ingredients of your food instead of letting corporations stuff you and your family, like baby birds, full of sugar, corn products, chemicals, and meat from really, really unhappy animals?”    ―    Catherine Friend,          Compassionate Carnivore: Or, How to Keep Animals Happy, Save Old Macdonald's Farm, Reduce Your Hoofprint, and Still Eat Meat</value>
+  </data>
+  <data name="HealthEn_102" xml:space="preserve">
+    <value>“After joyfully working each morning, I would leave off around midday to challenge myself to a footrace. Speeding along the sunny paths of the Jardin du Luxembourg, ideas would breed like aphids in my head—for creative invention is easy and sublime when air cycles quickly through the lungs and the body is busy at noble tasks.”    ―    Roman Payne,          Rooftop Soliloquy</value>
+  </data>
+  <data name="HealthEn_103" xml:space="preserve">
+    <value>“The best diet is the one you don't know you're on.”    ―    Brian Wansink,          Mindless Eating: Why We Eat More Than We Think</value>
+  </data>
+  <data name="HealthEn_104" xml:space="preserve">
+    <value>“If your arteries are good, eat more ice cream.  If they are bad, drink more red wine. Proceed thusly.”    ―    Sandra Byrd,          Bon Appetit</value>
+  </data>
+  <data name="HealthEn_105" xml:space="preserve">
+    <value>“If you don't take care of this the most magnificent machine that you will ever be given...where are you going to live?”    ―    Karyn Calabrese</value>
+  </data>
+  <data name="HealthEn_106" xml:space="preserve">
+    <value>“You will know if you are too acidic if you get sick often, get urinary tract infections, suffer from headaches, and have bad breath and body odor (when you do not use antiperspirant). Acidosis is the medical term for a blood alkalinity of less than 7.35. A normal reading is called homeostasis. It is not considered a disease; although in and of itself it is recognized as an indicator of disease. Your blood feeds your organs and tissues; so if your blood is acidic, your organs will suffer and your body will have to compensate for this imbalance somehow. We need to do all we can to keep our blood alkalinity high. The way to do this is to dramatically increase our intake of alkaline-rich elements like fresh, clean air; fresh, clean water; raw vegetables (particularly their juices); and sunlight, while drastically reducing our intake of and exposure to acid-forming substances: pollution, cigarettes, hard alcohol, white flour, white sugar, red meat, and coffee. By tipping the scales in the direction of alkalinity through alkaline diet and removal of acid waste through cleansing, and acidic body can become an alkaline one."Bear in mind that some substances that are alkaline outside the body, like milk, are acidic to the body; meaning that they leave and acid reside in the tissues, just as many substances that are acidic outside the body, like lemons and ripe tomatoes, are alkaline and healing in the body and contribute to the body's critical alkaline reserve.”    ―    Natalia Rose,          Detox for Women</value>
+  </data>
+  <data name="HealthEn_107" xml:space="preserve">
+    <value>“In a massive, long-term study of 17,000 civil servants, an almost unbelievable conclusion emerged: the status of a person's job was more likely to predict their likelihood of a heart attack than obesity, smoking or high blood pressure.”    ―    Matt Ridley,          Genome: the Autobiography of a Species in 23 Chapters</value>
+  </data>
+  <data name="HealthEn_108" xml:space="preserve">
+    <value>“I tell you, the old-fashioned doctor who treated all diseases has completely disappeared, now there are only specialists, and they advertise all the time in the newspapers.  If your nose hurts, they send you to Paris: there's a European specialist there, he treats noses.  You go to Paris, he examines your nose: I can treat only your right nostril, he says, I don't treat left nostrils, it's not my specialty, but after me, go to Vienna, there's a separate specialist there who will finish treating your left nostril.”    ―    Fyodor Dostoyevsky,          The Brothers Karamazov</value>
+  </data>
+  <data name="HealthEn_109" xml:space="preserve">
+    <value>“Life is a tragedy of nutrition”    ―    Arnold Ehret,          The Definite Cure of Chronic Constipation: Also: Overcoming Constipation Naturally</value>
+  </data>
+  <data name="HealthEn_110" xml:space="preserve">
+    <value>“Time and time again, throughout the history of medical practice, what was once considered as "scientific" eventually becomes regarded as "bad practice".”    ―    David Stewart,          Five Standards for Safe Childbearing: Good Nutrition, Skillful Midwifery, Natural Childbirth, Home Birth, Breastfeeding</value>
+  </data>
+  <data name="HealthEn_111" xml:space="preserve">
+    <value>“Connection is health.  And what our society does its best to disguise from us is how ordinary, how commonly attainable, health is.  We lose our health - and create profitable diseases and dependences - by failing to see the direct connections between living and eating, eating and working, working and loving.  In gardening, for instance, one works with the body to feed the body.  The work, if it is knowledgeable, makes for excellent food.  And it makes one hungry.  The work thus makes eating both nourishing and joyful, not consumptive, and keeps the eater from getting fat and weak.  This is health, wholeness, a source of delight. (pg.132, The Body and the Earth)”    ―    Wendell Berry,          The Art of the Commonplace: The Agrarian Essays</value>
+  </data>
+  <data name="HealthEn_112" xml:space="preserve">
+    <value>“If one’s life is so unsatisfying that an unhealthy activity brings a shred of happiness, it is nigh impossible to give it up unless something that brings greater happiness can be enjoyed in its stead.  (28)”    ―    Prem Prakash,          The Yoga of Spiritual Devotion A Modern Translation of the Narada Bhakti Sutras</value>
+  </data>
+  <data name="HealthEn_113" xml:space="preserve">
+    <value>“The first sure symptom of a mind in health Is rest of heart and pleasure felt at home.”    ―    Edward Young</value>
+  </data>
+  <data name="HealthEn_114" xml:space="preserve">
+    <value>“I want to live for a very, very long time, but it’s important that I take care of my body. When I am 851 years old, I don’t want to look it. No, I want to look 158.”    ―    Jarod Kintz,          Who Moved My Choose?: An Amazing Way to Deal With Change by Deciding to Let Indecision Into Your Life</value>
+  </data>
+  <data name="HealthEn_115" xml:space="preserve">
+    <value>“I am opposed to animal welfare campaigns for two reasons. First, if animal use cannot be morally justified, then we ought to be clear about that, and advocate for no use. Although rape and child molestation are ubiquitous, we do not have campaigns for “humane” rape or “humane” child molestation. We condemn it all. We should do the same with respect to animal exploitation. Second, animal welfare reform does not provide significant protection for animal interests. Animals are chattel property; they are economic commodities. Given this status and the reality of markets, the level of protection provided by animal welfare will generally be limited to what promotes efficient exploitation. That is, we will protect animal interests to the extent that it provides an economic benefit.”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_116" xml:space="preserve">
+    <value>“If your leg is in a cast, it's really dumb to sit in front of your computer doing unnecessary stuff with it hanging down. Your leg will swell and heal slower, if at all. When you go to your doctor, he/she will give you one of those "you're really dumb and self destructive" looks. Also, "Why didn't you follow my orders and rest?" Your doctor will be right, and so will mine at my next office visit. Elevate, folk! Elevate your mind, your soul, and your leg, in the order needed!”    ―    Sandy Nathan,          Numenon</value>
+  </data>
+  <data name="HealthEn_117" xml:space="preserve">
+    <value>“Bear in mind that since medications do not fix anything, they allow the underlying problem to continue uncorrected and actually accelerate. Meanwhile, new symptoms and new seemingly unrelated diseases are the inevitable consequence of this biochemical faux pas. Furthermore, drug side effects are the leading cause of death. NSAIDs as an example of only one group of medications, are fatally toxic to thousands of people each year by damaging joints, lungs, kidneys, eyes, hearts, and intestines. And they are covered by insurance. You and your doctor have been screwed into believing every symptom is a deficiency of some drug or surgery. You've been led to believe you have no control, when in truth you're the one who must take control. Unfortunately, the modus operandi in medicine is to find a drug to turn off the damaged part that is producing symptoms.”    ―    Sherry A. Rogers,          Detoxify or Die</value>
+  </data>
+  <data name="HealthEn_118" xml:space="preserve">
+    <value>“The government should either force the population to get healthy, or tax them for not complying. If the people still refuse to shape up, they should be imprisoned. Nothing is healthier for society than more government regulation.”    ―    Jarod Kintz,          This is the best book I've ever written, and it still sucks</value>
+  </data>
+  <data name="HealthEn_119" xml:space="preserve">
+    <value>“Most people throughout the world, not just inNewport Beach, care more about their faces, their boobs, their bellies, their butts, andtheir abs than they do their brains. But it is your brain that is the key to having the face,the breasts, the belly, the butt, the abs, and the overall health you have always wanted;and it is brain dysfunction, in large part, that ruins our bodies and causes prematureaging.”    ―    Daniel G. Amen,          Change Your Brain, Change Your Body: Use Your Brain to Get and Keep the Body You Have Always Wanted</value>
+  </data>
+  <data name="HealthEn_120" xml:space="preserve">
+    <value>“Donald Watson, who founded The Vegan Society in 1944 and who lived a healthy, active life until passing on in 2005, maintained that dairy products, such as milk, eggs, and cheese, were every bit as cruel and exploitive of sentient animal life as was slaughtering animals for their flesh: “The unquestionable cruelty associated with the production of dairy produce has made it clear that lactovegetarianism is but a half-way house between flesh-eating and a truly humane, civilised diet, and we think, therefore, that during our life on earth we should try to evolve sufficiently to make the ‘full journey.’” He also avoided wearing leather, wool or silk and used a fork, rather than a spade in his gardening to avoid killing worms.Let us instil in others the reverence or life that Donald Watson had and that he passed on to us.”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_121" xml:space="preserve">
+    <value>“A little chocolate a day keeps the doctor at bay”    ―    Marcia Carrington</value>
+  </data>
+  <data name="HealthEn_122" xml:space="preserve">
+    <value>“The concept of disease is fast replacing the concept of responsibility. With increasing zeal Americans use and interpret the assertion "I am sick" as equivalent to the assertion "I am not responsible": Smokers say they are not responsible for smoking, drinkers that they are not responsible for drinking, gamblers that they are not responsible for gambling, and mothers who murder their infants that they are not responsible for killing. To prove their point — and to capitalize on their self-destructive and destructive behavior — smokers, drinkers, gamblers, and insanity acquitees are suing tobacco companies, liquor companies, gambling casinos, and physicians.”    ―    Thomas Stephen Szasz</value>
+  </data>
+  <data name="HealthEn_123" xml:space="preserve">
+    <value>“About eighty percent of the food on shelves of supermarkets today didn't exist 100 years ago.”    ―    Larry McCleary,          Feed Your Brain, Lose Your Belly: Experience Dynamic Weight Loss with the Brain-Belly Connection</value>
+  </data>
+  <data name="HealthEn_124" xml:space="preserve">
+    <value>“If I told you to wish for good health, you would think I'm ridiculous; but when I exchange the word "wish" for the word "pray", you believe it can work. That is the disempowering delusion religions have brought us.”    ―    Steve Maraboli,          Unapologetically You: Reflections on Life and the Human Experience</value>
+  </data>
+  <data name="HealthEn_125" xml:space="preserve">
+    <value>“It is hard to talk about a middle ground for something that is a fundamental right.”    ―    Teri Reynolds,          The Obama Syndrome: Surrender at Home, War Abroad</value>
+  </data>
+  <data name="HealthEn_126" xml:space="preserve">
+    <value>“Save the Planet...Buy Organic”    ―    Nancy Philips</value>
+  </data>
+  <data name="HealthEn_127" xml:space="preserve">
+    <value>“That's why it's called a practice. We have to practice a practice if it is to be of value.”    ―    Allan Lokos,          Patience: The Art of Peaceful Living</value>
+  </data>
+  <data name="HealthEn_128" xml:space="preserve">
+    <value>“Since the experience is different for each individual, the tension will reflect that experience. In some persons the whole lower half of the body is relatively immobilized and held in a passive state; in others the muscular tensions are localized in the pelvic floor and around the genital apparatus. If the latter sort of tension is severe, it constitutes a functional castration; for, although the genitals operate normally, they are dissociated in feeling from the rest of the body. Any reduction of sexual feeling amounts to a psychological castration. Generally the person is unaware of these muscular tensions, but putting pressure upon the muscles in the attempt to release the tension is often experienced as very painful and frightening.”    ―    Alexander Lowen,          Fear of Life</value>
+  </data>
+  <data name="HealthEn_129" xml:space="preserve">
+    <value>“And if, by the end [of this book], you reckon you might still disagree with me, then I offer you this: you'll still be wrong, but you'll be wrong with a lot more panache and flair than you could possibly manage right now.”    ―    Ben Goldacre,          Bad Science: Quacks, Hacks, and Big Pharma Flacks</value>
+  </data>
+  <data name="HealthEn_130" xml:space="preserve">
+    <value>“Labels bias our perceptions, thinking, and behavior. A label or story can either separate us from, or connect us to, nature. For our health and happiness, we must critically evaluate our labels and stories by their effects.”    ―    Michael J. Cohen,          Reconnecting with Nature: Finding Wellness Through Rebuilding Your Bond with the Earth</value>
+  </data>
+  <data name="HealthEn_131" xml:space="preserve">
+    <value>“So it is always preferable to discuss the matter of veganism in a non-judgemental way. Remember that to most people, eating flesh or dairy and using animal products such as leather, wool, and silk, is as normal as breathing air or drinking water. A person who consumes dairy or uses animal products is not necessarily or usually what a recent and unpopular American president labelled an "evil doer.”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_132" xml:space="preserve">
+    <value>“The laboratory evidence that carbohydrate-rich diets can cause the body to reain water and so raise blood pressure, just as salt consumption is supposed to do, dates back well over a century”    ―    Gary Taubes,          Good Calories, Bad Calories</value>
+  </data>
+  <data name="HealthEn_133" xml:space="preserve">
+    <value>“Sometimes customizing is necessary because of an injury or the inability to do, for a short or long period, the kind of exercise you formerly did.  When you're used to customizing for fun, doing it under duress won't seem like such an imposition.  Either way, experiment until you find activities that make you happy as well as healthy.  Choose your exercise using the same criteria you'd apply to choosing a date--that is, attractive to you and able to hold your interest for an hour.”    ―    Victoria Moran,          Younger by the Day: 365 Ways to Rejuvenate Your Body and Revitalize Your Spirit</value>
+  </data>
+  <data name="HealthEn_134" xml:space="preserve">
+    <value>“If you walked into your local convenience store and bought a package of cigars, you would notice that it carries a label warning of the potential dangers of cigar smoke. Yet research suggests that cigar smoking poses a hazard only to moderate to heavy cigar smokers, who comprise less than 1 percent of the adult population. More than 97 percent of American adults, however, eat animal foods, and despite much research demonstrating the connection between the consumption of animal products and disease, we are not warned of these dangers.”    ―    Melanie Joy,          Why We Love Dogs, Eat Pigs, and Wear Cows: An Introduction to Carnism: The Belief System That Enables Us to Eat Some Animals and Not Others</value>
+  </data>
+  <data name="HealthEn_135" xml:space="preserve">
+    <value>“Would it not be better if they spent more money on wholesome things like oranges and wholemeal bread or if they even, like the writer of the letter to the New Statesman, saved on fuel and ate their carrots raw? Yes, it would, but the point is that no ordinary human being is ever going to do such a thing. The ordinary human being would sooner starve than live on brown bread and raw carrots. And the peculiar evil is this, that the less money you have, the less inclined you feel to spend it on wholesome food. A millionaire may enjoy breakfasting off orange juice and Ryvita biscuits; an unemployed man doesn't. Here the tendency of which I spoke at the end of the last chapter comes into play. When you are unemployed, which is to say when you are underfed, harassed, bored, and miserable, you don't want to eat dull wholesome food. You want something a little bit 'tasty'. There is always some cheaply pleasant thing to tempt you.”    ―    George Orwell,          The Road to Wigan Pier</value>
+  </data>
+  <data name="HealthEn_136" xml:space="preserve">
+    <value>“We can, and must, develop dialogue and relatedness with our body because it’s talking to us all the time. And please remember, your body loves you. It does everything it can to keep you alive and functioning. You can feed it garbage, and it will take it and digest it for you. You can deprive it of sleep, but still it gets you up and running next morning. You can drink too much alcohol, and it will eliminate it from your system. It loves you unconditionally and does its best to allow you to live the life you came here for. The real issue in this relationship is not whether your body loves you, but whether you love your body. In any relationship, if one partner is loving, faithful and supportive, it’s easy for the other to take that person for granted. That’s what most of us do with our bodies. It is time for you to shift this, and working to understand your cravings is one of the best places to begin. Then you can build a mutually loving relationship with your own body.”    ―    Joshua Rosenthal,          Integrative Nutrition: Feed Your Hunger for Health and Happiness</value>
+  </data>
+  <data name="HealthEn_137" xml:space="preserve">
+    <value>“In my food world, there is no fear or guilt, only joy and balance. So no ingredient is ever off-limits. Rather, all of the recipes here follow my Usually-Sometimes-Rarely philosophy. Notice there is no Never.”    ―    Ellie Krieger,          The Food You Crave: Luscious Recipes for a Healthy Life</value>
+  </data>
+  <data name="HealthEn_138" xml:space="preserve">
+    <value>“One wants to live, of course, indeed one only stays alive by virtue of the fear of death, but I think, as I thought then, that it is better to die violently and not too old.”    ―    George Orwell,          Decline Of The English Murder and Other Essays</value>
+  </data>
+  <data name="HealthEn_139" xml:space="preserve">
+    <value>“It is your brain that decides to get you out of bed in the morning to exercise, togive you a stronger, leaner body, or to cause you to hit the snooze button andprocrastinate your workout. It is your brain that pushes you away from the table tellingyou that you have had enough, or that gives you permission to have the second bowl ofRocky Road ice cream, making you look and feel like a blob. It is your brain thatmanages the stress in your life and relaxes you so that you look vibrant, or, when leftunchecked, sends stress signals to the rest of your body and wrinkles your skin. And it isyour brain that turns away cigarettes, too much caffeine, and alcohol, helping you lookand feel healthy, or that gives you permission to smoke, to have that third cup of coffee,or to drink that third glass of wine, thus making every system in your body look and feelolder.Your brain is the command and control center of your body. If you want a betterbody, the first place to ALWAYS start is by having a better brain.”    ―    Daniel G. Amen,          Change Your Brain, Change Your Body: Use Your Brain to Get and Keep the Body You Have Always Wanted</value>
+  </data>
+  <data name="HealthEn_140" xml:space="preserve">
+    <value>“The corn is planted first, followed by beans, then squash between the rows.They are called the Three Sisters. They sustain each other, the earth, and us. But the Big Ones do not know that. They do not care for the earth, and its children, properly.”    ―    Elizabeth Haydon,          The Dragon's Lair</value>
+  </data>
+  <data name="HealthEn_141" xml:space="preserve">
+    <value>“The center [of the supermarket] is for boxed, frozen, processed, made-to-sit-on-your-shelf-for-months food. You have to ask yourself, "If this food is designed to sit in a box for month and months, what is it doing inside my body?" Nothing good, that´s for sure.”    ―    Morgan Spurlock,          Don't Eat This Book</value>
+  </data>
+  <data name="HealthEn_142" xml:space="preserve">
+    <value>“When I came out of anesthesia, I wanted two things: my husband and my dog. They wouldn't let the dog in the recovery room.”    ―    Sandy Nathan,          Numenon</value>
+  </data>
+  <data name="HealthEn_143" xml:space="preserve">
+    <value>“I was very surprised when last I bought a packet of cigarettes and had to request a refund as I read a warning that told me "smoking can cause fatal lung cancer".”    ―    Robert Clark</value>
+  </data>
+  <data name="HealthEn_144" xml:space="preserve">
+    <value>“Live Life Fully &amp; Abundantly”    ―    Gabbriella Conte</value>
+  </data>
+  <data name="HealthEn_145" xml:space="preserve">
+    <value>“Appetite has really become an artificial and abnormal thing, having taken the place of true hunger, which alone is natural. The one is a sign of bondage but the other, of freedom.”    ―    Paul Brunton,          The Notebooks of Paul Brunton</value>
+  </data>
+  <data name="HealthEn_146" xml:space="preserve">
+    <value>“A writer must be a lifelong reader to be good. And if you want to be a great writer, I’d suggest trying to live a long life by reading the ingredients of the foods you buy.”    ―    Jarod Kintz,          99 Cents For Some Nonsense</value>
+  </data>
+  <data name="HealthEn_147" xml:space="preserve">
+    <value>“Like pornography, junk [food] might be tough to define but you know it when you see it.”    ―    Mark Bittman,          VB6: Eat Vegan Before 6:00 to Lose Weight and Restore Your Health . . . for Good</value>
+  </data>
+  <data name="HealthEn_148" xml:space="preserve">
+    <value>“My writing, it’s all I have. Well, aside from my health. And shelter, food, and clothing. Oh, and my cat.”    ―    Jarod Kintz,          A Zebra is the Piano of the Animal Kingdom</value>
+  </data>
+  <data name="HealthEn_149" xml:space="preserve">
+    <value>“To be physically astute and psychologically tended, yet morally insulated and conceptually blind--is to be crazy, not healthy.”    ―    Michael Ventura,          Letters at 3am</value>
+  </data>
+  <data name="HealthEn_150" xml:space="preserve">
+    <value>“Be patient. Your skin took a while to deteriorate. Give it some time to reflect a calmer inner state. As one of my friends states on his Facebook profile: "The true Losers in Life, are not those who Try and Fail, but those who Fail to Try.”    ―    Jess C. Scott,          Clear: A Guide to Treating Acne Naturally</value>
+  </data>
+  <data name="HealthEn_151" xml:space="preserve">
+    <value>“Sometimes you have to get sicker before you can get better.”    ―    Jeannette Walls,          The Glass Castle</value>
+  </data>
+  <data name="HealthEn_152" xml:space="preserve">
+    <value>“When our emotional health is in a bad state, so is our level of self-esteem. We have to slow down and deal with what is troubling us, so that we can enjoy the simple joy of being happy and at peace with ourselves.”    ―    Jess C. Scott,          Clear: A Guide to Treating Acne Naturally</value>
+  </data>
+  <data name="HealthEn_153" xml:space="preserve">
+    <value>“You may tend to get cancer from the thing that makes you want to smoke so much, not from the smoking itself.”    ―    William Saroyan,          Not Dying: An Autobiographical Interlude</value>
+  </data>
+  <data name="HealthEn_154" xml:space="preserve">
+    <value>“Any serious social, political, and economic change must include veganism.”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_155" xml:space="preserve">
+    <value>“The most poetical thing in the world is not being sick.”    ―    G.K. Chesterton,          The Man Who Was Thursday</value>
+  </data>
+  <data name="HealthEn_156" xml:space="preserve">
+    <value>“That’s the point. This healthy-feeling time now just feels like a tease. Like I’m in this holding pattern, flying in smooth circles within sight of the airport, in super-comfortable first class. But I can’t enjoy the in-flight movie or free chocolate chip cookies because I know that before the airport is able to make room for us, the plane is going to run out of fuel, and we’re going to crash-land into a fiery, agonizing death.”    ―    Jessica Verdi,          My Life After Now</value>
+  </data>
+  <data name="HealthEn_157" xml:space="preserve">
+    <value>“Seeing modern health care from the other side, I can say that it is clearly not set up for the patient.  It is frequently a poor arrangement for doctors as well, but that does not mitigate how little the system accounts for the patient's best interest.  Just when you are at your weakest and least able to make all the phone calls, traverse the maze of insurance, and plead for health-care referrals is that one time when you have to  your life may depend on it.”    ―    Ross I. Donaldson,          The Lassa Ward: One Man's Fight Against One of the World's Deadliest Diseases</value>
+  </data>
+  <data name="HealthEn_158" xml:space="preserve">
+    <value>“Your emotional state has a tremendous amount to do with sickness, health and well-being. For years, my husband and I lived on -- and because of -- hope. Hope continues to give me the mental strength to carry on.”    ―    Dana Reeve</value>
+  </data>
+  <data name="HealthEn_159" xml:space="preserve">
+    <value>“And dieting, I discovered, was another form of disordered eating, just as anorexia and bulimia similarly disrupt the natural order of eating. "Ordered" eating is the practice of eating when you are hungry and ceasing to eat when your brain sends the signal that your stomach is full. ... All people who live their lives on a diet are suffering. If you can accept your natural body weight and not force it to beneath your body's natural, healthy weight, then you can live your life free of dieting, of restriction, of feeling guilty every time you eat a slice of your kid's birthday cake.”    ―    Portia de Rossi,          Unbearable Lightness: A Story of Loss and Gain</value>
+  </data>
+  <data name="HealthEn_160" xml:space="preserve">
+    <value>“If there had been an exercise I'd liked, would I have gotten this big in the first place?”    ―    Jennifer Weiner</value>
+  </data>
+  <data name="HealthEn_161" xml:space="preserve">
+    <value>“What some call health, if purchased by perpetual anxiety about diet, isn't much better than tedious disease.”    ―    George Dennison Prentice</value>
+  </data>
+  <data name="HealthEn_162" xml:space="preserve">
+    <value>“Tell me what you eat and I will tell you who you are.”    ―    Jean Anthelme Brillat-Savarin</value>
+  </data>
+  <data name="HealthEn_163" xml:space="preserve">
+    <value>“The notion that we should promote “happy” or “humane” exploitation as “baby steps” ignores that welfare reforms do not result in providing significantly greater protection for animal interests; in fact, most of the time, animal welfare reforms do nothing more than make animal exploitation more economically productive by focusing on practices, such as gestation crates, the electrical stunning of chickens, or veal crates, that are economically inefficient in any event. Welfare reforms make animal exploitation more profitable by eliminating practices that are economically vulnerable. For the most part, those changes would happen anyway and in the absence of animal welfare campaigns precisely because they do rectify inefficiencies in the production process. And welfare reforms make the public more comfortable about animal exploitation. The “happy” meat/animal products movement is clear proof of that. We would never advocate for “humane” or "happy” human slavery, rape, genocide, etc. So, if we believe that animals matter morally and that they have an interest not only in not suffering but in continuing to exist, we should not be putting our time and energy into advocating for “humane” or “happy” animal exploitation.”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_164" xml:space="preserve">
+    <value>“We should never present flesh as somehow morally distinguishable from dairy. To the extent it is morally wrong to eat flesh, it is as morally wrong — and possibly more morally wrong — to consume dairy”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_165" xml:space="preserve">
+    <value>“The skin is an integral part of the body and depends upon the general system for its supply of food and to carry away its waste. Skin health depends primarily upon the general health of the body. All attempts to deal with the skin as an independent entity, without due regard to its reliance upon the general system, must of necessity result in failure. The skin is nourished by the blood and there is no other source from which it can draw sustenance. "Skin foods" are all frauds. These are composed chiefly of grease. No fat can be assimilated by the skin or other tissues of the body until it has first been broken down into its constituent fatty acids in the process of digestion. Even were this not true, the skin contains very little fat and these "skin foods" would still not constitute proper nourishment for it. Blood is the only skin food.”    ―    Herbert M. Shelton,          The Science and Fine Art of Natural Hygiene</value>
+  </data>
+  <data name="HealthEn_166" xml:space="preserve">
+    <value>“My own prescription for health is less paperwork and more running barefoot through the grass.”    ―    Leslie Grimutter</value>
+  </data>
+  <data name="HealthEn_167" xml:space="preserve">
+    <value>“I would advocate that chocolate be covered by health insurance, but that is admittedly a very French public policy perspective.”    ―    Mireille Guiliano,          French Women for All Seasons: A Year of Secrets, Recipes, and Pleasure</value>
+  </data>
+  <data name="HealthEn_168" xml:space="preserve">
+    <value>“It must be nice to be so strong and to think it's because you're so good, that you live right and eat right, so you deserve your health and happiness. But there is such a thing as luck, and there's more bad luck than good in this world.”    ―    Laura Lippman,          Baltimore Blues</value>
+  </data>
+  <data name="HealthEn_169" xml:space="preserve">
+    <value>“If we are ever going to see a paradigm shift, we have to be clear about how we want the present paradigm to shift.We must be clear that veganism is the unequivocal baseline of anything that deserves to be called an “animal rights” movement. If “animal rights” means anything, it means that we cannot morally justify any animal exploitation; we cannot justify creating animals as human resources, however “humane” that treatment may be.We must stop thinking that people will find veganism “daunting” and that we have to promote something less than veganism. If we explain the moral ideas and the arguments in favor of veganism clearly, people will understand. They may not all go vegan immediately; in fact, most won’t. But we should always be clear about the moral baseline. If someone wants to do less as an incremental matter, let that be her/his decision, and not something that we advise to do. The baseline should always be clear. We should never be promoting “happy” or “humane” exploitation as morally acceptable.”    ―    Gary L. Francione</value>
+  </data>
+  <data name="HealthEn_170" xml:space="preserve">
+    <value>“Remember, too, that at a time when people are very concerned with their health and its relationship to what they eat, we have handed over the responsibility for our nourishment to faceless corporations.”    ―    Lynne Rossetto Kasper</value>
+  </data>
+  <data name="HealthEn_171" xml:space="preserve">
+    <value>“Only to the degree that people have what they need, that they are healthy and unafraid, that their lives are varied, interesting, meaningful, productive, joyous, can we begin to judge, or even guess, their nature. Few people, adults or children, now live such lives.”    ―    John Holt,          Instead of Education: Ways to Help People Do Things Better</value>
+  </data>
+  <data name="HealthEn_172" xml:space="preserve">
+    <value>“If you desire truly to live you will cease trying to find magic tricks and short-cuts to life and learn the simple laws of being, and order your life in conformity with these. Realign your life with the laws of nature—this and this alone constitutes living to live.”    ―    Herbert M. Shelton,          Getting Well</value>
+  </data>
+  <data name="HealthEn_173" xml:space="preserve">
+    <value>“There's no dignity, no decency, or health today for men that haven't got a job.  All other things depend on work today.”    ―    Nevil Shute,          Ruined City</value>
+  </data>
+  <data name="HealthEn_174" xml:space="preserve">
+    <value>“The so-called symptoms of disease are manifestations of an inherent principle of the organism to restore healthy function and to resist offending agents and influences.”    ―    Herbert M. Shelton,          Getting Well</value>
+  </data>
+  <data name="HealthEn_175" xml:space="preserve">
+    <value>“Out of trillions of organisms that were alive at the beginning of time, are alive now and will be alive at the end of time, only one tampers with its food. You do not want to bet against those kinds of odds.”    ―    David Wolfe,          The Sunfood Diet Success System</value>
+  </data>
+  <data name="HealthEn_176" xml:space="preserve">
+    <value>“Don't lose hope. If your hope gets lost, the other side called "failure" begins to win! The quickest medicine to heal a depressed soul is to command; "arise my soul and praise the Lord". Hope is the clothe piece in which wraps a healthy soul!”    ―    Israelmore Ayivor,          The Great Hand Book of Quotes</value>
+  </data>
+  <data name="HealthEn_177" xml:space="preserve">
+    <value>“I don’t like salad dressing. I prefer salad undressing. I’m a health freak. And I do mean freak.”    ―    Jarod Kintz,          This Book Title is Invisible</value>
+  </data>
+  <data name="HealthEn_178" xml:space="preserve">
+    <value>“Because all actions and expressions stem from the mind, it is vital to know the mind as well as decide in what way we’ll use it. Everyone has heard of psychosomatic illness, and most of us acknowledge that psychosomatic sicknesses can and do occur. But what about psychosomatic wellness? How many of us have considered if it’s possible to stay healthy or cure various maladies with the positive use of the mind? And if we have thought of this, have we done much more than simply consider the idea?”    ―    H.E. Davey</value>
+  </data>
+  <data name="HealthEn_179" xml:space="preserve">
+    <value>“I want to write a book called Kissing Kissinger. It won’t be about kissing, Kissinger, or even politics. It’ll be about radiator fluid, and all the health benefits you can enjoy from chugging it.”    ―    Jarod Kintz,          The Titanic would never have sunk if it were made out of a sink.</value>
+  </data>
+  <data name="HealthEn_180" xml:space="preserve">
+    <value>“If you keep on eating unhealthy food than no matter how many weight loss tips you follow, you are likely to retain weight and become obese. If only you start eating healthy food, you will be pleasantly surprised how easy it is to lose weight.”    ―    Subodh Gupta,          7 habits of skinny woman</value>
+  </data>
+  <data name="HealthEn_181" xml:space="preserve">
+    <value>“Eating healthy nutritious food is the simple and right solution to get rid of excess body weight effortlessly and become slim and healthy forever.”    ―    Subodh Gupta,          7 habits of skinny woman</value>
+  </data>
+  <data name="HealthEn_182" xml:space="preserve">
+    <value>“You are what you eat. What would YOU like to be?”    ―    Julie Murphy,          Nutrition Across A Lifetime</value>
+  </data>
+  <data name="HealthEn_183" xml:space="preserve">
+    <value>“It would be a mistake, though, to consider care by family doctors or midwives inferior to that offered by obstetricians simply on the grounds that obstetricians need not refer care to a family physician or midwife if no complications develop during a course of labor.”    ―    Ina May Gaskin,          Ina May's Guide to Childbirth</value>
+  </data>
+  <data name="HealthEn_184" xml:space="preserve">
+    <value>“Homeopathy pills are, after all, empty little sugar pills which seem to work, and so they embody [..] how we can be misled into thinking that any intervention is more effective than it really is.”    ―    Ben Goldacre,          Bad Science: Quacks, Hacks, and Big Pharma Flacks</value>
+  </data>
+  <data name="HealthEn_185" xml:space="preserve">
+    <value>“There are few chemicals that we as a people are exposed to that have as many far reaching physiological affects on living beings as Monosodium Glutamate does. MSG directly causes obesity, diabetes, triggers epilepsy, destroys eye tissues, is genotoxic in many organs and is the probable cause of ADHD and Autism. Considering that MSG’s only reported role in food is that of ‘flavour enhancer’ is that use worth the risk of the myriad of physical ailments associated with it? Does the public really want to be tricked into eating more food and faster by a food additive?”    ―    John E. Erb,          The Slow Poisoning of Mankind: A Report on the Toxic Effects of the Food Additive Monosodium Glutamate</value>
+  </data>
+  <data name="HealthEn_186" xml:space="preserve">
+    <value>“It was 1976.It was one of the darkest days of my life when that nurse, Mrs. Shimmer, pulled out a maxi pad that measured the width and depth of a mattress and showed us how to use it. It had a belt with it that looked like a slingshot that possessed the jaw-dropping potential to pop a man's head like a gourd. As she stretched the belt between the fingers of her two hands, Mrs. Shimmer told us becoming a woman was a magical and beautiful experience.I remember thinking to myself, You're damn right it had better be magic, because that's what it's going to take to get me to wear something like that, Tinkerbell! It looked like a saddle. Weighed as much as one, too. Some girls even cried.I didn't.I raised my hand."Mrs. Shimmer," I asked the cautiously, "so what kind of security napkins do boys wear when their flower pollinates? Does it have a belt, too?"The room got quiet except for a bubbling round of giggles."You haven't been paying attention, have you?" Mrs. Shimmer accused sharply. "Boys have stamens, and stamens do not require sanitary napkins. They require self control, but you'll learn that soon enough."I was certainly hoping my naughty bits (what Mrs. Shimmer explained to us was like the pistil of a flower) didn't get out of control, because I had no idea what to do if they did.”    ―    Laurie Notaro,          The Idiot Girls' Action-Adventure Club: True Tales from a Magnificent and Clumsy Life</value>
+  </data>
+  <data name="HealthEn_187" xml:space="preserve">
+    <value>“On need of supplement &amp; vitamins- "If you eat a balanced diet you get all the vitamins and minerals you need and you don’t need any supplement and overdosing can actually be more harmful.”    ―    Subodh Gupta,          7 habits of skinny woman</value>
+  </data>
+  <data name="HealthEn_188" xml:space="preserve">
+    <value>“Personal finances are like people’s personal health, crucial and tragic to the sufferer but tedious to the listener. ”    ―    Thomas Keneally,          Searching for Schindler: A Memoir</value>
+  </data>
+  <data name="HealthEn_189" xml:space="preserve">
+    <value>“Managing perfect body weight is not a complicated rocket science. Our body is made up of food which we eat during our day to day life. If we are overweight or obese at the moment then one thing is certain that the food which we eat is unhealthy.”    ―    Subodh Gupta,          7 habits of skinny woman</value>
+  </data>
+  <data name="HealthEn_190" xml:space="preserve">
+    <value>“This is a diseased world in which it is impossible for anyone to be fully human. One way or another, everyone who lives in the modern world is sick or maladjusted.”    ―    David T. Dellinger,          Revolutionary Nonviolence: Essays</value>
+  </data>
+  <data name="HealthEn_191" xml:space="preserve">
+    <value>“This is how most stories end in the hospital. Not with crash carts and sirens and electric shocks to the chest, but with an empty room, a crisp white bed, silence.”    ―    Jacob M. Appel,          Phoning Home: Essays</value>
+  </data>
+  <data name="HealthEn_192" xml:space="preserve">
+    <value>“Be thankful for a breath of fresh air to be alive and well. Allow love and happiness to penetrate throughout your mind and soul. Take time to relax and live in the moment, the now, the present. Enjoy today.”    ―    Amaka Imani Nkosazana</value>
+  </data>
+  <data name="HealthEn_193" xml:space="preserve">
+    <value>“Not only weight loss surgery is unnecessary but also it deprives human being a normal life. People after surgery would never be able to enjoy their food ever for the rest of their life whether it is Christmas or they are on their holidays or their child birthday or any other festival. List of problems and complications after the weight loss surgery operation are endless as one may get additional problems such as Hernia, Internal Bleeding, Swelling of the skin around the wounds, etc. I wonder how many weight loss surgeons advice about weight loss surgery to their own family members.”    ―    Subodh Gupta,          7 Food Habits for Weight Loss Forever</value>
+  </data>
+  <data name="HealthEn_194" xml:space="preserve">
+    <value>“Adult obesity and overweight statistics have increased by about 50 percent since the Dietary Goals were announced. [by the federal government, in 1977] That bears repeating: a 50 percent increase in obesity/overweight correlated with a 10 percent decrease in fat content in the diet.”    ―    Larry McCleary,          Feed Your Brain, Lose Your Belly: Experience Dynamic Weight Loss with the Brain-Belly Connection</value>
+  </data>
+  <data name="HealthEn_195" xml:space="preserve">
+    <value>“The sad irony here is that the FDA, which does not regulate fluoride in drinking water, does regulate toothpaste and on the back of a tube of fluoridated toothpaste … it must state that “if your child swallows more than the recommended amount, contact a poison control center.”The amount that they’re talking about, the recommended amount, which is a pea-sized amount, is equivalent to one glass of water.The FDA is not putting a label on the tap saying don’t drink more than one glass of water. If you do, contact a poison center…There is no question that fluoride — not an excessive amount — can cause serious harm.”    ―    Paul Connett,          The Case Against Fluoride: How Hazardous Waste Ended Up in Our Drinking Water and the Bad Science and Powerful Politics That Keep It There</value>
+  </data>
+  <data name="HealthEn_196" xml:space="preserve">
+    <value>“The whole world is dying. Just too slowly and naturally for my liking. Somebody should poison the food by genetically modifying it somehow. But even if that happened, nobody would be stupid enough to buy it—let alone eat it—would they?”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
+  </data>
+  <data name="HealthEn_197" xml:space="preserve">
+    <value>“Think of how you feel when you are sick, or how you felt when you were learning to ride your bike.  The physical state of your body has a direct effect on how you think about the world, on the state of your mind.  I don’t think it would be an exaggeration to say that your body has a direct effect on who you are.  (30)In an essay by Eric Saidel, Sirius Black: Man or Dog”    ―    Gregory Bassham,          The Ultimate Harry Potter and Philosophy: Hogwarts for Muggles</value>
+  </data>
+  <data name="HealthEn_198" xml:space="preserve">
+    <value>“Reply when questioned on the safety of the polio vaccine he developed:It is safe, and you can't get safer than safe.”    ―    Jonas Salk</value>
+  </data>
+  <data name="HealthEn_199" xml:space="preserve">
+    <value>“But he could not call the doctors at the leprosarium. They would return him to Louisiana. They would treat him and train him and counsel him. They would put him back into life as if his illness were all that mattered, as if wisdom were only skin deep, as if grief and remorse and horror were nothing but illusions, tricks done with mirrors, irrelevant to chrome and porcelain and clean, white, stiff hospital sheets and fluorescent lights.”    ―    Stephen R. Donaldson,          The Chronicles of Thomas Covenant, the Unbeliever</value>
+  </data>
+  <data name="HealthEn_200" xml:space="preserve">
+    <value>“If someone says, "You can make it!" down a vertical mountain when you don't ski very well, think about it before launching. This can be a turning point in your life. It sure was in mine when I slammed into the mountain. I wish I'd said, "F'getabout it, sucka," and gone to the Kiddie Corral. Would have saved a lot of pain and surgery.Think about this. What are you really up for? Is the thrill worth the cost?”    ―    Sandy Nathan,          Numenon</value>
+  </data>
+  <data name="HealthEn_201" xml:space="preserve">
+    <value>“One knows so well the popular idea of health: the English country gentleman galloping after a fox - the unspeakable in full pursuit of the unbeatable.”    ―    Oscar Wilde</value>
+  </data>
+  <data name="HealthEn_202" xml:space="preserve">
+    <value>“I knew I wasn't the picture of health, but I didn't think I was headed for the last roundup.”    ―    Fannie Flagg</value>
+  </data>
+  <data name="HealthEn_203" xml:space="preserve">
+    <value>“Humor and Health,The staples of wealth.”    ―    S Austin</value>
+  </data>
+  <data name="HealthEn_204" xml:space="preserve">
+    <value>“I just ate at a new McDonald’s franchise, and it was great. Everything looked new, including the food. Apparently fast food will look new for years, sort of like plastic. I wonder if the toys in Happy Meals are more edible than the meals themselves.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
+  </data>
+  <data name="HealthEn_205" xml:space="preserve">
+    <value>“A doctor can’t afford to take a sick day, because that’s most unprofessional. How does it look if a “healer” is unhealthy?”    ―    Jarod Kintz,          So many chairs, and no time to sit</value>
+  </data>
+  <data name="HealthEn_206" xml:space="preserve">
+    <value>“And if I’d been a good boy that day, I’d get to eat Chlorella for dessert. Chlorella is condensed algae from Japan that looks like green hard candy pieces, about the size of Smarties, and I guess it could be considered candy, if you think beefing up broccoli on nutritional steroids, compressing it, and sneaking it into movie theaters is a good idea.”    ―    Jarod Kintz,          Gosh, I probably shouldn't publish this.</value>
+  </data>
+  <data name="HealthEn_207" xml:space="preserve">
+    <value>“If you want more joy in your daily life, smile at the people you meet in the street, the woman sitting beside you on the bus or standing next to you in the queue at the airport, the waiter who brings your food, your colleagues or your employer. There’s a great chance they’ll smile back.”    ―    Thorbjörg Hafsteinsdottir,          10 Years Younger in 10 Weeks</value>
+  </data>
+  <data name="HealthEn_208" xml:space="preserve">
+    <value>“Words are like food. They contain information that either releases and liberates and creates possibilities and development or locks you into unhealthy patterns you can’t change.”    ―    Thorbjörg Hafsteinsdottir,          10 Years Younger in 10 Weeks</value>
+  </data>
+  <data name="HealthEn_209" xml:space="preserve">
+    <value>“I can fly a plane, but I can’t fly a planet. Not without a seatbelt the size of the equator. The way I eat @McDonalds, I may need a seatbelt that fat.”    ―    Jarod Kintz,          This Book is Not FOR SALE</value>
   </data>
 </root>

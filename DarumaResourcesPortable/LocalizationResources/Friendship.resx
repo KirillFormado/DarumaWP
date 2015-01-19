@@ -117,547 +117,634 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Friendship_0" xml:space="preserve">
-    <value>Не ставь недруга овцою, а ставь его волком.</value>
+  <data name="FriendshipEn_0" xml:space="preserve">
+    <value>“Friendship is born at that moment when one man says to another: "What! You too? I thought that no one but myself . . ."”    ―    C.S. Lewis,          The Four Loves</value>
   </data>
-  <data name="Friendship_1" xml:space="preserve">
-    <value>Добрый друг лучше ста родственников.</value>
+  <data name="FriendshipEn_1" xml:space="preserve">
+    <value>“Don't walk behind me; I may not lead. Don't walk in front of me; I may not follow. Just walk beside me and be my friend.”    ―    Albert Camus</value>
   </data>
-  <data name="Friendship_2" xml:space="preserve">
-    <value>Как аукнется, так и откликнется</value>
+  <data name="FriendshipEn_2" xml:space="preserve">
+    <value>“A friend is someone who knows all about you and still loves you.”    ―    Elbert Hubbard</value>
   </data>
-  <data name="Friendship_3" xml:space="preserve">
-    <value>Кто друг себе, а кто и недруг.</value>
+  <data name="FriendshipEn_3" xml:space="preserve">
+    <value>“Good friends, good books, and a sleepy conscience: this is the ideal life.”    ―    Mark Twain</value>
   </data>
-  <data name="Friendship_4" xml:space="preserve">
-    <value>Бедный знает и друга и недруга.</value>
+  <data name="FriendshipEn_4" xml:space="preserve">
+    <value>“It is not a lack of love, but a lack of friendship that makes unhappy marriages.”    ―    Friedrich Nietzsche</value>
   </data>
-  <data name="Friendship_5" xml:space="preserve">
-    <value>Для милого друга не искать досуга.</value>
+  <data name="FriendshipEn_5" xml:space="preserve">
+    <value>“If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_6" xml:space="preserve">
-    <value>Не изведан - друг, а изведан - два.</value>
+  <data name="FriendshipEn_6" xml:space="preserve">
+    <value>“The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.”    ―    Bob Marley</value>
   </data>
-  <data name="Friendship_7" xml:space="preserve">
-    <value>Для друга и семь верст не околица.</value>
+  <data name="FriendshipEn_7" xml:space="preserve">
+    <value>“Piglet sidled up to Pooh from behind. "Pooh?" he whispered."Yes, Piglet?""Nothing," said Piglet, taking Pooh's hand. "I just wanted to be sure of you.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_8" xml:space="preserve">
-    <value>Друзей много, а друга нет.</value>
+  <data name="FriendshipEn_8" xml:space="preserve">
+    <value>“If I had a flower for every time I thought of you...I could walk through my garden forever.”    ―    Alfred Tennyson</value>
   </data>
-  <data name="Friendship_9" xml:space="preserve">
-    <value>От теплого слова и лед тает.</value>
+  <data name="FriendshipEn_9" xml:space="preserve">
+    <value>“There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves, it is not my nature.”    ―    Jane Austen,          Northanger Abbey</value>
   </data>
-  <data name="Friendship_10" xml:space="preserve">
-    <value>Все пройдет, одна правда останется.</value>
+  <data name="FriendshipEn_10" xml:space="preserve">
+    <value>“There is nothing better than a friend, unless it is a friend with chocolate.”    ―    Linda Grayson</value>
   </data>
-  <data name="Friendship_11" xml:space="preserve">
-    <value>Волк — хищник по природе, а человек — по зависти.</value>
+  <data name="FriendshipEn_11" xml:space="preserve">
+    <value>“When someone loves you, the way they talk about you is different. You feel safe and comfortable.”    ―    Jess C. Scott,          The Intern</value>
   </data>
-  <data name="Friendship_12" xml:space="preserve">
-    <value>Доносчику первый кнут.</value>
+  <data name="FriendshipEn_12" xml:space="preserve">
+    <value>“When we honestly ask ourselves which person in our lives mean the most to us, we often find that it is those who, instead of giving advice, solutions, or cures, have chosen rather to share our pain and touch our wounds with a warm and tender hand. The friend who can be silent with us in a moment of despair or confusion, who can stay with us in an hour of grief and bereavement, who can tolerate not knowing, not curing, not healing and face with us the reality of our powerlessness, that is a friend who cares.”    ―    Henri J.M. Nouwen,          Out of Solitude: Three Meditations on the Christian Life</value>
   </data>
-  <data name="Friendship_13" xml:space="preserve">
-    <value>Был бы друг, найдется и досуг.</value>
+  <data name="FriendshipEn_13" xml:space="preserve">
+    <value>“It's the friends you can call up at 4 a.m. that matter.”    ―    Marlene Dietrich</value>
   </data>
-  <data name="Friendship_14" xml:space="preserve">
-    <value>Лучше умереть возле друга, чем жить у своего врага.</value>
+  <data name="FriendshipEn_14" xml:space="preserve">
+    <value>“Life is an awful, ugly place to not have a best friend.”    ―    Sarah Dessen,          Someone Like You</value>
   </data>
-  <data name="Friendship_15" xml:space="preserve">
-    <value>Худой мир лучше доброй ссоры</value>
+  <data name="FriendshipEn_15" xml:space="preserve">
+    <value>“We'll be Friends Forever, won't we, Pooh?' asked Piglet.Even longer,' Pooh answered.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_16" xml:space="preserve">
-    <value>Друг за друга держаться - ничего не бояться.</value>
+  <data name="FriendshipEn_16" xml:space="preserve">
+    <value>“You are my best friend as well as my lover, and I do not know which side of you I enjoy the most. I treasure each side, just as I have treasured our life together.”    ―    Nicholas Sparks,          The Notebook</value>
   </data>
-  <data name="Friendship_17" xml:space="preserve">
-    <value>Не бей в чужие ворота плетью, не ударили бы в твои дубиною.</value>
+  <data name="FriendshipEn_17" xml:space="preserve">
+    <value>“I would rather walk with a friend in the dark, than alone in the light.”    ―    Helen Keller</value>
   </data>
-  <data name="Friendship_18" xml:space="preserve">
-    <value>Вешний лед обманчив, а новый друг не надежен.</value>
+  <data name="FriendshipEn_18" xml:space="preserve">
+    <value>“Promise me you'll always remember: You're braver than you believe, and stronger than you seem, and smarter than you think.”    ―    A.A. Milne</value>
   </data>
-  <data name="Friendship_19" xml:space="preserve">
-    <value>Живи, не скупись, с друзьями делись.</value>
+  <data name="FriendshipEn_19" xml:space="preserve">
+    <value>“Friendship is unnecessary, like philosophy, like art.... It has no survival value; rather it is one of those things which give value to survival.”    ―    C.S. Lewis,          The Four Loves</value>
   </data>
-  <data name="Friendship_20" xml:space="preserve">
-    <value>Много добра в кувшине, да головой в него не пролезешь.</value>
+  <data name="FriendshipEn_20" xml:space="preserve">
+    <value>“You can't stay in your corner of the Forest waiting for others to come to you. You have to go to them sometimes.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_21" xml:space="preserve">
-    <value>Два друга - мороз да вьюга.</value>
+  <data name="FriendshipEn_21" xml:space="preserve">
+    <value>“Why did you do all this for me?' he asked. 'I don't deserve it. I've never done anything for you.' 'You have been my friend,' replied Charlotte. 'That in itself is a tremendous thing.”    ―    E.B. White,          Charlotte's Web</value>
   </data>
-  <data name="Friendship_22" xml:space="preserve">
-    <value>Друг верен во всем измерен.</value>
+  <data name="FriendshipEn_22" xml:space="preserve">
+    <value>“What is a friend? A single soul dwelling in two bodies.”    ―    Aristotle</value>
   </data>
-  <data name="Friendship_23" xml:space="preserve">
-    <value>Лжец - всегда неверный друг, оболжет тебя вокруг.</value>
+  <data name="FriendshipEn_23" xml:space="preserve">
+    <value>“I think if I've learned anything about friendship, it's to hang in, stay connected, fight for them, and let them fight for you. Don't walk away, don't be distracted, don't be too busy or tired, don't take them for granted. Friends are part of the glue that holds life and faith together. Powerful stuff.”    ―    Jon Katz</value>
   </data>
-  <data name="Friendship_24" xml:space="preserve">
-    <value>Кому мир недорог, тот нам и ворог.</value>
+  <data name="FriendshipEn_24" xml:space="preserve">
+    <value>“Out beyond ideas of wrongdoing and rightdoing there is a field.I'll meet you there.When the soul lies down in that grassthe world is too full to talk about.”    ―    Rumi</value>
   </data>
-  <data name="Friendship_25" xml:space="preserve">
-    <value>Правда всего дороже.</value>
+  <data name="FriendshipEn_25" xml:space="preserve">
+    <value>“Friendship is the hardest thing in the world to explain. It's not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything.”    ―    Muhammad Ali</value>
   </data>
-  <data name="Friendship_26" xml:space="preserve">
-    <value>Дружно за мир стоять — войне не бывать.</value>
+  <data name="FriendshipEn_26" xml:space="preserve">
+    <value>“How many slams in an old screen door? Depends how loud you shut it. How many slices in a bread? Depends how thin you cut it. How much good inside a day? Depends how good you live 'em. How much love inside a friend? Depends how much you give 'em.”    ―    Shel Silverstein</value>
   </data>
-  <data name="Friendship_27" xml:space="preserve">
-    <value>Будь друг, да не вдруг.</value>
+  <data name="FriendshipEn_27" xml:space="preserve">
+    <value>“Only a true best friend can protect you from your immortal enemies.”    ―    Richelle Mead,          Vampire Academy</value>
   </data>
-  <data name="Friendship_28" xml:space="preserve">
-    <value>Ласковый роток да чистые руки по всей земле обведут.</value>
+  <data name="FriendshipEn_28" xml:space="preserve">
+    <value>“Well, it seems to me that the best relationships - the ones that last - are frequently the ones that are rooted in friendship. You know, one day you look at the person and you see something more than you did the night before. Like a switch has been flicked somewhere. And the person who was just a friend is... suddenly the only person you can ever imagine yourself with.”    ―    Gillian Anderson</value>
   </data>
-  <data name="Friendship_29" xml:space="preserve">
-    <value>Держись друга старого, а дома нового</value>
+  <data name="FriendshipEn_29" xml:space="preserve">
+    <value>“He must have known I'd want to leave you.""No, he must have known you would always want to come back.”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
   </data>
-  <data name="Friendship_30" xml:space="preserve">
-    <value>Надсаженный конь, надломленный лук, замиренный друг - ненадежны.</value>
+  <data name="FriendshipEn_30" xml:space="preserve">
+    <value>“It is more fun to talk with someone who doesn't use long, difficult words but rather short, easy words like "What about lunch?”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_31" xml:space="preserve">
-    <value>Правду говорить - друга не нажить.</value>
+  <data name="FriendshipEn_31" xml:space="preserve">
+    <value>“Each friend represents a world in us, a world possibly not born until they arrive, and it is only by this meeting that a new world is born.”    ―    Anaïs Nin,          The Diary of Anaïs Nin, Vol. 1: 1931-1934</value>
   </data>
-  <data name="Friendship_32" xml:space="preserve">
-    <value>Больше той любви не бывает, как друг за друга умирает.</value>
+  <data name="FriendshipEn_32" xml:space="preserve">
+    <value>“There are no faster or firmer friendships than those formed between people who love the same books.”    ―    Irving Stone,          Clarence Darrow for the Defense</value>
   </data>
-  <data name="Friendship_33" xml:space="preserve">
-    <value>Назвался другом - помогай в беде.</value>
+  <data name="FriendshipEn_33" xml:space="preserve">
+    <value>“Do I not destroy my enemies when I make them my friends?”    ―    Abraham Lincoln</value>
   </data>
-  <data name="Friendship_34" xml:space="preserve">
-    <value>И собака помнит, кто ее кормит.</value>
+  <data name="FriendshipEn_34" xml:space="preserve">
+    <value>“Nobody likes being alone that much. I don't go out of my way to make friends, that's all. It just leads to disappointment. ”    ―    Haruki Murakami,          Norwegian Wood</value>
   </data>
-  <data name="Friendship_35" xml:space="preserve">
-    <value>Умный себя винит, глупый - свего товарища.</value>
+  <data name="FriendshipEn_35" xml:space="preserve">
+    <value>“Why is it," he said, one time, at the subway entrance, "I feel I've known you so many years?""Because I like you," she said, "and I don't want anything from you.”    ―    Ray Bradbury,          Fahrenheit 451</value>
   </data>
-  <data name="Friendship_36" xml:space="preserve">
-    <value>Дружба заботой да подмогой крепка.</value>
+  <data name="FriendshipEn_36" xml:space="preserve">
+    <value>“Silence make the real conversations between friends. Not the saying, but the never needing to say that counts.”    ―    Margaret Lee Runbeck</value>
   </data>
-  <data name="Friendship_37" xml:space="preserve">
-    <value>Жить не тужить — добро добыть да лиха избыть.</value>
+  <data name="FriendshipEn_37" xml:space="preserve">
+    <value>“Words are easy, like the wind; Faithful friends are hard to find.”    ―    William Shakespeare</value>
   </data>
-  <data name="Friendship_38" xml:space="preserve">
-    <value>Легко друзей найти, да трудно сохранить.</value>
+  <data name="FriendshipEn_38" xml:space="preserve">
+    <value>“Growing apart doesn't change the fact that for a long time we grew side by side; our roots will always be tangled. I'm glad for that.”    ―    Ally Condie,          Matched</value>
   </data>
-  <data name="Friendship_39" xml:space="preserve">
-    <value>Верный друг лучше сотни слуг.</value>
+  <data name="FriendshipEn_39" xml:space="preserve">
+    <value>“Tis the privilege of friendship to talk nonsense, and to have her nonsense respected.”    ―    Charles Lamb,          The Life, Letters and Writings of Charles Lamb</value>
   </data>
-  <data name="Friendship_40" xml:space="preserve">
-    <value>Завистливый от чужого счастья сохнет.</value>
+  <data name="FriendshipEn_40" xml:space="preserve">
+    <value>“Some birds are not meant to be caged, that's all.  Their feathers are too bright, their songs too sweet and wild.  So you let them go, or when you open the cage to feed them they somehow fly out past you.  And the part of you that knows it was wrong to imprison them in the first place rejoices, but still, the place where you live is that much more drab and empty for their departure.”    ―    Stephen King,          Rita Hayworth and Shawshank Redemption: A Story from Different Seasons</value>
   </data>
-  <data name="Friendship_41" xml:space="preserve">
-    <value>Кто друга в беде покидает, тот сам в беду попадает.</value>
+  <data name="FriendshipEn_41" xml:space="preserve">
+    <value>“The beginning of love is the will to let those we love be perfectly themselves, the resolution not to twist them to fit our own image. If in loving them we do not love what they are, but only their potential likeness to ourselves, then we do not love them: we only love the reflection of ourselves we find in them”    ―    Thomas Merton,          No Man Is an Island</value>
   </data>
-  <data name="Friendship_42" xml:space="preserve">
-    <value>Кто вчера солгал, тому и завтра не поверят.</value>
+  <data name="FriendshipEn_42" xml:space="preserve">
+    <value>“The capacity for friendship is God's way of apologizing for our families.”    ―    Jay McInerney,          The Last of the Savages</value>
   </data>
-  <data name="Friendship_43" xml:space="preserve">
-    <value>Солома с огнем не дружись.</value>
+  <data name="FriendshipEn_43" xml:space="preserve">
+    <value>“The worst part of success is trying to find someone who is happy for you.”    ―    Bette Midler</value>
   </data>
-  <data name="Friendship_44" xml:space="preserve">
-    <value>Легче друга потерять, чем найти.</value>
+  <data name="FriendshipEn_44" xml:space="preserve">
+    <value>“The man of knowledge must be able not only to love his enemies but also to hate his friends.”    ―    Friedrich Nietzsche</value>
   </data>
-  <data name="Friendship_45" xml:space="preserve">
-    <value>Столько наговорил, что и в шапку не возьмешь.</value>
+  <data name="FriendshipEn_45" xml:space="preserve">
+    <value>“If you have good friends, no matter how much life is sucking , they can make you laugh.”    ―    P.C. Cast</value>
   </data>
-  <data name="Friendship_46" xml:space="preserve">
-    <value>Соха не плуг, приятель не друг.</value>
+  <data name="FriendshipEn_46" xml:space="preserve">
+    <value>“There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.”    ―    J.K. Rowling,          Harry Potter and the Sorcerer's Stone</value>
   </data>
-  <data name="Friendship_47" xml:space="preserve">
-    <value>Дал слово, держи его.</value>
+  <data name="FriendshipEn_47" xml:space="preserve">
+    <value>“Friendship marks a life even more deeply than love. Love risks degenerating into obsession, friendship is never anything but sharing.”    ―    Elie Wiesel</value>
   </data>
-  <data name="Friendship_48" xml:space="preserve">
-    <value>Нет друга, так ищи, а нашел, так береги.</value>
+  <data name="FriendshipEn_48" xml:space="preserve">
+    <value>“The glory of friendship is not the outstretched hand, not the kindly smile, nor the joy of companionship; it is the spiritual inspiration that comes to one when you discover that someone else believes in you and is willing to trust you with a friendship.”    ―    Ralph Waldo Emerson</value>
   </data>
-  <data name="Friendship_49" xml:space="preserve">
-    <value>Кто в нраве крут, тот никому не друг.</value>
+  <data name="FriendshipEn_49" xml:space="preserve">
+    <value>“A snowball in the face is surely the perfect beginning to a lasting friendship.”    ―    Markus Zusak,          The Book Thief</value>
   </data>
-  <data name="Friendship_50" xml:space="preserve">
-    <value>Доброе слово лечит, а злое убивает.</value>
+  <data name="FriendshipEn_50" xml:space="preserve">
+    <value>“It gives me strength to have somebody to fight for; I can never fight for myself, but, for others, I can kill.”    ―    Emilie Autumn,          The Asylum for Wayward Victorian Girls</value>
   </data>
-  <data name="Friendship_51" xml:space="preserve">
-    <value>Сердечный друг не родится вдруг.</value>
+  <data name="FriendshipEn_51" xml:space="preserve">
+    <value>“Friendship- my definition- is built on two things. Respect and trust. Both elements have to be there. And it has to be mutual. You can have respect for someone, but if you don't have trust, the friendship will crumble.”    ―    Stieg Larsson,          The Girl with the Dragon Tattoo</value>
   </data>
-  <data name="Friendship_52" xml:space="preserve">
-    <value>Не будь упрям, а будь прям.</value>
+  <data name="FriendshipEn_52" xml:space="preserve">
+    <value>“This is how it works.  I love the people in my life, and I do for my friends whatever they need me to do for them, again and again, as many times as is necessary.  For example, in your case you always forgot who you are and how much you're loved.  So what I do for you as your friend is remind you who you are and tell you how much I love you.  And this isn't any kind of burden for me, because I love who you are very much.  Every time I remind you, I get to remember with you, which is my pleasure.”    ―    James Lecesne</value>
   </data>
-  <data name="Friendship_53" xml:space="preserve">
-    <value>Как хорош тот, у кого умная голова и доброе сердце.</value>
+  <data name="FriendshipEn_53" xml:space="preserve">
+    <value>“Never leave a friend behind.  Friends are all we have to get us through this life--and they are the only things from this world that we could hope to see in the next.”    ―    Dean Koontz,          Fear Nothing</value>
   </data>
-  <data name="Friendship_54" xml:space="preserve">
-    <value>Ласковое слово, что вешний сад.</value>
+  <data name="FriendshipEn_54" xml:space="preserve">
+    <value>“Stay is a charming word in a friend's vocabulary.”    ―    Amos Bronson Alcott,          Concord Days</value>
   </data>
-  <data name="Friendship_55" xml:space="preserve">
-    <value>Друг познается при рати да при беде.</value>
+  <data name="FriendshipEn_55" xml:space="preserve">
+    <value>“You can go through life and make new friends every year - every month practically - but there was never any substitute for those friendships of childhood that survive into adult years. Those are the ones in which we are bound to one another with hoops of steel.”    ―    Alexander McCall Smith,          The No. 1 Ladies' Detective Agency</value>
   </data>
-  <data name="Friendship_56" xml:space="preserve">
-    <value>Зовется другом, а обирает кругом.</value>
+  <data name="FriendshipEn_56" xml:space="preserve">
+    <value>“I am always saying "Glad to've met you" to somebody I'm not at all glad I met. If you want to stay alive, you have to say that stuff, though.”    ―    J.D. Salinger,          The Catcher in the Rye</value>
   </data>
-  <data name="Friendship_57" xml:space="preserve">
-    <value>Сыр калача белее, а мать всех друзей милее.</value>
+  <data name="FriendshipEn_57" xml:space="preserve">
+    <value>“I am glad you are here with me. Here at the end of all things, Sam.”    ―    J.R.R. Tolkien,          The Return of the King</value>
   </data>
-  <data name="Friendship_58" xml:space="preserve">
-    <value>На себя не наговаривай, а с друга сговаривай.</value>
+  <data name="FriendshipEn_58" xml:space="preserve">
+    <value>“When I say it's you I like, I'm talking about that part of you that knows that life is far more than anything you can ever see or hear or touch. That deep part of you that allows you to stand for those things without which humankind cannot survive. Love that conquers hate, peace that rises triumphant over war, and justice that proves more powerful than greed.”    ―    Fred Rogers</value>
   </data>
-  <data name="Friendship_59" xml:space="preserve">
-    <value>Не имей 100 рублей а имей 100 друзей!</value>
+  <data name="FriendshipEn_59" xml:space="preserve">
+    <value>“Anybody can sympathise with the sufferings of a friend, but it requires a very fine nature to sympathise with a friend's success.”    ―    Oscar Wilde</value>
   </data>
-  <data name="Friendship_60" xml:space="preserve">
-    <value>Для милого дружка и сережку из ушка.</value>
+  <data name="FriendshipEn_60" xml:space="preserve">
+    <value>“I want to grow a flower for every time someone tells me “F*** you.” Then I’ll go back to that person and pin the flower on their lapel in a gesture of friendship. And while they are looking down on it in astonishment, I’ll bunch up my knuckles and punch them in the face.”    ―    Jarod Kintz,          I Want Two apply for a job at our country's largest funeral home, and then wear a suit and noose to the job interview.</value>
   </data>
-  <data name="Friendship_61" xml:space="preserve">
-    <value>Добрый конь не без седока, а честный человек не без друга.</value>
+  <data name="FriendshipEn_61" xml:space="preserve">
+    <value>“The best mirror is an old friend.”    ―    George Herbert</value>
   </data>
-  <data name="Friendship_62" xml:space="preserve">
-    <value>Сабля ранит голову, а слово – душу.</value>
+  <data name="FriendshipEn_62" xml:space="preserve">
+    <value>“Can miles truly separate you from friends... If you want to be with someone you love, aren't you already there?”    ―    Richard Bach</value>
   </data>
-  <data name="Friendship_63" xml:space="preserve">
-    <value>Мил да люб, так и будет друг.</value>
+  <data name="FriendshipEn_63" xml:space="preserve">
+    <value>“Friendship is the bestiest thing that comes to life . Friends will always be there for you don't worry about the fakes worry about the people who had your back from the start and never treated you wrong always remember they are your real friends don't never take them as granted because one day your going to lose a good friend by the way your action's are when you see a good friend stick to that person .”    ―    Marilyn Monroe</value>
   </data>
-  <data name="Friendship_64" xml:space="preserve">
-    <value>И сват свату друг, да не вдруг.</value>
+  <data name="FriendshipEn_64" xml:space="preserve">
+    <value>“When you have a good friend that really cares for you and tries to stick in there with you, you treat them like nothing. Learn to be a good friend because one day you're gonna look up and say I lost a good friend. Learn how to be respectful to your friends, don't just start arguments with them and don't tell them the reason, always remember your friends will be there quicker than your family. Learn to remember you got great friends, don't forget that and they will always care for you no matter what. Always remember to smile and look up at what you got in life.”    ―    Marilyn Monroe</value>
   </data>
-  <data name="Friendship_65" xml:space="preserve">
-    <value>Лучше ста рублев сто другов.</value>
+  <data name="FriendshipEn_65" xml:space="preserve">
+    <value>“I am looking for friends. What does that mean -- tame?""It is an act too often neglected," said the fox. "It means to establish ties." "To establish ties?" "Just that," said the fox. "To me, you are still nothing more than a little boy who is just like a hundred thousand other little boys. And I have no need of you. And you, on your part, have no need of me. To you I am nothing more than a fox like a hundred thousand other foxes. But if you tame me, then we shall need each other. To me, you will be unique in all the world. To you, I shall be unique in all the world....”    ―    Antoine de Saint-Exupéry,          The Little Prince</value>
   </data>
-  <data name="Friendship_66" xml:space="preserve">
-    <value>Знаем вас — были вы у нас: после вас колуна не досчитались.</value>
+  <data name="FriendshipEn_66" xml:space="preserve">
+    <value>“Holding Eleanor's hand was like holding a butterfly. Or a heartbeat. Like holding something complete, and completely alive.”    ―    Rainbow Rowell,          Eleanor &amp; Park</value>
   </data>
-  <data name="Friendship_67" xml:space="preserve">
-    <value>Нашего горя и топоры не секут.</value>
+  <data name="FriendshipEn_67" xml:space="preserve">
+    <value>“Harry - you're a great wizard, you know." "I'm not as good as you," said Harry, very embarrassed, as she let go of him."Me!" said Hermione. "Books! And cleverness! There are more important things - friendship and bravery and - oh Harry - be careful!”    ―    J.K. Rowling,          Harry Potter and the Sorcerer's Stone</value>
   </data>
-  <data name="Friendship_68" xml:space="preserve">
-    <value>У нашего свата ни друга, ни брата.</value>
+  <data name="FriendshipEn_68" xml:space="preserve">
+    <value>“People have forgotten this truth," the fox said. "But you mustn’t forget it. You become responsible forever for what you’ve tamed. You’re responsible for your rose.”    ―    Antoine de Saint-Exupéry,          The Little Prince</value>
   </data>
-  <data name="Friendship_69" xml:space="preserve">
-    <value>Чужому горю не смейся.</value>
+  <data name="FriendshipEn_69" xml:space="preserve">
+    <value>“Why are old lovers able to become friends? Two reasons. They never truly loved each other, or they love each other still.”    ―    Whitney Otto,          How to Make an American Quilt</value>
   </data>
-  <data name="Friendship_70" xml:space="preserve">
-    <value>Иглой да бороной деревня стоит.</value>
+  <data name="FriendshipEn_70" xml:space="preserve">
+    <value>“The friend who holds your hand and says the wrong thing is made of dearer stuff than the one who stays away.”    ―    Barbara Kingsolver</value>
   </data>
-  <data name="Friendship_71" xml:space="preserve">
-    <value>Вдруг не станешь друг.</value>
+  <data name="FriendshipEn_71" xml:space="preserve">
+    <value>“True friends are always together in spirit. (Anne Shirley)”    ―    L.M. Montgomery,          Anne of Green Gables</value>
   </data>
-  <data name="Friendship_72" xml:space="preserve">
-    <value>Гроза, грозись, а мы друг за друга держись.</value>
+  <data name="FriendshipEn_72" xml:space="preserve">
+    <value>“Sometimes being a friend means mastering the art of timing. There is a time for silence. A time to let go and allow people to hurl themselves into their own destiny. And a time to prepare to pick up the pieces when it's all over.”    ―    Gloria Naylor</value>
   </data>
-  <data name="Friendship_73" xml:space="preserve">
-    <value>Старый друг лучше новых двух.</value>
+  <data name="FriendshipEn_73" xml:space="preserve">
+    <value>“There is nothing like puking with somebody to make you into old friends.”    ―    Sylvia Plath,          The Bell Jar</value>
   </data>
-  <data name="Friendship_74" xml:space="preserve">
-    <value>Ежели несчастья бояться, то и счастья не будет.</value>
+  <data name="FriendshipEn_74" xml:space="preserve">
+    <value>“We should meet in another life, we should meet in air, me and you.”    ―    Sylvia Plath</value>
   </data>
-  <data name="Friendship_75" xml:space="preserve">
-    <value>Друг на друга глядючи, улыбнешься; на себя глядючи только всплачешься.</value>
+  <data name="FriendshipEn_75" xml:space="preserve">
+    <value>“There is no surer foundation for a beautiful friendship than a mutual taste in literature.”    ―    P.G. Wodehouse</value>
   </data>
-  <data name="Friendship_76" xml:space="preserve">
-    <value>Зависть добра не прибавит.</value>
+  <data name="FriendshipEn_76" xml:space="preserve">
+    <value>“It's bullshit to think of friendship and romance as being different. They're not. They're just variations of the same love. Variations of the same desire to be close.”    ―    Rachel Cohn,          Naomi and Ely's No Kiss List</value>
   </data>
-  <data name="Friendship_77" xml:space="preserve">
-    <value>Жить было с другом, да помешал недруг.</value>
+  <data name="FriendshipEn_77" xml:space="preserve">
+    <value>“Wishing to be friends is quick work, but friendship is a slow ripening fruit.”    ―    Aristotle</value>
   </data>
-  <data name="Friendship_78" xml:space="preserve">
-    <value>Кто ищет, тот найдет.</value>
+  <data name="FriendshipEn_78" xml:space="preserve">
+    <value>“If you know someone who’s depressed, please resolve never to ask them why. Depression isn’t a straightforward response to a bad situation; depression just is, like the weather.Try to understand the blackness, lethargy, hopelessness, and loneliness they’re going through. Be there for them when they come through the other side. It’s hard to be a friend to someone who’s depressed, but it is one of the kindest, noblest, and best things you will ever do.”    ―    Stephen Fry</value>
   </data>
-  <data name="Friendship_79" xml:space="preserve">
-    <value>С волками жить - по волчьи выть.</value>
+  <data name="FriendshipEn_79" xml:space="preserve">
+    <value>“Once she was gone, I knelt next to Annabeth and felt her forehead. She was still burning up."You're cute when you're worried," she muttered. "Your eyebrows get all scrunched together.""You are not going to die while I owe you a favor," I said. "Why did you take that knife?""You would've done the same for me."It was true. I guess we both knew it. Still, I felt like somebody was poking my heart with a cold metal rod.”    ―    Rick Riordan,          The Last Olympian</value>
   </data>
-  <data name="Friendship_80" xml:space="preserve">
-    <value>Нет такого дружка, как родная матушка.</value>
+  <data name="FriendshipEn_80" xml:space="preserve">
+    <value>“I wanted to be one of those people who have streaks to maintain, who scorch the ground with their intensity. But for now, at least I knew such people, and they needed me, just like comets need tails.”    ―    John Green,          Looking for Alaska</value>
   </data>
-  <data name="Friendship_81" xml:space="preserve">
-    <value>Дальний путь, да ближний друг.</value>
+  <data name="FriendshipEn_81" xml:space="preserve">
+    <value>“We'll be there, Harry," said Ron"What?""At your Aunt and Uncle's house," said Ron, "And then we'll go with you wherever you're going.""No-" said Harry quickly; he hadn't counted on this, he had meant them to understand that he was undertaking the most dangerous journey alone. "You said it once before," said Hermione quickly, "that there was time to turn back if we wanted to. We've had time, haven't we? We're with you whatever happens.”    ―    J.K. Rowling,          Harry Potter and the Half-Blood Prince</value>
   </data>
-  <data name="Friendship_82" xml:space="preserve">
-    <value>Все за одного и один за всех.</value>
+  <data name="FriendshipEn_82" xml:space="preserve">
+    <value>“If you have two friends in your lifetime, you're lucky. If you have one good friend, you're more than lucky.”    ―    S.E. Hinton</value>
   </data>
-  <data name="Friendship_83" xml:space="preserve">
-    <value>Все любят добро, да не всех любит оно.</value>
+  <data name="FriendshipEn_83" xml:space="preserve">
+    <value>“There's not a word yet, for old friends who've just met.”    ―    Jim Henson,          Favorite Songs from Jim Henson's Muppets</value>
   </data>
-  <data name="Friendship_84" xml:space="preserve">
-    <value>По щедрости руки видно, какое сердце.</value>
+  <data name="FriendshipEn_84" xml:space="preserve">
+    <value>“No person is your friend who demands your silence, or denies your right to grow.”    ―    Alice Walker</value>
   </data>
-  <data name="Friendship_85" xml:space="preserve">
-    <value>Доброе братство дороже богатства.</value>
+  <data name="FriendshipEn_85" xml:space="preserve">
+    <value>“I don’t trust anybody. Not anybody. And the more that I care about someone, the more sure I am they’re going to get tired of me and take off.”    ―    Rainbow Rowell,          Fangirl</value>
   </data>
-  <data name="Friendship_86" xml:space="preserve">
-    <value>Нужно много дней и ночей, чтобы узнать человека.</value>
+  <data name="FriendshipEn_86" xml:space="preserve">
+    <value>“I don’t feel very much like Pooh today," said Pooh."There there," said Piglet. "I’ll bring you tea and honey until you do.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_87" xml:space="preserve">
-    <value>Одежда лучше новая, а друг - старый.</value>
+  <data name="FriendshipEn_87" xml:space="preserve">
+    <value>“When the snows fall and the white winds blow, the lone wolf dies but the pack survives.”    ―    George R.R. Martin,          A Game of Thrones</value>
   </data>
-  <data name="Friendship_88" xml:space="preserve">
-    <value>Дружба дружбой, а служба службой.</value>
+  <data name="FriendshipEn_88" xml:space="preserve">
+    <value>“No friendship is an accident. ”    ―    O. Henry,          Heart of the West</value>
   </data>
-  <data name="Friendship_89" xml:space="preserve">
-    <value>Царю правда лучший друг.</value>
+  <data name="FriendshipEn_89" xml:space="preserve">
+    <value>“To say that one waits a lifetime for his soulmate to come around is a paradox. People eventually get sick of waiting, take a chance on someone, and by the art of commitment become soulmates, which takes a lifetime to perfect.”    ―    Criss Jami,          Venus in Arms</value>
   </data>
-  <data name="Friendship_90" xml:space="preserve">
-    <value>Лучше вода у друга, чем мед у врага.</value>
+  <data name="FriendshipEn_90" xml:space="preserve">
+    <value>“They’re a rotten crowd’, I shouted across the lawn. ‘You’re worth the whole damn bunch put together.”    ―    F. Scott Fitzgerald,          The Great Gatsby</value>
   </data>
-  <data name="Friendship_91" xml:space="preserve">
-    <value>Берись дружно, не будет грузно.</value>
+  <data name="FriendshipEn_91" xml:space="preserve">
+    <value>“Is it possible, in the final analysis, for one human being to achieve perfect understanding of another?We can invest enormous time and energy in serious efforts to know another person, but in the end, how close can we come to that person's essence? We convince ourselves that we know the other person well, but do we really know anything important about anyone?”    ―    Haruki Murakami,          The Wind-Up Bird Chronicle</value>
   </data>
-  <data name="Friendship_92" xml:space="preserve">
-    <value>В недруге стрела, что во пне, а в друге, что во мне.</value>
+  <data name="FriendshipEn_92" xml:space="preserve">
+    <value>“Piglet noticed that even though he had a Very Small Heart, it could hold a rather large amount of Gratitude.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_93" xml:space="preserve">
-    <value>Два горя вместе, третье пополам.</value>
+  <data name="FriendshipEn_93" xml:space="preserve">
+    <value>“When a girl says she wants to be friends with benefits, I always ask if that includes dental insurance.”    ―    Jarod Kintz,          It Occurred to Me</value>
   </data>
-  <data name="Friendship_94" xml:space="preserve">
-    <value>Дорог не подарок, дорога любовь.</value>
+  <data name="FriendshipEn_94" xml:space="preserve">
+    <value>“There is no exercise better for the heart than reaching down and lifting people up.”    ―    John Holmes</value>
   </data>
-  <data name="Friendship_95" xml:space="preserve">
-    <value>Друг неиспытанный, что орех нерасколотый.</value>
+  <data name="FriendshipEn_95" xml:space="preserve">
+    <value>“We always see our worst selves. Our most vulnerable selves. We need someone else to get close enough to tell us we’re wrong. Someone we trust.”    ―    David Levithan,          Naomi and Ely's No Kiss List</value>
   </data>
-  <data name="Friendship_96" xml:space="preserve">
-    <value>Друга на деньги не купишь.</value>
+  <data name="FriendshipEn_96" xml:space="preserve">
+    <value>“When a woman becomes her own best friend life is easier.”    ―    Diane Von Furstenberg</value>
   </data>
-  <data name="Friendship_97" xml:space="preserve">
-    <value>Дружба крепка не лестью, а правдой и честью.</value>
+  <data name="FriendshipEn_97" xml:space="preserve">
+    <value>“Your friends will know you better in the first minute you meet than your acquaintances will know you in a thousand years.”    ―    Richard Bach</value>
   </data>
-  <data name="Friendship_98" xml:space="preserve">
-    <value>Дружба от недружбы близко живет.</value>
+  <data name="FriendshipEn_98" xml:space="preserve">
+    <value>“A friend to all is a friend to none.”    ―    Aristotle</value>
   </data>
-  <data name="Friendship_99" xml:space="preserve">
-    <value>И комар лошадь свалит, коли волк подсобит.</value>
+  <data name="FriendshipEn_99" xml:space="preserve">
+    <value>“It is not often that someone comes along who is a true friend and a good writer.”    ―    E.B. White,          Charlotte's Web</value>
   </data>
-  <data name="Friendship_100" xml:space="preserve">
-    <value>Мы с тобой, как рыба с водой.</value>
+  <data name="FriendshipEn_100" xml:space="preserve">
+    <value>“I may not always be with you But when we're far apartRemember you will be with meRight inside my heart”    ―    Marc Wambolt,          Poems from the Heart</value>
   </data>
-  <data name="Friendship_101" xml:space="preserve">
-    <value>Надо пуд соли вместе съесть, чтобы друга узнать.</value>
+  <data name="FriendshipEn_101" xml:space="preserve">
+    <value>“Cutting people out of your life is easy, keeping them in is hard.”    ―    Walter Dean Myers,          Slam!</value>
   </data>
-  <data name="Friendship_102" xml:space="preserve">
-    <value>Не бойся врага умного, бойся друга глупого.</value>
+  <data name="FriendshipEn_102" xml:space="preserve">
+    <value>“It is easy enough to be friendly to one's friends. But to befriend the one who regards himself as your enemy is the quintessence of true religion. The other is mere business.”    ―    Mahatma Gandhi</value>
   </data>
-  <data name="Friendship_103" xml:space="preserve">
-    <value>Не сошлись обычаем, не бывать дружбе.</value>
+  <data name="FriendshipEn_103" xml:space="preserve">
+    <value>“I don't care about whose DNA has recombined with whose. When everything goes to hell, the people who stand by you without flinching--they are your family.”    ―    Jim Butcher,          Proven Guilty</value>
   </data>
-  <data name="Friendship_104" xml:space="preserve">
-    <value>Не узнавай друга в три дня, узнай в три года.</value>
+  <data name="FriendshipEn_104" xml:space="preserve">
+    <value>“It's hard to tell who has your back, from who has it long enough just to stab you in it....”    ―    Nicole Richie</value>
   </data>
-  <data name="Friendship_105" xml:space="preserve">
-    <value>Недруг поддакивает, а друг спорит</value>
+  <data name="FriendshipEn_105" xml:space="preserve">
+    <value>“In prosperity our friends know us; in adversity we know our friends.”    ―    John Churton Collins</value>
   </data>
-  <data name="Friendship_106" xml:space="preserve">
-    <value>Новых друзей наживай, а старых не утрачивай.</value>
+  <data name="FriendshipEn_106" xml:space="preserve">
+    <value>“I wonder what Piglet is doing," thought Pooh. "I wish I were there to be doing it, too.”    ―    A.A. Milne,          Winnie-the-Pooh</value>
   </data>
-  <data name="Friendship_107" xml:space="preserve">
-    <value>Один в поле не воин</value>
+  <data name="FriendshipEn_107" xml:space="preserve">
+    <value>“A friend may be waiting behind a stranger's face.”    ―    Maya Angelou,          Letter to My Daughter</value>
   </data>
-  <data name="Friendship_108" xml:space="preserve">
-    <value>Рыбак рыбака видит издалека</value>
+  <data name="FriendshipEn_108" xml:space="preserve">
+    <value>“Because I can't help doing it," he said with a shrug. "And hey, if I keep loving you, maybe you'll eventually crack and love me too. Hell, I'm pretty sure you're already half in love with me.""I am not! And everything you just said is ridiculous. That's terrible logic."Adrian returned to his crossword puzzle. "Well, you can think what you want, so long as you remember-no matter how ordinary things seem between us-I'm still here, still in love with you, and care about you more than any other guy, evil or otherwise, ever will.""I don't think you're evil.""See? Things are already looking promising.”    ―    Richelle Mead,          The Indigo Spell</value>
   </data>
-  <data name="Friendship_109" xml:space="preserve">
-    <value>С кем поведешься, от того и наберешься.</value>
+  <data name="FriendshipEn_109" xml:space="preserve">
+    <value>“One of the tasks of true friendship is to listen compassionately and creatively to the hidden silences. Often secrets are not revealed in words, they lie concealed in the silence between the words or in the depth of what is unsayable between two people.”    ―    John O'Donohue,          Anam Cara: A Book of Celtic Wisdom</value>
   </data>
-  <data name="Friendship_110" xml:space="preserve">
-    <value>С кем хлеб-соль водишь, на того и походишь</value>
+  <data name="FriendshipEn_110" xml:space="preserve">
+    <value>“You can make more friends in two months by becoming interested in other people than you can in two years by trying to get other people interested in you.”    ―    Dale Carnegie,          How to Win Friends and Influence People</value>
   </data>
-  <data name="Friendship_111" xml:space="preserve">
-    <value>Скажи мне, кто твой друг, и я скажу тебе, кто ты.</value>
+  <data name="FriendshipEn_111" xml:space="preserve">
+    <value>“No human relation gives one possession in another—every two souls are absolutely different. In friendship or in love, the two side by side raise hands together to find what one cannot reach alone.”    ―    Kahlil Gibran</value>
   </data>
-  <data name="Friendship_112" xml:space="preserve">
-    <value>У друга пить воду лучше неприятельского меду.</value>
+  <data name="FriendshipEn_112" xml:space="preserve">
+    <value>“The greatest compliment that was ever paid me was when one asked me what I thought, and attended to my answer.”    ―    Henry David Thoreau</value>
   </data>
-  <data name="Friendship_113" xml:space="preserve">
-    <value>Хороший друг в лицо ругает, а за глаза хвалит</value>
+  <data name="FriendshipEn_113" xml:space="preserve">
+    <value>“Nothing makes the earth seem so spacious as to have friends at a distance; they make the latitudes and longitudes.”    ―    Henry David Thoreau</value>
   </data>
-  <data name="Friendship_114" xml:space="preserve">
-    <value>Дружно — не грузно, а врозь — хоть брось</value>
+  <data name="FriendshipEn_114" xml:space="preserve">
+    <value>“She is a friend of my mind. She gather me, man. The pieces I am, she gather them and give them back to me in all the right order.”    ―    Toni Morrison,          Beloved</value>
   </data>
-  <data name="Friendship_115" xml:space="preserve">
-    <value>Согласного стада и волк не берет.</value>
+  <data name="FriendshipEn_115" xml:space="preserve">
+    <value>“It's not love or anything, but I think I like you, too.”    ―    Chuck Palahniuk,          Fight Club</value>
   </data>
-  <data name="Friendship_116" xml:space="preserve">
-    <value>По прутику всю метлу переломить можно.</value>
+  <data name="FriendshipEn_116" xml:space="preserve">
+    <value>“In friendship...we think we have chosen our peers. In reality a few years' difference in the dates of our births, a few more miles between certain houses, the choice of one university instead of another...the accident of a topic being raised or not raised at a first meeting--any of these chances might have kept us apart. But, for a Christian, there are, strictly speaking no chances. A secret master of ceremonies has been at work. Christ, who said to the disciples, "Ye have not chosen me, but I have chosen you," can truly say to every group of Christian friends, "Ye have not chosen one another but I have chosen you for one another." The friendship is not a reward for our discriminating and good taste in finding one another out. It is the instrument by which God reveals to each of us the beauties of others.”    ―    C.S. Lewis,          The Four Loves</value>
   </data>
-  <data name="Friendship_117" xml:space="preserve">
-    <value>На людях и смерть красна.</value>
+  <data name="FriendshipEn_117" xml:space="preserve">
+    <value>“Friendship is everything. Friendship is more than talent. It is more than the government. It is almost the equal of family.- Don Corleone”    ―    Mario Puzo,          The Godfather</value>
   </data>
-  <data name="Friendship_118" xml:space="preserve">
-    <value>Две головни и в поле курятся, а одна и в печи гаснет.</value>
+  <data name="FriendshipEn_118" xml:space="preserve">
+    <value>“I ask you to judge me by the enemies I have made.”    ―    Franklin D. Roosevelt</value>
   </data>
-  <data name="Friendship_119" xml:space="preserve">
-    <value>По капельке — море, по былинке — стог, по зернышку — ворох.</value>
+  <data name="FriendshipEn_119" xml:space="preserve">
+    <value>“A true friend is someone who thinks that you are a good egg even though he knows that you are slightly cracked.”    ―    Bernard Meltzer</value>
   </data>
-  <data name="Friendship_120" xml:space="preserve">
-    <value>В мире жить — с миром жить.</value>
+  <data name="FriendshipEn_120" xml:space="preserve">
+    <value>“the only way Bex would miss this would be if she were unconscious. And tied up. And in a concrete bunker. In Siberia.”    ―    Ally Carter,          Don't Judge a Girl by Her Cover</value>
   </data>
-  <data name="Friendship_121" xml:space="preserve">
-    <value>На что и клад, когда дети идут в лад</value>
+  <data name="FriendshipEn_121" xml:space="preserve">
+    <value>“A faithful friend is a strong defense; And he that hath found him hath found a treasure.”    ―    Louisa May Alcott</value>
   </data>
-  <data name="Friendship_122" xml:space="preserve">
-    <value>Всякая ссора красна мировою.</value>
+  <data name="FriendshipEn_122" xml:space="preserve">
+    <value>“Be slow to fall into friendship, but when you are in, continue firm and constant.”    ―    Socrates</value>
   </data>
-  <data name="Friendship_123" xml:space="preserve">
-    <value>Дракою прав не будешь.</value>
+  <data name="FriendshipEn_123" xml:space="preserve">
+    <value>“Are you upset little friend? Have you been lying awake worrying? Well, don't worry...I'm here. The flood waters will recede, the famine will end, the sun will shine tomorrow, and I will always be here to take care of you.”    ―    Charles M. Schulz</value>
   </data>
-  <data name="Friendship_124" xml:space="preserve">
-    <value>Семеро одного не ждут.</value>
+  <data name="FriendshipEn_124" xml:space="preserve">
+    <value>“Luna had decorated her bedroom ceiling with five beautifully painted faces: Harry, Ron, Hermione, Ginny, and Neville. They were not moving as the portraits at Hogwarts moved, but there was a certain magic about them all the same: Harry thought they breathed. What appeared to be fine golden chains wove around the pictures, linking them together, but after examining them for a minute or so, Harry realized that the chains were actually one word, repeated a thousand times in golden ink: friends . . . friends . . . friends . . .”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
   </data>
-  <data name="Friendship_125" xml:space="preserve">
-    <value>То не страх, что вместях, а сунься-ка один.</value>
+  <data name="FriendshipEn_125" xml:space="preserve">
+    <value>“Friends are the family you choose (~ Nin/Ithilnin, Elven rogue).”    ―    Jess C. Scott,          The Other Side of Life</value>
   </data>
-  <data name="Friendship_126" xml:space="preserve">
-    <value>Был бы запевала, а подголоски найдутся.</value>
+  <data name="FriendshipEn_126" xml:space="preserve">
+    <value>“You think I'm a fool?" demanded Harry."No, I think you're like James," said Lupin, "who would have regarded it as the height of dishonor to mistrust his friends.”    ―    J.K. Rowling,          Harry Potter and the Deathly Hallows</value>
   </data>
-  <data name="Friendship_127" xml:space="preserve">
-    <value>Одна пчела не много меду натаскает.</value>
+  <data name="FriendshipEn_127" xml:space="preserve">
+    <value>“A friend is a person with whom I may be sincere. Before him I may think aloud. I am arrived at last in the presence of a man so real and equal, that I may drop even those undermost garments of dissimulation, courtesy, and second thought, which men never put off, and may deal with him with the simplicity and wholeness with which one chemical atom meets another.”    ―    Ralph Waldo Emerson,          Essays: First Series</value>
   </data>
-  <data name="Friendship_128" xml:space="preserve">
-    <value>Одной рукой и узла не завяжешь.</value>
+  <data name="FriendshipEn_128" xml:space="preserve">
+    <value>“Time doesn't take away from friendship, nor does separation.”    ―    Tennessee Williams,          Memoirs</value>
   </data>
-  <data name="Friendship_129" xml:space="preserve">
-    <value>Двое в поле воюют, а один и дома горюет.</value>
+  <data name="FriendshipEn_129" xml:space="preserve">
+    <value>“Sam and Patrick looked at me. And I looked at them. And I think they knew. Not anything specific really. They just knew. And I think that's all you can ever ask from a friend.”    ―    Stephen Chbosky,          The Perks of Being a Wallflower</value>
   </data>
-  <data name="Friendship_130" xml:space="preserve">
-    <value>Беда не там страшна, где есть друзья,</value>
+  <data name="FriendshipEn_130" xml:space="preserve">
+    <value>“Two a.m.' He swallowed, then said, "You know. The person you can call at two a.m. and, no matter what, you can count on them. Even if they're asleep or it's cold or you need to be bailed out of jail...they'll come for you. It's like, the highest level of friendship.”    ―    Sarah Dessen,          What Happened to Goodbye</value>
   </data>
-  <data name="Friendship_131" xml:space="preserve">
-    <value>Один и в каше загинет.</value>
+  <data name="FriendshipEn_131" xml:space="preserve">
+    <value>“A friend is someone who gives you total freedom to be yourself.”    ―    Jim Morrison</value>
   </data>
-  <data name="Friendship_132" xml:space="preserve">
-    <value>Сам себе на радость никто не живет.</value>
+  <data name="FriendshipEn_132" xml:space="preserve">
+    <value>“I don't suppose you have many friends. Neither do I. I don't trust people who say they have a lot of friends. It's a sure sign that they don't really know anyone.”    ―    Carlos Ruiz Zafón,          The Angel's Game</value>
   </data>
-  <data name="Friendship_133" xml:space="preserve">
-    <value>Глуп совсем, кто не знается ни с кем.</value>
+  <data name="FriendshipEn_133" xml:space="preserve">
+    <value>“Sometimes you want to say, “I love you, but…”Yet the “but” takes away the ‘I love you’. In love their are no ‘buts’ or ‘if’s’ or ‘when’. It’s just there, and always. No beginning, no end. It’s the condition-less state of the heart. Not a feeling that comes and goes at the whim of the emotions. It is there in our heart, a part of our heart…eventually grafting itself into each limb and cell of our bodies. Love changes our brain, the way we move and talk. Love lives in our spirit and graces us with its presence each day, until death.To say “I love you, but….” is to say, “I did not love you at all”.I say this to you now: I love you, with no beginning, no end. I love you as you have become an extra necessary organ in my body. I love you as only a girl could love a boy. Without fear. Without expectations. Wanting nothing in return, except that you allow me to keep you here in my heart, that I may always know your strength, your eyes, and your spirit that gave me freedom and let me fly.”    ―    Coco J. Ginger</value>
   </data>
-  <data name="Friendship_134" xml:space="preserve">
-    <value>Пять перстов, да все одна рука.</value>
+  <data name="FriendshipEn_134" xml:space="preserve">
+    <value>“No man can be called friendless who has God and the companionship of good books.”    ―    Elizabeth Barrett Browning</value>
   </data>
-  <data name="Friendship_135" xml:space="preserve">
-    <value>Доброе братство дороже всякого богатства.</value>
+  <data name="FriendshipEn_135" xml:space="preserve">
+    <value>“True friends are like diamonds – bright, beautiful, valuable, and always in style.”    ―    Nicole Richie</value>
   </data>
-  <data name="Friendship_136" xml:space="preserve">
-    <value>Друг за дружку держаться — ничего не бояться</value>
+  <data name="FriendshipEn_136" xml:space="preserve">
+    <value>“We cannot tell the precise moment when friendship is formed. As in filling a vessel drop by drop, there is at last a drop which makes it run over; so in a series of kindnesses there is at last one which makes the heart run over.”    ―    Ray Bradbury,          Fahrenheit 451</value>
   </data>
-  <data name="Friendship_137" xml:space="preserve">
-    <value>Артелью хорошо и недруга бить.</value>
+  <data name="FriendshipEn_137" xml:space="preserve">
+    <value>“A fit, healthy body—that is the best fashion statement”    ―    Jess C. Scott</value>
   </data>
-  <data name="Friendship_138" xml:space="preserve">
-    <value>Артель дружбой крепка.</value>
+  <data name="FriendshipEn_138" xml:space="preserve">
+    <value>“I want to be the kind of person that kind people like and want to be like.”    ―    Jarod Kintz,          At even one penny, this book would be overpriced. In fact, free is too expensive, because you'd still waste time by reading it.</value>
   </data>
-  <data name="Friendship_139" xml:space="preserve">
-    <value>Семеро — не один, в обиду не дадим.</value>
+  <data name="FriendshipEn_139" xml:space="preserve">
+    <value>“When the two people who thus discover that they are on the same secret road are of different sexes, the friendship which arises between them will very easily pass – may pass in the first half hour – into erotic love. Indeed, unless they are physically repulsive to each other or unless one or both already loves elsewhere, it is almost certain to do so sooner or later. And conversely, erotic love may lead to Friendship between the lovers. But this, so far from obliterating the distinction between the two loves, puts it in a clearer light. If one who was first, in the deep and full sense, your Friend, is then gradually or suddenly revealed as also your lover you will certainly not want to share the Beloved’s erotic love with any third. But you will have no jealousy at all about sharing the Friendship. Nothing so enriches an erotic love as the discovery that the Beloved can deeply, truly and spontaneously enter into Friendship with the Friends you already had; to feel that not only are we two united by erotic love but we three or four or five are all travelers on the same quest, have all a common vision.”    ―    C.S. Lewis,          The Four Loves</value>
   </data>
-  <data name="Friendship_140" xml:space="preserve">
-    <value>Человек к человеку — глядишь и толпа,</value>
+  <data name="FriendshipEn_140" xml:space="preserve">
+    <value>“I've heard it said that people come into our lives for a reasonBringing something we must learnAnd we are led to those who help us most to grow If we let them and we help them in return.”    ―    Stephen Schwartz</value>
   </data>
-  <data name="Friendship_141" xml:space="preserve">
-    <value>Вместе мокли, вместе сохли.</value>
+  <data name="FriendshipEn_141" xml:space="preserve">
+    <value>“A real friend isn't capable of feeling sorry for you.”    ―    Jodi Picoult,          My Sister's Keeper</value>
   </data>
-  <data name="Friendship_142" xml:space="preserve">
-    <value>Слушай, рябина, что лес говорит.</value>
+  <data name="FriendshipEn_142" xml:space="preserve">
+    <value>“If you care about somebody, you should want them to be happy. Even if you wind up being left out.”    ―    Stephen Chbosky,          The Perks of Being a Wallflower</value>
   </data>
-  <data name="Friendship_143" xml:space="preserve">
-    <value>Артельный котел гуще кипит.</value>
+  <data name="FriendshipEn_143" xml:space="preserve">
+    <value>“Being in a relationship, that's something you choose.  Being friends, that's just something you are. [But] I do pick you. We've been friends too long to pick, but if we could pick, I'd pick you.”    ―    John Green,          Will Grayson, Will Grayson</value>
   </data>
-  <data name="Friendship_144" xml:space="preserve">
-    <value>Все за бечеву — скорее переедешь.</value>
+  <data name="FriendshipEn_144" xml:space="preserve">
+    <value>“Are you out of your goddamn mind? You think we can take on two hundred soldiers? I know I am an extremely attractive man, J, but I am not Bruce Lee.”“Who’s Bruce Lee?”“Who’s Bruce Lee?” Kenji asks, horrified. “Oh my God. We can’t even be friends anymore.”“Why? Was he a friend of yours?”“You know what,” he says, “just stop. Just—I can’t even talk to you right now.”    ―    Tahereh Mafi,          Ignite Me</value>
   </data>
-  <data name="Friendship_145" xml:space="preserve">
-    <value>Дружные сороки и гуся утащат.</value>
+  <data name="FriendshipEn_145" xml:space="preserve">
+    <value>“You had to know a person well to make them laugh like that.”    ―    Cassandra Clare,          Clockwork Prince</value>
   </data>
-  <data name="Friendship_146" xml:space="preserve">
-    <value>Служи миру и будешь сыт.</value>
+  <data name="FriendshipEn_146" xml:space="preserve">
+    <value>“My old grandmother always used to say, Summer friends will melt away like summer snows, but winter friends are friends forever.”    ―    George R.R. Martin,          A Feast for Crows</value>
   </data>
-  <data name="Friendship_147" xml:space="preserve">
-    <value>С миру по нитке, голому рубашка.</value>
+  <data name="FriendshipEn_147" xml:space="preserve">
+    <value>“I don't want to hurt you or anybody so please forget about me. Just try. Find yourself a better friend.”    ―    Nina LaCour,          Hold Still</value>
   </data>
-  <data name="Friendship_148" xml:space="preserve">
-    <value>Свет не без добрых людей.</value>
+  <data name="FriendshipEn_148" xml:space="preserve">
+    <value>“Friendship is always a sweet responsibility, never an opportunity.”    ―    Kahlil Gibran,          The Collected Works</value>
   </data>
-  <data name="Friendship_149" xml:space="preserve">
-    <value>Не связанный сноп — солома.</value>
+  <data name="FriendshipEn_149" xml:space="preserve">
+    <value>“New friends can often have a better time together than old friends.”    ―    F. Scott Fitzgerald,          Tender is the Night</value>
   </data>
-  <data name="Friendship_150" xml:space="preserve">
-    <value>Сам пропадай, а товарища выручай.</value>
+  <data name="FriendshipEn_150" xml:space="preserve">
+    <value>“A good writer possesses not only his own spirit but also the spirit of his friends.”    ―    Friedrich Nietzsche</value>
   </data>
-  <data name="Friendship_151" xml:space="preserve">
-    <value>Не мил и свет, когда друга нет.</value>
+  <data name="FriendshipEn_151" xml:space="preserve">
+    <value>“I have one last hope for you, which is something that I already had at 21. The friends with whom I sat on graduation day have been my friends for life. They are my children’s godparents, the people to whom I’ve been able to turn in times of trouble, friends who have been kind enough not to sue me when I’ve used their names for Death Eaters. At our graduation we were bound by enormous affection, by our shared experience of a time that could never come again, and, of course, by the knowledge that we held certain photographic evidence that would be exceptionally valuable if any of us ran for Prime Minister.”    ―    J.K. Rowling</value>
   </data>
-  <data name="Friendship_152" xml:space="preserve">
-    <value>По товарищам и слава.</value>
+  <data name="FriendshipEn_152" xml:space="preserve">
+    <value>“Courage. Kindness. Friendship. Character. These are the qualities that define us as human beings, and propel us, on occasion, to greatness.”    ―    R.J. Palacio,          Wonder</value>
   </data>
-  <data name="Friendship_153" xml:space="preserve">
-    <value>Не узнавай друга в три дня, узнавай в три года.</value>
+  <data name="FriendshipEn_153" xml:space="preserve">
+    <value>“True friendship is like sound health; the value of it is seldom known until it be lost.”    ―    Charles Caleb Colton</value>
   </data>
-  <data name="Friendship_154" xml:space="preserve">
-    <value>Конь узнается при горе, а друг при беде.</value>
+  <data name="FriendshipEn_154" xml:space="preserve">
+    <value>“V-Day…if  you need this one day in a year to show everyone else you truly care for “your loved one” I think it’s quite stupid. I hate this commercialism. It’s all artificial, and has nothing to do with real love.”    ―    Jess C. Scott,          EyeLeash: A Blog Novel</value>
   </data>
-  <data name="Friendship_155" xml:space="preserve">
-    <value>Друг узнается при рати и при беде.</value>
+  <data name="FriendshipEn_155" xml:space="preserve">
+    <value>“Colpo di fulmine. The thunderbolt, as Italians call it. When love strikes someone like lightning, so powerful and intense it can’t be denied. It’s beautiful and messy,cracking a chest open and spilling their soul out for the world to see. It turns a person inside out, and there’s no going back from it. Once the thunderbolt hits, your life isirrevocably changed.”    ―    J.M. Darhower,          Sempre</value>
   </data>
-  <data name="Friendship_156" xml:space="preserve">
-    <value>Друзья прямые, что братья родные.</value>
+  <data name="FriendshipEn_156" xml:space="preserve">
+    <value>“A wise man gets more use from his enemies than a fool from his friends.”    ―    Baltasar Gracián,          The Art of Worldly Wisdom</value>
   </data>
-  <data name="Friendship_157" xml:space="preserve">
-    <value>Для друга всё не туго.</value>
+  <data name="FriendshipEn_157" xml:space="preserve">
+    <value>“Friendship is delicate as a glass, once broken it can be fixed but there will always be cracks”    ―    Waqar Ahmed</value>
   </data>
-  <data name="Friendship_158" xml:space="preserve">
-    <value>Дружбу водить, так себя не щадить.</value>
+  <data name="FriendshipEn_158" xml:space="preserve">
+    <value>“There is no happiness like that of being loved by your fellow creatures, and feeling that your presence is an addition to their comfort.”    ―    Charlotte Brontë,          Jane Eyre</value>
   </data>
-  <data name="Friendship_159" xml:space="preserve">
-    <value>Дружба дружбе рознь, а иную хоть брось.</value>
+  <data name="FriendshipEn_159" xml:space="preserve">
+    <value>“When you choose your friends, don't be short-changed by choosing personality over character.”    ―    W. Somerset Maugham</value>
   </data>
-  <data name="Friendship_160" xml:space="preserve">
-    <value>Живи для людей, поживут люди для тебя.</value>
+  <data name="FriendshipEn_160" xml:space="preserve">
+    <value>“When friendships are real, they are not glass threads or frost work, but the solidest things we can know.”    ―    Ralph Waldo Emerson,          Essays: First Series</value>
   </data>
-  <data name="Friendship_161" xml:space="preserve">
-    <value>Дружба да братство дороже всякого богатства.</value>
+  <data name="FriendshipEn_161" xml:space="preserve">
+    <value>“So long as we love we serve; so long as we are loved by others, I would almost say that we are indispensable; and no man is useless while he has a friend.”    ―    Robert Louis Stevenson,          Lay Morals</value>
   </data>
-  <data name="Friendship_162" xml:space="preserve">
-    <value>Больше той любви не бывает, коль друг за друга погибает.</value>
+  <data name="FriendshipEn_162" xml:space="preserve">
+    <value>“Skye kissed her forehead. "You saved my life."Katsa smiled. "You Lienid are very outward in your affection.""I'm going to name my firstborn child after you."Katsa laughed at that. "For the child's sake, wait for a girl. Or even better, wait until all your children are older and give my name to whichever is the most troublesome and obstinate."Skye burst into laughter and hugged her, and Katsa returned his embrace. And realized that quite without her intending it, her guarded heart had made another friend.”    ―    Kristin Cashore,          Graceling</value>
   </data>
-  <data name="Friendship_163" xml:space="preserve">
-    <value>Не поживши вместе, друга не узнаешь.</value>
+  <data name="FriendshipEn_163" xml:space="preserve">
+    <value>“A friend is someone with whom you dare to be yourself.”    ―    Frank Crane</value>
   </data>
-  <data name="Friendship_164" xml:space="preserve">
-    <value>Друзья познаются в беде</value>
+  <data name="FriendshipEn_164" xml:space="preserve">
+    <value>“Watson. Come at once if convenient. If inconvenient, come all the same.”    ―    Arthur Conan Doyle,          Sherlock Holmes: Adventure of the Creeping Man</value>
   </data>
-  <data name="Friendship_165" xml:space="preserve">
-    <value>Дружба, что стекло; сломаешь — не починишь.</value>
+  <data name="FriendshipEn_165" xml:space="preserve">
+    <value>“Close friends are truly life's treasures. Sometimes they know us better than we know ourselves. With gentle honesty, they are there to guide and support us, to share our laughter and our tears. Their presence reminds us that we are never really alone.”    ―    Vincent van Gogh</value>
   </data>
-  <data name="Friendship_166" xml:space="preserve">
-    <value>Плохи друзья на полчаса.</value>
+  <data name="FriendshipEn_166" xml:space="preserve">
+    <value>“There is a primal reassurance in being touched, in knowing that someone else, someone close to you, wants to be touching you. There is a bone-deep security that goes with the brush of a human hand, a silent, reflex-level affirmation that someone is near, that someone cares.”    ―    Jim Butcher,          White Night</value>
   </data>
-  <data name="Friendship_167" xml:space="preserve">
-    <value>Неверный друг опаснее врага.</value>
+  <data name="FriendshipEn_167" xml:space="preserve">
+    <value>“When you feel someone else's pain and joy as powerfully as if it were your own, then you know you really loved them.”    ―    Ann Brashares,          Girls In Pants: The Third Summer of the Sisterhood</value>
   </data>
-  <data name="Friendship_168" xml:space="preserve">
-    <value>Кто любит лгать, того нельзя в друзья брать.</value>
+  <data name="FriendshipEn_168" xml:space="preserve">
+    <value>“It takes your enemy and your friend, working together, to hurt you to the heart: the one to slander you and the other to get the news to you.”    ―    Mark Twain</value>
   </data>
-  <data name="Friendship_169" xml:space="preserve">
-    <value>Друг спорит, а враг поддакивает.</value>
+  <data name="FriendshipEn_169" xml:space="preserve">
+    <value>“...Who could refrain,	That had a heart to love, and in that heart	Courage to make love known?”    ―    William Shakespeare,          Macbeth</value>
   </data>
-  <data name="Friendship_170" xml:space="preserve">
-    <value>Дружбу за деньги не купишь.</value>
+  <data name="FriendshipEn_170" xml:space="preserve">
+    <value>“It would be mortifying to the feelings of many ladies, could they be made to understand how little the heart of a man is affected by what is costly or new in their attire...  Woman is fine for her own satisfaction alone.  No man will admire her the more, no woman will like her the better for it.  Neatness and fashion are enough for the former, and a something of shabbiness or impropriety will be most endearing to the latter.”    ―    Jane Austen,          Northanger Abbey</value>
   </data>
-  <data name="Friendship_171" xml:space="preserve">
-    <value>Дружба как стекло: разобьешь не сложишь.</value>
+  <data name="FriendshipEn_171" xml:space="preserve">
+    <value>“Which of all my important nothings shall I tell you first?”    ―    Jane Austen</value>
   </data>
-  <data name="Friendship_172" xml:space="preserve">
-    <value>Человек без друзей, что дерево без корней.</value>
+  <data name="FriendshipEn_172" xml:space="preserve">
+    <value>“I hadn’t been in proper school in three years. My parents were my two best friends. My third best friend was an author who did not know I existed.”    ―    John Green,          The Fault in Our Stars</value>
   </data>
-  <data name="Friendship_173" xml:space="preserve">
-    <value>Лучше жить в тесноте, чем в обиде.</value>
+  <data name="FriendshipEn_173" xml:space="preserve">
+    <value>“Constant use had not worn ragged the fabric of their friendship.”    ―    Dorothy Parker</value>
   </data>
-  <data name="Friendship_174" xml:space="preserve">
-    <value>Постучит беда в окошко -</value>
+  <data name="FriendshipEn_174" xml:space="preserve">
+    <value>“Was I ever crazy? Maybe. Or maybe life is… Crazy isn’t being broken or swallowing a dark secret. It’s you or me amplified. If you ever told a lie and enjoyed it. If you ever wished you could be a child forever. They were not perfect, but they were my friends.”    ―    Susanna Kaysen,          Girl, Interrupted</value>
   </data>
-  <data name="Friendship_175" xml:space="preserve">
-    <value>Подружится собака с кошкой.</value>
+  <data name="FriendshipEn_175" xml:space="preserve">
+    <value>“Don't flatter yourself that friendship authorizes you to say disagreeable things to your intimates. The nearer you come into relation with a person, the more necessary do tact and courtesy become. Except in cases of necessity, which are rare, leave your friend to learn unpleasant things from his enemies; they are ready enough to tell them.”    ―    Oliver Wendell Holmes Sr.</value>
   </data>
-  <data name="Friendship_176" xml:space="preserve">
-    <value>Не хвались другом в три дня,</value>
+  <data name="FriendshipEn_176" xml:space="preserve">
+    <value>“Relationships are all about trust and equality. If one person shares, then the other person should share, too.”    ―    Sophie Kinsella,          Can You Keep a Secret?</value>
   </data>
-  <data name="Friendship_177" xml:space="preserve">
-    <value>А хвались в три года.</value>
+  <data name="FriendshipEn_177" xml:space="preserve">
+    <value>“The language of Friendship is not words, but meanings.”    ―    Henry David Thoreau,          A Week on the Concord and Merrimack Rivers</value>
   </data>
-  <data name="Friendship_178" xml:space="preserve">
-    <value>На службе нет дружбы.</value>
+  <data name="FriendshipEn_178" xml:space="preserve">
+    <value>“Girls will get together just to get together. Guys need an activity as an excuse. Otherwise it’s too homo for them to handle.”    ―    Megan McCafferty,          Sloppy Firsts</value>
   </data>
-  <data name="Friendship_179" xml:space="preserve">
-    <value>Бывший друг - злейший враг.</value>
+  <data name="FriendshipEn_179" xml:space="preserve">
+    <value>“Everyone has a gift for something, even if it is the gift of being a good friend.”    ―    Marian Anderson</value>
   </data>
-  <data name="Friendship_180" xml:space="preserve">
-    <value>Лучше честный враг, чем коварный друг.</value>
+  <data name="FriendshipEn_180" xml:space="preserve">
+    <value>“Friends are honest with each other. Even if the truth hurts.-Maggie”    ―    Sarah Dessen,          Along for the Ride</value>
+  </data>
+  <data name="FriendshipEn_181" xml:space="preserve">
+    <value>“However rare true love may be, it is less so than true friendship.”    ―    Albert Einstein</value>
+  </data>
+  <data name="FriendshipEn_182" xml:space="preserve">
+    <value>“I don't need a friend who changes when I change and who nods when I nod; my shadow does that much better.”    ―    Plutarch</value>
+  </data>
+  <data name="FriendshipEn_183" xml:space="preserve">
+    <value>“A good friend is a connection to life - a tie to the past, a road to the future, the key to sanity in a totally insane world.”    ―    Lois Wyse</value>
+  </data>
+  <data name="FriendshipEn_184" xml:space="preserve">
+    <value>“You may not remember the time you let me go first. Or the time you dropped back to tell me it wasn't that far to go. Or the time you waited at the crossroads for me to catch up. You may not remember any of those, but I do and this is what I have to say to you: Today, no matter what it takes, we ride home together.”    ―    Brian Andreas,          Traveling Light: Stories &amp; Drawings for a Quiet Mind</value>
+  </data>
+  <data name="FriendshipEn_185" xml:space="preserve">
+    <value>“By chance we met, by choice we become friend”    ―    Millie Huang</value>
+  </data>
+  <data name="FriendshipEn_186" xml:space="preserve">
+    <value>“You're such a pain in the ass. (Butch) Said the SIG to the Glock. (V)”    ―    J.R. Ward,          Lover Revealed</value>
+  </data>
+  <data name="FriendshipEn_187" xml:space="preserve">
+    <value>“We live, in fact, in a world starved for solitude, silence, and private: and therefore starved for meditation and true friendship.”    ―    C.S. Lewis,          The Weight of Glory</value>
+  </data>
+  <data name="FriendshipEn_188" xml:space="preserve">
+    <value>“Can I say something?''Go on''I'm a little drunk''Me too. That's okay.''Just....I missed you, you know.''I missed you too.''But so, so much, Dexter. There were so many things I wanted to talk to you about, and you weren't there-''same here.''I tell you what it is. It's.....When I didn't see you, I thought about you every day, I mean EVERY DAY in some way or another-''same here.''-Even if it was just "I wish Dexter could see this" or "Where's Dexter now?" or "Christ that Dexter, what an idiot", you know what I mean, and seeing you today, well, I thought I'd got you back - my BEST friend. And now all this, the wedding, the baby- I'm so happy for you, Dex, but it feels like I've lost you again.'--'You know what happens you have a family, your responsibilities change, you lose touch with people''It won't be like that, I promise.''Do you?''Absolutely''You swear? No more disappearing?''I won't if you won't.'Their lips touched now, mouths pursed tight, their eyes open, both of them stock still. The moment held, a kind of glorious confusion.”    ―    David Nicholls,          One Day</value>
+  </data>
+  <data name="FriendshipEn_189" xml:space="preserve">
+    <value>“Friendship improves happiness, and abates misery, by doubling our joys, and dividing our grief”    ―    Marcus Tullius Cicero</value>
+  </data>
+  <data name="FriendshipEn_190" xml:space="preserve">
+    <value>“In your entire life, you can probably count your true friends on one hand. Maybe even on one finger. Those are the friends you need to cherish, and I wouldn't trade one of them for a hundred of the other kind. I'd rather be completely alone than with a bunch of people who aren't real. People who are just passing time.”    ―    Sarah Ockler,          Fixing Delilah</value>
+  </data>
+  <data name="FriendshipEn_191" xml:space="preserve">
+    <value>“Betrayal is the only truth that sticks.”    ―    Arthur Miller</value>
+  </data>
+  <data name="FriendshipEn_192" xml:space="preserve">
+    <value>“I hold this to be the highest task of a bond between two people: that each should stand guard over the solitude of the other.”    ―    Rainer Maria Rilke,          Letters to a Young Poet</value>
+  </data>
+  <data name="FriendshipEn_193" xml:space="preserve">
+    <value>“Writing is a job, a talent, but it's also the place to go in your head. It is the imaginary friend you drink your tea with in the afternoon.”    ―    Ann Patchett,          Truth and Beauty</value>
+  </data>
+  <data name="FriendshipEn_194" xml:space="preserve">
+    <value>“My head’ll explode if I continue with this escapism.”    ―    Jess C. Scott,          EyeLeash: A Blog Novel</value>
+  </data>
+  <data name="FriendshipEn_195" xml:space="preserve">
+    <value>“What do you most value in your friends?Their continued existence.”    ―    Christopher Hitchens,          Hitch-22: A Memoir</value>
+  </data>
+  <data name="FriendshipEn_196" xml:space="preserve">
+    <value>“I was tired of pretending that I was someone else just to get along with people, just for the sake of having friendships.”    ―    Kurt Cobain</value>
+  </data>
+  <data name="FriendshipEn_197" xml:space="preserve">
+    <value>“Friends don’t spy; true friendship is about privacy, too.”    ―    Stephen King,          Hearts in Atlantis</value>
+  </data>
+  <data name="FriendshipEn_198" xml:space="preserve">
+    <value>“Andrea raised her hand. “This is the hand that slapped Aunt B.”“Maybe you should have it gold-plated.”“Here, you can touch it, since you’re my best friend.”    ―    Ilona Andrews,          Magic Slays</value>
+  </data>
+  <data name="FriendshipEn_199" xml:space="preserve">
+    <value>“Friends are a strange, volatile, contradictory, yet sticky phenomenon. They are made, crafted, shaped, molded, created by focused effort and intent. And yet, true friendship, once recognized, in its essence is effortless.Best friends are formed by time.Everyone is someone's friend, even when they think they are all alone.If the friendship is not working, your heart will know. It's when you start being less than perfectly honest and perfectly earnest in your dealings. And it's when the things you do together no longer feel right.However, sometimes it takes more effort to make it work after all.Stick around long enough to become someone's best friend.”    ―    Vera Nazarian,          The Perpetual Calendar of Inspiration</value>
+  </data>
+  <data name="FriendshipEn_200" xml:space="preserve">
+    <value>“What is love?  two souls and one flesh; friendship?  two bodies and one soul.”    ―    Joseph Roux</value>
+  </data>
+  <data name="FriendshipEn_201" xml:space="preserve">
+    <value>“And I'll dance with you in Vienna,I'll be wearing a river's disguise.The hyacinth wild on my shouldermy mouth on the dew of your thighs.And I'll bury my soul in a scrapbook,with the photographs there and the moss.And I'll yield to the flood of your beauty,my cheap violin and my cross.”    ―    Leonard Cohen,          Stranger Music: Selected Poems and Songs</value>
+  </data>
+  <data name="FriendshipEn_202" xml:space="preserve">
+    <value>“When you part from your friend, you grieve not;For that which you love most in him may be clearer in his absence, asthe mountain to the climber is clearer from the plain.”    ―    Kahlil Gibran,          The Prophet</value>
+  </data>
+  <data name="FriendshipEn_203" xml:space="preserve">
+    <value>“Some people think only intellect counts: knowing how to solve problems, knowing how to get by, knowing how to identify an advantage and seize it. But the functions of intellect are insufficient without courage, love, friendship, compassion, and empathy.”    ―    Dean Koontz</value>
+  </data>
+  <data name="FriendshipEn_204" xml:space="preserve">
+    <value>“He who has a thousand friends has not a friend to spare,And he who has one enemy will meet him everywhere. ”    ―    Ali</value>
+  </data>
+  <data name="FriendshipEn_205" xml:space="preserve">
+    <value>“A single rose can be my garden; a single friend, my world.”    ―    Leo Buscaglia</value>
+  </data>
+  <data name="FriendshipEn_206" xml:space="preserve">
+    <value>“The world is so empty if one thinks only of mountains, rivers &amp; cities; but to know someone who thinks &amp; feels with us, &amp; who, though distant, is close to us in spirit, this makes the earth for us an inhabited garden.”    ―    Johann Wolfgang von Goethe</value>
+  </data>
+  <data name="FriendshipEn_207" xml:space="preserve">
+    <value>“I hope we'll be friends forever, together we'll always be. I don't think you understand just how much you mean to me. And one day when we part our ways, we'll think back to the past and think about how happy we are 'cause our friendship will always last.”    ―    Bridget Davis</value>
+  </data>
+  <data name="FriendshipEn_208" xml:space="preserve">
+    <value>“For what is your friend that you should seek him with hours to kill? Seek him always with hours to live.For it is his to fill your need, but not your emptiness.And in th sweetness of friendship let there be laughter, and sharing of pleasures.For in the dew of little things the heart finds its morning and is refreshed.”    ―    Kahlil Gibran,          The Prophet</value>
+  </data>
+  <data name="FriendshipEn_209" xml:space="preserve">
+    <value>“Because introverts are typically good listeners and, at least, have the appearance of calmness, we are attractive to emotionally needy people. Introverts, gratified that other people are initiating with them, can easily get caught in these exhausting and unsatisfying relationships.”    ―    Adam S. McHugh</value>
   </data>
 </root>
