@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Threading;
 
 namespace DarumaDAL.WP.Infrastructure
 {
@@ -78,7 +80,14 @@ namespace DarumaDAL.WP.Infrastructure
 
         public static string TutorStep1ImageUrl(int step)
         {
-            return string.Format("{0}/{1}", RouteToBackground, string.Format("TutorStep{0}.png", step));
+            var langs = new string[] {"ru", "en"};
+            var lang = Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName;
+            if (!langs.Contains(lang))
+            {
+                lang = "en";
+            }
+
+            return string.Format("{0}/{1}", RouteToBackground, string.Format("TutorStep{0}.{1}.png", step, lang));
         }
     }
 

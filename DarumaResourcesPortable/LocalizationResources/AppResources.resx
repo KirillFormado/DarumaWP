@@ -126,7 +126,11 @@
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   <data name="DarumaInfo" xml:space="preserve">
-    <value>The Daruma doll (達磨 daruma?), also known as a Dharma doll, is a hollow, round, Japanese traditional doll modeled after Bodhidharma, the founder of the Zen sect of Buddhism. These dolls, though typically red and depicting a bearded man (Dharma), vary greatly in color and design depending on region and artist. Though considered an omocha, meaning toy, Daruma has a design that is rich in symbolism and is regarded more as a talisman of good luck to the Japanese. Daruma dolls are seen as a symbol of perseverance and good luck, making them a popular gift of encouragement. The doll has also been commercialized by many Buddhist temples to use alongside goal setting.</value>
+    <value>Daruma is a Japanese traditional doll. It brings happiness and grants wishes. Fill in one eye of Daruma and set your goal. Fill in the other eye when the dream comes true. 
+
+Touch Daruma and flick your finger left or right to communicate with Daruma.
+
+Here is a story from Daruma: there was a young man who graduated from college and decided to find a job somewhere away from his hometown. He walked into the local bus station, approached the ticket counter and asked the clerk for a bus ticket. What do you suppose the ticket clerk asked the young man? He said, "Where do you want to go?" The young man said, "I don't know. Just give me a ticket to somewhere." It is not surprising, but he didn't get a ticket! The moral of the story is that if you don't know where you are going, any road will take you there. Daruma requests you to specify exactly what you want in order to make your dreams come true!</value>
   </data>
   <data name="EmptyWishTextBox" xml:space="preserve">
     <value>Empty</value>

@@ -125,7 +125,11 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Daruma doll (達磨 daruma?), also known as a Dharma doll, is a hollow, round, Japanese traditional doll modeled after Bodhidharma, the founder of the Zen sect of Buddhism. These dolls, though typically red and depicting a bearded man (Dharma), vary greatly in color and design depending on region and artist. Though considered an omocha, meaning toy, Daruma has a design that is rich in symbolism and is regarded more as a talisman of good luck to the Japanese. Daruma dolls are seen as a symbol of perseverance [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Daruma is a Japanese traditional doll. It brings happiness and grants wishes. Fill in one eye of Daruma and set your goal. Fill in the other eye when the dream comes true. 
+        ///
+        ///Touch Daruma and flick your finger left or right to communicate with Daruma.
+        ///
+        ///Here is a story from Daruma: there was a young man who graduated from college and decided to find a job somewhere away from his hometown. He walked into the local bus station, approached the ticket counter and asked the clerk for a bus ticket. What do you  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string DarumaInfo {
             get {
