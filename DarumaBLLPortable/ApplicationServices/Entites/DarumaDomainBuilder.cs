@@ -1,4 +1,5 @@
-﻿using DarumaBLLPortable.Common;
+﻿using System;
+using DarumaBLLPortable.Common;
 using DarumaBLLPortable.Domain;
 
 namespace DarumaBLLPortable.ApplicationServices.Entites
@@ -13,15 +14,22 @@ namespace DarumaBLLPortable.ApplicationServices.Entites
 
         public static DarumaDomain BuildDaruma(DarumaDTO darumaDTO)
         {
-            return new DarumaDomainBuilder
+            try
             {
-                Id = darumaDTO.Id,
-                Wish = darumaDTO.Wish,
-                Theme = darumaDTO.Theme,
-                CreateDate = darumaDTO.CreateDate,
-                Status = darumaDTO.Status,
-                CurrentQuoteKey = darumaDTO.CurrentQuoteKey
-            };
+                return new DarumaDomainBuilder
+                {
+                    Id = darumaDTO.Id,
+                    Wish = darumaDTO.Wish,
+                    Theme = darumaDTO.Theme,
+                    CreateDate = darumaDTO.CreateDate,
+                    Status = darumaDTO.Status,
+                    CurrentQuoteKey = darumaDTO.CurrentQuoteKey
+                };
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         public static DarumaDomain BuildDaruma(DarumaView darumaView)
