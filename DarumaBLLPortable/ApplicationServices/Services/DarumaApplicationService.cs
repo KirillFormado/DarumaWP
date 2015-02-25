@@ -57,7 +57,7 @@ namespace DarumaBLLPortable.ApplicationServices.Services
         public async Task<IEnumerable<DarumaView>> ListAll()
         {
             IEnumerable<DarumaDomain> all = await _storage.ListAll();
-            return all.Select(d => new DarumaView(d, _imageUriResolver));
+            return all.Where(d => d != null).Select(d => new DarumaView(d, _imageUriResolver));
         }
         
         public async Task<IEnumerable<DarumaView>> CheckExpiredStatus(IEnumerable<DarumaView> darumaList)
