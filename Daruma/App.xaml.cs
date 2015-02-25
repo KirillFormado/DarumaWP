@@ -5,10 +5,12 @@ using System.Diagnostics;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
+using DarumaDAL.WP.Infrastructure;
 using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Tasks;
 
 
 namespace Daruma
@@ -143,6 +145,7 @@ namespace Daruma
         // Code to execute on Unhandled Exceptions
         private void Application_UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
+            ExceptionHandler.ExceptionEmail(e);
             if (Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger

@@ -7,6 +7,7 @@ using DarumaBLLPortable.ApplicationServices.Abstractions;
 using Microsoft.Phone.Scheduler;
 using Microsoft.Phone.Shell;
 using DarumaDAL.WP.Infrastructure;
+using Microsoft.Phone.Tasks;
 
 namespace DarumaTileUpdatePeriodicAgent
 {
@@ -27,6 +28,7 @@ namespace DarumaTileUpdatePeriodicAgent
         /// Code to execute on Unhandled Exceptions
         private static void UnhandledException(object sender, ApplicationUnhandledExceptionEventArgs e)
         {
+            ExceptionHandler.ExceptionEmail(e);
             if (Debugger.IsAttached)
             {
                 // An unhandled exception has occurred; break into the debugger

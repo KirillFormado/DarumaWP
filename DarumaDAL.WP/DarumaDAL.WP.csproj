@@ -98,6 +98,7 @@
     <Compile Include="EntityMappers\FavoritMapper.cs" />
     <Compile Include="Infrastructure\DarumaImageUriResolver.cs" />
     <Compile Include="Infrastructure\DarumaInfoSharing.cs" />
+    <Compile Include="Infrastructure\ExceptionHandler.cs" />
     <Compile Include="Infrastructure\IoCContainter.cs" />
     <Compile Include="Infrastructure\Routers.cs" />
     <Compile Include="Infrastructure\Serializer.cs" />
