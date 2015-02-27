@@ -63,8 +63,7 @@ namespace DarumaDAL.WP.Abstraction
         {
             var domainList = new List<Domain>();
 
-            var folder = await ApplicationData.Current.LocalFolder.CreateFolderAsync(FolderName,
-               CreationCollisionOption.OpenIfExists);
+            var folder = await GetFolderAsync();
 
             var files = await folder.GetFilesAsync();
 
@@ -76,6 +75,20 @@ namespace DarumaDAL.WP.Abstraction
                      
             return domainList;
         }
+
+        internal async Task<IEnumerable<string>>  ListAllString()
+        {
+            StorageFolder folder = await GetFolderAsync();
+            var files = await folder.GetFilesAsync();
+
+            var list = new List<string>();
+            foreach (var storageFile in files)
+            {
+               list.Add(await GetTextFromFile(storageFile));
+            }
+
+            return list;
+        } 
 
         public async Task<bool> Update(Domain domainObject, string id)
         {
@@ -102,14 +115,19 @@ namespace DarumaDAL.WP.Abstraction
 
         private async Task<Domain> DeserializeObject(StorageFile storageFile)
         {
-            var buffer = await FileIO.ReadBufferAsync(storageFile);
-            DataReader dataReader = DataReader.FromBuffer(buffer);
-            string text = dataReader.ReadString(buffer.Length);
-
+            var text = await GetTextFromFile(storageFile);
             DTO dto = await Serializer.Deserialize<DTO>(text);
 
             Domain domain = Mapper.MapToDomain(dto);
             return domain;
+        }
+
+        private static async Task<string> GetTextFromFile(StorageFile storageFile)
+        {
+            var buffer = await FileIO.ReadBufferAsync(storageFile);
+            DataReader dataReader = DataReader.FromBuffer(buffer);
+            string text = dataReader.ReadString(buffer.Length);
+            return text;
         }
 
         public async Task<bool> Delete(string id)

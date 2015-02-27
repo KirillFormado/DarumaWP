@@ -19,7 +19,7 @@ namespace Daruma.Views
         public MainView() 
         {
             InitializeComponent();
-           
+
         }
 
         private void InitializeViewModel()
@@ -76,6 +76,11 @@ namespace Daruma.Views
         {
             var marketplaceReviewTask = new MarketplaceReviewTask();
             marketplaceReviewTask.Show();
+        }
+
+        private async void ProblemReport_OnClick(object sender, EventArgs e)
+        {
+            ExceptionHandler.SendData();
         }
     }
 }

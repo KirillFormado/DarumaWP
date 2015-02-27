@@ -327,6 +327,24 @@ namespace DarumaResourcesPortable.LocalizationResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to A problem occurred the last time you ran this application. Would you like to send an email to report it?.
+        /// </summary>
+        public static string ProblemReport {
+            get {
+                return ResourceManager.GetString("ProblemReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Problem Report.
+        /// </summary>
+        public static string ProblemReportTitle {
+            get {
+                return ResourceManager.GetString("ProblemReportTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ***.
         /// </summary>
         public static string QuoteSeparator {

@@ -249,4 +249,10 @@ Here is a story from Daruma: there was a young man who graduated from college an
   <data name="IsWishComeTrue" xml:space="preserve">
     <value>Is wish come true?</value>
   </data>
+  <data name="ProblemReport" xml:space="preserve">
+    <value>A problem occurred the last time you ran this application. Would you like to send an email to report it?</value>
+  </data>
+  <data name="ProblemReportTitle" xml:space="preserve">
+    <value>Problem Report</value>
+  </data>
 </root>

@@ -78,6 +78,10 @@
                 Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.RateAndReview}"
                 Click="Review_OnClick"
                 />
+            <wpe:AdvancedApplicationBarMenuItem
+                Text="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.ProblemReportTitle}"
+                Click="ProblemReport_OnClick"
+                />
         </wpe:AdvancedApplicationBar>
 
         <phone:Pivot x:Name="MainPivot" Title="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.Daruma_Up_Case}"

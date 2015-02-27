@@ -251,4 +251,10 @@
   <data name="QuoteSeparator" xml:space="preserve">
     <value>***</value>
   </data>
+  <data name="ProblemReport" xml:space="preserve">
+    <value>Прошлый запуск приложения закончился неудачно. Хотите ли вы отправить разработчикам отчет об ошибке?</value>
+  </data>
+  <data name="ProblemReportTitle" xml:space="preserve">
+    <value>Отчет об ошибке</value>
+  </data>
 </root>
