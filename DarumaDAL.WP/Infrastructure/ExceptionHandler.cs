@@ -1,4 +1,5 @@
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaDAL.WP.Storages;
@@ -15,7 +16,7 @@ namespace DarumaDAL.WP.Infrastructure
             
         }
 
-        public async static void SendData()
+        public async static Task<bool> SendData()
         {
             var sb = new StringBuilder();
             var storage = (DarumaStorage)IoCContainter.Get<IDarumaStorage>();
@@ -32,8 +33,10 @@ namespace DarumaDAL.WP.Infrastructure
                 Body = sb.ToString(),
                 To = "kirillformado@gmail.com"
             };
-
+            
             exceptionEmail.Show();
+
+            return true;
         }
     }
 }

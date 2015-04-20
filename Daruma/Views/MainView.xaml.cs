@@ -80,7 +80,7 @@ namespace Daruma.Views
 
         private async void ProblemReport_OnClick(object sender, EventArgs e)
         {
-            ExceptionHandler.SendData();
+            await ExceptionHandler.SendData();
         }
     }
 }
