@@ -65,7 +65,8 @@
                                     SelectedItem="{Binding Path=SelectedTheme, Mode=TwoWay}"
                                     ItemTemplate="{StaticResource WishThemeItemTemplate}"
                                     FullModeItemTemplate="{StaticResource WishThemeFullModeItemTemplate}"/>
-                <Button toolkit:TiltEffect.SuppressTilt="True" Style="{StaticResource PhoneAccent}"
+                <Button 
+                    x:Name="WishButton" toolkit:TiltEffect.SuppressTilt="True" Style="{StaticResource PhoneAccent}"
                         Content="{Binding Source={StaticResource LocalizedStrings}, Path=LocalizedResources.WishButton}" 
                         Tap="WishButton_OnTap"/>
 

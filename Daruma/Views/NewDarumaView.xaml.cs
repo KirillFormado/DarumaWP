@@ -40,6 +40,7 @@ namespace Daruma.Views
 
         private async void WishButton_OnTap(object sender, GestureEventArgs e)
         {
+            WishButton.IsEnabled = false;
             var wish = WishTextBox.Text;
 
             DarumaWishTheme theme;
@@ -51,11 +52,15 @@ namespace Daruma.Views
                 || theme == DarumaWishTheme.NoSet)
             {
                 MessageBox.Show(AppResources.EmptyWishTextBox);
+                WishButton.IsEnabled = true;
                 WishTextBox.Focus();
                 return;
             }
 
+         
+
             await _viewModel.CreateDaruma(wish, theme);
+            
             NavigationService.Navigate(new Uri(ViewUrlRouter.MainViewUrl, UriKind.Relative));
         }
 
