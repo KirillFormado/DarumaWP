@@ -1,34 +1,27 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows;
-using System.Windows.Navigation;
 using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.ViewModels;
 using DarumaDAL.WP.Infrastructure;
-using Microsoft.Phone.Controls;
 using Microsoft.Phone.Tasks;
 
 namespace Daruma.Views
 {
     public partial class MainView : BaseDarumaPage
     {
-        private MainViewModel _viewModel;
+        private readonly MainViewModel _viewModel;
 
         // Constructor
         public MainView() 
         {
             InitializeComponent();
-
-        }
-
-        private void InitializeViewModel()
-        {
-            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>());
-            //initialize commands
-            _viewModel.NavigateToInfoAction = NavigateToInfoPivotItem;
-            _viewModel.NavigateToNewDaruma = NavigateToNewDaruma;
-            _viewModel.Start();
+            _viewModel = new MainViewModel(IoCContainter.Get<ISettingsStorage>(), IoCContainter.Get<IDarumaApplicationService>())
+            {
+                NavigateToInfoAction = NavigateToInfoPivotItem,
+                NavigateToNewDaruma = NavigateToNewDaruma
+            };
         }
 
         protected override void OnBackKeyPress(CancelEventArgs e)
@@ -43,10 +36,9 @@ namespace Daruma.Views
             NavigateToNewDaruma();
         }
 
-        private void MainView_OnLoaded(object sender, RoutedEventArgs e)
+        private async void MainView_OnLoaded(object sender, RoutedEventArgs e)
         {
-
-            InitializeViewModel();
+            await _viewModel.LoadDaruma();
             DataContext = _viewModel;
             //_viewModel.FirstStartHandleCommand.Execute(null);
             //_viewModel.CheckDarumaList(NavigateToNewDaruma);

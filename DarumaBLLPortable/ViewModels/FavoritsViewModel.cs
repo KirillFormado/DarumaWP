@@ -10,12 +10,11 @@ namespace DarumaBLLPortable.ViewModels
     public class FavoritsViewModel
     {
         private readonly IFavoritApplicationService _service;
-        private ObservableCollection<FavoritViewObj> _favorits;
+        private ObservableCollection<FavoritViewObj> _favorits = new ObservableCollection<FavoritViewObj>();
 
         public FavoritsViewModel(IFavoritApplicationService service)
         {
             _service = service;
-            LoadFavorits();
         }
 
         public ObservableCollection<FavoritViewObj> Favorits
@@ -23,13 +22,13 @@ namespace DarumaBLLPortable.ViewModels
             get { return _favorits; }
         }
 
-        private async void LoadFavorits()
+        public async Task LoadFavorits()
         {
-            _favorits = new ObservableCollection<FavoritViewObj>();
+           // _favorits = new ObservableCollection<FavoritViewObj>();
             var favorits = await _service.ListAllFavorits();
             foreach (var favorit in favorits)
             {
-                _favorits.Add(favorit);
+                Favorits.Add(favorit);
             }
         }
 

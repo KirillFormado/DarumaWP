@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.Commands;
 using DarumaBLLPortable.Common.Abstractions;
 using DarumaBLLPortable.Domain;
 using DarumaBLLPortable.ApplicationServices.Entites;
+using DarumaBLLPortable.Common;
 
 namespace DarumaBLLPortable.ViewModels
 {
@@ -56,19 +58,6 @@ namespace DarumaBLLPortable.ViewModels
         {
             _settings = settings;
             _darumaService = darumaService;
-            _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaView>>
-            {
-                {DarumaStatus.MakedWish, new ObservableCollection<DarumaView>()},
-                {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaView>()},
-                {DarumaStatus.TimeExpired, new ObservableCollection<DarumaView>()},
-            };
-            //InitCommands();
-        }
-
-        public void Start()
-        {
-            LoadDaruma();
-            
         }
 
         //private void InitCommands()
@@ -82,10 +71,18 @@ namespace DarumaBLLPortable.ViewModels
             return handler.HandleFirstStart(NavigateToInfoAction);  
         }
 
-        private async void LoadDaruma()
+        public async Task LoadDaruma()
         {
-            IEnumerable<DarumaView> darumaList = (await _darumaService.ListAll()).ToList();
-            _darumaService.CheckExpiredStatus(darumaList);
+            _darumaDict = new Dictionary<DarumaStatus, ObservableCollection<DarumaView>>
+            {
+                {DarumaStatus.MakedWish, new ObservableCollection<DarumaView>()},
+                {DarumaStatus.ExecutedWish, new ObservableCollection<DarumaView>()},
+                {DarumaStatus.TimeExpired, new ObservableCollection<DarumaView>()},
+            };
+
+            Task<IEnumerable<DarumaView>> task = _darumaService.ListAll();
+            var darumaList = await task;
+            await _darumaService.CheckExpiredStatus(darumaList);
             var lookup = darumaList.ToLookup(d => d.Status);
 
             var orderList = GetOrderList();

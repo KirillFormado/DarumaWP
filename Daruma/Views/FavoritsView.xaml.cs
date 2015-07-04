@@ -1,11 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 using System.Windows;
 using DarumaBLLPortable.ApplicationServices.Abstractions;
 using DarumaBLLPortable.ApplicationServices.Entites;
 using DarumaBLLPortable.ViewModels;
 using DarumaDAL.WP.Infrastructure;
-using DarumaResourcesPortable.Infrastructure;
 using DarumaResourcesPortable.LocalizationResources;
 using Microsoft.Phone.Controls;
 
@@ -22,6 +22,11 @@ namespace Daruma.Views
             DataContext = _viewModel;
         }
 
+        private async void FavoritsView_OnLoaded(object sender, RoutedEventArgs e)
+        {
+            await _viewModel.LoadFavorits();
+        }
+
         private async void Delete_OnClick(object sender, RoutedEventArgs e)
         {
             string guid = ((MenuItem)sender).Tag.ToString();
@@ -34,11 +39,14 @@ namespace Daruma.Views
             Clipboard.SetText(quote);
         }
 
-        private async void Share_OnClick(object sender, RoutedEventArgs e)
+        private void Share_OnClick(object sender, RoutedEventArgs e)
         {
             var favorit = ((MenuItem) sender).DataContext as FavoritViewObj;
-            var infoSharing = new DarumaInfoSharing(favorit.Theme, favorit.Text);
-            NavigateToSharingView(infoSharing);
+            if (favorit != null)
+            {
+                var infoSharing = new DarumaInfoSharing(favorit.Theme, favorit.Text);
+                NavigateToSharingView(infoSharing);
+            }
         }
 
         private void NavigateToSharingView(DarumaInfoSharing infoSharing)

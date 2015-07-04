@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -174,7 +175,7 @@ namespace Daruma.Views
         }
 
         //TODO: move tile pin/unpin logic in separate class
-        private void PinUnpin_OnClick(object sender, EventArgs eventArgs)
+        private async void PinUnpin_OnClick(object sender, EventArgs eventArgs)
         {
             var url = DarumaUrl;
 
@@ -184,7 +185,7 @@ namespace Daruma.Views
             }
             else
             {
-                CreateTile();
+                await CreateTile();
             }
 
             SetPinBar(url);
@@ -211,7 +212,7 @@ namespace Daruma.Views
             }
         }
 
-        private async void CreateTile()
+        private async Task CreateTile()
         {
             var tileIconUrl = Daruma.ImageUri;
             var url = ViewUrlRouter.DarumaShakeViewByIdUrlWithKey(Daruma.Id);

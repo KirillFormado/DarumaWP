@@ -90,13 +90,13 @@ namespace DarumaBLLPortable.ApplicationServices.Services
             return new DarumaView(daruma, _imageUriResolver);
         }
 
-        public async void UpdateQuoteOnTile(Guid id)
-        {
-            DarumaDomain daruma = await _storage.GetById(id);
-            var quoteSource = _quotationSource.GetQuotationSourse(daruma.Theme);
-            daruma.CurrentQuoteKey = quoteSource.Key;
-            await _storage.Update(daruma);
-        }
+        //public async Task UpdateQuoteOnTile(Guid id)
+        //{
+        //    DarumaDomain daruma = await _storage.GetById(id);
+        //    var quoteSource = _quotationSource.GetQuotationSourse(daruma.Theme);
+        //    daruma.CurrentQuoteKey = quoteSource.Key;
+        //    await _storage.Update(daruma);
+        //}
 
         //TODO: may be need quotation service
         public string GetQuote(DarumaWishTheme theme, string key = null)
