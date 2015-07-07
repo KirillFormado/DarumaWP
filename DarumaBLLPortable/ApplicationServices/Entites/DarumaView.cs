@@ -37,6 +37,16 @@ namespace DarumaBLLPortable.ApplicationServices.Entites
 
         public DarumaView(DarumaDomain daruma, IDarumaImageUriResolver uriResolver)
         {
+            if (daruma == null)
+            {
+                throw new  ArgumentException("daruma");
+            }
+
+            if (uriResolver == null)
+            {
+                throw new ArgumentException("uriResolver");
+            }
+
             //_uriResolver = uriResolver;
             Id = daruma.Id;
             Wish = daruma.Wish;

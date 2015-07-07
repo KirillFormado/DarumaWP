@@ -30,7 +30,8 @@ namespace DarumaDAL.WP.Abstraction
             {
                 IBuffer buffer = Windows.Security.Cryptography.CryptographicBuffer.ConvertStringToBinary(
                     json, Windows.Security.Cryptography.BinaryStringEncoding.Utf8);
-
+                //clear file
+                await FileIO.WriteBytesAsync(file, new byte[0]);
                 await FileIO.WriteBufferAsync(file, buffer);
 
                 return true;

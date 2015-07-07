@@ -11,9 +11,9 @@ namespace DarumaBLLPortable.ApplicationServices.Services
 {
     public class DarumaApplicationService : IDarumaApplicationService
     {
-        private IDarumaStorage _storage;
-        private IDarumaImageUriResolver _imageUriResolver;
-        private IQuotationSource _quotationSource;
+        private readonly IDarumaStorage _storage;
+        private readonly IDarumaImageUriResolver _imageUriResolver;
+        private readonly IQuotationSource _quotationSource;
 
         public DarumaApplicationService(IDarumaStorage storage, IDarumaImageUriResolver imageUriResolver, IQuotationSource quotationSource)
         {
@@ -29,7 +29,7 @@ namespace DarumaBLLPortable.ApplicationServices.Services
             bool result = await _storage.Add(daruma);
             if(!result)
             {
-                throw new NullReferenceException();
+                throw new NullReferenceException("can't add daruma(((");
             }
             return new DarumaView(daruma, _imageUriResolver);
         }
@@ -62,7 +62,7 @@ namespace DarumaBLLPortable.ApplicationServices.Services
         
         public async Task<IEnumerable<DarumaView>> CheckExpiredStatus(IEnumerable<DarumaView> darumaList)
         {
-            var darumas = await _storage.ListByIds(darumaList.Select(d => d.Id));
+            var darumas = (await _storage.ListByIds(darumaList.Select(d => d.Id))).ToList();
 
             foreach (var daruma in darumas)
             {
@@ -123,6 +123,10 @@ namespace DarumaBLLPortable.ApplicationServices.Services
         public async Task<KeyValuePair<DarumaView, string>> GetInfoForSercondaryTile(Guid id)
         {
             DarumaDomain daruma = await _storage.GetById(id);
+            if (daruma == null)
+            {
+                throw new NullReferenceException("daruma");
+            }
             var quoteSource = GetQuotationByDarumaTheme(daruma.Theme);
             var quote = quoteSource.Value;
             daruma.CurrentQuoteKey = quoteSource.Key;
