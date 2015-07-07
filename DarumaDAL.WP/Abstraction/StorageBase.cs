@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.Storage;
@@ -52,6 +53,11 @@ namespace DarumaDAL.WP.Abstraction
             return null;
         }
 
+        public async Task<IEnumerable<Domain>> ListByIds(IEnumerable<string> ids)
+        {
+            return await Task.WhenAll(ids.Select(GetById).ToList());
+        }
+
         private async Task<StorageFolder> GetFolderAsync()
         {
             var folder = await ApplicationData.Current.LocalFolder.CreateFolderAsync(FolderName,
@@ -61,33 +67,21 @@ namespace DarumaDAL.WP.Abstraction
 
         public async virtual Task<IEnumerable<Domain>> ListAll()
         {
-            var domainList = new List<Domain>();
-
             var folder = await GetFolderAsync();
-
             var files = await folder.GetFilesAsync();
-
-            foreach (var storageFile in files)
-            {
-                Domain domainObj = await DeserializeObject(storageFile);
-                domainList.Add(domainObj);
-            }
-                     
-            return domainList;
+            Domain[] result = await Task.WhenAll(files.Select(DeserializeObject).ToList());
+            return result;
         }
 
         internal async Task<IEnumerable<string>>  ListAllString()
         {
             StorageFolder folder = await GetFolderAsync();
             var files = await folder.GetFilesAsync();
-
-            var list = new List<string>();
-            foreach (var storageFile in files)
-            {
-               list.Add(await GetTextFromFile(storageFile));
-            }
-
-            return list;
+            IEnumerable<Task<string>> tasks = files.Select(GetTextFromFile)
+                //tasks start execution
+                .ToList();
+            string[] results = await Task.WhenAll(tasks);
+            return results;
         } 
 
         public async Task<bool> Update(Domain domainObject, string id)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using DarumaBLLPortable.Domain;
 using DarumaDAL.WP.Abstraction;
@@ -34,14 +35,7 @@ namespace DarumaDAL.WP.Storages
 
         public async Task<IEnumerable<DarumaDomain>> ListByIds(IEnumerable<Guid> ids)
         {
-            var datumaList = new List<DarumaDomain>();
-            foreach (var id in ids)
-            {
-                var daruma = await GetById(id);
-                datumaList.Add(daruma);                
-            }
-
-            return datumaList;
+            return await ListByIds(ids.Select(id => id.ToString()));
         }      
 
         public async Task<bool> Update(DarumaDomain daruma)
