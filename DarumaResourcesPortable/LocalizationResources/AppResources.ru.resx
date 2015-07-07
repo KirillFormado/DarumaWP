@@ -197,9 +197,6 @@
   <data name="IsWishComeTrue" xml:space="preserve">
     <value>Желание исполнилоcь?</value>
   </data>
-  <data name="WishComeTrue" xml:space="preserve">
-    <value>Исполнение желания</value>
-  </data>
   <data name="Copy" xml:space="preserve">
     <value>Копировать</value>
   </data>

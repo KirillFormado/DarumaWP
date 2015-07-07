@@ -26,7 +26,7 @@ namespace QuotationGenerator
     {
         private static void Main(string[] args)
         {
-            const string urlTemplateRu = @"http://www.genialnee.net/poslovicy-i-pogovorki/{0}";
+            //const string urlTemplateRu = @"http://www.genialnee.net/poslovicy-i-pogovorki/{0}";
             const string urlTemplateEn = @"http://www.goodreads.com/quotes/tag/{0}";
 
             var parserList = new List<ParserBase>
